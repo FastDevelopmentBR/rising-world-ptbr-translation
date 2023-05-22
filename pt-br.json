@@ -144,13 +144,13 @@
 		}
 	},
 	"color": {
-		"black": "Black",
-		"blue": "Blue",
-		"green": "Green",
-		"pinegreen": "Pine green",
-		"red": "Red",
-		"white": "White",
-		"yellow": "Yellow"
+		"black": "Preto",
+		"blue": "Azul",
+		"green": "Verde",
+		"pinegreen": "Verde pinheiro",
+		"red": "Vermelho",
+		"white": "Branco",
+		"yellow": "Amarelo"
 	},
 	"construction": {
 		"arc": {
