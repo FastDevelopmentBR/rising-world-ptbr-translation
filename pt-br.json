@@ -3276,7 +3276,7 @@
 				"sortmode": {
 					"lastplayed": "Jogado pela última vez",
 					"ping": "Ping",
-					"playercount": "Contador de jogadores",
+					"playercount": "Qtd. de jogadores",
 					"servername": "Nome do servidor"
 				}
 			},
