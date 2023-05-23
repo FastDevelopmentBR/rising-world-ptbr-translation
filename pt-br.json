@@ -3796,58 +3796,58 @@
 				}
 			},
 			"preset": {
-				"custom": "Custom",
-				"default": "Default",
-				"high": "High",
-				"low": "Low",
-				"medium": "Medium",
-				"name": "Preset",
-				"off": "Off",
-				"simple": "Simple",
+				"custom": "Customizado",
+				"default": "Padrão",
+				"high": "Alto",
+				"low": "Baixo",
+				"medium": "Médio",
+				"name": "Predefinido",
+				"off": "Desligado",
+				"simple": "Simples",
 				"ultra": "Ultra",
-				"veryhigh": "Very High",
-				"verylow": "Very Low"
+				"veryhigh": "Muito Alto",
+				"verylow": "Muito Baixo"
 			},
 			"screen": {
 				"settingscontainer": {
 					"controlscontainer": {
 						"buttoncontainer": {
 							"audiobutton": {
-								"label": "Audio"
+								"label": "Áudio"
 							},
 							"controlsbutton": {
-								"label": "Controls"
+								"label": "Controles"
 							},
 							"gamepadbutton": {
 								"label": "Gamepad"
 							},
 							"graphicsbutton": {
-								"label": "Graphics"
+								"label": "Gráficos"
 							},
 							"miscbutton": {
-								"label": "Miscellaneous"
+								"label": "Diversos"
 							}
 						},
 						"headercontainer": {
-							"label": "Settings"
+							"label": "Configurações"
 						}
 					},
 					"optionscontainer": {
 						"optionsbuttoncontainer": {
-							"resetbutton": "Reset",
-							"savebutton": "Save"
+							"resetbutton": "Resetar",
+							"savebutton": "Salvar"
 						}
 					}
 				}
 			},
 			"size": {
-				"default": "Default",
-				"huge": "Huge",
-				"large": "Large",
-				"medium": "Medium",
-				"small": "Small",
-				"tiny": "Tiny",
-				"verysmall": "Very Small"
+				"default": "Padrão",
+				"huge": "Enorme",
+				"large": "Grande",
+				"medium": "Médio",
+				"small": "Pequeno",
+				"tiny": "Minúsculo",
+				"verysmall": "Muito Pequeno"
 			},
 			"timeuntildespawn": "Time until despawn"
 		},
