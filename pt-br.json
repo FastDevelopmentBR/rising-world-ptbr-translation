@@ -3239,12 +3239,12 @@
 		"mainmenu": {
 			"screen": {
 				"buttoncontainer": {
-					"versionlabel": "Version: {0}"
+					"versionlabel": "Versão: {0}"
 				},
 				"graphicsadapterwarning": {
 					"textcontainer": {
-						"warningheaderlabel": "WARNING",
-						"warninglabel": "Two graphics cards have been detected, but the game currently uses the integrated Intel HD adapter. To change this, you have to manually assign the secondary graphics adapter to the game"
+						"warningheaderlabel": "AVISO",
+						"warninglabel": "Duas placas gráficas foram detectadas, mas o jogo atualmente usa o adaptador gráfico integrado Intel HD. Para alterar isso, você deve atribuir manualmente o adaptador gráfico secundário ao jogo"
 					}
 				},
 				"homecontainer": {
@@ -3258,12 +3258,12 @@
 				},
 				"topmenucontainer": {
 					"buttoncontainer": {
-						"homebutton": "Home",
-						"multiplayerbutton": "Multiplayer",
-						"settingsbutton": "Settings",
-						"singleplayerbutton": "Singleplayer"
+						"homebutton": "Início",
+						"multiplayerbutton": "Multijogador",
+						"settingsbutton": "Configurações",
+						"singleplayerbutton": "Um Jogador"
 					},
-					"quitbutton": "Quit"
+					"quitbutton": "Sair"
 				}
 			}
 		},
