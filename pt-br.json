@@ -1211,11 +1211,11 @@
 		}
 	},
 	"location": {
-		"deepunderground": "Deep Underground",
-		"hell": "Hell",
-		"orbit": "Orbit",
-		"underground": "Underground",
-		"wilderness": "Wilderness"
+		"deepunderground": "Subterrâneo Profundo",
+		"hell": "Inferno",
+		"orbit": "Órbita",
+		"underground": "Subterrâneo",
+		"wilderness": "Área Selvagem"
 	},
 	"message": {
 		"api": {
