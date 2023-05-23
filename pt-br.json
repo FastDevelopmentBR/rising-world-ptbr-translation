@@ -312,13 +312,13 @@
 			"changetexturescale": "Change texture scale"
 		},
 		"friends": {
-			"chat": "Open Chat",
-			"copysteamid": "Copy SteamID",
-			"copyuid": "Copy UID",
-			"join": "Join game",
-			"openchat": "Open chat",
-			"openprofile": "Open profile",
-			"refresh": "Refresh status"
+			"chat": "Abrir Chat",
+			"copysteamid": "Copiar SteamID",
+			"copyuid": "Copiar UID",
+			"join": "Juntar-se à partida",
+			"openchat": "Abrir chat",
+			"openprofile": "Abrir perfil",
+			"refresh": "Atualizar status"
 		},
 		"item": {
 			"changeshape": "Change shape",
@@ -336,13 +336,13 @@
 			"teleporttospawn": "Teleport player to his spawn"
 		},
 		"server": {
-			"copyip": "Copy IP to clipboard",
-			"showinfos": "Show server info"
+			"copyip": "Copiar IP para a área de transferência",
+			"showinfos": "Mostrar informações do servidor"
 		},
 		"world": {
-			"createbackup": "Create Backup",
-			"openfolder": "Open Folder",
-			"rename": "Rename World"
+			"createbackup": "Criar Backup",
+			"openfolder": "Abrir Pasta",
+			"rename": "Renomear Mundo"
 		}
 	},
 	"crafting": {
