@@ -2845,17 +2845,17 @@
 		"createworlddialog": {
 			"buttoncontainer": {
 				"buttoncentercontainer": {
-					"buttonleft": "Create World",
-					"buttonright": "Abort"
+					"buttonleft": "Criar mundo",
+					"buttonright": "Abortar"
 				}
 			},
 			"contentcontainer": {
 				"generalcontainer": {
 					"gamemodecontainer": {
-						"gamemodelabel": "Game mode:"
+						"gamemodelabel": "Modo de jogo:"
 					},
 					"worldnamecontainer": {
-						"worldnamelabel": "World name:"
+						"worldnamelabel": "Nome do mundo:"
 					},
 					"worldseedcontainer": {
 						"worldseedlabel": "Seed:"
@@ -2863,14 +2863,14 @@
 				}
 			},
 			"headercontainer": {
-				"headerlabel": "Create new world . . ."
+				"headerlabel": "Criar novo mundo . . ."
 			},
 			"slots": {
-				"animals": "Animals",
-				"caves": "Caves",
-				"oreamount": "Ore Amount",
-				"vegetation": "Vegetation",
-				"worldtype": "World Type"
+				"animals": "Animais",
+				"caves": "Cavernas",
+				"oreamount": "Quantidade de Minério",
+				"vegetation": "Vegetação",
+				"worldtype": "Tipo de mundo"
 			}
 		},
 		"death": {
