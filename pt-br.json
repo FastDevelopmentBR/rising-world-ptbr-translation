@@ -3269,62 +3269,62 @@
 		},
 		"multiplayer": {
 			"connectto": {
-				"connect": "Connect",
-				"header": "Connect to IP..."
+				"connect": "Conectar",
+				"header": "Conectar ao IP..."
 			},
 			"filter": {
 				"sortmode": {
-					"lastplayed": "Last played",
+					"lastplayed": "Jogado pela última vez",
 					"ping": "Ping",
-					"playercount": "Player count",
-					"servername": "Server Name"
+					"playercount": "Contador de jogadores",
+					"servername": "Nome do servidor"
 				}
 			},
 			"screen": {
 				"serverlistcontainer": {
 					"filtercontainer": {
 						"addressfiltercontainer": {
-							"addressfilterheaderlabel": "Address: "
+							"addressfilterheaderlabel": "Endereço de IP: "
 						},
-						"filterheaderlabel": "Filters",
+						"filterheaderlabel": "Filtros",
 						"gamemodefiltercontainer": {
-							"gamemodefilterheaderlabel": "Game Mode"
+							"gamemodefilterheaderlabel": "Modo de Jogo"
 						},
 						"modsfiltercontainer": {
 							"modsfilterheaderlabel": "Mods"
 						},
 						"pingfiltercontainer": {
-							"pingfilterheaderlabel": "Max Ping"
+							"pingfilterheaderlabel": "Ping Máximo"
 						},
 						"pvpfiltercontainer": {
 							"pvpfilterheaderlabel": "PVP"
 						},
 						"pwfiltercontainer": {
-							"pwfilterheaderlabel": "Password protected"
+							"pwfilterheaderlabel": "Protegido por senha"
 						},
 						"servernamefiltercontainer": {
-							"servernamefilterheaderlabel": "Server Name:"
+							"servernamefilterheaderlabel": "Nome do servidor:"
 						},
 						"sortfiltercontainer": {
-							"sortfilterheaderlabel": "Sort by:"
+							"sortfilterheaderlabel": "Ordenar por:"
 						}
 					},
 					"listcontainer": {
 						"buttoncontainer": {
-							"connectbutton": "Connect",
-							"connecttobutton": "Connect To IP...",
-							"refreshbutton": "Refresh"
+							"connectbutton": "Conectar",
+							"connecttobutton": "Conectar ao IP...",
+							"refreshbutton": "Atualizar Lista"
 						},
 						"headercontainer": {
-							"serverlistheaderlabel": "Server list"
+							"serverlistheaderlabel": "Lista de servidores"
 						}
 					}
 				}
 			},
-			"servercount": "Servers: {0}",
+			"servercount": "Servidores: {0}",
 			"serverinfo": {
-				"close": "Close",
-				"connect": "Connect"
+				"close": "Fechar",
+				"connect": "Conectar"
 			}
 		},
 		"scoreboard": {
