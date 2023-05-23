@@ -3137,18 +3137,18 @@
 			"screen": {
 				"pausemenucontainer": {
 					"buttoncontainer": {
-						"friendsbutton": "Friends",
-						"mainmenubutton": "Back to main menu",
-						"permissionsbutton": "Permissions",
-						"quitbutton": "Quit",
-						"settingsbutton": "Settings"
+						"friendsbutton": "Amigos",
+						"mainmenubutton": "Voltar ao menu principal",
+						"permissionsbutton": "Permissões",
+						"quitbutton": "Sair",
+						"settingsbutton": "Configurações"
 					},
-					"pauselabel": "- paused -"
+					"pauselabel": "- pausado -"
 				},
 				"permissionmenucontainer": {
 					"listcontainer": {
-						"backbutton": "Back",
-						"permissionheaderlabel": "Current Permissions"
+						"backbutton": "Voltar",
+						"permissionheaderlabel": "Permissões Atuais"
 					}
 				}
 			}
