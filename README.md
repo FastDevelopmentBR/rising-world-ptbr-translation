@@ -17,4 +17,7 @@ Em versões futuras:
 - O arquivo pt-br.json baixado através desse git deve ser adicionado dentro da pasta "steamapps/common/RisingWorld/_New Version/Data/StreamingAssets/Languages".
 - A valor da variável "Game_Language" dentro do arquivo "steamapps/common/RisingWorld/_New Version/config.properties" deve ser alterado para "pt-br".
 
+Foi incluído no projeto o babeledit file para que possamos faciliar tradução e aprovação do conteúdo traduzido.
+https://www.codeandweb.com/babeledit
+
 A tradução está incompleta, parte ainda está em inglês e parte já em Português Brasileiro (pt-BR). Fique a vontade para revisar o arquivo e sugerir novas traduções ou ajustar nos termos já traduzidos.
