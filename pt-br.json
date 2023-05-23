@@ -1710,24 +1710,24 @@
 		},
 		"world": {
 			"caves": {
-				"disabled": "No caves",
-				"enabled": "Caves enabled"
+				"disabled": "Sem Cavernas",
+				"enabled": "Cavernas habilitadas"
 			},
 			"oreamount": {
-				"default": "Default",
-				"high": "High",
-				"low": "Low",
-				"off": "No ores",
-				"veryhigh": "Very High"
+				"default": "Padrão",
+				"high": "Alto",
+				"low": "Baixo",
+				"off": "Sem minérios",
+				"veryhigh": "Muito Alto"
 			},
 			"vegetation": {
-				"disabled": "No vegetation",
-				"enabled": "Vegetation enabled"
+				"disabled": "Sem vegetação",
+				"enabled": "Vegetação habilitada"
 			},
 			"worldtype": {
-				"default": "Default",
-				"ocean": "Ocean only",
-				"superflat": "Superflat"
+				"default": "Padrão",
+				"ocean": "Apenas Oceano",
+				"superflat": "Super Plano"
 			}
 		}
 	},
