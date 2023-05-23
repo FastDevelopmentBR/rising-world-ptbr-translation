@@ -2877,13 +2877,13 @@
 			"screen": {
 				"container": {
 					"buttoncontainer": {
-						"defaultspawnbutton": "Wilderness",
-						"primaryspawnbutton": "Home",
-						"quaternaryspawnbutton": "Ship",
-						"secondaryspawnbutton": "Tent",
-						"tertiaryspawnbutton": "Vehicle"
+						"defaultspawnbutton": "Área Selvagem",
+						"primaryspawnbutton": "Casa",
+						"quaternaryspawnbutton": "Barco",
+						"secondaryspawnbutton": "Tenda",
+						"tertiaryspawnbutton": "Veículo"
 					},
-					"respawnlabel": "Select spawn point"
+					"respawnlabel": "Selecione o ponto de geração"
 				}
 			}
 		},
