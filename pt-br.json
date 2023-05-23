@@ -3852,32 +3852,32 @@
 			"timeuntildespawn": "Time until despawn"
 		},
 		"singleplayer": {
-			"openforlan": "Open for LAN",
-			"playlan": "Play via LAN",
-			"playsteamp2p": "Play via Steam P2P",
-			"playwithfriends": "Play with Friends",
+			"openforlan": "Abrir para LAN",
+			"playlan": "Jogar via LAN",
+			"playsteamp2p": "Jogar via Steam P2P",
+			"playwithfriends": "Jogar com amigos",
 			"screen": {
 				"worldlistcontainer": {
 					"buttoncontainer": {
 						"leftbuttoncontainer": {
-							"deleteworldbutton": "Delete World",
-							"newworldbutton": "Create New World"
+							"deleteworldbutton": "Deletar Mundo",
+							"newworldbutton": "Criar Novo Mundo"
 						},
-						"playbutton": "Load World"
+						"playbutton": "Carregar Mundo"
 					},
 					"headercontainer": {
-						"worldlistheader": "Select or create a world"
+						"worldlistheader": "Selecione ou crie um mundo"
 					}
 				}
 			},
 			"tooltips": {
-				"openforlan": "Starts a LAN server. Friends can join your game through your IP address",
-				"playwithfriends": "Starts a P2P multiplayer session. Friends can join your game through the friends list"
+				"openforlan": "Inicia um servidor LAN. Amigos podem entrar no seu jogo através do seu endereço IP",
+				"playwithfriends": "Inicia uma sessão multijogador P2P. Amigos podem entrar no seu jogo através da lista de amigos"
 			},
 			"worldlistentry": {
-				"created": "Created: {0}",
+				"created": "Criado em: {0}",
 				"seed": "Seed: {0}",
-				"version": "Version: {0}"
+				"version": "Versão: {0}"
 			}
 		},
 		"tooltips": {
