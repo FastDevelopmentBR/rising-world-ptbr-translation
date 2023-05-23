@@ -2770,35 +2770,35 @@
 				"craftingcontainer": {
 					"centercontainer": {
 						"headercontainer": {
-							"header": "Crafting"
+							"header": "Criação"
 						}
 					},
 					"rightcontainer": {
 						"countcontainer": {
 							"countbuttoncontainer": {
-								"countmaxlabel": "MAX",
-								"countminlabel": "MIN"
+								"countmaxlabel": "MÁXIMO",
+								"countminlabel": "MÍNIMO"
 							},
-							"itemcountlabel": "Count: "
+							"itemcountlabel": "Quantidade: "
 						},
-						"craftbutton": "CRAFT ITEM",
+						"craftbutton": "CRIAR ITEM",
 						"craftinginfocontainer": {
 							"craftingstationcontainer": {
-								"headerlabel": "Crafting stations"
+								"headerlabel": "Estação de Trabalho"
 							},
 							"resourcescontainer": {
-								"headerlabel": "Required resources"
+								"headerlabel": "Recursos necessários"
 							}
 						},
-						"craftobject": "CRAFT OBJECT",
-						"selectshape": "SELECT SHAPE",
-						"selectvariant": "SELECT VARIANT"
+						"craftobject": "CRIAR OBJETO",
+						"selectshape": "SELECIONAR A FORMA",
+						"selectvariant": "SELECIONAR VARIANTE"
 					}
 				},
 				"leftcontainer": {
 					"inventorybuttoncontainer": {
 						"inventorybutton": {
-							"inventorybuttonlabel": "I N V E N T O R Y"
+							"inventorybuttonlabel": "I N V E N T Á R I O"
 						}
 					}
 				}
@@ -3162,13 +3162,13 @@
 				"inventorycontainer": {
 					"leftcontainer": {
 						"equipmentcontainer": {
-							"headline": "Equipment"
+							"headline": "Equipmento"
 						}
 					},
 					"rightcontainer": {
 						"inventoryslotcontainer": {
 							"headercontainer": {
-								"headline": "Inventory"
+								"headline": "Inventário"
 							}
 						}
 					},
@@ -3179,7 +3179,7 @@
 				"rightcontainer": {
 					"craftingbuttoncontainer": {
 						"craftingbutton": {
-							"craftingbuttonlabel": "C R A F T I N G"
+							"craftingbuttonlabel": "C R I A Ç Ã O"
 						}
 					}
 				}
@@ -3886,8 +3886,8 @@
 				"totalcount": "Total amount of items you will get"
 			},
 			"inventory": {
-				"merge": "Merge stacks",
-				"sort": "Sort items"
+				"merge": "Mesclar pilhas",
+				"sort": "Reordenar itens"
 			},
 			"itemtooltip": {
 				"blueprint": "Blueprint: {0}",
