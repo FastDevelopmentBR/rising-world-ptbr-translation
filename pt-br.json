@@ -135,12 +135,12 @@
 		"namelegacy": "Java Blueprint"
 	},
 	"chat": {
-		"disabled": "Chat is disabled",
-		"nopermission": "You are no allowed to use the chat",
+		"disabled": "O bate-papo está desativado",
+		"nopermission": "Você não tem permissão para usar o chat",
 		"pm": {
-			"from": "PM from {0}",
-			"playernotfound": "Player '{0}' not found!",
-			"to": "-> PM to {0}"
+			"from": "MP de {0}",
+			"playernotfound": "Jogador '{0}' não encontrado!",
+			"to": "-> MP para {0}"
 		}
 	},
 	"color": {
