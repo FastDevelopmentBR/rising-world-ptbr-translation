@@ -2637,26 +2637,26 @@
 	},
 	"time": {
 		"description": {
-			"aroundminutesago": "Around {0} minutes ago",
-			"aroundonedayago": "Around 1 day ago",
-			"aroundonehourago": "Around 1 hour ago",
-			"aroundoneyearago": "Around 1 year ago",
-			"daysago": "{0} days ago",
-			"fewminutesago": "A few minutes ago",
-			"fewyearsago": "A few years ago",
-			"hoursago": "{0} hours ago",
-			"justnow": "Just now",
-			"lessthanoneminuteago": "Less than 1 minute ago",
-			"never": "Never"
+			"aroundminutesago": "Cerca de {0} minutos atrás",
+			"aroundonedayago": "Há cerca de 1 dia",
+			"aroundonehourago": "Há cerca de 1 hora",
+			"aroundoneyearago": "Há cerca de 1 ano",
+			"daysago": "{0} dias atrás",
+			"fewminutesago": "Há alguns minutos atrás",
+			"fewyearsago": "Alguns anos atrás",
+			"hoursago": "{0} horas atrás",
+			"justnow": "Agora mesmo",
+			"lessthanoneminuteago": "Há menos de 1 minuto",
+			"never": "Nunca"
 		},
-		"format": "hh:mm tt",
-		"hour": "Hour",
-		"hours": "Hours",
-		"minute": "Minute",
-		"minutes": "Minutes",
-		"name": "Time",
-		"second": "Second",
-		"seconds": "Seconds"
+		"format": "hh:mm",
+		"hour": "Hora",
+		"hours": "Horas",
+		"minute": "Minuto",
+		"minutes": "Minutos",
+		"name": "Tempo",
+		"second": "Segundo",
+		"seconds": "Segundos"
 	},
 	"ui": {
 		"blueprints": {
