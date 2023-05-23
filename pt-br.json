@@ -2459,26 +2459,26 @@
 		"willowoakdead": "Willow oak (dead)"
 	},
 	"platform": {
-		"lanservername": "Rising World LAN Session - {0}",
-		"p2pservername": "Rising World P2P Session - {0}",
+		"lanservername": "Rising World Sessão LAN - {0}",
+		"p2pservername": "Rising World Sessão P2P - {0}",
 		"richpresence": {
 			"type": {
-				"legacy": "Legacy (Java Version)",
+				"legacy": "Legado (Java Version)",
 				"rw": "Rising World",
-				"rw-host": "Multiplayer (Host)",
-				"rw-lan": "Multiplayer (LAN)",
-				"rw-mp": "Multiplayer",
-				"rw-p2p": "Multiplayer (P2P)",
-				"rw-sp": "Singleplayer"
+				"rw-host": "Multijogador (Host)",
+				"rw-lan": "Multijogador (LAN)",
+				"rw-mp": "Multijogador",
+				"rw-p2p": "Multijogador (P2P)",
+				"rw-sp": "Um Jogador"
 			}
 		},
 		"state": {
-			"away": "Away",
-			"busy": "Busy",
-			"invisible": "Invisible",
+			"away": "Ausente",
+			"busy": "Ocupado",
+			"invisible": "Invisível",
 			"offline": "Offline",
 			"online": "Online",
-			"unknown": "Unknown"
+			"unknown": "Desconhecido"
 		}
 	},
 	"radialmenu": {
