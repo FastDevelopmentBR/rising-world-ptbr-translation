@@ -3227,13 +3227,13 @@
 				"35": "Sanding beaches"
 			},
 			"stage": {
-				"canceling": "CANCELING",
-				"connecting": "CONNECTING",
-				"convertworld": "CONVERT WORLD",
-				"finalizing": "FINALIZING",
-				"initializing": "INITIALIZING",
-				"loading": "LOADING",
-				"preparing": "PREPARING"
+				"canceling": "CANCELANDO",
+				"connecting": "CONECTANDO",
+				"convertworld": "CONVERTER MUNDO",
+				"finalizing": "FINALIZANDO",
+				"initializing": "INICIALIZANDO",
+				"loading": "CARREGANDO",
+				"preparing": "PREPARANDO"
 			}
 		},
 		"mainmenu": {
