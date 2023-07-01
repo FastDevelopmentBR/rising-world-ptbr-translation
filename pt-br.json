@@ -322,7 +322,7 @@
 			"name": "Pillar"
 		},
 		"poster": {
-			"desc": "Can be used to upload images from your hard drive and place them in the world",
+			"desc": "Pode ser usado para fazer upload de imagens do seu disco rígido e colocá-las no mundo",
 			"name": "Poster"
 		},
 		"pyramid": {
@@ -812,8 +812,8 @@
 			"name": "Cotton"
 		},
 		"decal": {
-			"desc": "Similar to a poster, but adapts to the ground. Ideal if you want to project an image onto an uneven surface",
-			"name": "Decal"
+			"desc": "Semelhante a um poster, mas adapta-se ao solo. Ideal se você deseja projetar uma imagem em uma superfície irregular",
+			"name": "Decalque"
 		},
 		"dye": {
 			"name": "Dye"
@@ -1036,7 +1036,7 @@
 			"name": "Pickaxe (steel)"
 		},
 		"poster": {
-			"desc": "A poster. You can use it to load an image from your hard drive and place it in the world",
+			"desc": "Um poster. Você pode usá-lo para carregar uma imagem do seu disco rígido e colocá-la no mundo",
 			"name": "Poster"
 		},
 		"potato": {
@@ -2157,8 +2157,8 @@
 			"name": "Crowd barrier"
 		},
 		"decal": {
-			"desc": "Similar to a poster, but adapts to the ground. Ideal if you want to project an image onto an uneven surface",
-			"name": "Decal"
+			"desc": "Semelhante a um poster, mas adapta-se ao solo. Ideal se você deseja projetar uma imagem em uma superfície irregular",
+			"name": "Decalque"
 		},
 		"doorglass1": {
 			"desc": "A modern glass door",
@@ -2295,7 +2295,7 @@
 			"name": "Placard"
 		},
 		"poster": {
-			"desc": "A poster. You can use it to load an image from your hard drive and place it in the world",
+			"desc": "Um poster. Você pode usá-lo para carregar uma imagem do seu disco rígido e colocá-la no mundo",
 			"name": "Poster"
 		},
 		"primitivefurnace": {
@@ -3258,12 +3258,12 @@
 			}
 		},
 		"filebrowser": {
-			"created": "Created: {0}",
-			"header": "Select a file...",
+			"created": "Criado em: {0}",
+			"header": "Selecione um arquivo...",
 			"images": {
-				"header": "Select an image you want to upload"
+				"header": "Selecione uma imagem que deseja enviar"
 			},
-			"size": "Size: {0} bytes"
+			"size": "Tamanho: {0} bytes"
 		},
 		"fov": {
 			"screen": {
@@ -3366,8 +3366,8 @@
 					"changecolor": "Change color"
 				},
 				"poster": {
-					"place": "Place Image (HOLD)",
-					"select": "Select Image"
+					"place": "Colocar Imagem (SEGURAR)",
+					"select": "Selecionar Imagem"
 				},
 				"rake": {
 					"primary": "Smooth soil (lower)",
@@ -3668,48 +3668,48 @@
 		},
 		"poster": {
 			"buttons": {
-				"delete": "Delete Image",
-				"rename": "Rename Image"
+				"delete": "Excluir imagem",
+				"rename": "Renomear imagem"
 			},
-			"creationdate": "Upload date",
-			"creationdateformat": "yyyy-MM-dd  hh:mm tt",
+			"creationdate": "Data de upload",
+			"creationdateformat": "dd/MM/yyyy hh:mm",
 			"message": {
-				"deleteimage": "Do you really want to delete this image? This also removes all posters which use this image.",
-				"deleteimageheader": "Delete Image",
-				"renameimage": "Do you really want to rename this image?",
-				"renameimageheader": "Rename Image"
+				"deleteimage": "Você realmente deseja excluir esta imagem? Isso também remove todos os pôsteres que usam essa imagem.",
+				"deleteimageheader": "Excluir imagem",
+				"renameimage": "Deseja realmente renomear esta imagem?",
+				"renameimageheader": "Renomear imagem"
 			},
-			"ownimages": "Own Images",
+			"ownimages": "Suas Imagens",
 			"screen": {
 				"postercontainer": {
 					"bottomcontainer": {
-						"newposterbutton": "Upload new Image",
+						"newposterbutton": "Carregar nova imagem",
 						"selectbuttoncontainer": {
-							"selectbutton": "Select"
+							"selectbutton": "Selecionar"
 						}
 					},
 					"topcontainer": {
 						"centercontainer": {
 							"grid": {
-								"emptyposternotelabel": "No images uploaded yet. \n\nHit the button below to upload an image file from your hard drive"
+								"emptyposternotelabel": "Nenhuma imagem carregada ainda. \n\nClique no botão abaixo para carregar um arquivo de imagem do seu disco rígido"
 							},
 							"headercontainer": {
-								"header": "Custom Images"
+								"header": "Imagens personalizadas"
 							}
 						},
 						"rightcontainer": {
 							"posterinfocontainer": {
 								"leftinfocontainer": {
-									"posterformatlabel": "Format",
-									"posterinstanceslabel": "Instances",
-									"posterresolutionlabel": "Resolution"
+									"posterformatlabel": "Formato",
+									"posterinstanceslabel": "Instâncias",
+									"posterresolutionlabel": "Resolução"
 								}
 							}
 						}
 					}
 				}
 			},
-			"uploadindicator": "Uploading image..."
+			"uploadindicator": "Carregando imagem..."
 		},
 		"scoreboard": {
 			"screen": {
@@ -3922,7 +3922,7 @@
 				"reflections": "Reflexões",
 				"refractions": "Refrações",
 				"resolution": "Resolução",
-				"resolutionscale": "Escala de Resolução",
+				"resolutionscale": "Escala de resolução",
 				"screenspacereflections": "Reflexões do Espaço da Tela",
 				"screenspacereflectionsquality": "Qualidade de Reflexão",
 				"shadowdistance": "Distância de visão de sombra",
@@ -4289,20 +4289,20 @@
 				"totalcount": "Total amount of items you will get"
 			},
 			"filebrowser": {
-				"addfavorite": "Add to Favorites",
-				"back": "Go back",
-				"bottom": "Scroll to bottom",
-				"desktop": "Desktop",
-				"favorites": "Show Favorites",
-				"hidehiddenfiles": "Hide hidden files",
-				"home": "Home",
-				"pictures": "Pictures",
-				"refresh": "Refresh",
-				"removefavorite": "Remove from Favorites",
-				"root": "Computer",
-				"showhiddenfiles": "Show hidden files",
-				"top": "Scroll to top",
-				"user": "User folder"
+				"addfavorite": "Adicionar aos favoritos",
+				"back": "Voltar",
+				"bottom": "Rolar para baixo",
+				"desktop": "Área de Trabalho",
+				"favorites": "Mostrar Favoritos",
+				"hidehiddenfiles": "Esconder arquivos ocultos",
+				"home": "Pasta do Usuário",
+				"pictures": "Imagens",
+				"refresh": "Atualizar",
+				"removefavorite": "Remover dos favoritos",
+				"root": "Computador",
+				"showhiddenfiles": "Mostrar arquivos ocultos",
+				"top": "Rolar para cima",
+				"user": "Pasta do Usuário"
 			},
 			"inventory": {
 				"merge": "Mesclar pilhas",
