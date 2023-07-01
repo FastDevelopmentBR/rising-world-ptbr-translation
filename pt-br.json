@@ -1484,11 +1484,11 @@
 			"unknown": "Something went wrong \n({0})"
 		},
 		"corpse": {
-			"cannotloot": "You cannot loot this body",
-			"gutanimalwithknife": "Use a knife to gut this corpse",
-			"guttinganimal": "Gutting animal...",
-			"identity": "His name was {0}",
-			"unknownidentity": "His name is unknown"
+			"cannotloot": "Você não pode saquear este corpo",
+			"gutanimalwithknife": "Use uma faca para estripar este cadáver",
+			"guttinganimal": "Estripando o animal...",
+			"identity": "O nome dele era {0}",
+			"unknownidentity": "O nome dele é desconhecido"
 		},
 		"crafting": {
 			"missingcraftingstation": "There is no suitable crafting station in your proximity!",
@@ -2828,9 +2828,9 @@
 			"texturescale": "Texture Scale\n<#FFFF00>{0}<#FFFFFF>"
 		},
 		"corpse": {
-			"hide": "Hide corpse",
-			"identify": "Identify",
-			"loot": "Loot"
+			"hide": "Esconder cadáver",
+			"identify": "Identificar",
+			"loot": "Saquear"
 		},
 		"doors": {
 			"close": "Close",
@@ -3357,7 +3357,7 @@
 				},
 				"holdinteractionforoptions": "Open Settings (HOLD)",
 				"knife": {
-					"gutanimal": "Gut animal corpse (HOLD)"
+					"gutanimal": "Estripar cadáver do animal (SEGURAR)"
 				},
 				"oredetector": {
 					"changetargetore": "Change target ore"
