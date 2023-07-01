@@ -143,6 +143,108 @@
 			"to": "-> MP para {0}"
 		}
 	},
+	"clothing": {
+		"aviators": {
+			"name": "Aviator glasses"
+		},
+		"balaclava": {
+			"name": "Balaclava"
+		},
+		"balaclavamask": {
+			"name": "Balaclava (glasses)"
+		},
+		"boonie": {
+			"name": "Boonie hat"
+		},
+		"bunnymask": {
+			"name": "Bunny ears"
+		},
+		"captainhat": {
+			"name": "Captain hat"
+		},
+		"chefhat": {
+			"name": "Chef hat"
+		},
+		"cowboyhat": {
+			"name": "Cowboy hat"
+		},
+		"crown": {
+			"name": "Crown"
+		},
+		"cylinder": {
+			"name": "Cylinder"
+		},
+		"divinggoggles": {
+			"desc": "Part of diving equipment that allows you to see clearly underwater",
+			"name": "Diving mask"
+		},
+		"fedora": {
+			"name": "Fedora"
+		},
+		"felthat": {
+			"name": "Felt hat"
+		},
+		"fez": {
+			"name": "Fez"
+		},
+		"groucho": {
+			"desc": "It provides perfect disguise. No one will recognize you",
+			"name": "Groucho glasses"
+		},
+		"helmet": {
+			"desc": "A modern safety helmet",
+			"name": "Safety helmet"
+		},
+		"helmet2": {
+			"desc": "A modern climbing helmet",
+			"name": "Climbing helmet"
+		},
+		"helmet2_lamp": {
+			"desc": "A modern climbing helmet with a lamp attached to it",
+			"name": "Climbing helmet (lamp)"
+		},
+		"helmet_lamp": {
+			"desc": "A modern safety helmet with a lamp attached to it",
+			"name": "Safety helmet (lamp)"
+		},
+		"jesterhat": {
+			"name": "Jester hat"
+		},
+		"mininghelmet": {
+			"desc": "An old miner's helmet with a candle attached to it that lights up your way in dark areas",
+			"name": "Miner's helmet"
+		},
+		"pickelhaube": {
+			"name": "Pickelhaube"
+		},
+		"pilgrimhat": {
+			"name": "Pilgrim hat"
+		},
+		"redrockhat": {
+			"name": "Redrock hat"
+		},
+		"sombrero": {
+			"name": "Sombrero"
+		},
+		"sunglasses1": {
+			"name": "Sunglasses"
+		},
+		"unclesamhat": {
+			"name": "Uncle Sam's hat"
+		},
+		"ushanka": {
+			"name": "Ushanka"
+		},
+		"wizardhat": {
+			"name": "Wizard hat"
+		},
+		"wooly": {
+			"name": "Wooly"
+		},
+		"xmashat": {
+			"name": "Xmas hat"
+		}
+	},
 	"color": {
 		"black": "Preto",
 		"blue": "Azul",
@@ -327,7 +429,7 @@
 			"equip": "Equip item",
 			"open": "Open",
 			"split": "Split stack",
-			"wearclothes": "Wear clothes"
+			"wearclothes": "Wear"
 		},
 		"playerlist": {
 			"copyuid": "Copy UID to clipboard",
@@ -367,14 +469,17 @@
 		"subcategory": {
 			"accessory": "Acessório",
 			"advancedtools": "Ferramentas Avançadas",
+			"ammo": "Arrows & Ammo",
 			"barriers": "Barreiras",
 			"basekits": "Kits Básicos",
 			"basictools": "Ferramentas Básicas",
 			"beds": "Camas",
 			"boats": "Barcos",
+			"bread": "Breads",
 			"cabinets": "Armários",
 			"camping": "Acampamento",
 			"container": "Recipiente",
+			"cooking": "Cooking",
 			"decoration": "Decoração",
 			"doors": "Portas",
 			"engines": "Motores",
@@ -386,6 +491,7 @@
 			"fun": "Diversão & Jogos",
 			"furnaces": "Fornos de Fundição",
 			"general": "Geral",
+			"headgear": "Headgear",
 			"ladders": "Escadas",
 			"lights": "Iluminação",
 			"materials": "Materiais",
@@ -409,6 +515,7 @@
 			"shoes": "Sapatos",
 			"shootingtargets": "Alvos",
 			"signs": "Placas",
+			"snacks": "Snacks",
 			"storages": "Armazenamentos",
 			"survival": "Sobrevivência",
 			"tables": "Mesas",
@@ -566,6 +673,18 @@
 			"desc": "A healthy apple",
 			"name": "Apple"
 		},
+		"arrow": {
+			"desc": "A stabilized and accurate arrow",
+			"name": "Arrow"
+		},
+		"arrowexplosive": {
+			"desc": "An explosive arrow that detonates on impact. Much heavier than regular arrows",
+			"name": "Explosive arrow"
+		},
+		"arrowprimitive": {
+			"desc": "A primitive arrow that is quite inaccurate",
+			"name": "Primitive arrow"
+		},
 		"axe": {
 			"desc": "An iron axe. Can be used to cut down trees or to destroy wooden structures",
 			"name": "Axe"
@@ -600,9 +719,26 @@
 			"desc": "A simple glass bottle",
 			"name": "Bottle"
 		},
+		"bow1": {
+			"desc": "A simple bow with which arrows can be shot",
+			"name": "Bow"
+		},
 		"branch": {
 			"desc": "Natural resource. Can be used to craft sticks",
 			"name": "Branch"
+		},
+		"bread": {
+			"name": "Bread"
+		},
+		"breadburned": {
+			"name": "Burned bread"
+		},
+		"breaddough": {
+			"desc": "Dough for a simple and tasty bread. \n\n<color=yellow><b>REQUIRES BAKING</b></color>",
+			"name": "Bread dough"
+		},
+		"breadhalf": {
+			"name": "Half bread"
 		},
 		"canteen": {
 			"desc": "A drinking bottle. Can be filled with water",
@@ -624,9 +760,9 @@
 		"coal": {
 			"name": "Coal"
 		},
-		"coaldust": {
+		"coalpowder": {
 			"desc": "Crushed coal",
-			"name": "Coal dust"
+			"name": "Coal powder"
 		},
 		"coarsecloth": {
 			"desc": "A piece of coarse cloth",
@@ -658,6 +794,13 @@
 		"cookie": {
 			"name": "Cookie"
 		},
+		"cookieburned": {
+			"name": "Burned cookie"
+		},
+		"cookiedough": {
+			"desc": "Dough for a tasteful cookie. \n\n<color=yellow><b>REQUIRES BAKING</b></color>",
+			"name": "Cookie dough"
+		},
 		"corn": {
 			"name": "Corn"
 		},
@@ -668,8 +811,16 @@
 			"desc": "Can be spun to yarn on a spinning wheel",
 			"name": "Cotton"
 		},
+		"decal": {
+			"desc": "Similar to a poster, but adapts to the ground. Ideal if you want to project an image onto an uneven surface",
+			"name": "Decal"
+		},
 		"dye": {
 			"name": "Dye"
+		},
+		"dynamite": {
+			"desc": "Creates an explosion which only causes little damage to the environment",
+			"name": "Dynamite"
 		},
 		"earthworm": {
 			"desc": "Useful as bait",
@@ -696,6 +847,10 @@
 		"flashlightlarge": {
 			"desc": "Ultra bright light source",
 			"name": "Spotlight"
+		},
+		"flour": {
+			"desc": "Made from grinded grains. Is used to make different foods, especially dough",
+			"name": "Flour"
 		},
 		"food": {
 			"condition": {
@@ -732,7 +887,12 @@
 			"knife": "Knife",
 			"metal": "Metal",
 			"sapling": "Sapling",
-			"treelog": "Piece of log"
+			"treelog": "Piece of log",
+			"water": "Water"
+		},
+		"gunpowder": {
+			"desc": "Explosive powder. Important ingredient for the production of various ammunition and explosives",
+			"name": "Gunpowder"
 		},
 		"hempfibers": {
 			"desc": "Can be spun to yarn on a spinning wheel",
@@ -771,6 +931,10 @@
 		},
 		"lettuceleaves": {
 			"name": "Lettuce leaves"
+		},
+		"lightbulb": {
+			"desc": "An electric light",
+			"name": "Light bulb"
 		},
 		"lumber": {
 			"desc": "Basic crafting resource",
@@ -871,6 +1035,10 @@
 			"desc": "A modern steel pickaxe. More efficient and robust than the iron pickaxe",
 			"name": "Pickaxe (steel)"
 		},
+		"poster": {
+			"desc": "A poster. You can use it to load an image from your hard drive and place it in the world",
+			"name": "Poster"
+		},
 		"potato": {
 			"name": "Potato"
 		},
@@ -900,7 +1068,7 @@
 			"name": "Pumpkin slice"
 		},
 		"rags": {
-			"desc": "Some rags",
+			"desc": "Some rags. Can be recycled into paper.",
 			"name": "Rags"
 		},
 		"rake": {
@@ -1032,6 +1200,9 @@
 			"desc": "A sapling of a weeping beech",
 			"name": "Sapling (weeping beech)"
 		},
+		"saplingwheat": {
+			"name": "Sapling (wheat)"
+		},
 		"saplingwillowoak": {
 			"desc": "A sapling of a willow oak",
 			"name": "Sapling (willow oak)"
@@ -1077,6 +1248,9 @@
 		"steak": {
 			"name": "Raw meat"
 		},
+		"steakbaked": {
+			"name": "Baked meat"
+		},
 		"steakburned": {
 			"name": "Burned meat"
 		},
@@ -1096,6 +1270,9 @@
 		},
 		"sulfur": {
 			"name": "Sulfur"
+		},
+		"sulfurpowder": {
+			"name": "Sulfur powder"
 		},
 		"tentbag": {
 			"name": "Tent bag"
@@ -1273,6 +1450,7 @@
 			"apple": "You've eaten an apple",
 			"bandage": "You have bandaged your wounds",
 			"bellpepper": "You've eaten a bell pepper",
+			"breadhalf": "You've eaten some bread",
 			"carrot": "You've eaten a carrot",
 			"carrotslices": "You've eaten some carrot slices",
 			"chili": "You've eaten a hot chili pepper",
@@ -1412,6 +1590,11 @@
 		"items": {
 			"bottle": {
 				"empty": "This bottle is empty"
+			},
+			"bow": {
+				"changingarrow": "Changing arrow: {0}",
+				"noarrows": "You don't have any arrows",
+				"onlyonearrowtype": "You only have a single type of arrow in your inventory!"
 			},
 			"cantdounderwater": "You can't do that while you're underwater",
 			"doesnotworkunderwater": "This item does not work underwater",
@@ -1576,6 +1759,17 @@
 			},
 			"obstructed": "This space is obstructed",
 			"occupied": "This space is occupied",
+			"oven": {
+				"broken": "This oven no longer works",
+				"fuel": "Fuel: ",
+				"fuellvl": "Fuel: {0}",
+				"fuelreplenished": "Fuel replenished: {0}",
+				"nofuel": "This oven has no fuel",
+				"nofuelrefill": "This oven has no fuel.\nYou can refuel it on the left side"
+			},
+			"paperpress": {
+				"waterrequired": "You first have to add water to turn the rags into paper"
+			},
 			"placed": "Placed: {0}",
 			"placement": {
 				"campfiregrill": "This object can only be attached to camp fires!",
@@ -1962,8 +2156,62 @@
 		"crowdbarrier": {
 			"name": "Crowd barrier"
 		},
-		"door1": {
+		"decal": {
+			"desc": "Similar to a poster, but adapts to the ground. Ideal if you want to project an image onto an uneven surface",
+			"name": "Decal"
+		},
+		"doorglass1": {
+			"desc": "A modern glass door",
 			"name": "Glass door"
+		},
+		"doorglass1b": {
+			"desc": "A modern glass door with a thin metal frame",
+			"name": "Glass door (frame)"
+		},
+		"doorglass2": {
+			"desc": "A modern glass door",
+			"name": "Glass door"
+		},
+		"doorglass2b": {
+			"desc": "A modern glass door with a thin metal frame",
+			"name": "Glass door (frame)"
+		},
+		"doormetal1": {
+			"name": "Old metal door"
+		},
+		"doormetal1b": {
+			"name": "Old metal door (arch)"
+		},
+		"doormodern1": {
+			"name": "Wooden door"
+		},
+		"doormodern2": {
+			"name": "Wooden door (glass)"
+		},
+		"doormodern3": {
+			"desc": "A modern door",
+			"name": "White door"
+		},
+		"doorold1": {
+			"name": "Old door 1"
+		},
+		"doorold1b": {
+			"name": "Old door 1 (arch)"
+		},
+		"doorold2": {
+			"name": "Old door 2"
+		},
+		"doorold2b": {
+			"name": "Old door 2 (arch)"
+		},
+		"doorold3": {
+			"name": "Old door 3"
+		},
+		"doorold4": {
+			"name": "Old door 4"
+		},
+		"doorold5": {
+			"name": "Old door 5"
 		},
 		"firelogs": {
 			"name": "Fireplace"
@@ -1971,6 +2219,14 @@
 		"floodlight": {
 			"desc": "Versatile floodlight with integrated battery. Provides extremely bright light",
 			"name": "Floodlight"
+		},
+		"frontdoorglass1": {
+			"desc": "A modern glass front door",
+			"name": "Front door (glass)"
+		},
+		"frontdoorglass2": {
+			"desc": "A modern glass front door",
+			"name": "Front door (glass)"
 		},
 		"furnace": {
 			"desc": "Enables you to smelt ores into ingots (24 slots)",
@@ -1994,6 +2250,10 @@
 			"desc": "A grinding stone that can be used to sharpen certain tools and weapons (like swords), which improves their stats",
 			"name": "Grindstone"
 		},
+		"ironsign1": {
+			"desc": "A hanging sign, made out of iron. Can display text",
+			"name": "Hanging iron sign"
+		},
 		"jackolantern": {
 			"desc": "A carved pumpkin, which can be used as decoration on Halloween",
 			"name": "Jack-o'-lantern"
@@ -2011,6 +2271,10 @@
 		"logbench": {
 			"name": "Log bench"
 		},
+		"masonryoven": {
+			"desc": "An oven made out of stone. Can be used for baking food",
+			"name": "Masonry oven"
+		},
 		"mattress": {
 			"name": "Mattress"
 		},
@@ -2021,6 +2285,14 @@
 		"piano": {
 			"desc": "A piano which can be played using your keyboard",
 			"name": "Piano"
+		},
+		"placard": {
+			"desc": "A large sheet on which text can be applied",
+			"name": "Placard"
+		},
+		"poster": {
+			"desc": "A poster. You can use it to load an image from your hard drive and place it in the world",
+			"name": "Poster"
 		},
 		"primitivefurnace": {
 			"desc": "Enables you to smelt ores into ingots, but has limited capacity (8 slots)",
@@ -2033,6 +2305,10 @@
 		"primitiveworkbench": {
 			"desc": "Very simple workbench, used to craft basic tools",
 			"name": "Primitive workbench"
+		},
+		"saloondoor": {
+			"desc": "A bi-directional swinging door",
+			"name": "Saloon door"
 		},
 		"scaffolding1": {
 			"desc": "A temporary, modular wooden structure to support constructing a building",
@@ -2103,6 +2379,22 @@
 			"desc": "Useful for target practice",
 			"name": "Shooting target (standing)"
 		},
+		"sign": {
+			"desc": "A simple wooden sign that displays text",
+			"name": "Sign"
+		},
+		"sign1": {
+			"desc": "A small wooden sign that can display text",
+			"name": "Small wooden sign"
+		},
+		"sign2": {
+			"desc": "A wooden sign that can display text",
+			"name": "Wooden sign"
+		},
+		"sign3": {
+			"desc": "A standing wooden sign that can display text",
+			"name": "Standing sign"
+		},
 		"skewer": {
 			"desc": "A simple wooden skewer. Place it on a campfire to cook meat",
 			"name": "Skewer"
@@ -2143,6 +2435,10 @@
 		"tentsmall": {
 			"desc": "One-person tent which allows you to sleep and set your spawn point",
 			"name": "Small tent"
+		},
+		"text": {
+			"desc": "A transparent sign where only the text is visible",
+			"name": "Text"
 		},
 		"torch": {
 			"name": "Torch"
@@ -2320,6 +2616,12 @@
 			"useallvehicles": "Determines if the player is allowed to use all vehicles (even vehicles he does not own)",
 			"voicechat": "Determines if the player is allowed to use voice chat"
 		},
+		"image": {
+			"delete": "Determines if the player is allowed to delete any image on the server",
+			"deleteown": "Determines if the player is allowed to delete his own images",
+			"maxamount": "Determines the max amount of images (posters) the player is allowed to upload",
+			"maxresolution": "Determines the max allowed resolution for uploaded custom images (posters)"
+		},
 		"info": {
 			"chat": "Determines whether or not the player is allowed to use the chat",
 			"chatcolor": "Color for chat messages from this player (RGB). Format: #RRGGBB",
@@ -2455,6 +2757,7 @@
 		"tubesponge": "Tube sponge",
 		"watermelon": "Water\\u00ADmelon",
 		"weepingbeech": "Weeping beech",
+		"wheat": "Wheat",
 		"willowoak": "Willow oak",
 		"willowoakdead": "Willow oak (dead)"
 	},
@@ -2587,12 +2890,19 @@
 				"sync": "Sync light\\n(with nearby object)"
 			},
 			"open": "Open",
+			"paperpress": {
+				"movedown": "Move down",
+				"moveup": "Move up"
+			},
 			"piano": {
 				"play": "Play piano"
 			},
 			"pickup": "Pickup (hold)",
 			"seating": {
 				"sitdown": "Sit down"
+			},
+			"sign": {
+				"edittext": "Edit text"
 			},
 			"storage": {
 				"close": "Close chest",
@@ -2782,6 +3092,7 @@
 							"itemcountlabel": "Quantidade: "
 						},
 						"craftbutton": "CRIAR ITEM",
+						"craftfood": "PREPARE",
 						"craftinginfocontainer": {
 							"craftingstationcontainer": {
 								"headerlabel": "Estação de Trabalho"
@@ -2942,6 +3253,12 @@
 				}
 			}
 		},
+		"filebrowser": {
+			"header": "Select a file...",
+			"images": {
+				"header": "Select an image you want to upload"
+			}
+		},
 		"fov": {
 			"screen": {
 				"fovsettingscontainer": {
@@ -3020,9 +3337,21 @@
 					"drink": "Drink",
 					"refill": "Refill"
 				},
+				"bow": {
+					"aim": "Aim",
+					"changearrow": "Change Arrow (HOLD)"
+				},
+				"bread": {
+					"cut": "Cut bread"
+				},
+				"explosive": {
+					"fuse": "Light fuse",
+					"place": "Place",
+					"throw": "Throw"
+				},
 				"holdinteractionforoptions": "Open Settings (HOLD)",
 				"knife": {
-					"gutanimal": "Gut animal corpse"
+					"gutanimal": "Gut animal corpse (HOLD)"
 				},
 				"oredetector": {
 					"changetargetore": "Change target ore"
@@ -3030,9 +3359,13 @@
 				"painttool": {
 					"changecolor": "Change color"
 				},
+				"poster": {
+					"place": "Place Image (HOLD)",
+					"select": "Select Image"
+				},
 				"rake": {
-					"primary": "Smooth and lower soil",
-					"secondary": "Smooth and raise soil"
+					"primary": "Smooth soil (lower)",
+					"secondary": "Smooth soil (raise)"
 				},
 				"shears": {
 					"shearsheep": "Shear sheep"
@@ -3326,6 +3659,51 @@
 				"close": "Fechar",
 				"connect": "Conectar"
 			}
+		},
+		"poster": {
+			"buttons": {
+				"delete": "Delete Image",
+				"rename": "Rename Image"
+			},
+			"creationdate": "Upload date",
+			"creationdateformat": "yyyy-MM-dd  hh:mm tt",
+			"message": {
+				"deleteimage": "Do you really want to delete this image? This also removes all posters which use this image.",
+				"deleteimageheader": "Delete Image",
+				"renameimage": "Do you really want to rename this image?",
+				"renameimageheader": "Rename Image"
+			},
+			"ownimages": "Own Images",
+			"screen": {
+				"postercontainer": {
+					"bottomcontainer": {
+						"newposterbutton": "Upload new Image",
+						"selectbuttoncontainer": {
+							"selectbutton": "Select"
+						}
+					},
+					"topcontainer": {
+						"centercontainer": {
+							"grid": {
+								"emptyposternotelabel": "No images uploaded yet. \n\nHit the button below to upload an image file from your hard drive"
+							},
+							"headercontainer": {
+								"header": "Custom Images"
+							}
+						},
+						"rightcontainer": {
+							"posterinfocontainer": {
+								"leftinfocontainer": {
+									"posterformatlabel": "Format",
+									"posterinstanceslabel": "Instances",
+									"posterresolutionlabel": "Resolution"
+								}
+							}
+						}
+					}
+				}
+			},
+			"uploadindicator": "Uploading image..."
 		},
 		"scoreboard": {
 			"screen": {
@@ -3684,7 +4062,7 @@
 					"default": "Default",
 					"keepelevation": "Keep Elevation"
 				},
-				"flymodemovetype": "Fly Mode Speed Control",
+				"flymodemovetype": "Fly Mode Move Control",
 				"flymodenoclipping": "No-Clipping in Fly Mode",
 				"flymodespeedcontrol": "Fly Mode Speed Control",
 				"flymodespeedmodes": {
@@ -3851,6 +4229,25 @@
 			},
 			"timeuntildespawn": "Tempo até o desaparecer (despawn)"
 		},
+		"sign": {
+			"color": {
+				"header": "Select a font color"
+			},
+			"font": {
+				"header": "Select a Font"
+			},
+			"screen": {
+				"signcontainer": {
+					"buttoncontainer": {
+						"closebutton": "Cancel",
+						"okbutton": "Apply"
+					},
+					"topcontainer": {
+						"headerlabel": "Edit sign..."
+					}
+				}
+			}
+		},
 		"singleplayer": {
 			"openforlan": "Abrir para LAN",
 			"playlan": "Jogar via LAN",
@@ -3884,6 +4281,19 @@
 			"crafting": {
 				"colorpicker": "Click to change the default color\n\n<color=yellow>Right click to reset the color</color>",
 				"totalcount": "Total amount of items you will get"
+			},
+			"filebrowser": {
+				"addfavorite": "Add to Favorites",
+				"bottom": "Scroll to bottom",
+				"desktop": "Desktop",
+				"favorites": "Show Favorites",
+				"hidehiddenfiles": "Hide hidden files",
+				"home": "Home",
+				"refresh": "Refresh",
+				"removefavorite": "Remove from Favorites",
+				"root": "Computer",
+				"showhiddenfiles": "Show hidden files",
+				"top": "Scroll to top"
 			},
 			"inventory": {
 				"merge": "Mesclar pilhas",
