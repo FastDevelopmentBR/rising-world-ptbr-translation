@@ -2282,6 +2282,10 @@
 			"desc": "Used to dry raw meat. This preserves the meat, but it takes a long time",
 			"name": "Drying rack"
 		},
+		"paperpress": {
+			"desc": "Turns rags into paper",
+			"name": "Paper press"
+		},
 		"piano": {
 			"desc": "A piano which can be played using your keyboard",
 			"name": "Piano"
@@ -3254,10 +3258,12 @@
 			}
 		},
 		"filebrowser": {
+			"created": "Created: {0}",
 			"header": "Select a file...",
 			"images": {
 				"header": "Select an image you want to upload"
-			}
+			},
+			"size": "Size: {0} bytes"
 		},
 		"fov": {
 			"screen": {
@@ -4284,16 +4290,19 @@
 			},
 			"filebrowser": {
 				"addfavorite": "Add to Favorites",
+				"back": "Go back",
 				"bottom": "Scroll to bottom",
 				"desktop": "Desktop",
 				"favorites": "Show Favorites",
 				"hidehiddenfiles": "Hide hidden files",
 				"home": "Home",
+				"pictures": "Pictures",
 				"refresh": "Refresh",
 				"removefavorite": "Remove from Favorites",
 				"root": "Computer",
 				"showhiddenfiles": "Show hidden files",
-				"top": "Scroll to top"
+				"top": "Scroll to top",
+				"user": "User folder"
 			},
 			"inventory": {
 				"merge": "Mesclar pilhas",
