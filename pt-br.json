@@ -469,17 +469,17 @@
 		"subcategory": {
 			"accessory": "Acessório",
 			"advancedtools": "Ferramentas Avançadas",
-			"ammo": "Arrows & Ammo",
+			"ammo": "Flechas e Munições",
 			"barriers": "Barreiras",
 			"basekits": "Kits Básicos",
 			"basictools": "Ferramentas Básicas",
 			"beds": "Camas",
 			"boats": "Barcos",
-			"bread": "Breads",
+			"bread": "Pães",
 			"cabinets": "Armários",
 			"camping": "Acampamento",
 			"container": "Recipiente",
-			"cooking": "Cooking",
+			"cooking": "Culinária",
 			"decoration": "Decoração",
 			"doors": "Portas",
 			"engines": "Motores",
@@ -491,7 +491,7 @@
 			"fun": "Diversão & Jogos",
 			"furnaces": "Fornos de Fundição",
 			"general": "Geral",
-			"headgear": "Headgear",
+			"headgear": "Chapelaria",
 			"ladders": "Escadas",
 			"lights": "Iluminação",
 			"materials": "Materiais",
@@ -515,7 +515,7 @@
 			"shoes": "Sapatos",
 			"shootingtargets": "Alvos",
 			"signs": "Placas",
-			"snacks": "Snacks",
+			"snacks": "Lanches",
 			"storages": "Armazenamentos",
 			"survival": "Sobrevivência",
 			"tables": "Mesas",
@@ -3092,7 +3092,7 @@
 							"itemcountlabel": "Quantidade: "
 						},
 						"craftbutton": "CRIAR ITEM",
-						"craftfood": "PREPARE",
+						"craftfood": "PREPARAR",
 						"craftinginfocontainer": {
 							"craftingstationcontainer": {
 								"headerlabel": "Estação de Trabalho"
