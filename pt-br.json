@@ -1578,6 +1578,12 @@
 		"farming": {
 			"requiresfarmland": "This plant can be planted only on arable land.\nUse a hoe to prepare the ground"
 		},
+		"images": {
+			"maxamountreached": "The max allowed amount of uploaded images has been reached (see permission)",
+			"uploadfailed": "Image upload failed",
+			"uploadheader": "Image upload",
+			"uploadtimeout": "Timeout while uploading the image. It's unclear whether or not the upload was successful, because there was no response from the server..."
+		},
 		"inventory": {
 			"itemduplicated": "Item duplicated!",
 			"itemequipped": "Item equipped: {0}",
