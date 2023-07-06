@@ -1738,6 +1738,7 @@
 		"objects": {
 			"cannotplaceinwater": "You cannot place this object in water",
 			"deconstructing": "Deconstructing...",
+			"cannotpickup": "You cannot pick up this object",
 			"door": {
 				"cannotlock": "You cannot lock this door",
 				"cannotremovelocked": "You cannot pickup the door while it is locked!",
@@ -3352,6 +3353,7 @@
 				"bow": {
 					"aim": "Aim",
 					"changearrow": "Change Arrow (HOLD)"
+					"shoot": "Shoot"
 				},
 				"bread": {
 					"cut": "Cut bread"
