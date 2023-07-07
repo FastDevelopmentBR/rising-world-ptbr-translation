@@ -1826,20 +1826,20 @@
 		},
 		"settings": {
 			"ingameview": {
-				"body": "You must be ingame to adjust the view settings",
-				"title": "Adjust view settings"
+				"body": "Você deve estar no jogo para ajustar as configurações de visualização",
+				"title": "Ajustar as configurações de exibição"
 			},
 			"reset": {
-				"body": "Do you really want to reset all settings?",
-				"title": "Reset settings"
+				"body": "Você realmente deseja redefinir todas as configurações?",
+				"title": "Redefinir as configurações"
 			},
 			"saved": {
-				"body": "All settings have been saved!",
-				"title": "Settings saved"
+				"body": "Todas as configurações foram salvas!",
+				"title": "Configurações salvas"
 			},
 			"unsavedchanges": {
-				"body": "There are unsaved changes. Do you want to save them now?\nOtherwise all unsaved changes will be discarded",
-				"title": "Unsaved changes"
+				"body": "Há alterações não salvas. Deseja salvá-los agora?\nCaso contrário, todas as alterações não salvas serão descartadas",
+				"title": "Alterações não salvas"
 			}
 		},
 		"singleplayer": {
