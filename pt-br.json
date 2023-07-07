@@ -3359,16 +3359,16 @@
 					"cut": "Cortar o pão"
 				},
 				"explosive": {
-					"fuse": "Light fuse",
-					"place": "Place",
-					"throw": "Throw"
+					"fuse": "Acender pavio",
+					"place": "Colocar",
+					"throw": "Arremessar"
 				},
-				"holdinteractionforoptions": "Open Settings (HOLD)",
+				"holdinteractionforoptions": "Abrir Configurações (SEGURAR)",
 				"knife": {
 					"gutanimal": "Estripar cadáver do animal (SEGURAR)"
 				},
 				"oredetector": {
-					"changetargetore": "Change target ore"
+					"changetargetore": "Alterar minério alvo"
 				},
 				"painttool": {
 					"changecolor": "Mudar cor"
