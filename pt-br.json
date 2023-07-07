@@ -1447,32 +1447,32 @@
 			"tiling": "Texture Scale  {0}"
 		},
 		"consume": {
-			"apple": "You've eaten an apple",
-			"bandage": "You have bandaged your wounds",
+			"apple": "Você comeu uma maçã",
+			"bandage": "Você enfaixou suas feridas",
 			"bellpepper": "You've eaten a bell pepper",
-			"breadhalf": "You've eaten some bread",
-			"carrot": "You've eaten a carrot",
-			"carrotslices": "You've eaten some carrot slices",
+			"breadhalf": "Você comeu um pouco de pão",
+			"carrot": "Você comeu uma cenoura",
+			"carrotslices": "Você comeu algumas fatias de cenoura",
 			"chili": "You've eaten a hot chili pepper",
-			"cookie": "You've eaten a tasty cookie",
-			"corncob": "You've eaten a cob of corn",
+			"cookie": "Você comeu um biscoito saboroso",
+			"corncob": "Você comeu uma espiga de milho",
 			"gingerroot": "You've eaten a raw ginger root",
 			"lettuce": "You've eaten some lettuce",
 			"lettuceleaves": "You've eaten some lettuce leaves",
-			"medkit": "You have used a medkit to treat your wounds",
+			"medkit": "Você usou um kit médico para tratar seus ferimentos",
 			"pear": "You've eaten a pear",
-			"potato": "You've eaten a raw potato",
-			"pumpkinslice": "You've eaten a piece of pumpkin",
+			"potato": "Você comeu uma batata crua",
+			"pumpkinslice": "Você comeu um pedaço de abóbora",
 			"ripepear": "You've eaten an overripe pear...",
-			"splint": "You have splinted your broken leg\n\nBe careful until your bone is fully healed!",
-			"steak": "<color=red>You've eaten a raw steak. Not sure if this is healthy...</color>",
-			"steakburned": "<color=red>You've eaten a burned steak</color>",
-			"steakcooked": "You've eaten a steak",
-			"steakdried": "You've eaten a dried steak",
-			"tomato": "You've eaten a tomato",
-			"water": "You drank some water",
-			"watermelon": "You've eaten a whole watermelon!",
-			"watermelonslice": "You've eaten a slice of watermelon"
+			"splint": "Você imobilizou sua perna quebrada\n\nCuidado até que seu osso esteja totalmente curado!",
+			"steak": "<color=red>Você comeu carne crua. Não tenho certeza se isso é saudável...</color>",
+			"steakburned": "<color=red>Você comeu carne queimada</color>",
+			"steakcooked": "Você comeu um bife",
+			"steakdried": "Você comeu uma carne seca",
+			"tomato": "Você comeu um tomate",
+			"water": "Você bebeu um pouco de água",
+			"watermelon": "Você comeu uma melancia inteira!",
+			"watermelonslice": "Você comeu uma fatia de melancia"
 		},
 		"conversion": {
 			"error": "World conversion error",
@@ -1491,8 +1491,8 @@
 			"unknownidentity": "O nome dele é desconhecido"
 		},
 		"crafting": {
-			"missingcraftingstation": "There is no suitable crafting station in your proximity!",
-			"missingingredients": "You don't have all required ingredients in your inventory!"
+			"missingcraftingstation": "Não há estação de fabricação adequada nas proximidades!",
+			"missingingredients": "Você não tem todos os ingredientes necessários em seu inventário!"
 		},
 		"creative": {
 			"areacreate": "Area Create Tool",
@@ -1540,8 +1540,8 @@
 			"toolnotavailableyet": "This tool is not available yet"
 		},
 		"drink": {
-			"nosaltwater": "You cannot drink salt water",
-			"water": "You drank some water"
+			"nosaltwater": "Você não pode beber água salgada",
+			"water": "Você bebeu um pouco de água"
 		},
 		"error": {
 			"blueprints": {
@@ -1576,49 +1576,49 @@
 			"windows7": "Unfortunately there is a bug in the latest Unity version, which prevents the game from running on Windows 7. We have already reported this bug to Unity, and Unity did also confirm it.\n\nBecause this is a bug in the engine itself, we have no control over it unfortunately, so we have to wait until Unity fixes this issue.\n\nWe are sorry about the inconvenience! We have created a pinned topic in the Steam forums about this issue, which also contains a link to Unitys public bug tracker. We'll update the thread as soon as we have any news."
 		},
 		"farming": {
-			"requiresfarmland": "This plant can be planted only on arable land.\nUse a hoe to prepare the ground"
+			"requiresfarmland": "Isso só pode ser plantado em terras aráveis.\nUse uma enxada para preparar o terreno"
 		},
 		"images": {
-			"maxamountreached": "The max allowed amount of uploaded images has been reached (see permission)",
-			"uploadfailed": "Image upload failed",
-			"uploadheader": "Image upload",
-			"uploadtimeout": "Timeout while uploading the image. It's unclear whether or not the upload was successful, because there was no response from the server..."
+			"maxamountreached": "A quantidade máxima permitida de imagens carregadas foi atingida (consulte a permissão)",
+			"uploadfailed": "Falha no upload da imagem",
+			"uploadheader": "Carregamento de imagem",
+			"uploadtimeout": "Tempo limite durante o upload da imagem. Não está claro se o upload foi bem-sucedido ou não, porque não houve resposta do servidor..."
 		},
 		"inventory": {
-			"itemduplicated": "Item duplicated!",
-			"itemequipped": "Item equipped: {0}",
-			"itemsplitted": "Item-Stack splitted!",
-			"notenoughconstructionelements": "Not enough construction elements in inventory",
-			"notenoughitems": "Not enough items in inventory",
-			"workbenchinproximity": "A workbench must be in proxmity to perform this action"
+			"itemduplicated": "Item duplicado!",
+			"itemequipped": "Item equipado: {0}",
+			"itemsplitted": "Pilha de itens dividida!",
+			"notenoughconstructionelements": "Não há elementos de construção suficientes no inventário",
+			"notenoughitems": "Não há itens suficientes no inventário",
+			"workbenchinproximity": "Uma bancada de trabalho deve estar próxima para executar esta ação"
 		},
-		"inventoryfull": "Your inventory is full",
+		"inventoryfull": "Seu inventário está cheio",
 		"items": {
 			"bottle": {
-				"empty": "This bottle is empty"
+				"empty": "Esta garrafa está vazia"
 			},
 			"bow": {
-				"changingarrow": "Changing arrow: {0}",
-				"noarrows": "You don't have any arrows",
-				"onlyonearrowtype": "You only have a single type of arrow in your inventory!"
+				"changingarrow": "Mudando de flecha: {0}",
+				"noarrows": "Você não tem nenhuma flecha",
+				"onlyonearrowtype": "Você só tem um único tipo de flecha em seu inventário!"
 			},
-			"cantdounderwater": "You can't do that while you're underwater",
-			"doesnotworkunderwater": "This item does not work underwater",
-			"itemstoohot": "These items are too hot to be picked up",
-			"itemtoohot": "This item is too hot to be picked up",
+			"cantdounderwater": "Você não pode fazer isso enquanto estiver debaixo d'água",
+			"doesnotworkunderwater": "Este item não funciona debaixo d'água",
+			"itemstoohot": "Esses itens estão muito quentes para serem recolhidos",
+			"itemtoohot": "Este item está muito quente para ser recolhido",
 			"medical": {
 				"bandage": {
-					"cannotuse": "You have already bandaged your wounds!",
-					"notneeded": "You're not bleeding right now and don't need a bandage",
-					"stillbleeding": "You are still bleeding!! \n\nTry to use another bandage!"
+					"cannotuse": "Você já enfaixou suas feridas!",
+					"notneeded": "Você não está sangrando agora e não precisa de um curativo",
+					"stillbleeding": "Você ainda está sangrando!! \n\nTente usar outro curativo!"
 				},
 				"medkit": {
-					"notneeded": "You don't need a medkit right now"
+					"notneeded": "Você não precisa de um kit de primeiros socorros agora"
 				},
 				"splint": {
-					"broke": "Your leg splint broke!!",
-					"cannotuse": "You have already splinted your leg!",
-					"notneeded": "You don't have any broken bones at the moment"
+					"broke": "Sua tala de perna quebrou!!",
+					"cannotuse": "Você já imobilizou sua perna!",
+					"notneeded": "Você não tem nenhum osso quebrado no momento"
 				}
 			},
 			"wateringcan": {
@@ -1719,7 +1719,7 @@
 			"whitelisted": "You are not whitelisted for this server!",
 			"wrongpassword": "Incorrect password!"
 		},
-		"noloot": "There is nothing to loot...",
+		"noloot": "Não há nada para saquear...",
 		"npc": {
 			"cannotride": "You cannot ride this horse yet",
 			"delete": {
@@ -1736,69 +1736,69 @@
 			"tooyoungtoshear": "This lamb is too young to be shorn"
 		},
 		"objects": {
-			"cannotplaceinwater": "You cannot place this object in water",
-			"deconstructing": "Deconstructing...",
-			"cannotpickup": "You cannot pick up this object",
+			"cannotpickup": "Você não pode pegar este objeto",
+			"cannotplaceinwater": "Você não pode colocar este objeto na água",
+			"deconstructing": "Desconstruindo...",
 			"door": {
-				"cannotlock": "You cannot lock this door",
-				"cannotremovelocked": "You cannot pickup the door while it is locked!",
-				"cannotunlock": "You cannot unlock this door",
-				"obstructed": "This door is obstructed!",
-				"removing": "Removing door..."
+				"cannotlock": "Você não pode trancar esta porta",
+				"cannotremovelocked": "Você não pode remover a porta enquanto ela estiver trancada!",
+				"cannotunlock": "Você não pode destrancar esta porta",
+				"obstructed": "Esta porta está obstruída!",
+				"removing": "Removendo a porta..."
 			},
 			"furnace": {
-				"broken": "This furnace no longer works",
-				"fuel": "Fuel: ",
-				"fuellvl": "Fuel: {0}",
-				"fuelreplenished": "Fuel replenished: {0}",
-				"nofuel": "This furnace has no fuel",
-				"nofuelrefill": "This furnace has no fuel.\nYou can refuel it on the left side",
-				"placedore": "Ore placed"
+				"broken": "Esta fornalha não funciona mais",
+				"fuel": "Combustível: ",
+				"fuellvl": "Combustível: {0}",
+				"fuelreplenished": "Combustível reabastecido: {0}",
+				"nofuel": "Este fornalha não tem combustível",
+				"nofuelrefill": "Esta fornalha não tem combustível.\nVocê pode reabastecê-la no lado esquerdo",
+				"placedore": "Minério colocado"
 			},
 			"light": {
-				"cannotuse": "You cannot control this lamp",
+				"cannotuse": "Você não pode controlar esta lâmpada",
 				"flashing": {
-					"off": "Turned flashing light off",
-					"on": "Turned flashing light on"
+					"off": "Desligou a lanterna",
+					"on": "Acendeu a lanterna"
 				},
-				"off": "Turned light off",
-				"on": "Turned light on"
+				"off": "Apagou a luz",
+				"on": "Acendeu a luz"
 			},
-			"obstructed": "This space is obstructed",
-			"occupied": "This space is occupied",
+			"obstructed": "Este espaço está obstruído",
+			"occupied": "Este espaço é ocupado",
 			"oven": {
-				"broken": "This oven no longer works",
-				"fuel": "Fuel: ",
-				"fuellvl": "Fuel: {0}",
-				"fuelreplenished": "Fuel replenished: {0}",
-				"nofuel": "This oven has no fuel",
-				"nofuelrefill": "This oven has no fuel.\nYou can refuel it on the left side"
+				"broken": "Este forno não funciona mais",
+				"fuel": "Combustível: ",
+				"fuellvl": "Combustível: {0}",
+				"fuelreplenished": "Combustível reabastecido: {0}",
+				"nofuel": "Este forno não tem combustível",
+				"nofuelrefill": "Este forno não tem combustível.\nVocê pode reabastecê-lo no lado esquerdo"
 			},
 			"paperpress": {
 				"waterrequired": "You first have to add water to turn the rags into paper"
 			},
-			"placed": "Placed: {0}",
+			"placed": "Colocado: {0}",
 			"placement": {
-				"campfiregrill": "This object can only be attached to camp fires!",
-				"skewer": "This object can only be attached to camp fires!"
+				"campfiregrill": "Este objeto só pode ser anexado a fogueiras!",
+				"skewer": "Este objeto só pode ser anexado a fogueiras!"
 			},
-			"placing": "Placing: {0}",
-			"removing": "Removing...",
+			"placing": "Colocando: {0}",
+			"removing": "Removendo...",
 			"spinningwheel": {
-				"usereel": "To use the spinning wheel, interact with the reel while holding fibers or wool in your hand"
+				"usereel": "Para usar a roda giratória, interaja com o carretel enquanto segura fibras ou lã na mão"
 			},
 			"storage": {
-				"broken": "This chest is broken",
-				"cannotaccess": "You cannot open this chest",
-				"cannotlock": "You cannot lock this chest",
-				"cannotremovelocked": "You cannot pickup the chest while it is locked!",
-				"cannottakeitems": "You cannot take items from this chest",
-				"cannotunlock": "You cannot unlock this chest"
+				"broken": "Este baú está quebrado",
+				"cannotaccess": "Você não pode abrir este baú",
+				"cannotlock": "Você não pode trancar este baú",
+				"cannotremovelocked": "Você não pode pegar o baú enquanto ele estiver trancado!",
+				"cannottakeitems": "Você não pode pegar itens deste baú",
+				"cannotunlock": "Você não pode destrancar este baú"
 			}
 		},
 		"paint": {
-			"cannotpaint": "You can't paint this",
-			"fullypainted": "This element is fully painted"
+			"cannotpaint": "Você não pode pintar isso",
+			"fullypainted": "Este elemento está totalmente pintado"
 		},
 		"permission": {
 			"blueprintelementlimit": "Permission: You are not allowed to place a blueprint containing that many building parts on this server!",
@@ -1815,13 +1815,13 @@
 			"noteleport": "Teleportation is not allowed",
 			"novoip": "Voice chat is not allowed"
 		},
-		"placed": "Placed: {0}",
-		"placing": "Placing: {0}",
+		"placed": "Colocado: {0}",
+		"placing": "Colocando: {0}",
 		"processing": {
 			"meatdryer": {
-				"dried": "Meat is fully dried",
-				"halfdried": "Meat is half dried, still not ready",
-				"raw": "Meat is still raw"
+				"dried": "A carne está totalmente seca",
+				"halfdried": "A carne está meio seca, ainda não está pronta",
+				"raw": "A carne ainda está crua"
 			}
 		},
 		"settings": {
@@ -1846,11 +1846,11 @@
 			"commandnotavailable": "This command is not available in singleplayer"
 		},
 		"state": {
-			"bleeding": "You are bleeding!",
-			"brokenbonejump": "Your leg is broken, you cannot jump",
-			"flyspeed": "<b>Flying speed changed to {0} %</b>",
-			"splintedbone": "You have splinted your broken leg\n\nBe careful until your bone is fully healed",
-			"zoomtoggle": "Zoom enabled!"
+			"bleeding": "Você está sangrando!",
+			"brokenbonejump": "Sua perna está quebrada, você não pode pular",
+			"flyspeed": "<b>Velocidade de vôo alterada para {0} %</b>",
+			"splintedbone": "Você imobilizou sua perna quebrada\n\nTenha cuidado até que seu osso esteja totalmente curado",
+			"zoomtoggle": "Zoom ativado!"
 		},
 		"steam": {
 			"p2p": {
@@ -1859,14 +1859,14 @@
 				"notavailable": "Steam P2P Multiplayer is only available for Steam clients!\nPlease use the regular LAN mode instead"
 			}
 		},
-		"storagefull": "No more room left",
+		"storagefull": "Não há mais espaço sobrando",
 		"vehicle": {
-			"exit": "Press ESC to exit",
-			"nofreeseat": "No free seat was found",
-			"otherstagerequired": "This kit can only be assembled on: <color=yellow>{0}</color>",
-			"placingvehicle": "Placing vehicle component...",
-			"seatoccupied": "This seat is occupied",
-			"vehicleassemblyrequired": "You can only assemble this kit on an existing vehicle"
+			"exit": "Pressione ESC para sair",
+			"nofreeseat": "Nenhum assento livre foi encontrado",
+			"otherstagerequired": "Este kit só pode ser montado em: <color=yellow>{0}</color>",
+			"placingvehicle": "Colocando componente do veículo...",
+			"seatoccupied": "Este assento está ocupado",
+			"vehicleassemblyrequired": "Você só pode montar este kit em um veículo existente"
 		},
 		"voipdisabled": "Voice chat is disabled",
 		"warning": {
@@ -1875,7 +1875,7 @@
 			"unabletosaveworld": "WARNING: World could not be saved!"
 		},
 		"weapon": {
-			"outofammo": "Out of ammo"
+			"outofammo": "Sem munição"
 		},
 		"world": {
 			"undo": {
