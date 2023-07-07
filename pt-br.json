@@ -3347,16 +3347,16 @@
 			},
 			"items": {
 				"bottle": {
-					"drink": "Drink",
-					"refill": "Refill"
+					"drink": "Beber",
+					"refill": "Encher"
 				},
 				"bow": {
-					"aim": "Aim",
-					"changearrow": "Change Arrow (HOLD)"
-					"shoot": "Shoot"
+					"aim": "Mirar",
+					"changearrow": "Mudar Flecha (SEGURAR)",
+					"shoot": "Atirar"
 				},
 				"bread": {
-					"cut": "Cut bread"
+					"cut": "Cortar o pão"
 				},
 				"explosive": {
 					"fuse": "Light fuse",
@@ -3371,22 +3371,22 @@
 					"changetargetore": "Change target ore"
 				},
 				"painttool": {
-					"changecolor": "Change color"
+					"changecolor": "Mudar cor"
 				},
 				"poster": {
 					"place": "Colocar Imagem (SEGURAR)",
 					"select": "Selecionar Imagem"
 				},
 				"rake": {
-					"primary": "Smooth soil (lower)",
-					"secondary": "Smooth soil (raise)"
+					"primary": "Alisar o solo (abaixar)",
+					"secondary": "Alisar o solo (aumentar)"
 				},
 				"shears": {
-					"shearsheep": "Shear sheep"
+					"shearsheep": "Tosquiar ovelha"
 				},
 				"torch": {
-					"light": "Light torch",
-					"unlight": "Extinguish torch"
+					"light": "Acender tocha",
+					"unlight": "Apagar tocha"
 				}
 			}
 		},
