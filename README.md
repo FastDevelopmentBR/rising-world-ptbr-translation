@@ -23,4 +23,4 @@ Foi incluído no projeto o babeledit file para que possamos faciliar tradução 
 https://www.codeandweb.com/babeledit
 
 ### Observação
-A tradução está incompleta, parte ainda está em inglês e parte já em Português Brasileiro (pt-BR). Fique a vontade para revisar o arquivo e sugerir novas traduções ou ajustar nos termos já traduzidos.
+A tradução está incompleta, parte ainda está em inglês e parte já em Português Brasileiro (pt-BR). Fique a vontade para revisar o arquivo e sugerir novas traduções ou ajustar o que nós já temos traduzido.
