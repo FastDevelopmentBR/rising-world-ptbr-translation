@@ -54,20 +54,20 @@
 			}
 		},
 		"grass": {
-			"grass": "Grass",
-			"grassarid": "Grass Arid",
-			"grassdead": "Dead Grass",
-			"grassdry": "Dry Grass",
-			"grassforest": "Forest Grass",
-			"grassfrozen": "Frozen Grass",
-			"grassjungle": "Jungle Grass",
-			"grassseaweed": "Sea Grass",
+			"grass": "Grama",
+			"grassarid": "Grama Árida",
+			"grassdead": "Grama Morta",
+			"grassdry": "Grama Seca",
+			"grassforest": "Grama Florestal",
+			"grassfrozen": "Grama Congelada",
+			"grassjungle": "Grama da Selva",
+			"grassseaweed": "Algas Marinhas",
 			"height": {
-				"default": "Default",
-				"mediumtall": "Tall",
-				"plain": "Plain",
-				"short": "Short",
-				"tall": "Very tall"
+				"default": "Padrão",
+				"mediumtall": "Alta",
+				"plain": "Lisa",
+				"short": "Curta'",
+				"tall": "Muito Alta"
 			}
 		},
 		"id": "ID: {0}",
@@ -878,17 +878,17 @@
 			"name": "Gold wire"
 		},
 		"grass": {
-			"desc": "A tuft of grass",
-			"name": "Grass"
+			"desc": "Um tufo de grama",
+			"name": "Grama"
 		},
 		"group": {
-			"cloth": "Cloth",
-			"fibers": "Cotton / Fibers",
-			"knife": "Knife",
+			"cloth": "Pano",
+			"fibers": "Algodão / Fibras",
+			"knife": "Faca",
 			"metal": "Metal",
-			"sapling": "Sapling",
-			"treelog": "Piece of log",
-			"water": "Water"
+			"sapling": "Muda",
+			"treelog": "Pedaço de tronco",
+			"water": "Água"
 		},
 		"gunpowder": {
 			"desc": "Explosive powder. Important ingredient for the production of various ammunition and explosives",
@@ -899,12 +899,12 @@
 			"name": "Hemp fibers"
 		},
 		"hoe": {
-			"desc": "Used to prepare the ground for cultivation",
-			"name": "Hoe"
+			"desc": "Usado para preparar o terreno para cultivo",
+			"name": "Enxada"
 		},
 		"hoesteel": {
-			"desc": "Used to prepare the ground for cultivation. More robust than the iron hoe",
-			"name": "Hoe (steel)"
+			"desc": "Usado para preparar o terreno para cultivo. Mais robusto que a enxada de ferro",
+			"name": "Enxada (aço)"
 		},
 		"ironingot": {
 			"name": "Iron ingot"
@@ -1072,12 +1072,12 @@
 			"name": "Rags"
 		},
 		"rake": {
-			"desc": "Used to smooth out the ground. More efficient and robust than the wooden rake",
-			"name": "Rake"
+			"desc": "Usado para suavizar o solo. Mais eficiente e robusto que o ancinho de madeira",
+			"name": "Ancinho"
 		},
 		"rakewood": {
-			"desc": "Used to smooth out the ground",
-			"name": "Wooden rake"
+			"desc": "Usado para suavizar o solo",
+			"name": "Ancinho de madeira"
 		},
 		"repeater": {
 			"desc": "A bold action repeating rifle. Superior to the musket in terms of firing rate, accuracy and effective range",
@@ -1115,30 +1115,30 @@
 			"name": "Rubber duck"
 		},
 		"sapling": {
-			"name": "Sapling"
+			"name": "Muda"
 		},
 		"saplingacacia": {
-			"desc": "A sapling of an acacia",
-			"name": "Sapling (acacia)"
+			"desc": "Uma muda de uma acácia",
+			"name": "Muda (acácia)"
 		},
 		"saplingapple": {
-			"desc": "A sapling of an apple tree",
-			"name": "Sapling (apple tree)"
+			"desc": "Uma muda de uma macieira",
+			"name": "Muda (macieira)"
 		},
 		"saplingaraucaria": {
-			"desc": "A sapling of a big araucaria",
-			"name": "Sapling (araucaria)"
+			"desc": "Uma muda de uma grande araucária",
+			"name": "Muda (araucária)"
 		},
 		"saplingbirch": {
-			"desc": "A sapling of a birch",
-			"name": "Sapling (birch)"
+			"desc": "Uma muda de uma bétula",
+			"name": "Muda (bétula)"
 		},
 		"saplingbushcedar": {
-			"desc": "A sapling of a bush",
-			"name": "Sapling (bush)"
+			"desc": "Uma muda de um arbusto",
+			"name": "Muda (arbusto)"
 		},
 		"saplingcactus": {
-			"name": "Sapling (cactus)"
+			"name": "Muda (cacto)"
 		},
 		"saplingcarrot": {
 			"name": "Sapling (carrot)"
@@ -1153,78 +1153,78 @@
 			"name": "Sapling (cotton)"
 		},
 		"saplingcypress": {
-			"desc": "A sapling of a cypress",
-			"name": "Sapling (cypress)"
+			"desc": "Uma muda de um cipreste",
+			"name": "Muda (cipreste)"
 		},
 		"saplinghemp": {
 			"name": "Sapling (hemp)"
 		},
 		"saplinghickory": {
-			"desc": "A sapling of a hickory tree",
-			"name": "Sapling (hickory)"
+			"desc": "Uma muda de um nogueira",
+			"name": "Muda (nogueira)"
 		},
 		"saplinglettuce": {
 			"name": "Sapling (lettuce)"
 		},
 		"saplinglondonplane": {
-			"desc": "A sapling of a london plane",
-			"name": "Sapling (london plane)"
+			"desc": "Uma muda de um plátano de Londres",
+			"name": "Muda (Plátano de Londres)"
 		},
 		"saplingpalm": {
-			"desc": "A sapling of a palm tree",
-			"name": "Sapling (palm)"
+			"desc": "Uma muda de uma palmeira",
+			"name": "Muda (palmeira)"
 		},
 		"saplingpalm2": {
-			"desc": "A sapling of a palm tree, grown from a coconut",
-			"name": "Sapling (palm)"
+			"desc": "Uma muda de uma palmeira, cultivada a partir de um coco",
+			"name": "Muda (palmeira)"
 		},
 		"saplingpotato": {
 			"name": "Sapling (potato)"
 		},
 		"saplingredmaple": {
-			"desc": "A sapling of a red maple tree",
-			"name": "Sapling (red maple)"
+			"desc": "Uma muda de bordo vermelho",
+			"name": "Muda (bordo vermelho)"
 		},
 		"saplingspruce": {
-			"desc": "A sapling of a spruce",
-			"name": "Sapling (spruce)"
+			"desc": "Uma muda de um abeto",
+			"name": "Muda (abeto)"
 		},
 		"saplingspruceforest": {
-			"desc": "A sapling of a big forest spruce",
-			"name": "Sapling (forest spruce)"
+			"desc": "Uma muda de um grande abeto",
+			"name": "Muda (abeto florestal)"
 		},
 		"saplingtomato": {
 			"name": "Sapling (tomato)"
 		},
 		"saplingweepingbeech": {
-			"desc": "A sapling of a weeping beech",
-			"name": "Sapling (weeping beech)"
+			"desc": "Uma muda de uma faia chorona",
+			"name": "Muda (faia chorona)"
 		},
 		"saplingwheat": {
 			"name": "Sapling (wheat)"
 		},
 		"saplingwillowoak": {
-			"desc": "A sapling of a willow oak",
-			"name": "Sapling (willow oak)"
+			"desc": "Uma muda de um carvalho\\u00ADsalqueiro",
+			"name": "Muda (carvalho\\u00ADsalqueiro)"
 		},
 		"scythe": {
-			"desc": "Useful to clear large areas of grass",
-			"name": "Scythe"
+			"desc": "Útil para limpar grandes áreas de grama",
+			"name": "Gadanha"
 		},
 		"scythesteel": {
-			"desc": "Useful to clear large areas of grass. More robust than the iron scythe",
-			"name": "Scythe (steel)"
+			"desc": "Útil para limpar grandes áreas de grama. Mais robusto que a gadanha de ferro",
+			"name": "Gadanha (aço)"
 		},
 		"seedling": {
-			"name": "Seedling"
+			"name": "Plântula"
 		},
 		"sickle": {
-			"desc": "Useful if you want to collect grass or smaller plants",
-			"name": "Sickle"
+			"desc": "Útil se você deseja coletar grama ou plantas menores",
+			"name": "Foice"
 		},
 		"sicklesteel": {
-			"desc": "Useful if you want to collect grass or smaller plants. More robust than the iron sickle",
-			"name": "Sickle (steel)"
+			"desc": "Útil se você deseja coletar grama ou plantas menores. Mais robusto que a foice de ferro",
+			"name": "Foice (aço)"
 		},
 		"sledgehammer": {
 			"desc": "Used to remove construction elements without destroying them",
@@ -1285,60 +1285,60 @@
 			"name": "Torch"
 		},
 		"treelog": {
-			"desc": "A piece of a log",
-			"name": "Piece of log"
+			"desc": "Um pedaço de tronco",
+			"name": "Pedaço de tronco"
 		},
 		"treelogacacia": {
-			"desc": "Piece of log of an acacia",
-			"name": "Piece of log (acacia)"
+			"desc": "Pedaço de tronco de uma acácia",
+			"name": "Pedaço de tronco (acácia)"
 		},
 		"treelogapple": {
-			"desc": "Piece of log of an apple tree",
-			"name": "Piece of log (apple tree)"
+			"desc": "Pedaço de tronco de uma macieira",
+			"name": "Pedaço de tronco (macieira)"
 		},
 		"treelogaraucaria": {
-			"desc": "Piece of log of an araucaria",
-			"name": "Piece of log (araucaria)"
+			"desc": "Pedaço de tronco de uma araucária",
+			"name": "Pedaço de tronco (araucária)"
 		},
 		"treelogbirch": {
-			"desc": "Piece of log of a birch",
-			"name": "Piece of log (birch)"
+			"desc": "Pedaço de tronco de uma bétula",
+			"name": "Pedaço de tronco (bétula)"
 		},
 		"treelogcactus": {
-			"desc": "Piece of log of a cactus",
-			"name": "Piece of log (cactus)"
+			"desc": "Pedaço de tronco de um cacto",
+			"name": "Pedaço de tronco (cacto)"
 		},
 		"treelogcypress": {
-			"desc": "Piece of log of a cypress",
-			"name": "Piece of log (cypress)"
+			"desc": "Pedaço de tronco de um cipreste",
+			"name": "Pedaço de tronco (cipreste)"
 		},
 		"treeloghickory": {
-			"desc": "Piece of log of a hickory tree",
-			"name": "Piece of log (hickory)"
+			"desc": "Pedaço de tronco de uma nogueira",
+			"name": "Pedaço de tronco (nogueira)"
 		},
 		"treeloglondonplane": {
-			"desc": "Piece of log of a london plane",
-			"name": "Piece of log (london plane)"
+			"desc": "Pedaço de tronco de um plátano de Londres",
+			"name": "Pedaço de tronco (plátano de Londres)"
 		},
 		"treelogpalm": {
-			"desc": "Piece of log of a palm tree",
-			"name": "Piece of log (palm)"
+			"desc": "Pedaço de tronco de uma palmeira",
+			"name": "Pedaço de tronco (palmeira)"
 		},
 		"treelogredmaple": {
-			"desc": "Piece of log of a red maple tree",
-			"name": "Piece of log (red maple)"
+			"desc": "Pedaço de tronco de bordo vermelho",
+			"name": "Pedaço de tronco (bordo vermelho)"
 		},
 		"treelogspruce": {
-			"desc": "Piece of log of a spruce",
-			"name": "Piece of log (spruce)"
+			"desc": "Pedaço de tronco de um abeto",
+			"name": "Pedaço de tronco (abeto)"
 		},
 		"treelogweepingbeech": {
-			"desc": "Piece of log of a weeping beech",
-			"name": "Piece of log (weeping beech)"
+			"desc": "Pedaço de tronco de uma faia chorona",
+			"name": "Pedaço de tronco (faia chorona)"
 		},
 		"treelogwillowoak": {
-			"desc": "Piece of log of a willow oak",
-			"name": "Piece of log (willow oak)"
+			"desc": "Pedaço de tronco de um carvalho\\u00ADsalqueiro",
+			"name": "Pedaço de tronco (carvalho\\u00ADsalqueiro)"
 		},
 		"tungsteningot": {
 			"name": "Tungsten ingot"
@@ -2679,99 +2679,99 @@
 		}
 	},
 	"plant": {
-		"acacia": "Acacia",
-		"acaciadead": "Acacia (dead)",
+		"acacia": "Acácia",
+		"acaciadead": "Acácia (morta)",
 		"acropora": "Coral (acropora)",
-		"alcyonacea": "Coral (Alcyonacea)",
-		"aloevera": "Aloe Vera",
-		"apple": "Apple tree",
-		"appledead": "Apple tree (dead)",
-		"applegreen": "Apple tree (green)",
-		"araucaria": "Araukarie",
-		"birch": "Birch",
-		"braincoral": "Brain coral",
-		"bush": "Bush",
-		"bushcedar": "Bush",
-		"cactus": "Cactus",
-		"cactussmall": "Cactus small",
-		"carrot": "Carrot",
+		"alcyonacea": "Coral (alcionáceo)",
+		"aloevera": "Babosa",
+		"apple": "Macieira",
+		"appledead": "Macieira (morta)",
+		"applegreen": "Macieira (verde)",
+		"araucaria": "Araucária",
+		"birch": "Bétula",
+		"braincoral": "Coral\\u00ADcérebro",
+		"bush": "Arbusto",
+		"bushcedar": "Arbusto",
+		"cactus": "Cacto",
+		"cactussmall": "Cacto pequeno",
+		"carrot": "Cenoura",
 		"category": {
-			"api": "New Plants",
-			"crops": "Crops",
-			"cropsaplings": "Saplings (Crops)",
-			"flowers": "Flowers",
-			"misc": "Miscellaneous",
-			"other": "Other",
-			"plants": "Plants",
-			"rocks": "Rocks",
-			"saplings": "Saplings",
-			"trees": "Trees",
-			"treesdead": "Dead Trees",
-			"treesyoung": "Young Trees",
-			"trunks": "Tree Trunks",
-			"underwater": "Underwater"
+			"api": "Novas Plantas",
+			"crops": "Plantações",
+			"cropsaplings": "Mudas (Plantações)",
+			"flowers": "Flores",
+			"misc": "Diversos",
+			"other": "Outros",
+			"plants": "Plantas",
+			"rocks": "Rochas",
+			"saplings": "Mudas",
+			"trees": "Árvores",
+			"treesdead": "Árvores mortas",
+			"treesyoung": "Árvores jovens",
+			"trunks": "Troncos de árvores",
+			"underwater": "Embaixo da agua"
 		},
-		"chili": "Chili plant",
+		"chili": "Pé de pimenta",
 		"coral": "Coral",
-		"corallimorpharia": "Coralli\\u00ADmorpharia",
-		"corn": "Corn",
-		"cotton": "Cotton",
-		"cypress": "Cypress",
-		"cypressdead": "Cypress (dead)",
-		"dandelion": "Dandelion",
+		"corallimorpharia": "Corallimorpharia",
+		"corn": "Milho",
+		"cotton": "Algodão",
+		"cypress": "Cipreste",
+		"cypressdead": "Cipreste (morto)",
+		"dandelion": "Dente de leão",
 		"eusmilia": "Eusmilia fastigiata",
-		"fern": "Fern",
-		"flowers": "Flowers",
-		"grasstuft": "Tuft of grass",
-		"heather": "Heather",
-		"hemp": "Hemp plant",
-		"henbane": "Henbane",
-		"hickory": "Hickory",
+		"fern": "Samambaia",
+		"flowers": "Flores",
+		"grasstuft": "Tufo de grama",
+		"heather": "Urze",
+		"hemp": "Pé de cânhamo",
+		"henbane": "Meimendro",
+		"hickory": "Nogueira",
 		"hogweed": "Hogweed",
-		"ivy": "Ivy",
-		"lettuce": "Lettuce",
-		"londonplane": "London plane",
-		"monstera": "Monstera",
-		"ore": "Ore rock",
-		"palm": "Palm",
-		"pillarcoral": "Pillar coral",
+		"ivy": "Hera",
+		"lettuce": "Alface",
+		"londonplane": "Plátano de Londres",
+		"monstera": "Costela\\u00ADde\\u00ADadão",
+		"ore": "Rocha de minério",
+		"palm": "Palmeira",
+		"pillarcoral": "Coral pilar",
 		"pocillopora": "Coral (pocillopora)",
-		"potato": "Potato plant",
-		"pumpkin": "Pump\\u00ADkin",
-		"redmaple": "Red maple",
-		"redmapledead": "Red maple (dead)",
-		"redwood": "Redwood",
-		"rock": "Rock",
-		"rocklarge": "Rock (large)",
-		"rockmedium": "Rock (medium)",
-		"rocksmall": "Rock (small)",
+		"potato": "Pé de batata",
+		"pumpkin": "Abóbora",
+		"redmaple": "Bordo vermelho",
+		"redmapledead": "Bordo vermelho (morto)",
+		"redwood": "Sequoia",
+		"rock": "Rocha",
+		"rocklarge": "Rocha (grande)",
+		"rockmedium": "Rocha (média)",
+		"rocksmall": "Rocha (pequena)",
 		"scrollcoral": "Scroll coral",
-		"seagrass": "Seagrass",
-		"seaweed": "Seaweed",
-		"spruce": "Spruce",
-		"spruce2": "Spruce 2",
-		"sprucedead": "Spruce (dead)",
-		"spruceforest": "Forest spruce",
-		"spruceforest2": "Forest spruce 2",
-		"spruceforest3": "Forest spruce 3",
-		"spruceforest4": "Forest spruce 4",
-		"spruceforestdead": "Forest spruce (dead)",
+		"seagrass": "Ervas marinhas",
+		"seaweed": "Algas marinhas",
+		"spruce": "Abeto",
+		"spruce2": "Abeto 2",
+		"sprucedead": "Abeto (morto)",
+		"spruceforest": "Abeto florestal",
+		"spruceforest2": "Abeto florestal 2",
+		"spruceforest3": "Abeto florestal 3",
+		"spruceforest4": "Abeto florestal 4",
+		"spruceforestdead": "Abeto florestal (morto)",
 		"stage": {
-			"dead": "Dead",
-			"growing": "Growing",
-			"sapling": "Sapling",
-			"young": "Young"
+			"dead": "Morto",
+			"growing": "Crescendo",
+			"sapling": "Muda",
+			"young": "Jovem"
 		},
-		"starcoral": "Star coral",
-		"tomato": "Tomato plant",
-		"treetrunk": "Tree trunk",
-		"treetrunkhollow": "Tree trunk (hollow)",
-		"tubesponge": "Tube sponge",
-		"watermelon": "Water\\u00ADmelon",
-		"weepingbeech": "Weeping beech",
-		"wheat": "Wheat",
-		"willowoak": "Willow oak",
-		"willowoakdead": "Willow oak (dead)"
+		"starcoral": "Coral estrela",
+		"tomato": "Pé de Tomate",
+		"treetrunk": "Tronco de árvore",
+		"treetrunkhollow": "Tronco de árvore (oco)",
+		"tubesponge": "Esponja tubo",
+		"watermelon": "Melancia",
+		"weepingbeech": "Faia chorona",
+		"wheat": "Trigo",
+		"willowoak": "Carvalho\\u00ADsalqueiro",
+		"willowoakdead": "Carvalho\\u00ADsalqueiro (morto)"
 	},
 	"platform": {
 		"lanservername": "Rising World Sessão LAN - {0}",
