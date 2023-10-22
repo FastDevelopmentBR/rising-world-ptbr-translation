@@ -1627,71 +1627,72 @@
 			}
 		},
 		"lan": {
-			"portinuse": "Port {0} is already in use!"
+			"portinuse": "A porta {0} já está em uso!"
 		},
 		"loading": {
-			"somethingwentwrong": "Something went wrong...",
-			"unabletoconnect": "Unable to connect to server",
-			"unabletoconnectp2p": "Unable to join game"
+			"somethingwentwrong": "Algo deu errado...",
+			"unabletoconnect": "Não foi possível conectar ao servidor",
+			"unabletoconnectp2p": "Incapaz de entrar no jogo"
 		},
 		"mainmenu": {
 			"mp": {
-				"wrongversion": "This server uses a different version!\n\nServer version: {0}\nYour version: {1}",
-				"wrongversionheader": "Wrong version"
+				"wrongversion": "Este servidor usa uma versão diferente!\n\nVersão do servidor: {0}\nSua versão: {1}",
+				"wrongversionheader": "Versão errada"
 			},
 			"sp": {
 				"backup": {
-					"createbackup": "Do you really want to create a backup? ",
-					"creatingbackup": "Creating backup, please wait...",
-					"failure": "Backup failed!",
-					"success": "Backup created successfully!\nDuration: {0} ms"
+					"createbackup": "Você realmente deseja criar um backup? ",
+					"creatingbackup": "Criando backup, aguarde...",
+					"failure": "Falha no backup!",
+					"success": "Backup criado com sucesso!\nDuração: {0} ms"
 				},
-				"createbackup": "Do you really want to create a backup? ",
-				"deleteworld": "Do you really want to delete this world?",
-				"deleteworldtitle": "Delete World: {0}",
-				"nop2pofflinemode": "You cannot host a P2P multiplayer session in offline mode!",
-				"renameworld": "Please enter a new name for the world:",
-				"selectworldfirst": "Please select a world first!",
-				"worldalreadyexists": "World [0} already exists",
-				"worldnameinvalid": "World name {0} is invalid"
+				"createbackup": "Você realmente deseja criar um backup? ",
+				"deleteworld": "Você realmente quer deletar este mundo?",
+				"deleteworldtitle": "Excluir mundo: {0}",
+				"nop2pofflinemode": "Você não pode hospedar uma sessão multijogador P2P no modo offline!",
+				"renameworld": "Por favor insira um novo nome para o mundo:",
+				"selectworldfirst": "Selecione um mundo primeiro!",
+				"worldalreadyexists": "O mundo {0} já existe",
+				"worldnameinvalid": "Nome do mundo {0} é inválido",
+				"worldexistsorinvalidname": "Nome do mundo {0} é inválido"
 			}
 		},
 		"multiplayer": {
-			"admingranted": "You are now an admin on this server!",
-			"adminrevoked": "You are no longer an admin on this server!",
-			"authenticationerror": "Authentication failed: \n{0}",
-			"authenticationexception": "An exception occurred during authentication",
+			"admingranted": "Agora você é um administrador neste servidor!",
+			"adminrevoked": "Você não é mais um administrador neste servidor!",
+			"authenticationerror": "Falha na autenticação: \n{0}",
+			"authenticationexception": "Ocorreu uma exceção durante a autenticação",
 			"authresult": {
-				"buffertoosmall": "Buffer too small",
-				"duplicaterequest": "Duplicate request",
-				"expiredticket": "Expired ticket",
-				"failedtogetticket": "Failed to get ticket",
-				"gamemismatch": "Game mismatch",
-				"incompatibleplatform": "Incompatible platform",
-				"invalidticket": "Invalid ticket",
-				"invaliduid": "Invalid UID",
-				"invalidversion": "Invalid version",
+				"buffertoosmall": "Buffer muito pequeno",
+				"duplicaterequest": "Solicitação duplicada",
+				"expiredticket": "Ticket expirado",
+				"failedtogetticket": "Não foi possível obter o ticket",
+				"gamemismatch": "Incompatibilidade de jogo",
+				"incompatibleplatform": "Plataforma incompatível",
+				"invalidticket": "Ticket inválido",
+				"invaliduid": "UID inválida",
+				"invalidversion": "Versão inválida",
 				"ok": "Ok",
-				"unknown": "Unknown",
-				"waiting": "Waiting"
+				"unknown": "Desconhecido",
+				"waiting": "Esperando"
 			},
-			"banned": "You have been banned from the server!",
-			"blacklisted": "You are not allowed to join this server! (Blacklist)",
-			"connectionerror": "Connection error",
-			"corruptedplayer": "Corrupted player data.\nPlease contact a server admin!",
-			"groupinvite": "{0} wants to invite you into his group",
-			"illegalstate": "Illegal state limit exceeded! Please check your internet connection and make sure you're not using modified game files!",
-			"incorrectauthentication": "Incorrect authentication procedure",
-			"incorrectversion": "Your game uses a different version than the server!",
-			"invalidplayername": "Your player name is invalid",
-			"invaliduid": "Invalid UID",
-			"isbanned": "You're banned from this server!",
-			"itemgive": "An item was added to your inventory: {0} (x{1})",
-			"itemgiveself": "You have given yourself an item: {0} (x{1})",
-			"kicked": "You have been kicked from the Server!",
-			"maxplayersreached": "Maximum number of players reached!",
+			"banned": "Você foi banido do servidor!",
+			"blacklisted": "Você não tem permissão para ingressar neste servidor! (Lista negra)",
+			"connectionerror": "Erro de conexão",
+			"corruptedplayer": "Dados do jogador corrompidos.\nEntre em contato com o administrador do servidor!",
+			"groupinvite": "{0} quer convidar você para o grupo dele",
+			"illegalstate": "Limite de estado ilegal excedido! Verifique sua conexão com a Internet e certifique-se de não estar usando arquivos de jogo modificados!",
+			"incorrectauthentication": "Procedimento de autenticação incorreto",
+			"incorrectversion": "Seu jogo usa uma versão diferente do servidor!",
+			"invalidplayername": "Seu nome de jogador é inválido",
+			"invaliduid": "UID inválido",
+			"isbanned": "Você está banido deste servidor!",
+			"itemgive": "Um item foi adicionado ao seu inventário: {0} (x{1})",
+			"itemgiveself": "Você deu a si mesmo um item: {0} (x{1})",
+			"kicked": "Você foi expulso do servidor!",
+			"maxplayersreached": "Número máximo de jogadores alcançado!",
 			"namealreadyinuse": "Your player name is already in use!",
-			"passwordneeded": "Please enter the password to join this server",
+			"passwordneeded": "Por favor, digite a senha para entrar neste servidor",
 			"permbanned": "You have been permanently banned from this server!",
 			"permissiongroupchanged": "Your permission were updated ({0})",
 			"playerconnect": "Player {0} has joined!",
@@ -1709,7 +1710,7 @@
 			"servernotready": "Server isn't ready yet. Please try again in a few seconds",
 			"shutdownnow": "Attention: Server will shutdown now!",
 			"timeofdaychange": "Time of day has been changed by {0}",
-			"timeout": "Connection timeout!",
+			"timeout": "Tempo limite de conexão excedido!",
 			"timespeedchange": "The time speed has been changed by {0}",
 			"uidalreadyinuse": "Another player with your UID is already connected!",
 			"versionmismatch": "Version mismatch! {0} vs {1}",
@@ -1717,7 +1718,7 @@
 			"weathersnowinesschange": "Global snowiness has been changed by {0}",
 			"weatherwetnesschange": "Global ground wetness has been changed by {0}",
 			"whitelisted": "You are not whitelisted for this server!",
-			"wrongpassword": "Incorrect password!"
+			"wrongpassword": "Senha errada!"
 		},
 		"noloot": "Não há nada para saquear...",
 		"npc": {
@@ -1843,7 +1844,7 @@
 			}
 		},
 		"singleplayer": {
-			"commandnotavailable": "This command is not available in singleplayer"
+			"commandnotavailable": "Este comando não está disponível no modo Um Jogador"
 		},
 		"state": {
 			"bleeding": "Você está sangrando!",
@@ -2882,7 +2883,7 @@
 				"sleep": "Sleep"
 			},
 			"blueprints": "Blueprints",
-			"close": "Close",
+			"close": "Fechar",
 			"crafting": "Crafting",
 			"fire": {
 				"extinguish": "Extinguish",
