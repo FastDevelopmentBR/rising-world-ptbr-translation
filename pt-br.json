@@ -72,13 +72,13 @@
 		},
 		"id": "ID: {0}",
 		"ore": {
-			"aluminium": "Aluminum ore",
-			"coal": "Coal",
-			"iron": "Iron ore",
-			"mithril": "Mithril ore",
-			"sulfur": "Sulfur ore",
-			"tungsten": "Tungsten ore",
-			"unknown": "Unknown ore"
+			"aluminium": "Minério de alumínio",
+			"coal": "Carvão",
+			"iron": "Minério de ferro",
+			"mithril": "Minério de mithril",
+			"sulfur": "Minério de enxofre",
+			"tungsten": "Minério de tungstênio",
+			"unknown": "Minério desconhecido"
 		},
 		"terrain": {
 			"category": {
@@ -656,18 +656,18 @@
 	},
 	"item": {
 		"aluminiumingot": {
-			"name": "Aluminum ingot"
+			"name": "Lingote de alumínio"
 		},
 		"aluminiumore": {
-			"name": "Aluminum ore"
+			"name": "Minério de alumínio"
 		},
 		"aluminiumplate": {
-			"desc": "A sheet made out of aluminum",
-			"name": "Aluminum sheet"
+			"desc": "Uma chapa feita de alumínio",
+			"name": "Chapa de alumínio"
 		},
 		"aluminiumwire": {
-			"desc": "A small wire, made out of aluminum",
-			"name": "Aluminum wire"
+			"desc": "Um pequeno fio feito de alumínio",
+			"name": "Fio de alumínio"
 		},
 		"apple": {
 			"desc": "Uma maçã saudável",
@@ -758,11 +758,11 @@
 			"name": "Circuit board"
 		},
 		"coal": {
-			"name": "Coal"
+			"name": "carvão"
 		},
 		"coalpowder": {
-			"desc": "Crushed coal",
-			"name": "Coal powder"
+			"desc": "Carvão triturado",
+			"name": "Pó de Carvão"
 		},
 		"coarsecloth": {
 			"desc": "A piece of coarse cloth",
@@ -864,18 +864,18 @@
 			"name": "Raiz de gengibre"
 		},
 		"goldingot": {
-			"name": "Gold ingot"
+			"name": "Lingote de ouro"
 		},
 		"goldore": {
-			"name": "Gold ore"
+			"name": "Minério de ouro"
 		},
 		"goldplate": {
-			"desc": "A sheet made out of gold",
-			"name": "Gold sheet"
+			"desc": "Uma chapa feita de ouro",
+			"name": "Chapa de ouro"
 		},
 		"goldwire": {
-			"desc": "A small wire, made out of gold",
-			"name": "Gold wire"
+			"desc": "Um pequeno fio feito de ouro",
+			"name": "Fio de ouro"
 		},
 		"grass": {
 			"desc": "Um tufo de grama",
@@ -907,18 +907,18 @@
 			"name": "Enxada (aço)"
 		},
 		"ironingot": {
-			"name": "Iron ingot"
+			"name": "Lingote de ferro"
 		},
 		"ironore": {
-			"name": "Iron ore"
+			"name": "Minério de ferro"
 		},
 		"ironplate": {
-			"desc": "Basic crafting resource, made out of iron ingots",
-			"name": "Iron sheet"
+			"desc": "Recurso básico para criação, feito de lingotes de ferro",
+			"name": "Chapa de ferro"
 		},
 		"ironwire": {
-			"desc": "A small wire, made out of iron",
-			"name": "Iron wire"
+			"desc": "Um pequeno fio feito de ferro",
+			"name": "Fio de ferro"
 		},
 		"lantern": {
 			"name": "Lantern"
@@ -998,8 +998,8 @@
 			"name": "Tosquiadeira"
 		},
 		"oredetector": {
-			"desc": "An ore detector, which can find nearby veins of ore",
-			"name": "Ore detector"
+			"desc": "Um detector de minério, que pode encontrar veios de minério próximos",
+			"name": "Detector de minério"
 		},
 		"paddle1": {
 			"desc": "Wooden paddles. Required for small rowboats",
@@ -1028,12 +1028,12 @@
 			"name": "Penlight"
 		},
 		"pickaxe": {
-			"desc": "An iron pickaxe. Used for mining stone and ores",
-			"name": "Pickaxe"
+			"desc": "Uma picareta de ferro. Usado para mineração de pedras e minérios",
+			"name": "Picareta"
 		},
 		"pickaxesteel": {
-			"desc": "A modern steel pickaxe. More efficient and robust than the iron pickaxe",
-			"name": "Pickaxe (steel)"
+			"desc": "Uma picareta de aço moderna. Mais eficiente e robusto que a picareta de ferro",
+			"name": "Picareta (aço)"
 		},
 		"poster": {
 			"desc": "Um poster. Você pode usá-lo para carregar uma imagem do seu disco rígido e colocá-la no mundo",
@@ -1269,10 +1269,10 @@
 			"name": "Stone"
 		},
 		"sulfur": {
-			"name": "Sulfur"
+			"name": "Enxofre"
 		},
 		"sulfurpowder": {
-			"name": "Sulfur powder"
+			"name": "Pó de enxofre"
 		},
 		"tentbag": {
 			"name": "Tent bag"
@@ -1341,18 +1341,18 @@
 			"name": "Pedaço de tronco (carvalho\\u00ADsalqueiro)"
 		},
 		"tungsteningot": {
-			"name": "Tungsten ingot"
+			"name": "Lingote de tungstênio"
 		},
 		"tungstenore": {
-			"name": "Tungsten ore"
+			"name": "Minério de tungstênio"
 		},
 		"tungstenplate": {
-			"desc": "A sheet made out of tungsten",
-			"name": "Tungsten sheet"
+			"desc": "Uma chapa feita de tungstênio",
+			"name": "Chapa de tungstênio"
 		},
 		"tungstenwire": {
-			"desc": "A small wire, made out of tungsten",
-			"name": "Tungsten wire"
+			"desc": "Um pequeno fio feito de tungstênio",
+			"name": "Fio de tungstênio"
 		},
 		"walkietalkie": {
 			"desc": "A portable, hand-held radio transceiver",
@@ -1907,8 +1907,8 @@
 			}
 		},
 		"oredetector": {
-			"allores": "<All ores>",
-			"display": "{0}  <size=60%>{1}</size>\n\nSignal: {2} %"
+			"allores": "<Todos os minérios>",
+			"display": "{0}  <size=60%>{1}</size>\n\nSinal: {2} %"
 		},
 		"world": {
 			"caves": {
@@ -2237,12 +2237,12 @@
 			"name": "Front door (glass)"
 		},
 		"furnace": {
-			"desc": "Enables you to smelt ores into ingots (24 slots)",
-			"name": "Smelting furnace"
+			"desc": "Permite fundir minérios em lingotes (24 slots)",
+			"name": "Forno de fundição"
 		},
 		"furnacebig": {
-			"desc": "Enables you to smelt ores into ingots. Has a higher fuel consumption, but also a particularly large capacity (60 slots)",
-			"name": "Big smelting furnace"
+			"desc": "Permite que você transforme minérios em lingotes. Tem um maior consumo de combustível, mas também uma capacidade particularmente grande (60 slots)",
+			"name": "Grande forno de fundição"
 		},
 		"gramophone": {
 			"name": "Gramophone"
