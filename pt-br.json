@@ -1204,8 +1204,8 @@
 			"name": "Muda (trigo)"
 		},
 		"saplingwillowoak": {
-			"desc": "Uma muda de um carvalho\\u00ADsalqueiro",
-			"name": "Muda (carvalho\\u00ADsalqueiro)"
+			"desc": "Uma muda de um carvalho-salqueiro",
+			"name": "Muda (carvalho-salqueiro)"
 		},
 		"scythe": {
 			"desc": "Útil para limpar grandes áreas de grama",
@@ -1337,8 +1337,8 @@
 			"name": "Pedaço de tronco (faia chorona)"
 		},
 		"treelogwillowoak": {
-			"desc": "Pedaço de tronco de um carvalho\\u00ADsalqueiro",
-			"name": "Pedaço de tronco (carvalho\\u00ADsalqueiro)"
+			"desc": "Pedaço de tronco de um carvalho-salqueiro",
+			"name": "Pedaço de tronco (carvalho-salqueiro)"
 		},
 		"tungsteningot": {
 			"name": "Lingote de tungstênio"
@@ -2689,7 +2689,7 @@
 		"applegreen": "Macieira (verde)",
 		"araucaria": "Araucária",
 		"birch": "Bétula",
-		"braincoral": "Coral\\u00ADcérebro",
+		"braincoral": "Coral-cérebro",
 		"bush": "Arbusto",
 		"bushcedar": "Arbusto",
 		"cactus": "Cacto",
@@ -2713,12 +2713,12 @@
 		},
 		"chili": "Pé de pimenta",
 		"coral": "Coral",
-		"corallimorpharia": "Corallimorpharia",
+		"corallimorpharia": "Coralli\\u00ADmorpharia",
 		"corn": "Milho",
 		"cotton": "Algodão",
 		"cypress": "Cipreste",
 		"cypressdead": "Cipreste (morto)",
-		"dandelion": "Dente de leão",
+		"dandelion": "Dente-de-leão",
 		"eusmilia": "Eusmilia fastigiata",
 		"fern": "Samambaia",
 		"flowers": "Flores",
@@ -2731,7 +2731,7 @@
 		"ivy": "Hera",
 		"lettuce": "Alface",
 		"londonplane": "Plátano de Londres",
-		"monstera": "Costela\\u00ADde\\u00ADadão",
+		"monstera": "Costela-de-adão",
 		"ore": "Rocha de minério",
 		"palm": "Palmeira",
 		"pillarcoral": "Coral pilar",
@@ -2770,8 +2770,8 @@
 		"watermelon": "Melancia",
 		"weepingbeech": "Faia chorona",
 		"wheat": "Trigo",
-		"willowoak": "Carvalho\\u00ADsalqueiro",
-		"willowoakdead": "Carvalho\\u00ADsalqueiro (morto)"
+		"willowoak": "Carvalho-salqueiro",
+		"willowoakdead": "Carvalho-salqueiro (morto)"
 	},
 	"platform": {
 		"lanservername": "Rising World Sessão LAN - {0}",
