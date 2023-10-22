@@ -2082,8 +2082,8 @@
 			"name": "Animal feeder"
 		},
 		"anvil": {
-			"desc": "Required to process ingots",
-			"name": "Anvil"
+			"desc": "Necessário para processar lingotes",
+			"name": "Bigorna"
 		},
 		"barrierlight": {
 			"name": "Barrier light"
@@ -2098,8 +2098,8 @@
 			"name": "Birdhouse"
 		},
 		"blueprinttable": {
-			"desc": "Allows you to organize and select your blueprints",
-			"name": "Blueprint table"
+			"desc": "Permite que você organize e selecione seus projetos",
+			"name": "Mesa de projeto"
 		},
 		"bonfire": {
 			"desc": "Large fire which is visible from a long distance. Provides warmth, light and safety",
@@ -2251,8 +2251,8 @@
 			"name": "Grandfather clock"
 		},
 		"grinder": {
-			"desc": "Is used for grinding solid materials",
-			"name": "Grinder"
+			"desc": "É usado para moer materiais sólidos",
+			"name": "Moedor"
 		},
 		"grindstone": {
 			"desc": "A grinding stone that can be used to sharpen certain tools and weapons (like swords), which improves their stats",
@@ -2291,8 +2291,8 @@
 			"name": "Rack de secagem"
 		},
 		"paperpress": {
-			"desc": "Turns rags into paper",
-			"name": "Paper press"
+			"desc": "Transforma trapos em papel",
+			"name": "Prensa de papel"
 		},
 		"piano": {
 			"desc": "A piano which can be played using your keyboard",
@@ -2493,12 +2493,12 @@
 			"name": "Cupboard"
 		},
 		"workbench": {
-			"desc": "Standard workbench, used to craft common tools",
-			"name": "Workbench"
+			"desc": "Bancada de trabalho padrão, usada para criar ferramentas comuns",
+			"name": "Bancada de trabalho"
 		},
 		"workbenchmodern": {
-			"desc": "Modern workbench, used to craft modern tools",
-			"name": "Modern workbench"
+			"desc": "Bancada de trabalho moderna, usada para fabricar ferramentas modernas",
+			"name": "Bancada de trabalho moderna"
 		},
 		"xmastree": {
 			"name": "Christmas tree"
