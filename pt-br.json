@@ -3379,8 +3379,8 @@
 					"select": "Selecionar Imagem"
 				},
 				"rake": {
-					"primary": "Alisar o solo (abaixar)",
-					"secondary": "Alisar o solo (aumentar)"
+					"primary": "Suavizar o solo (abaixar)",
+					"secondary": "Suavizar o solo (aumentar)"
 				},
 				"shears": {
 					"shearsheep": "Tosquiar ovelha"
