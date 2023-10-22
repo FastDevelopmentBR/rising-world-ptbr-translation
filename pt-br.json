@@ -808,8 +808,8 @@
 			"name": "Espiga de milho"
 		},
 		"cotton": {
-			"desc": "Can be spun to yarn on a spinning wheel",
-			"name": "Cotton"
+			"desc": "Pode tornar-se fio em uma roda de fiar",
+			"name": "Algodão"
 		},
 		"decal": {
 			"desc": "Semelhante a um poster, mas adapta-se ao solo. Ideal se você deseja projetar uma imagem em uma superfície irregular",
@@ -994,8 +994,8 @@
 			"name": "Object kit"
 		},
 		"oldshears": {
-			"desc": "Used to shear sheeps to get their wool",
-			"name": "Shear"
+			"desc": "Usado para tosquiar ovelhas para obter lã",
+			"name": "Tosquiadeira"
 		},
 		"oredetector": {
 			"desc": "An ore detector, which can find nearby veins of ore",
@@ -1379,12 +1379,12 @@
 			"name": "Trigo"
 		},
 		"wool": {
-			"desc": "Obtainable from sheeps. Can be spun to yarn on a spinning wheel",
-			"name": "Wool"
+			"desc": "Obtido de ovelhas. Pode tornar-se fio em uma roda de fiar",
+			"name": "Lã"
 		},
 		"yarn": {
-			"desc": "Consists of fabrics, spun at a spinning wheel. Used to create various fabrics",
-			"name": "Yarn"
+			"desc": "Consiste em tecidos fiados em uma roda de fiar. Usado para criar vários tecidos",
+			"name": "Fio"
 		}
 	},
 	"location": {
@@ -1786,7 +1786,7 @@
 			"placing": "Colocando: {0}",
 			"removing": "Removendo...",
 			"spinningwheel": {
-				"usereel": "Para usar a roda giratória, interaja com o carretel enquanto segura fibras ou lã na mão"
+				"usereel": "Para usar a roda de fiar, interaja com o carretel enquanto segura fibras ou lã na mão"
 			},
 			"storage": {
 				"broken": "Este baú está quebrado",
@@ -2419,8 +2419,8 @@
 			"name": "Soccer goal"
 		},
 		"spinningwheel": {
-			"desc": "Is used for spinning yarn from fibers or wool",
-			"name": "Spinning wheel"
+			"desc": "É usado para fiar fios de fibras ou lã",
+			"name": "Roda de Fiar"
 		},
 		"standingtorch": {
 			"desc": "Provides light. Can be placed anywhere",
