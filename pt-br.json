@@ -1246,19 +1246,19 @@
 			"name": "Standing torch"
 		},
 		"steak": {
-			"name": "Raw meat"
+			"name": "Carne crua"
 		},
 		"steakbaked": {
-			"name": "Baked meat"
+			"name": "Carne assada"
 		},
 		"steakburned": {
-			"name": "Burned meat"
+			"name": "Carne queimada"
 		},
 		"steakcooked": {
-			"name": "Cooked meat"
+			"name": "Carne cozida"
 		},
 		"steakdried": {
-			"name": "Dried meat"
+			"name": "Carne seca"
 		},
 		"stick": {
 			"desc": "Basic crafting resource",
@@ -2119,12 +2119,12 @@
 			"name": "Cabinet"
 		},
 		"campfire": {
-			"desc": "Provides warmth, light and safety. Can also be used to cook meat",
-			"name": "Campfire"
+			"desc": "Proporciona calor, luz e segurança. Também pode ser usado para cozinhar carne",
+			"name": "Fogueira"
 		},
 		"campfiregrill": {
-			"desc": "A grill rack. Place it on a campfire to cook meat",
-			"name": "Cooking grate"
+			"desc": "Uma grelha. Coloque-o em uma fogueira para cozinhar carne",
+			"name": "Grelha"
 		},
 		"candle": {
 			"name": "Candle"
@@ -2280,15 +2280,15 @@
 			"name": "Log bench"
 		},
 		"masonryoven": {
-			"desc": "An oven made out of stone. Can be used for baking food",
-			"name": "Masonry oven"
+			"desc": "Um forno feito de pedra. Pode ser usado para assar alimentos",
+			"name": "Forno de alvenaria"
 		},
 		"mattress": {
 			"name": "Mattress"
 		},
 		"meatdryer": {
-			"desc": "Used to dry raw meat. This preserves the meat, but it takes a long time",
-			"name": "Drying rack"
+			"desc": "Usado para secar carne crua. Isso conserva a carne, mas leva muito tempo",
+			"name": "Rack de secagem"
 		},
 		"paperpress": {
 			"desc": "Turns rags into paper",
@@ -2408,8 +2408,8 @@
 			"name": "Standing sign"
 		},
 		"skewer": {
-			"desc": "A simple wooden skewer. Place it on a campfire to cook meat",
-			"name": "Skewer"
+			"desc": "Um simples espeto de madeira. Coloque-o em uma fogueira para cozinhar carne",
+			"name": "Espeto"
 		},
 		"snowman": {
 			"desc": "A snow sculpture",
