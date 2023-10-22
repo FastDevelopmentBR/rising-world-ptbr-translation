@@ -682,8 +682,8 @@
 			"name": "Explosive arrow"
 		},
 		"arrowprimitive": {
-			"desc": "A primitive arrow that is quite inaccurate",
-			"name": "Primitive arrow"
+			"desc": "Uma flecha primitiva bastante imprecisa",
+			"name": "Flecha primitiva"
 		},
 		"axe": {
 			"desc": "An iron axe. Can be used to cut down trees or to destroy wooden structures",
@@ -720,8 +720,8 @@
 			"name": "Bottle"
 		},
 		"bow1": {
-			"desc": "A simple bow with which arrows can be shot",
-			"name": "Bow"
+			"desc": "Um arco simples com o qual flechas podem ser disparadas",
+			"name": "Arco"
 		},
 		"branch": {
 			"desc": "Natural resource. Can be used to craft sticks",
@@ -1047,16 +1047,16 @@
 			"name": "Pouch"
 		},
 		"primitiveaxe": {
-			"desc": "Primitive tool. Can be used to break rocks or cut trees, but is not very effective",
-			"name": "Primitive stone axe"
+			"desc": "Ferramenta primitiva. Pode ser usado para quebrar pedras ou cortar árvores, mas não é muito eficaz",
+			"name": "Machado de pedra primitivo"
 		},
 		"primitiveknife": {
-			"desc": "A primitive knife. Not very effective, but serves as a basic melee weapon and is also required for tanning",
-			"name": "Primitive stone knife"
+			"desc": "Uma faca primitiva. Não é muito eficaz, mas serve como uma arma corpo a corpo básica e também é necessário para curtimento de peles",
+			"name": "Faca de pedra primitiva"
 		},
 		"primitivespear": {
-			"desc": "A primitive spear with a stone head. Can both be thrown at targets and used as melee weapon",
-			"name": "Primitive spear"
+			"desc": "Uma lança primitiva com ponta de pedra. Pode ser lançada em alvos e usada como arma corpo a corpo",
+			"name": "Lança primitiva"
 		},
 		"pumpkin": {
 			"name": "Abóbora"
@@ -1491,7 +1491,7 @@
 			"unknownidentity": "O nome dele é desconhecido"
 		},
 		"crafting": {
-			"missingcraftingstation": "Não há estação de fabricação adequada nas proximidades!",
+			"missingcraftingstation": "Não há estação de trabalho adequada nas proximidades!",
 			"missingingredients": "Você não tem todos os ingredientes necessários em seu inventário!"
 		},
 		"creative": {
@@ -2307,16 +2307,16 @@
 			"name": "Poster"
 		},
 		"primitivefurnace": {
-			"desc": "Enables you to smelt ores into ingots, but has limited capacity (8 slots)",
-			"name": "Primitive smelting furnace"
+			"desc": "Permite fundir minérios em lingotes, mas tem capacidade limitada (8 slots)",
+			"name": "Forno de fundição primitivo"
 		},
 		"primitiveshelter": {
-			"desc": "Improvised shelter. You can sleep in it and set your spawn point, but it doesn't look very stable...",
-			"name": "Primitive shelter"
+			"desc": "Abrigo improvisado. Você pode dormir nele e definir seu ponto de desova, mas não parece muito estável...",
+			"name": "Abrigo primitivo"
 		},
 		"primitiveworkbench": {
-			"desc": "Very simple workbench, used to craft basic tools",
-			"name": "Primitive workbench"
+			"desc": "Bancada de trabalho muito simples, usada para criar ferramentas básicas",
+			"name": "Bancada de trabalho primitiva"
 		},
 		"saloondoor": {
 			"desc": "A bi-directional swinging door",
