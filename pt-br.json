@@ -674,12 +674,12 @@
 			"name": "Maçã"
 		},
 		"arrow": {
-			"desc": "A stabilized and accurate arrow",
-			"name": "Arrow"
+			"desc": "Uma flecha estabilizada e precisa",
+			"name": "Flecha"
 		},
 		"arrowexplosive": {
-			"desc": "An explosive arrow that detonates on impact. Much heavier than regular arrows",
-			"name": "Explosive arrow"
+			"desc": "Uma flecha explosiva que detona com o impacto. Muito mais pesado que flechas normais",
+			"name": "Flecha explosiva"
 		},
 		"arrowprimitive": {
 			"desc": "Uma flecha primitiva bastante imprecisa",
@@ -769,8 +769,8 @@
 			"name": "Coarse cloth"
 		},
 		"combatknife": {
-			"desc": "Mainly used as weapon, but is also required for tanning",
-			"name": "Combat knife"
+			"desc": "Usado principalmente como arma, mas também é necessário para curtimento de peles",
+			"name": "Faca de combate"
 		},
 		"compassmodern": {
 			"desc": "Useful for navigation",
@@ -1080,8 +1080,8 @@
 			"name": "Ancinho de madeira"
 		},
 		"repeater": {
-			"desc": "A bold action repeating rifle. Superior to the musket in terms of firing rate, accuracy and effective range",
-			"name": "Repeater"
+			"desc": "Um rifle de repetição de ação ousado. Superior ao mosquete em termos de cadência de tiro, precisão e alcance efetivo",
+			"name": "Rifle de repetição"
 		},
 		"ribkit1": {
 			"desc": "Base kit for crafting a rigid-inflatable-boat. Place it on solid ground to assemble the boat.\n<color=yellow>Kit 1 of 2</color>",
