@@ -686,12 +686,12 @@
 			"name": "Flecha primitiva"
 		},
 		"axe": {
-			"desc": "An iron axe. Can be used to cut down trees or to destroy wooden structures",
-			"name": "Axe"
+			"desc": "Um machado de ferro. Pode ser usado para derrubar árvores ou destruir estruturas de madeira",
+			"name": "Machado"
 		},
 		"axesteel": {
-			"desc": "A modern steel axe. More efficient and robust than the iron axe",
-			"name": "Axe (steel)"
+			"desc": "Um machado de aço moderno. Mais eficiente e robusto que o machado de ferro",
+			"name": "Machado (aço)"
 		},
 		"bandage": {
 			"desc": "Can be used to stop bleeding",
@@ -953,8 +953,8 @@
 			"name": "Megaphone"
 		},
 		"miningdrill": {
-			"desc": "An electric mining drill. Highly efficient. It breaks stone in no time.",
-			"name": "Mining drill"
+			"desc": "Uma furadeira elétrica de mineração. Altamente eficiente. Quebra pedra em pouco tempo.",
+			"name": "Broca de mineração"
 		},
 		"modifier": {
 			"acceptable": "Acceptable",
@@ -1006,12 +1006,12 @@
 			"name": "Paddle (wood)"
 		},
 		"paintbrush": {
-			"desc": "Used to paint surfaces",
-			"name": "Paintbrush"
+			"desc": "Usado para pintar superfícies",
+			"name": "Pincel"
 		},
 		"paintroller": {
-			"desc": "Used to paint surfaces. Works a lot faster than a paintbrush",
-			"name": "Paint roller"
+			"desc": "Usado para pintar superfícies. Funciona muito mais rápido que um pincel",
+			"name": "Rolo de pintura"
 		},
 		"paper": {
 			"desc": "A blank sheet of paper",
@@ -1227,12 +1227,12 @@
 			"name": "Foice (aço)"
 		},
 		"sledgehammer": {
-			"desc": "Used to remove construction elements without destroying them",
-			"name": "Sledge\\u00ADhammer"
+			"desc": "Usado para remover elementos de construção sem destruí-los",
+			"name": "Marreta"
 		},
 		"sledgehammersteel": {
-			"desc": "Used to remove construction elements without destroying them. More effective and robust than the iron sledgehammer",
-			"name": "Sledge\\u00ADhammer (steel)"
+			"desc": "Utilizado para remover elementos de construção sem destruí-los. Mais eficaz e robusto que a marreta de ferro",
+			"name": "Marreta (aço)"
 		},
 		"soccerball": {
 			"desc": "Used to play football",
