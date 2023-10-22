@@ -670,8 +670,8 @@
 			"name": "Aluminum wire"
 		},
 		"apple": {
-			"desc": "A healthy apple",
-			"name": "Apple"
+			"desc": "Uma maçã saudável",
+			"name": "Maçã"
 		},
 		"arrow": {
 			"desc": "A stabilized and accurate arrow",
@@ -698,7 +698,7 @@
 			"name": "Bandage"
 		},
 		"bellpepper": {
-			"name": "Bellpepper"
+			"name": "Pimentão"
 		},
 		"block": {
 			"name": "Block"
@@ -728,30 +728,30 @@
 			"name": "Branch"
 		},
 		"bread": {
-			"name": "Bread"
+			"name": "Pão"
 		},
 		"breadburned": {
-			"name": "Burned bread"
+			"name": "Pão queimado"
 		},
 		"breaddough": {
-			"desc": "Dough for a simple and tasty bread. \n\n<color=yellow><b>REQUIRES BAKING</b></color>",
-			"name": "Bread dough"
+			"desc": "Massa para um pão simples e saboroso. \n\n<color=yellow><b>REQUER COZIMENTO</b></color>",
+			"name": "Massa de pão"
 		},
 		"breadhalf": {
-			"name": "Half bread"
+			"name": "Meio pão"
 		},
 		"canteen": {
 			"desc": "A drinking bottle. Can be filled with water",
 			"name": "Canteen"
 		},
 		"carrot": {
-			"name": "Carrot"
+			"name": "Cenoura"
 		},
 		"carrotslices": {
-			"name": "Carrot slices"
+			"name": "Fatias de cenoura"
 		},
 		"chili": {
-			"name": "Chili"
+			"name": "Pimenta"
 		},
 		"circuitboard": {
 			"desc": "Essential component of many electric devices",
@@ -795,17 +795,17 @@
 			"name": "Cookie"
 		},
 		"cookieburned": {
-			"name": "Burned cookie"
+			"name": "Cookie queimado"
 		},
 		"cookiedough": {
-			"desc": "Dough for a tasteful cookie. \n\n<color=yellow><b>REQUIRES BAKING</b></color>",
-			"name": "Cookie dough"
+			"desc": "Massa para um cookie saboroso. \n\n<color=yellow><b>REQUER COZIMENTO</b></color>",
+			"name": "Massa de cookie"
 		},
 		"corn": {
-			"name": "Corn"
+			"name": "Milho"
 		},
 		"corncob": {
-			"name": "Corncob"
+			"name": "Espiga de milho"
 		},
 		"cotton": {
 			"desc": "Can be spun to yarn on a spinning wheel",
@@ -827,7 +827,7 @@
 			"name": "Earthworm (bait)"
 		},
 		"egg": {
-			"name": "Egg"
+			"name": "Ovo"
 		},
 		"engineboat1": {
 			"desc": "An outboard engine that can be attached to certain boats",
@@ -849,19 +849,19 @@
 			"name": "Spotlight"
 		},
 		"flour": {
-			"desc": "Made from grinded grains. Is used to make different foods, especially dough",
-			"name": "Flour"
+			"desc": "É utilizado para fazer diversos alimentos, principalmente massas",
+			"name": "Farinha"
 		},
 		"food": {
 			"condition": {
-				"edible": "Still edible",
-				"fresh": "Fresh",
-				"ruined": "Ruined",
-				"spoiled": "Spoiled"
+				"edible": "Ainda comestível",
+				"fresh": "Fresco",
+				"ruined": "Arruinado",
+				"spoiled": "Estragado"
 			}
 		},
 		"gingerroot": {
-			"name": "Ginger root"
+			"name": "Raiz de gengibre"
 		},
 		"goldingot": {
 			"name": "Gold ingot"
@@ -895,8 +895,8 @@
 			"name": "Gunpowder"
 		},
 		"hempfibers": {
-			"desc": "Can be spun to yarn on a spinning wheel",
-			"name": "Hemp fibers"
+			"desc": "Pode tornar-se fio em uma roda de fiar",
+			"name": "Fibras de cânhamo"
 		},
 		"hoe": {
 			"desc": "Usado para preparar o terreno para cultivo",
@@ -927,10 +927,10 @@
 			"name": "Big leather bag"
 		},
 		"lettuce": {
-			"name": "Lettuce"
+			"name": "Alface"
 		},
 		"lettuceleaves": {
-			"name": "Lettuce leaves"
+			"name": "Folhas de alface"
 		},
 		"lightbulb": {
 			"desc": "An electric light",
@@ -1018,10 +1018,10 @@
 			"name": "Paper"
 		},
 		"pear": {
-			"name": "Pear"
+			"name": "Pêra"
 		},
 		"peeledpotato": {
-			"name": "Peeled potato"
+			"name": "Batatas descascadas"
 		},
 		"penlight": {
 			"desc": "A portable light source",
@@ -1040,7 +1040,7 @@
 			"name": "Poster"
 		},
 		"potato": {
-			"name": "Potato"
+			"name": "Batata"
 		},
 		"pouch": {
 			"desc": "A pouch which may contain valuable loot",
@@ -1059,13 +1059,13 @@
 			"name": "Primitive spear"
 		},
 		"pumpkin": {
-			"name": "Pumpkin"
+			"name": "Abóbora"
 		},
 		"pumpkinseeds": {
-			"name": "Pumpkin seeds"
+			"name": "Sementes de abóbora"
 		},
 		"pumpkinslice": {
-			"name": "Pumpkin slice"
+			"name": "Fatia de abóbora"
 		},
 		"rags": {
 			"desc": "Some rags. Can be recycled into paper.",
@@ -1092,7 +1092,7 @@
 			"name": "Inflatable boat kit II (Tubes)"
 		},
 		"ripepear": {
-			"name": "Overripe pear"
+			"name": "Pêra madura demais"
 		},
 		"rope": {
 			"desc": "A piece of rope",
@@ -1141,30 +1141,30 @@
 			"name": "Muda (cacto)"
 		},
 		"saplingcarrot": {
-			"name": "Sapling (carrot)"
+			"name": "Muda (cenoura)"
 		},
 		"saplingchili": {
-			"name": "Sapling (chili)"
+			"name": "Muda (pimenta)"
 		},
 		"saplingcorn": {
-			"name": "Sapling (corn)"
+			"name": "Muda (milho)"
 		},
 		"saplingcotton": {
-			"name": "Sapling (cotton)"
+			"name": "Muda (algodão)"
 		},
 		"saplingcypress": {
 			"desc": "Uma muda de um cipreste",
 			"name": "Muda (cipreste)"
 		},
 		"saplinghemp": {
-			"name": "Sapling (hemp)"
+			"name": "Muda (cânhamo)"
 		},
 		"saplinghickory": {
 			"desc": "Uma muda de um nogueira",
 			"name": "Muda (nogueira)"
 		},
 		"saplinglettuce": {
-			"name": "Sapling (lettuce)"
+			"name": "Muda (alface)"
 		},
 		"saplinglondonplane": {
 			"desc": "Uma muda de um plátano de Londres",
@@ -1179,7 +1179,7 @@
 			"name": "Muda (palmeira)"
 		},
 		"saplingpotato": {
-			"name": "Sapling (potato)"
+			"name": "Muda (batata)"
 		},
 		"saplingredmaple": {
 			"desc": "Uma muda de bordo vermelho",
@@ -1194,14 +1194,14 @@
 			"name": "Muda (abeto florestal)"
 		},
 		"saplingtomato": {
-			"name": "Sapling (tomato)"
+			"name": "Muda (tomate)"
 		},
 		"saplingweepingbeech": {
 			"desc": "Uma muda de uma faia chorona",
 			"name": "Muda (faia chorona)"
 		},
 		"saplingwheat": {
-			"name": "Sapling (wheat)"
+			"name": "Muda (trigo)"
 		},
 		"saplingwillowoak": {
 			"desc": "Uma muda de um carvalho\\u00ADsalqueiro",
@@ -1278,7 +1278,7 @@
 			"name": "Tent bag"
 		},
 		"tomato": {
-			"name": "Tomato"
+			"name": "Tomate"
 		},
 		"torch": {
 			"desc": "Serves as light source",
@@ -1363,20 +1363,20 @@
 			"name": "Watering can"
 		},
 		"watermelon": {
-			"name": "Water\\u00ADmelon"
+			"name": "Melancia"
 		},
 		"watermelonseeds": {
-			"name": "Water\\u00ADmelon seeds"
+			"name": "Sementes de melancia"
 		},
 		"watermelonslice": {
-			"name": "Water\\u00ADmelon slice"
+			"name": "Fatia de melancia"
 		},
 		"waterskin": {
 			"desc": "A receptacle made out of leather. Can be filled with water",
 			"name": "Waterskin"
 		},
 		"wheat": {
-			"name": "Wheat"
+			"name": "Trigo"
 		},
 		"wool": {
 			"desc": "Obtainable from sheeps. Can be spun to yarn on a spinning wheel",
@@ -1449,21 +1449,21 @@
 		"consume": {
 			"apple": "Você comeu uma maçã",
 			"bandage": "Você enfaixou suas feridas",
-			"bellpepper": "You've eaten a bell pepper",
+			"bellpepper": "Você comeu um pimentão",
 			"breadhalf": "Você comeu um pouco de pão",
 			"carrot": "Você comeu uma cenoura",
 			"carrotslices": "Você comeu algumas fatias de cenoura",
-			"chili": "You've eaten a hot chili pepper",
+			"chili": "Você comeu uma pimenta malagueta",
 			"cookie": "Você comeu um biscoito saboroso",
 			"corncob": "Você comeu uma espiga de milho",
-			"gingerroot": "You've eaten a raw ginger root",
-			"lettuce": "You've eaten some lettuce",
-			"lettuceleaves": "You've eaten some lettuce leaves",
+			"gingerroot": "Você comeu uma raiz de gengibre crua",
+			"lettuce": "Você comeu um pouco de alface",
+			"lettuceleaves": "Você comeu algumas folhas de alface",
 			"medkit": "Você usou um kit médico para tratar seus ferimentos",
-			"pear": "You've eaten a pear",
+			"pear": "Você comeu uma pêra",
 			"potato": "Você comeu uma batata crua",
-			"pumpkinslice": "Você comeu um pedaço de abóbora",
-			"ripepear": "You've eaten an overripe pear...",
+			"pumpkinslice": "Você comeu uma fatia de abóbora",
+			"ripepear": "Você comeu uma pêra madura demais...",
 			"splint": "Você imobilizou sua perna quebrada\n\nCuidado até que seu osso esteja totalmente curado!",
 			"steak": "<color=red>Você comeu carne crua. Não tenho certeza se isso é saudável...</color>",
 			"steakburned": "<color=red>Você comeu carne queimada</color>",
