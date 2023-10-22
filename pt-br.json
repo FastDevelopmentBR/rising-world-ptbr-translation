@@ -712,8 +712,8 @@
 			"name": "Empty blueprint"
 		},
 		"bomb": {
-			"desc": "Creates an explosion which only damages soft targets",
-			"name": "Old grenade"
+			"desc": "Cria uma explosão que só causa danos a alvos fáceis",
+			"name": "Granada antiga"
 		},
 		"bottle": {
 			"desc": "A simple glass bottle",
@@ -2384,12 +2384,12 @@
 			"name": "Canopy shelter (camouflage)"
 		},
 		"shootingtarget1": {
-			"desc": "Useful for target practice",
-			"name": "Shooting target"
+			"desc": "Útil para prática de tiro ao alvo",
+			"name": "Alvo de tiro"
 		},
 		"shootingtarget2": {
-			"desc": "Useful for target practice",
-			"name": "Shooting target (standing)"
+			"desc": "Útil para prática de tiro ao alvo",
+			"name": "Alvo de tiro (em pé)"
 		},
 		"sign": {
 			"desc": "A simple wooden sign that displays text",
