@@ -1,0 +1,11 @@
+{
+  "name": "comparador",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "pablopereira27@gmail.com",
+  "license": "ISC"
+}

@@ -1,6 +1,8 @@
 # rising-world-ptbr-translation
 Tradução pt-BR (Português Brasileiro) do jogo Rising World. https://store.steampowered.com/app/324080/Rising_World/
 
+Tradução `53%` concluída.
+
 A tradução só pode ser aplicada na Versão Unity do jogo.
 Atualizado para a versão 0.6.7.
 
