@@ -1653,7 +1653,7 @@
 				"renameworld": "Please enter a new name for the world:",
 				"selectworldfirst": "Please select a world first!",
 				"worldalreadyexists": "World [0} already exists",
-				"worldexistsorinvalidname": "",
+				"worldexistsorinvalidname": "World name {0} is invalid",
 				"worldnameinvalid": "World name {0} is invalid"
 			}
 		},
