@@ -2089,10 +2089,10 @@
 			"name": "Barrier light"
 		},
 		"bedold1": {
-			"name": "Old bed"
+			"name": "Cama velha"
 		},
 		"benchold": {
-			"name": "Old bench"
+			"name": "Banco velho"
 		},
 		"birdhouse": {
 			"name": "Birdhouse"
@@ -2106,14 +2106,14 @@
 			"name": "Fogueira de ossos"
 		},
 		"brazier": {
-			"desc": "Provides warmth and light",
-			"name": "Brazier"
+			"desc": "Fornece calor e luz",
+			"name": "Brazeiro"
 		},
 		"bulkheadlamp1": {
-			"name": "Bulkhead lamp (oval)"
+			"name": "Lâmpada de anteparo (oval)"
 		},
 		"bulkheadlamp2": {
-			"name": "Bulkhead lamp (single)"
+			"name": "Lâmpada de anteparo (único)"
 		},
 		"cabinet1": {
 			"name": "Cabinet"
@@ -2127,25 +2127,25 @@
 			"name": "Grelha"
 		},
 		"candle": {
-			"name": "Candle"
+			"name": "Vela"
 		},
 		"ceilinglamp1": {
 			"name": "Ceiling lamp"
 		},
 		"chair": {
-			"name": "Chair"
+			"name": "Cadeira"
 		},
 		"chest1": {
-			"desc": "Can be used to store items",
-			"name": "Old chest"
+			"desc": "Pode ser usado para armazenar itens",
+			"name": "Baú velho"
 		},
 		"chest2": {
-			"desc": "Can be used to store items",
-			"name": "Old chest"
+			"desc": "Pode ser usado para armazenar itens",
+			"name": "Baú velho"
 		},
 		"chest3": {
-			"desc": "Lockable chest. Can be used to store items",
-			"name": "Chest"
+			"desc": "Baú com fechadura. Pode ser usado para armazenar itens",
+			"name": "Baú"
 		},
 		"chickencoop": {
 			"desc": "Used to safely house chickens, which in turn can lay eggs in it",
@@ -2169,72 +2169,72 @@
 			"name": "Decalque"
 		},
 		"doorglass1": {
-			"desc": "A modern glass door",
-			"name": "Glass door"
+			"desc": "Uma porta de vidro moderna",
+			"name": "Porta de vidro"
 		},
 		"doorglass1b": {
-			"desc": "A modern glass door with a thin metal frame",
-			"name": "Glass door (frame)"
+			"desc": "Uma porta de vidro moderna com moldura de metal fina",
+			"name": "Porta de vidro (quadro)"
 		},
 		"doorglass2": {
-			"desc": "A modern glass door",
-			"name": "Glass door"
+			"desc": "Uma porta de vidro moderna",
+			"name": "Porta de vidro"
 		},
 		"doorglass2b": {
-			"desc": "A modern glass door with a thin metal frame",
-			"name": "Glass door (frame)"
+			"desc": "Uma porta de vidro moderna com moldura de metal fina",
+			"name": "Porta de vidro (quadro)"
 		},
 		"doormetal1": {
-			"name": "Old metal door"
+			"name": "Porta metálica antiga"
 		},
 		"doormetal1b": {
-			"name": "Old metal door (arch)"
+			"name": "Porta metálica antiga (arco)"
 		},
 		"doormodern1": {
-			"name": "Wooden door"
+			"name": "Porta de madeira"
 		},
 		"doormodern2": {
-			"name": "Wooden door (glass)"
+			"name": "Porta de madeira (vidro)"
 		},
 		"doormodern3": {
-			"desc": "A modern door",
-			"name": "White door"
+			"desc": "Uma porta moderna",
+			"name": "Porta branca"
 		},
 		"doorold1": {
-			"name": "Old door 1"
+			"name": "Porta velha 1"
 		},
 		"doorold1b": {
-			"name": "Old door 1 (arch)"
+			"name": "Porta velha 1 (arco)"
 		},
 		"doorold2": {
-			"name": "Old door 2"
+			"name": "Porta velha 2"
 		},
 		"doorold2b": {
-			"name": "Old door 2 (arch)"
+			"name": "Porta velha 2 (arco)"
 		},
 		"doorold3": {
-			"name": "Old door 3"
+			"name": "Porta velha 3"
 		},
 		"doorold4": {
-			"name": "Old door 4"
+			"name": "Porta velha 4"
 		},
 		"doorold5": {
-			"name": "Old door 5"
+			"name": "Porta velha 5"
 		},
 		"firelogs": {
-			"name": "Fireplace"
+			"name": "Lareira"
 		},
 		"floodlight": {
-			"desc": "Versatile floodlight with integrated battery. Provides extremely bright light",
-			"name": "Floodlight"
+			"desc": "Holofote versátil com bateria integrada. Fornece luz extremamente brilhante",
+			"name": "Holofote"
 		},
 		"frontdoorglass1": {
-			"desc": "A modern glass front door",
-			"name": "Front door (glass)"
+			"desc": "Uma moderna porta frontal de vidro",
+			"name": "Porta da frente (vidro)"
 		},
 		"frontdoorglass2": {
-			"desc": "A modern glass front door",
-			"name": "Front door (glass)"
+			"desc": "Uma moderna porta frontal de vidro",
+			"name": "Porta da frente (vidro)"
 		},
 		"furnace": {
 			"desc": "Permite fundir minérios em lingotes (24 slots)",
@@ -2259,32 +2259,32 @@
 			"name": "Grindstone"
 		},
 		"ironsign1": {
-			"desc": "A hanging sign, made out of iron. Can display text",
-			"name": "Hanging iron sign"
+			"desc": "Uma placa suspensa, feita de ferro. Pode exibir texto",
+			"name": "Placa de ferro suspensa"
 		},
 		"jackolantern": {
 			"desc": "Uma abóbora esculpida, que pode ser usada como decoração no Halloween",
 			"name": "Jack-o'-lantern"
 		},
 		"ladder": {
-			"name": "Ladder"
+			"name": "Escada"
 		},
 		"lantern": {
-			"name": "Lantern"
+			"name": "Lanterna"
 		},
 		"leathertrunk": {
-			"desc": "Square and small, but with plenty of storage space",
-			"name": "Leather trunk"
+			"desc": "Quadrado e pequeno, mas com muito espaço de armazenamento",
+			"name": "Baú de couro"
 		},
 		"logbench": {
-			"name": "Log bench"
+			"name": "Banco de toras"
 		},
 		"masonryoven": {
 			"desc": "Um forno feito de pedra. Pode ser usado para assar alimentos",
 			"name": "Forno de alvenaria"
 		},
 		"mattress": {
-			"name": "Mattress"
+			"name": "Colchão"
 		},
 		"meatdryer": {
 			"desc": "Usado para secar carne crua. Isso conserva a carne, mas leva muito tempo",
@@ -2299,8 +2299,8 @@
 			"name": "Piano"
 		},
 		"placard": {
-			"desc": "A large sheet on which text can be applied",
-			"name": "Placard"
+			"desc": "Uma folha grande na qual o texto pode ser aplicado",
+			"name": "Placar"
 		},
 		"poster": {
 			"desc": "Um poster. Você pode usá-lo para carregar uma imagem do seu disco rígido e colocá-la no mundo",
@@ -2319,8 +2319,8 @@
 			"name": "Bancada de trabalho primitiva"
 		},
 		"saloondoor": {
-			"desc": "A bi-directional swinging door",
-			"name": "Saloon door"
+			"desc": "Uma porta giratória bidirecional",
+			"name": "Porta de salão"
 		},
 		"scaffolding1": {
 			"desc": "A temporary, modular wooden structure to support constructing a building",
@@ -2375,7 +2375,7 @@
 			"name": "Small scaffolding (B)"
 		},
 		"seat": {
-			"name": "Seat"
+			"name": "Assento"
 		},
 		"sheltercanopy1": {
 			"name": "Abrigo de dossel"
@@ -2396,16 +2396,16 @@
 			"name": "Sign"
 		},
 		"sign1": {
-			"desc": "A small wooden sign that can display text",
-			"name": "Small wooden sign"
+			"desc": "Uma pequena placa de madeira que pode exibir texto",
+			"name": "Pequena placa de madeira"
 		},
 		"sign2": {
-			"desc": "A wooden sign that can display text",
-			"name": "Wooden sign"
+			"desc": "Uma placa de madeira que pode exibir texto",
+			"name": "Placa de madeira"
 		},
 		"sign3": {
-			"desc": "A standing wooden sign that can display text",
-			"name": "Standing sign"
+			"desc": "Uma placa de madeira em pé que pode exibir texto",
+			"name": "Placa em pé"
 		},
 		"skewer": {
 			"desc": "Um simples espeto de madeira. Coloque-o em uma fogueira para cozinhar carne",
@@ -2427,14 +2427,14 @@
 			"name": "Tocha em pé"
 		},
 		"strawbed": {
-			"name": "Straw bed"
+			"name": "Cama de palha"
 		},
 		"streetlamp1": {
-			"desc": "A vintage street lamp",
-			"name": "Street lamp"
+			"desc": "Uma lâmpada de rua vintage",
+			"name": "Lâmpada de rua"
 		},
 		"table": {
-			"name": "Table"
+			"name": "Mesa"
 		},
 		"tanningrack": {
 			"desc": "Is used to turn animal hides and pelts into leather. A knife is required for that",
@@ -2449,14 +2449,14 @@
 			"name": "Small tent"
 		},
 		"text": {
-			"desc": "A transparent sign where only the text is visible",
-			"name": "Text"
+			"desc": "Um sinal transparente onde apenas o texto é visível",
+			"name": "Texto"
 		},
 		"torch": {
 			"name": "Tocha"
 		},
 		"toro": {
-			"name": "Toro lantern"
+			"name": "Lanterna Toro"
 		},
 		"trapdoor": {
 			"desc": "A trapdoor which can be attached to certain scaffolding",
@@ -2471,23 +2471,23 @@
 			"name": "Trash can (metal)"
 		},
 		"trough": {
-			"desc": "A container which can be filled with water",
-			"name": "Trough"
+			"desc": "Um recipiente que pode ser enchido com água",
+			"name": "Cocho"
 		},
 		"walltorch": {
-			"name": "Wall torch"
+			"name": "Tocha de parede"
 		},
 		"weathervane": {
 			"desc": "Used to show the current direction of the wind",
 			"name": "Weather vane"
 		},
 		"woodenbarrel": {
-			"desc": "Can be used to store items",
-			"name": "Wooden barrel"
+			"desc": " Pode ser usado para armazenar itens",
+			"name": "Barril de madeira"
 		},
 		"woodenbarrelopen": {
-			"desc": "A container which can be filled with water",
-			"name": "Wooden barrel (open)"
+			"desc": "Um recipiente que pode ser enchido com água",
+			"name": "Barril de madeira (aberto)"
 		},
 		"woodshelf1": {
 			"name": "Cupboard"
