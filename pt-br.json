@@ -754,19 +754,19 @@
 			"name": "Pimenta"
 		},
 		"circuitboard": {
-			"desc": "Essential component of many electric devices",
-			"name": "Circuit board"
+			"desc": "Componente essencial de muitos dispositivos elétricos",
+			"name": "Placa de circuito"
 		},
 		"coal": {
-			"name": "carvão"
+			"name": "Carvão"
 		},
 		"coalpowder": {
 			"desc": "Carvão triturado",
 			"name": "Pó de Carvão"
 		},
 		"coarsecloth": {
-			"desc": "A piece of coarse cloth",
-			"name": "Coarse cloth"
+			"desc": "Um pedaço de pano grosso",
+			"name": "Pano grosso"
 		},
 		"combatknife": {
 			"desc": "Usado principalmente como arma, mas também é necessário para curtimento de peles",
@@ -891,8 +891,8 @@
 			"water": "Água"
 		},
 		"gunpowder": {
-			"desc": "Explosive powder. Important ingredient for the production of various ammunition and explosives",
-			"name": "Gunpowder"
+			"desc": "Pó explosivo. Ingrediente importante para a produção de diversas munições e explosivos",
+			"name": "Pólvora"
 		},
 		"hempfibers": {
 			"desc": "Pode tornar-se fio em uma roda de fiar",
@@ -933,12 +933,12 @@
 			"name": "Folhas de alface"
 		},
 		"lightbulb": {
-			"desc": "An electric light",
-			"name": "Light bulb"
+			"desc": "Uma luz elétrica",
+			"name": "Lâmpada elétrica"
 		},
 		"lumber": {
-			"desc": "Basic crafting resource",
-			"name": "Lumber"
+			"desc": "Recurso básico para criação",
+			"name": "Madeira serrada"
 		},
 		"measuringtape": {
 			"desc": "Can be used to measure the distance between two points",
@@ -1095,8 +1095,8 @@
 			"name": "Pêra madura demais"
 		},
 		"rope": {
-			"desc": "A piece of rope",
-			"name": "Rope"
+			"desc": "Um pedaço de corda",
+			"name": "Corda"
 		},
 		"rowboatkit1": {
 			"desc": "Base kit for crafting a rowboat. Place it anywhere on land to assemble the boat.\n<color=yellow>Kit 1 of 2</color>",
@@ -1243,7 +1243,7 @@
 			"name": "Leg splint"
 		},
 		"standingtorch": {
-			"name": "Standing torch"
+			"name": "Tocha em pé"
 		},
 		"steak": {
 			"name": "Carne crua"
@@ -1261,8 +1261,8 @@
 			"name": "Carne seca"
 		},
 		"stick": {
-			"desc": "Basic crafting resource",
-			"name": "Stick"
+			"desc": "Recurso básico para criação",
+			"name": "Vara de madeira"
 		},
 		"stone": {
 			"desc": "A simple stone",
@@ -1281,8 +1281,8 @@
 			"name": "Tomate"
 		},
 		"torch": {
-			"desc": "Serves as light source",
-			"name": "Torch"
+			"desc": "Serve como fonte de luz",
+			"name": "Tocha"
 		},
 		"treelog": {
 			"desc": "Um pedaço de tronco",
@@ -2102,8 +2102,8 @@
 			"name": "Mesa de projeto"
 		},
 		"bonfire": {
-			"desc": "Large fire which is visible from a long distance. Provides warmth, light and safety",
-			"name": "Bonfire"
+			"desc": "Grande incêndio visível a longa distância. Fornece calor, luz e segurança",
+			"name": "Fogueira de ossos"
 		},
 		"brazier": {
 			"desc": "Provides warmth and light",
@@ -2378,10 +2378,10 @@
 			"name": "Seat"
 		},
 		"sheltercanopy1": {
-			"name": "Canopy shelter"
+			"name": "Abrigo de dossel"
 		},
 		"sheltercanopy1b": {
-			"name": "Canopy shelter (camouflage)"
+			"name": "Abrigo de dossel (camuflado)"
 		},
 		"shootingtarget1": {
 			"desc": "Útil para prática de tiro ao alvo",
@@ -2423,8 +2423,8 @@
 			"name": "Roda de Fiar"
 		},
 		"standingtorch": {
-			"desc": "Provides light. Can be placed anywhere",
-			"name": "Standing torch"
+			"desc": "Fornece luz. Pode ser colocado em qualquer lugar",
+			"name": "Tocha em pé"
 		},
 		"strawbed": {
 			"name": "Straw bed"
@@ -2453,7 +2453,7 @@
 			"name": "Text"
 		},
 		"torch": {
-			"name": "Torch"
+			"name": "Tocha"
 		},
 		"toro": {
 			"name": "Toro lantern"
