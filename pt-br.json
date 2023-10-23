@@ -119,7 +119,7 @@
 			"snow": "Snow",
 			"stone": "Stone"
 		},
-		"unknown": "Unknown"
+		"unknown": "Desconhecido"
 	},
 	"blueprint": {
 		"create": {
@@ -1653,8 +1653,8 @@
 				"renameworld": "Por favor insira um novo nome para o mundo:",
 				"selectworldfirst": "Selecione um mundo primeiro!",
 				"worldalreadyexists": "O mundo {0} já existe",
-				"worldnameinvalid": "Nome do mundo {0} é inválido",
-				"worldexistsorinvalidname": "Nome do mundo {0} é inválido"
+				"worldexistsorinvalidname": "Nome do mundo {0} é inválido",
+				"worldnameinvalid": "Nome do mundo {0} é inválido"
 			}
 		},
 		"multiplayer": {
