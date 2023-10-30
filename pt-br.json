@@ -1235,8 +1235,8 @@
 			"name": "Marreta (aço)"
 		},
 		"soccerball": {
-			"desc": "Used to play football",
-			"name": "Soccer ball"
+			"desc": "Usado para jogar futebol",
+			"name": "Bola de futebol"
 		},
 		"splint": {
 			"desc": "Uma tala improvisada para as pernas. Apoia a cura de uma fratura óssea",
@@ -2323,56 +2323,56 @@
 			"name": "Porta de salão"
 		},
 		"scaffolding1": {
-			"desc": "A temporary, modular wooden structure to support constructing a building",
-			"name": "Scaffolding"
+			"desc": "Uma estrutura modular de madeira temporária para apoiar a construção de um edifício",
+			"name": "Andaime"
 		},
 		"scaffolding1_frame": {
-			"desc": "The frame of a wooden scaffolding",
-			"name": "Scaffolding (frame)"
+			"desc": "A estrutura de um andaime de madeira",
+			"name": "Andaime (estrutura)"
 		},
 		"scaffolding1_platform": {
-			"desc": "The upper platform of a wooden scaffolding",
-			"name": "Scaffolding (platform)"
+			"desc": "A plataforma superior de um andaime de madeira",
+			"name": "Andaime (platforma)"
 		},
 		"scaffolding1_railing": {
-			"desc": "An optional railing that can be attached to a scaffolding",
-			"name": "Scaffolding railing"
+			"desc": "Uma grade opcional que pode ser fixada em um andaime",
+			"name": "Corrimão de andaime"
 		},
 		"scaffolding1_ramp": {
-			"desc": "A wooden scaffolding which includes a ramp",
-			"name": "Scaffolding (ramp)"
+			"desc": "Um andaime de madeira que inclui uma rampa",
+			"name": "Andaime (rampa)"
 		},
 		"scaffolding1_small": {
-			"desc": "A smaller version of the wooden scaffolding",
-			"name": "Small scaffolding"
+			"desc": "Uma versão menor do andaime de madeira",
+			"name": "Pequeno andaime"
 		},
 		"scaffolding1_small_ladder1": {
-			"desc": "A small wooden scaffolding with an open hatch and a ladder",
-			"name": "Small scaffolding (ladder)"
+			"desc": "Um pequeno andaime de madeira com uma escotilha aberta e uma escada",
+			"name": "Pequeno andaime (escada)"
 		},
 		"scaffolding1_small_ladder2": {
-			"desc": "A small wooden scaffolding with an open hatch and a ladder",
-			"name": "Small scaffolding B (ladder)"
+			"desc": "Um pequeno andaime de madeira com uma escotilha aberta e uma escada",
+			"name": "Pequeno andaime B (escada)"
 		},
 		"scaffolding1_small_ladder3": {
-			"desc": "A small wooden scaffolding with an open hatch",
-			"name": "Small scaffolding (open hatch)"
+			"desc": "Um pequeno andaime de madeira com escotilha aberta",
+			"name": "Pequeno andaime (escotilha aberta)"
 		},
 		"scaffolding1_small_ladder4": {
-			"desc": "A small wooden scaffolding with an open hatch",
-			"name": "Small scaffolding B (open hatch)"
+			"desc": "AUm pequeno andaime de madeira com escotilha aberta",
+			"name": "Pequeno andaime B (escotilha aberta)"
 		},
 		"scaffolding1_small_railing": {
-			"desc": "An optional railing that can be attached to a scaffolding",
-			"name": "Small scaffolding railing"
+			"desc": "Uma grade opcional que pode ser fixada em um andaime",
+			"name": "Corrimão de andaime pequeno"
 		},
 		"scaffolding1b": {
-			"desc": "A temporary, modular wooden structure to support constructing a building",
-			"name": "Scaffolding (B)"
+			"desc": "Uma estrutura modular de madeira temporária para apoiar a construção de um edifício",
+			"name": "Andaime (B)"
 		},
 		"scaffolding1b_small": {
-			"desc": "A smaller version of the wooden scaffolding",
-			"name": "Small scaffolding (B)"
+			"desc": "Uma versão menor do andaime de madeira",
+			"name": "Pequeno andaime (B)"
 		},
 		"seat": {
 			"name": "Assento"
@@ -2416,7 +2416,7 @@
 			"name": "Boneco de neve"
 		},
 		"soccergoal": {
-			"name": "Soccer goal"
+			"name": "Trave no futebol"
 		},
 		"spinningwheel": {
 			"desc": "É usado para fiar fios de fibras ou lã",
@@ -2459,8 +2459,8 @@
 			"name": "Lanterna Toro"
 		},
 		"trapdoor": {
-			"desc": "A trapdoor which can be attached to certain scaffolding",
-			"name": "Trapdoor"
+			"desc": "Um alçapão que pode ser fixado em determinados andaimes",
+			"name": "Alçapão"
 		},
 		"trashcan1": {
 			"desc": "Usado para descartar itens que você não precisa mais",
