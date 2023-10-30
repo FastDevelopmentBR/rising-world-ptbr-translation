@@ -708,16 +708,16 @@
 			"name": "Blueprint"
 		},
 		"blueprintempty": {
-			"desc": "Use it to save your structures and buildings",
-			"name": "Empty blueprint"
+			"desc": "Use-o para salvar suas estruturas e construções",
+			"name": "Planta em branco"
 		},
 		"bomb": {
 			"desc": "Cria uma explosão que só causa danos a alvos fáceis",
 			"name": "Granada antiga"
 		},
 		"bottle": {
-			"desc": "A simple glass bottle",
-			"name": "Bottle"
+			"desc": "Uma simples garrafa de vidro",
+			"name": "Garrafa"
 		},
 		"bow1": {
 			"desc": "Um arco simples com o qual flechas podem ser disparadas",
@@ -741,8 +741,8 @@
 			"name": "Meio pão"
 		},
 		"canteen": {
-			"desc": "A drinking bottle. Can be filled with water",
-			"name": "Canteen"
+			"desc": "Uma garrafa de bebida. Pode ser preenchido com água",
+			"name": "Cantil"
 		},
 		"carrot": {
 			"name": "Cenoura"
@@ -773,12 +773,12 @@
 			"name": "Faca de combate"
 		},
 		"compassmodern": {
-			"desc": "Useful for navigation",
-			"name": "Modern compass"
+			"desc": "Útil para navegação",
+			"name": "Bússola moderna"
 		},
 		"compassold": {
-			"desc": "Useful for navigation",
-			"name": "Compass"
+			"desc": "Útil para navegação",
+			"name": "Bússola"
 		},
 		"condition": {
 			"badlydamaged": "Badly damaged",
@@ -841,12 +841,12 @@
 			"name": "Firework rocket"
 		},
 		"flashlight": {
-			"desc": "Excellent for exploring dark areas",
-			"name": "Flashlight"
+			"desc": "Excelente para explorar áreas escuras",
+			"name": "Lanterna"
 		},
 		"flashlightlarge": {
-			"desc": "Ultra bright light source",
-			"name": "Spotlight"
+			"desc": "Fonte de luz ultra brilhante",
+			"name": "Holofote"
 		},
 		"flour": {
 			"desc": "É utilizado para fazer diversos alimentos, principalmente massas",
@@ -941,8 +941,8 @@
 			"name": "Madeira serrada"
 		},
 		"measuringtape": {
-			"desc": "Can be used to measure the distance between two points",
-			"name": "Measuring tape"
+			"desc": "Pode ser usado para medir a distância entre dois pontos",
+			"name": "Fita métrica"
 		},
 		"medkit": {
 			"desc": "Fully restores your health and stops bleeding",
@@ -1024,8 +1024,8 @@
 			"name": "Batatas descascadas"
 		},
 		"penlight": {
-			"desc": "A portable light source",
-			"name": "Penlight"
+			"desc": "Uma fonte de luz portátil",
+			"name": "Bastão de Luz"
 		},
 		"pickaxe": {
 			"desc": "Uma picareta de ferro. Usado para mineração de pedras e minérios",
@@ -1355,12 +1355,12 @@
 			"name": "Fio de tungstênio"
 		},
 		"walkietalkie": {
-			"desc": "A portable, hand-held radio transceiver",
-			"name": "Walkie-talkie"
+			"desc": "Um transceptor de rádio portátil",
+			"name": "Radio Comunicador"
 		},
 		"wateringcan": {
-			"desc": "Used to water plants by hand",
-			"name": "Watering can"
+			"desc": "Usado para regar plantas manualmente",
+			"name": "Regador"
 		},
 		"watermelon": {
 			"name": "Melancia"
@@ -1372,8 +1372,8 @@
 			"name": "Fatia de melancia"
 		},
 		"waterskin": {
-			"desc": "A receptacle made out of leather. Can be filled with water",
-			"name": "Waterskin"
+			"desc": "Um recipiente feito de couro. Pode ser preenchido com água",
+			"name": "Odre"
 		},
 		"wheat": {
 			"name": "Trigo"
@@ -2441,12 +2441,12 @@
 			"name": "Tanning rack"
 		},
 		"tentmodern": {
-			"desc": "Two-person tent which allows you to sleep and set your spawn point",
-			"name": "Modern tent"
+			"desc": "Tenda para duas pessoas que permite dormir e definir seu ponto de desova",
+			"name": "Tenda moderna"
 		},
 		"tentsmall": {
-			"desc": "One-person tent which allows you to sleep and set your spawn point",
-			"name": "Small tent"
+			"desc": "Tenda para uma pessoa que permite dormir e definir seu ponto de desova",
+			"name": "Tenda pequena"
 		},
 		"text": {
 			"desc": "Um sinal transparente onde apenas o texto é visível",
