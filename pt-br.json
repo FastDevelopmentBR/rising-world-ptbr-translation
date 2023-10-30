@@ -3750,26 +3750,26 @@
 		},
 		"settings": {
 			"audio": {
-				"autodetect": "< Automatic detection >",
-				"device": "Device",
-				"mastermusicvolume": "General Music Volume",
-				"mastersoundvolume": "Master Volume",
-				"other": "Other Settings",
-				"playbackdevice": "Playback Device",
-				"recordingdevice": "Recording device",
-				"sounddetails": "Sound Details",
+				"autodetect": "< Detecção automático >",
+				"device": "Dispositivo",
+				"mastermusicvolume": "Volume Geral da Música",
+				"mastersoundvolume": "Volume Principal",
+				"other": "Outras Configurações",
+				"playbackdevice": "Dispositivo de Reprodução",
+				"recordingdevice": "Dispositivo de Gravação",
+				"sounddetails": "Detalhes do Som",
 				"tooltips": {
-					"mastermusicvolume": "Overall volume for background music",
-					"mastersoundvolume": "Overall volume for all sound effects and music",
-					"playbackdevice": "Audio playback device",
-					"sounddetails": "Determines how detailed certain sounds should be",
-					"voip": "Allows you to talk to other players in multiplayer using your microphone",
-					"voipvolume": "Volume for voice chat (i.e. voice of other players)"
+					"mastermusicvolume": "Volume geral da música de fundo",
+					"mastersoundvolume": "Volume geral para todos os efeitos sonoros e músicas",
+					"playbackdevice": "Dispositivo de reprodução de áudio",
+					"sounddetails": "Determina o quão detalhados certos sons devem ser",
+					"voip": "Permite que você converse com outros jogadores no modo multijogador usando seu microfone",
+					"voipvolume": "Volume para chat por voz (ou seja, voz de outros jogadores)"
 				},
-				"unknowndevice": "Unknown device",
-				"voip": "Voice Chat",
+				"unknowndevice": "Dispositivo desconhecido",
+				"voip": "Chat de Voz",
 				"voipheader": "VoIP",
-				"voipvolume": "Voice Chat Volume",
+				"voipvolume": "Volume do chat de voz",
 				"volume": "Volume"
 			},
 			"controls": {
