@@ -43,6 +43,7 @@ function init() {
 
     iterate(originalLanguageData, translatedLanguageData)
 
+    console.log('Total de strings: ', totalStrings);
     console.log('Quantidade de strings traduzidas: ', translatedCounter);
     console.log('Porcentagem de strings traduzidas: ', ((translatedCounter / totalStrings) * 100).toFixed(0), '%');
 }
