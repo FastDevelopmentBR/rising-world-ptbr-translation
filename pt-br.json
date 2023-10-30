@@ -4144,7 +4144,7 @@
 					"blueprintvisualizebounds": "Se ativado, o limite da planta do projeto será visualizado ao colocar a planta",
 					"buildingdefaultsize": "Define um tamanho padrão opcional para novos elementos de construção. Determina o tamanho ao longo dos eixos X, Y e Z, separados por espaços em branco.\n<color=yellow>Exemplo: \"1.0 2.0 0.1\"</color>",
 					"buildingmultiplacedirections": "Número de direções simultâneas permitidas ao colocar vários elementos de construção em uma linha",
-					"buildingresizemode": "Controla o comportamento de redimensionamento.\n\nLegacy: Redimensionar funciona como redimensionar vigas na versão Java, ou seja, Para Cima/Para Baixo alteram a altura enquanto Para Esquerda/Para Direita alteram a largura <u>e</u> profundidade\n\nPadrão: Os eixos X, Y e Z podem ser redimensionados independentemente",
+					"buildingresizemode": "Controla o comportamento de redimensionamento.\n\nLegado: Redimensionar funciona como redimensionar vigas na versão Java, ou seja, Para Cima/Para Baixo alteram a altura enquanto Para Esquerda/Para Direita alteram a largura <u>e</u> profundidade\n\nPadrão: Os eixos X, Y e Z podem ser redimensionados independentemente",
 					"buildingsnaprotation": "Se ativado, o elemento se encaixa automaticamente nos eixos X, Y ou Z ao girá-lo",
 					"collapsecraftingcategories": "Se ativado, as categorias de seleção de textura de bloco são recolhidas por padrão",
 					"creativelightintensity": "Determina a intensidade da luz do modo criativo (L)",
