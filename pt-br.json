@@ -368,34 +368,34 @@
 			"name": "Triangle"
 		},
 		"window1": {
-			"name": "Window frame"
+			"name": "Moldura de janela"
 		},
 		"window10": {
-			"name": "Window frame (round)"
+			"name": "Moldura de janela (redondo)"
 		},
 		"window2": {
-			"name": "Window frame (muntin)"
+			"name": "Moldura de janela (muntin)"
 		},
 		"window3": {
-			"name": "Window frame (muntins type A)"
+			"name": "Moldura de janela (muntins tipo A)"
 		},
 		"window4": {
-			"name": "Window frame (muntins type B)"
+			"name": "Moldura de janela (muntins tipo B)"
 		},
 		"window5": {
-			"name": "Window frame (muntins type C)"
+			"name": "Moldura de janela (muntins tipo C)"
 		},
 		"window6": {
-			"name": "Window frame (muntins type D)"
+			"name": "Moldura de janela (muntins tipo D)"
 		},
 		"window7": {
-			"name": "Window frame (triangular)"
+			"name": "Moldura de janela (triangular)"
 		},
 		"window8": {
-			"name": "Window frame (right-angled)"
+			"name": "Moldura de janela (em ângulo reto)"
 		},
 		"window9": {
-			"name": "Window frame (rounded)"
+			"name": "Moldura de janela (arredondado)"
 		}
 	},
 	"contextmenu": {
@@ -2078,15 +2078,15 @@
 	},
 	"object": {
 		"animalfeeder": {
-			"desc": "Can be used to attract wild animals",
-			"name": "Animal feeder"
+			"desc": "Pode ser usado para atrair animais selvagens",
+			"name": "Comedouro de animais"
 		},
 		"anvil": {
 			"desc": "Necessário para processar lingotes",
 			"name": "Bigorna"
 		},
 		"barrierlight": {
-			"name": "Barrier light"
+			"name": "Luz de barreira"
 		},
 		"bedold1": {
 			"name": "Cama velha"
@@ -2095,7 +2095,7 @@
 			"name": "Banco velho"
 		},
 		"birdhouse": {
-			"name": "Birdhouse"
+			"name": "Casa de passarinho"
 		},
 		"blueprinttable": {
 			"desc": "Permite que você organize e selecione seus projetos",
@@ -2116,7 +2116,7 @@
 			"name": "Lâmpada de anteparo (único)"
 		},
 		"cabinet1": {
-			"name": "Cabinet"
+			"name": "Gabinete"
 		},
 		"campfire": {
 			"desc": "Proporciona calor, luz e segurança. Também pode ser usado para cozinhar carne",
@@ -2152,17 +2152,17 @@
 			"name": "Chicken coop"
 		},
 		"clock": {
-			"name": "Wall clock"
+			"name": "Relógio de parede"
 		},
 		"constructionbarrier": {
-			"name": "Construction barrier"
+			"name": "Barreira de construção"
 		},
 		"cot": {
 			"desc": "A camp bed",
 			"name": "Cot"
 		},
 		"crowdbarrier": {
-			"name": "Crowd barrier"
+			"name": "Barreira de segurança"
 		},
 		"decal": {
 			"desc": "Semelhante a um poster, mas adapta-se ao solo. Ideal se você deseja projetar uma imagem em uma superfície irregular",
@@ -2248,7 +2248,7 @@
 			"name": "Gramophone"
 		},
 		"grandfatherclock": {
-			"name": "Grandfather clock"
+			"name": "Relógio de pêndulo"
 		},
 		"grinder": {
 			"desc": "É usado para moer materiais sólidos",
@@ -2295,7 +2295,7 @@
 			"name": "Prensa de papel"
 		},
 		"piano": {
-			"desc": "A piano which can be played using your keyboard",
+			"desc": "Um piano que pode ser tocado usando o teclado",
 			"name": "Piano"
 		},
 		"placard": {
@@ -2412,8 +2412,8 @@
 			"name": "Espeto"
 		},
 		"snowman": {
-			"desc": "A snow sculpture",
-			"name": "Snowman"
+			"desc": "Uma escultura de neve",
+			"name": "Boneco de neve"
 		},
 		"soccergoal": {
 			"name": "Soccer goal"
@@ -2463,12 +2463,12 @@
 			"name": "Trapdoor"
 		},
 		"trashcan1": {
-			"desc": "Used for the disposal of items you no longer need",
-			"name": "Trash can"
+			"desc": "Usado para descartar itens que você não precisa mais",
+			"name": "Cesto de lixo"
 		},
 		"trashcan2": {
-			"desc": "Used for the disposal of items you no longer need",
-			"name": "Trash can (metal)"
+			"desc": "Usado para descartar itens que você não precisa mais",
+			"name": "Cesto de lixo (metal)"
 		},
 		"trough": {
 			"desc": "Um recipiente que pode ser enchido com água",
@@ -2490,7 +2490,7 @@
 			"name": "Barril de madeira (aberto)"
 		},
 		"woodshelf1": {
-			"name": "Cupboard"
+			"name": "Armário"
 		},
 		"workbench": {
 			"desc": "Bancada de trabalho padrão, usada para criar ferramentas comuns",
@@ -2501,10 +2501,10 @@
 			"name": "Bancada de trabalho moderna"
 		},
 		"xmastree": {
-			"name": "Christmas tree"
+			"name": "Árvore de natal"
 		},
 		"xmaswreath": {
-			"name": "Xmas wreath"
+			"name": "Guirlanda de natal"
 		}
 	},
 	"permissions": {
