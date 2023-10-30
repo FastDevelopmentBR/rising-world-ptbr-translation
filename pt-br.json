@@ -192,27 +192,27 @@
 			"name": "Groucho glasses"
 		},
 		"helmet": {
-			"desc": "A modern safety helmet",
-			"name": "Safety helmet"
+			"desc": "Um capacete de segurança moderno",
+			"name": "Capacete de segurança"
 		},
 		"helmet2": {
-			"desc": "A modern climbing helmet",
-			"name": "Climbing helmet"
+			"desc": "Um capacete de escalada moderno",
+			"name": "Capacete de escalada"
 		},
 		"helmet2_lamp": {
-			"desc": "A modern climbing helmet with a lamp attached to it",
-			"name": "Climbing helmet (lamp)"
+			"desc": "Um capacete de escalada moderno com uma lâmpada acoplada",
+			"name": "Capacete de escalada (lâmpada)"
 		},
 		"helmet_lamp": {
-			"desc": "A modern safety helmet with a lamp attached to it",
-			"name": "Safety helmet (lamp)"
+			"desc": "Um capacete de segurança moderno com uma lâmpada acoplada",
+			"name": "Capacete de segurança (lâmpada)"
 		},
 		"jesterhat": {
 			"name": "Jester hat"
 		},
 		"mininghelmet": {
-			"desc": "An old miner's helmet with a candle attached to it that lights up your way in dark areas",
-			"name": "Miner's helmet"
+			"desc": "Um velho capacete de mineiro com uma vela presa que ilumina seu caminho em áreas escuras",
+			"name": "Capacete de mineiro"
 		},
 		"pickelhaube": {
 			"name": "Pickelhaube"
