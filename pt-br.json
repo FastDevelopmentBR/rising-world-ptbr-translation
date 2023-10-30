@@ -694,8 +694,8 @@
 			"name": "Machado (aço)"
 		},
 		"bandage": {
-			"desc": "Can be used to stop bleeding",
-			"name": "Bandage"
+			"desc": "Pode ser usado para parar o sangramento",
+			"name": "Curativo"
 		},
 		"bellpepper": {
 			"name": "Pimentão"
@@ -945,8 +945,8 @@
 			"name": "Fita métrica"
 		},
 		"medkit": {
-			"desc": "Fully restores your health and stops bleeding",
-			"name": "Medkit"
+			"desc": "Restaura totalmente sua saúde e para de sangrar",
+			"name": "Kit médico"
 		},
 		"megaphone": {
 			"desc": "Amplifica sua voz",
@@ -1239,8 +1239,8 @@
 			"name": "Soccer ball"
 		},
 		"splint": {
-			"desc": "An improvised leg splint. Supports the cure of a bone fracture",
-			"name": "Leg splint"
+			"desc": "Uma tala improvisada para as pernas. Apoia a cura de uma fratura óssea",
+			"name": "Tala para perna"
 		},
 		"standingtorch": {
 			"name": "Tocha em pé"
