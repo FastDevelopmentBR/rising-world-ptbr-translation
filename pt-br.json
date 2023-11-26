@@ -1,6 +1,6 @@
 {
 	"blockid": {
-		"air": "Air",
+		"air": "Ar",
 		"block": {
 			"category": {
 				"asphalt": "Asfalto",
@@ -82,42 +82,42 @@
 		},
 		"terrain": {
 			"category": {
-				"grass": "Grass",
-				"misc": "Misc",
-				"ore": "Ores",
-				"terrain": "Terrain",
-				"water": "Water"
+				"grass": "Grama",
+				"misc": "Diversos",
+				"ore": "Minérios",
+				"terrain": "Terreno",
+				"water": "Água"
 			},
-			"cobble": "Cobble",
-			"desertstone": "Desert Stone",
-			"dirt": "Dirt",
-			"drydirt": "Dry ground",
-			"farmland": "Farmland",
-			"farmlandwet": "Farmland (wet)",
-			"forestground1": "Forest ground",
-			"forestground2": "Forest ground",
-			"forestground3": "Forest ground",
-			"forestmoss": "Forest moss",
-			"grass": "Grass",
-			"gravel1": "Gravel",
-			"gravel2": "Gravel",
-			"gravel3": "Gravel",
-			"hellstone": "Hellstone",
-			"hellstoneglow": "Hellstone (hot)",
-			"ice": "Ice",
-			"mud": "Mud",
-			"obsidian": "Obsidian",
-			"obsidianglow": "Obsidian (hot)",
-			"redclay": "Red clay",
-			"rock": "Rock",
-			"rubble": "Rubble",
-			"sandbeach": "Sand (beach)",
-			"sanddesert": "Sand (desert)",
-			"sandstone1": "Sandstone",
-			"sandstone2": "Sandstone",
-			"sandunderwater": "Sand (Sea)",
-			"snow": "Snow",
-			"stone": "Stone"
+			"cobble": "Escombro",
+			"desertstone": "Pedra do deserto",
+			"dirt": "Poeira",
+			"drydirt": "Solo seco",
+			"farmland": "Terra agrícola",
+			"farmlandwet": "Terra agrícola (úmida)",
+			"forestground1": "Solo florestal",
+			"forestground2": "Solo florestal",
+			"forestground3": "Solo florestal",
+			"forestmoss": "Musgo da floresta",
+			"grass": "Grama",
+			"gravel1": "Cascalho",
+			"gravel2": "Cascalho",
+			"gravel3": "Cascalho",
+			"hellstone": "Pedra do inferno",
+			"hellstoneglow": "Pedra do inferno (quente)",
+			"ice": "Gelo",
+			"mud": "Lama",
+			"obsidian": "Obsidiana",
+			"obsidianglow": "Obsidiana (quente)",
+			"redclay": "Argila vermelha",
+			"rock": "Rocha",
+			"rubble": "Pedregulho",
+			"sandbeach": "Areia (praia)",
+			"sanddesert": "Areia (deserto)",
+			"sandstone1": "Arenito",
+			"sandstone2": "Arenito",
+			"sandunderwater": "Areia (mar)",
+			"snow": "Neve",
+			"stone": "Pedra"
 		},
 		"unknown": "Desconhecido"
 	},
@@ -816,29 +816,29 @@
 			"name": "Decalque"
 		},
 		"dye": {
-			"name": "Dye"
+			"name": "Tintura"
 		},
 		"dynamite": {
-			"desc": "Creates an explosion which only causes little damage to the environment",
-			"name": "Dynamite"
+			"desc": "Cria uma explosão que causa poucos danos ao meio ambiente",
+			"name": "Dinamite"
 		},
 		"earthworm": {
-			"desc": "Useful as bait",
-			"name": "Earthworm (bait)"
+			"desc": "Útil como isca",
+			"name": "Minhoca (isca)"
 		},
 		"egg": {
 			"name": "Ovo"
 		},
 		"engineboat1": {
-			"desc": "An outboard engine that can be attached to certain boats",
-			"name": "Outboard engine (20 hp)"
+			"desc": "Um motor de popa que pode ser acoplado a certos barcos",
+			"name": "Motor de popa (20 cv)"
 		},
 		"fibers": {
-			"name": "Fibers"
+			"name": "Fibras"
 		},
 		"fireworkrocket": {
-			"desc": "Produces colorful, harmless firework",
-			"name": "Firework rocket"
+			"desc": "Produz fogo de artifício colorido e inofensivo",
+			"name": "Fogo de artifício"
 		},
 		"flashlight": {
 			"desc": "Excelente para explorar áreas escuras",
@@ -990,8 +990,8 @@
 			"weak": "Weak"
 		},
 		"objectkit": {
-			"desc": "Represents a placeable object",
-			"name": "Object kit"
+			"desc": "Representa um objeto posicionável",
+			"name": "Kit de objeto"
 		},
 		"oldshears": {
 			"desc": "Usado para tosquiar ovelhas para obter lã",
@@ -1002,8 +1002,8 @@
 			"name": "Detector de minério"
 		},
 		"paddle1": {
-			"desc": "Wooden paddles. Required for small rowboats",
-			"name": "Paddle (wood)"
+			"desc": "Remos de madeira. Essenciais em pequenos barcos a remo",
+			"name": "Remos (madeira)"
 		},
 		"paintbrush": {
 			"desc": "Usado para pintar superfícies",
@@ -1014,8 +1014,8 @@
 			"name": "Rolo de pintura"
 		},
 		"paper": {
-			"desc": "A blank sheet of paper",
-			"name": "Paper"
+			"desc": "Uma folha de papel em branco",
+			"name": "Papel"
 		},
 		"pear": {
 			"name": "Pêra"
@@ -1043,8 +1043,8 @@
 			"name": "Batata"
 		},
 		"pouch": {
-			"desc": "A pouch which may contain valuable loot",
-			"name": "Pouch"
+			"desc": "Uma bolsa que pode conter itens valiosos",
+			"name": "Bolsa"
 		},
 		"primitiveaxe": {
 			"desc": "Ferramenta primitiva. Pode ser usado para quebrar pedras ou cortar árvores, mas não é muito eficaz",
@@ -1068,8 +1068,8 @@
 			"name": "Fatia de abóbora"
 		},
 		"rags": {
-			"desc": "Some rags. Can be recycled into paper.",
-			"name": "Rags"
+			"desc": "Alguns trapos. Podem ser reciclados em papel.",
+			"name": "Trapos"
 		},
 		"rake": {
 			"desc": "Usado para suavizar o solo. Mais eficiente e robusto que o ancinho de madeira",
@@ -1084,12 +1084,12 @@
 			"name": "Rifle de repetição"
 		},
 		"ribkit1": {
-			"desc": "Base kit for crafting a rigid-inflatable-boat. Place it on solid ground to assemble the boat.\n<color=yellow>Kit 1 of 2</color>",
-			"name": "Inflatable boat kit I (Rigid hull)"
+			"desc": "Kit básico para a confecção de um barco inflável semirrígido. Coloque-o em terra firme para montar o barco.\n<color=yellow>Kit 1 de 2</color>",
+			"name": "Barco inflável kit I (Casco semirrígido)"
 		},
 		"ribkit2": {
-			"desc": "Base kit for crafting a rigid-inflatable-boat. Attach it to an existing rigid hull (see kit 1).\n<color=yellow>Kit 2 of 2</color>",
-			"name": "Inflatable boat kit II (Tubes)"
+			"desc": "Kit básico para a confecção de um barco inflável semirrígido. Anexe-o a um casco semirrígido existente (ver kit 1).\n<color=yellow>Kit 2 de 2</color>",
+			"name": "Barco inflável kit II (Tubos)"
 		},
 		"ripepear": {
 			"name": "Pêra madura demais"
@@ -1099,20 +1099,20 @@
 			"name": "Corda"
 		},
 		"rowboatkit1": {
-			"desc": "Base kit for crafting a rowboat. Place it anywhere on land to assemble the boat.\n<color=yellow>Kit 1 of 2</color>",
-			"name": "Rowboat kit I (Frame)"
+			"desc": "Kit básico para fazer um barco a remo. Coloque-o em terra firme para montar o barco.\n<color=yellow>Kit 1 de 2</color>",
+			"name": "Barco a remo kit I (Esqueleto)"
 		},
 		"rowboatkit2": {
-			"desc": "Base kit for crafting a rowboat. Attach it to an existing rowboat frame (see kit 1).\n<color=yellow>Kit 2 of 2</color>",
-			"name": "Rowboat kit II (Hull)"
+			"desc": "Kit básico para fazer um barco a remo. Anexe-o a uma estrutura de barco a remo existente (ver kit 1).\n<color=yellow>Kit 2 de 2</color>",
+			"name": "Barco a remo kit II (Casco)"
 		},
 		"rowboatstorage": {
-			"desc": "Optional storage that can be attached to rowboats",
-			"name": "Storage (Rowboat)"
+			"desc": "Armazenamento opcional que pode ser anexado a barcos a remo",
+			"name": "Armazenamento (Barco a remo)"
 		},
 		"rubberduck": {
-			"desc": "Just a toy",
-			"name": "Rubber duck"
+			"desc": "Apenas um brinquedo",
+			"name": "Pato de borracha"
 		},
 		"sapling": {
 			"name": "Muda"
@@ -3073,7 +3073,7 @@
 							}
 						},
 						"resourcescontainer": {
-							"resourceslabel": "Resources"
+							"resourceslabel": "Recursos"
 						},
 						"selectbutton": "SELECT BLUEPRINT"
 					}
@@ -3083,8 +3083,8 @@
 		},
 		"color": {
 			"painttool": {
-				"redefinecolor": "Define a new color for this slot",
-				"selectcolor": "Select a color"
+				"redefinecolor": "Defina uma nova cor para este slot",
+				"selectcolor": "Selecione a cor"
 			}
 		},
 		"crafting": {
@@ -3130,16 +3130,16 @@
 		"crashinfodialog": {
 			"infodialogcontainer": {
 				"buttoncontainer": {
-					"quitbutton": "Quit",
-					"visitforumbutton": "Visit Forum"
+					"quitbutton": "Sair",
+					"visitforumbutton": "Visitar Fórum"
 				}
 			}
 		},
 		"crashreporttool": {
 			"container": {
 				"buttoncontainer": {
-					"cancelbutton": "Cancel",
-					"sendbutton": "Send Report"
+					"cancelbutton": "Cancelar",
+					"sendbutton": "Enviar Relatório"
 				},
 				"commentcontainer": {
 					"commentheaderlabel": "Are there any other information you would like to share about the error?"
@@ -3158,11 +3158,11 @@
 				}
 			},
 			"message": {
-				"error": "Could not send report due to an error: \n{0}",
-				"errorheader": "Failed to send",
-				"sending": "Sending...",
-				"success": "Report was sent sucessfully!",
-				"successheader": "Report sent"
+				"error": "Não foi possível enviar o relatório devido a um erro: \n{0}",
+				"errorheader": "Falha ao enviar",
+				"sending": "Enviando...",
+				"success": "O relatório foi enviado com sucesso!",
+				"successheader": "Relatório enviado"
 			}
 		},
 		"createworlddialog": {
@@ -3726,11 +3726,11 @@
 					"scoreboard": {
 						"legend": {
 							"legendcontainer": {
-								"distancelabel": "Distance",
-								"grouplabel": "Group",
+								"distancelabel": "Distância",
+								"grouplabel": "Grupo",
 								"pinglabel": "Ping",
 								"playeridlabel": "ID",
-								"playernamelabel": "Name",
+								"playernamelabel": "Nome",
 								"playtimelabel": "Playtime"
 							}
 						}
@@ -3741,11 +3741,11 @@
 		"selectnpcmessagebox": {
 			"buttoncontainer": {
 				"buttoncentercontainer": {
-					"selectbutton": "Confirm"
+					"selectbutton": "Confirmar"
 				}
 			},
 			"headercontainer": {
-				"headerlabel": "Select the NPCs you want to enable or disable"
+				"headerlabel": "Selecione os NPCs que você deseja ativar ou desativar"
 			}
 		},
 		"settings": {
@@ -4246,19 +4246,19 @@
 		},
 		"sign": {
 			"color": {
-				"header": "Select a font color"
+				"header": "Selecione a cor da fonte"
 			},
 			"font": {
-				"header": "Select a Font"
+				"header": "Selecione uma Fonte"
 			},
 			"screen": {
 				"signcontainer": {
 					"buttoncontainer": {
-						"closebutton": "Cancel",
-						"okbutton": "Apply"
+						"closebutton": "Cancelar",
+						"okbutton": "Aplicar"
 					},
 					"topcontainer": {
-						"headerlabel": "Edit sign..."
+						"headerlabel": "Editar sinal..."
 					}
 				}
 			}
@@ -4294,8 +4294,8 @@
 		},
 		"tooltips": {
 			"crafting": {
-				"colorpicker": "Click to change the default color\n\n<color=yellow>Right click to reset the color</color>",
-				"totalcount": "Total amount of items you will get"
+				"colorpicker": "Clique para alterar a cor padrão\n\n<color=yellow>Clique com o botão direito para redefinir a cor</color>",
+				"totalcount": "Quantidade total de itens que você receberá"
 			},
 			"filebrowser": {
 				"addfavorite": "Adicionar aos favoritos",
@@ -4319,23 +4319,23 @@
 			},
 			"itemtooltip": {
 				"blueprint": "Blueprint: {0}",
-				"color": "Color: {0}",
-				"creator": "Creator: {0}",
+				"color": "Cor: {0}",
+				"creator": "Criador: {0}",
 				"id": "ID: {0}",
 				"material": "{0}  (ID: {1})",
-				"name": "Name: {0}",
-				"strength": "Strength: {0}"
+				"name": "Nome: {0}",
+				"strength": "Força: {0}"
 			}
 		}
 	},
 	"vehicle": {
 		"rib": {
-			"desc": "An engine-powered, inflatable boat. Has room for 4 passengers",
-			"name": "Inflatable boat (RIB)"
+			"desc": "Um barco inflável semirrígido movido a motor. Tem espaço para 4 passageiros",
+			"name": "Barco inflável (BIR)"
 		},
 		"rowboat": {
-			"desc": "A small rowboat. Has room for a single passenger only",
-			"name": "Rowboat"
+			"desc": "Um pequeno barco a remo. Tem espaço apenas para um único passageiro",
+			"name": "Barco a remo"
 		}
 	}
 }
