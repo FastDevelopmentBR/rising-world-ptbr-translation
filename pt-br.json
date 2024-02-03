@@ -29,7 +29,7 @@
 				"emissive": "Material autoluminoso. A cor e a intensidade da luz podem ser ajustadas"
 			},
 			"names": {
-				"basalt": "Basalt",
+				"basalt": "Basalto",
 				"blur": "(Fosco)",
 				"cardboard": "Papelão",
 				"copper": "Cobre",
@@ -44,7 +44,7 @@
 				"leadedglass": "Cristal de chumbo",
 				"leadedglassclear": "Cristal de chumbo (transparente)",
 				"milkglass": "Vidro opalino",
-				"obsidian": "Obsidian",
+				"obsidian": "Obsidiana",
 				"porcelain": "Porcelana",
 				"rope": "Corda",
 				"sails": "Velas",
@@ -120,7 +120,7 @@
 			"sandunderwater": "Areia (mar)",
 			"snow": "Neve",
 			"stone": "Pedra",
-			"water": "Water"
+			"water": "Água"
 		},
 		"unknown": "Desconhecido"
 	},
