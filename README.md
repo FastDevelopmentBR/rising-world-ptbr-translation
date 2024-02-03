@@ -2,7 +2,7 @@
 
 [//]: # ( Isto é um comentário, para atualizar a "badge", apenas mude os números para outro qualquer.)
 
-<img src="https://img.shields.io/badge/Vers%C3%A3o%20Base-0.6.7.2-darkgreen" /> <img src="https://progress-bar.dev/65/?title=Progresso da Tradução" />
+<img src="https://img.shields.io/badge/Vers%C3%A3o%20Base-0.7-darkgreen" /> <img src="https://progress-bar.dev/53/?title=Progresso da Tradução" />
 
 # Projeto de Tradução Rising World
 Tradução para o Português Brasileiro (pt-BR) do jogo [Rising World (Steam)](https://store.steampowered.com/app/324080/Rising_World/).

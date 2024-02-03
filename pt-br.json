@@ -29,7 +29,7 @@
 				"emissive": "Material autoluminoso. A cor e a intensidade da luz podem ser ajustadas"
 			},
 			"names": {
-				"basalt": "Basalt",	
+				"basalt": "Basalt",
 				"blur": "(Fosco)",
 				"cardboard": "Papelão",
 				"copper": "Cobre",
@@ -44,7 +44,7 @@
 				"leadedglass": "Cristal de chumbo",
 				"leadedglassclear": "Cristal de chumbo (transparente)",
 				"milkglass": "Vidro opalino",
-				"obsidian": "Obsidian",	
+				"obsidian": "Obsidian",
 				"porcelain": "Porcelana",
 				"rope": "Corda",
 				"sails": "Velas",
@@ -1022,9 +1022,9 @@
 		},
 		"bandage": {
 			"desc": "Pode ser usado para parar o sangramento",
-			"name": "Curativo"	
+			"name": "Curativo"
 		},
-		"bearpelt": {				
+		"bearpelt": {
 			"name": "Bear pelt"
 		},
 		"bellpepper": {
@@ -1250,7 +1250,7 @@
 			"fibers": "Algodão / Fibras",
 			"hide": "Animal hide",
 			"knife": "Faca",
-			"leather": "Leather",	
+			"leather": "Leather",
 			"metal": "Metal",
 			"pelt": "Pelt",
 			"sapling": "Muda",
@@ -1307,8 +1307,8 @@
 		},
 		"lightbulb": {
 			"desc": "Uma luz elétrica",
-			"name": "Lâmpada elétrica"	
-		},	
+			"name": "Lâmpada elétrica"
+		},
 		"lionpelt": {
 			"name": "Lion pelt"
 		},
@@ -1514,8 +1514,8 @@
 			"name": "Armazenamento (Barco a remo)"
 		},
 		"rubberduck": {
-			"desc": "Apenas um brinquedo",	
-			"name": "Pato de borracha"			
+			"desc": "Apenas um brinquedo",
+			"name": "Pato de borracha"
 		},
 		"saddlebaghorse": {
 			"desc": "Optional bags that can be attached to a saddle. Can be used to store items in it",
@@ -4324,7 +4324,7 @@
 				"32": "Varrendo as folhas",
 				"33": "Colocando pedras",
 				"34": "Criando mundo",
-				"35": "Colocando areia nas praias"	
+				"35": "Colocando areia nas praias"
 			},
 			"stage": {
 				"canceling": "CANCELANDO",
