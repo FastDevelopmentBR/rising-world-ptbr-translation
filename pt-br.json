@@ -481,26 +481,26 @@
 			"refresh": "Atualizar status"
 		},
 		"item": {
-			"changeshape": "Change shape",
-			"drop": "Drop item",
-			"duplicate": "Duplicate",
-			"equip": "Equip item",
-			"open": "Open",
-			"split": "Split stack",
-			"wearclothes": "Wear"
+			"changeshape": "Mudar de forma",
+			"drop": "Soltar item",
+			"duplicate": "Duplicar",
+			"equip": "Equipar item",
+			"open": "Abrir",
+			"split": "Dividir pilha",
+			"wearclothes": "Vestir"
 		},
 		"menu": {
-			"copyuid": "Copy UID to clipboard"
+			"copyuid": "Copiar UID para a área de transferência"
 		},
 		"player": {
 			"undress": "Take off:  {0}",
 			"undressall": "Take off clothes"
 		},
 		"playerlist": {
-			"copyuid": "Copy UID to clipboard",
-			"gethere": "Teleport player to me",
-			"goto": "Teleport me to player",
-			"teleporttospawn": "Teleport player to his spawn"
+			"copyuid": "Copiar UID para a área de transferência",
+			"gethere": "Teletransporte o jogador até mim",
+			"goto": "Me teletransporte até o jogador",
+			"teleporttospawn": "Teletransporte o jogador para seu ponto de surgimento"
 		},
 		"server": {
 			"copyip": "Copiar IP para a área de transferência",
@@ -511,11 +511,11 @@
 			"pastecolor": "Paste color <size=70%>({0})</size>"
 		},
 		"world": {
-			"copyseed": "Copy Seed",
+			"copyseed": "Copiar Seed",
 			"createbackup": "Criar Backup",
 			"openfolder": "Abrir Pasta",
 			"rename": "Renomear Mundo",
-			"restorebackup": "Restore Backup"
+			"restorebackup": "Restaurar Backup"
 		}
 	},
 	"country": {
