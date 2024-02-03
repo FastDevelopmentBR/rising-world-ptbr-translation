@@ -2160,18 +2160,18 @@
 			},
 			"sp": {
 				"backup": {
-					"cannotcreatefolder": "Cannot create folder",
-					"cannotdeletefolder": "Cannot delete folder",
+					"cannotcreatefolder": "Não é possível criar pasta",
+					"cannotdeletefolder": "Não é possível deletar pasta",
 					"createbackup": "Você realmente deseja criar um backup? ",
-					"createfailure": "Backup failed!",
-					"createsuccess": "Backup created successfully!\nDuration: {0} ms",
+					"createfailure": "Falha no backup!",
+					"createsuccess": "Backup criado com sucesso!\nDuração: {0} ms",
 					"creatingbackup": "Criando backup, aguarde...",
-					"restorebackup": "Select a backup you want to restore. \nPlease note: You cannot undo this step! This will overwrite your existing world files!",
-					"restorebackupconfirm": "Please confirm that you want to restore this backup: \n<align=left><color=yellow>\n\\t\\t World:  {0}\n\\t\\t Date:  {1}\n\\t\\t Version:  {2}\n</color></align>\nThis will delete the current world and replace it with the backup.",
+					"restorebackup": "Selecione um backup que deseja restaurar. \nObservação: você não pode desfazer esta etapa! Isso substituirá seus arquivos mundiais existentes!",
+					"restorebackupconfirm": "Confirme que deseja restaurar este backup: \n<align=left><color=yellow>\n\\t\\t Mundo: {0}\n\\t\\t Data: {1}\n \\t\\t Versão: {2}\n</color></align>\nIsso excluirá o mundo atual e o substituirá pelo backup.",
 					"restorefailure": "Falha no backup! Motivo: \n\n{0}",
 					"restoresuccess": "Backup criado com sucesso!\nDuração: {0} ms",
-					"restoringbackup": "Restoring backup, please wait...",
-					"title": "Create backup"
+					"restoringbackup": "Restaurando backup, aguarde...",
+					"title": "Criar backup"
 				},
 				"deleteworld": "Você realmente quer deletar este mundo?",
 				"deleteworldtitle": "Excluir mundo: {0}",
@@ -4483,7 +4483,7 @@
 								"pinglabel": "Ping",
 								"playeridlabel": "ID",
 								"playernamelabel": "Nome",
-								"playtimelabel": "Playtime"
+								"playtimelabel": "Tempo de Jogo"
 							}
 						}
 					}
