@@ -3935,7 +3935,7 @@
 						"secondaryspawnbutton": "Tenda",
 						"tertiaryspawnbutton": "Veículo"
 					},
-					"respawnlabel": "Selecione o ponto de geração"
+					"respawnlabel": "Selecione o ponto de surgimento"
 				}
 			}
 		},
@@ -4889,7 +4889,7 @@
 				"shownametags": "Mostrar Etiquetas de Nome",
 				"showpickupnotifications": "Mostrar Notificações ao Pegar Itens",
 				"skiploadingscreen": "Pular Tela de Carregamento",
-				"spawnrateanimals": "Taxa de Geração de Animais",
+				"spawnrateanimals": "Taxa de Surgimento de Animais",
 				"stamina": "Resistência Ilimitada (Somente Sobrevivência)",
 				"temperature": "Desabilitar Temperatura (Somente Sobrevivência)",
 				"timeduration": "Duração do Dia no Jogo",
@@ -4945,7 +4945,7 @@
 					"showfps": "Se ativado, os quadros por segundo atuais serão mostrados no canto inferior direito do HUD",
 					"shownametags": "Se ativado, os crachás de outros jogadores ficarão visíveis no modo multijogador (dependendo das configurações do servidor)",
 					"skiploadingscreen": "Se ativado, a tela de carregamento será ignorada (mesmo que o mundo não esteja totalmente carregado nesse estágio)",
-					"spawnrateanimals": "Determina a taxa de geração dos animais. Valores mais altos resultam em mais animais, valores mais baixos em menos animais. O valor padrão é 100%\n\nNota: Isso não influencia os animais já gerados",
+					"spawnrateanimals": "Determina a taxa de surgimento dos animais. Valores mais altos resultam em mais animais, valores mais baixos em menos animais. O valor padrão é 100%\n\nNota: Isso não influencia os animais já gerados",
 					"stamina": "Se ativado, o jogador tem resistência ilimitada no modo de sobrevivência",
 					"temperature": "Se ativado, a temperatura não afeta o jogador (no modo de sobrevivência)",
 					"timeduration": "Determina quanto tempo leva um dia de jogo. Padrão: 1 hora",
