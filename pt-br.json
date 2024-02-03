@@ -2494,7 +2494,7 @@
 			},
 			"worldtype": {
 				"default": "Padrão",
-				"flatislands": "Superflat Islands",
+				"flatislands": "Ilhas Superplanas",
 				"ocean": "Apenas Oceano",
 				"superflat": "Super Plano"
 			}
@@ -2520,13 +2520,13 @@
 			"name": "Snow fox"
 		},
 		"bear": {
-			"name": "Bear"
+			"name": "Urso"
 		},
 		"bearcub": {
 			"name": "Bear cub"
 		},
 		"bearmale": {
-			"name": "Bear"
+			"name": "Urso"
 		},
 		"billygoat": {
 			"name": "Billy goat"
@@ -2538,34 +2538,34 @@
 			"name": "Bunny"
 		},
 		"calf": {
-			"name": "Calf"
+			"name": "Bezerro"
 		},
 		"cat": {
-			"name": "Cat"
+			"name": "Gato"
 		},
 		"chick": {
-			"name": "Chick"
+			"name": "Pintinho"
 		},
 		"chicken": {
-			"name": "Chicken"
+			"name": "Galinha"
 		},
 		"cow": {
-			"name": "Cow"
+			"name": "Vaca"
 		},
 		"crow": {
-			"name": "Crow"
+			"name": "Corvo"
 		},
 		"deer": {
-			"name": "Deer"
+			"name": "Veado"
 		},
 		"deercalf": {
-			"name": "Deer calf"
+			"name": "Filhote de veado"
 		},
 		"deerred": {
-			"name": "Red deer"
+			"name": "Veado-vermelho"
 		},
 		"deerstag": {
-			"name": "Stag"
+			"name": "Veado"
 		},
 		"dummy": {
 			"name": "Dummy"
@@ -2574,7 +2574,7 @@
 			"name": "Earthworm"
 		},
 		"elephant": {
-			"name": "Elephant"
+			"name": "Elefante"
 		},
 		"firewolf": {
 			"name": "Fire wolf"
@@ -2589,13 +2589,13 @@
 			"name": "Fox cub"
 		},
 		"goat": {
-			"name": "Goat"
+			"name": "Bode"
 		},
 		"goatling": {
-			"name": "Goat kid"
+			"name": "Cabrito"
 		},
 		"hare": {
-			"name": "Hare"
+			"name": "Lebre"
 		},
 		"horse": {
 			"name": "Horse"
@@ -2610,16 +2610,16 @@
 			"name": "Lamb"
 		},
 		"lion": {
-			"name": "Lion"
+			"name": "Leão"
 		},
 		"lioness": {
-			"name": "Lioness"
+			"name": "Leoa"
 		},
 		"mare": {
 			"name": "Mare"
 		},
 		"moose": {
-			"name": "Moose"
+			"name": "Alce"
 		},
 		"moosebull": {
 			"name": "Moose bull"
@@ -2631,28 +2631,28 @@
 			"name": "Penguin"
 		},
 		"pig": {
-			"name": "Pig"
+			"name": "Porco"
 		},
 		"piglet": {
 			"name": "Piglet"
 		},
 		"polarbear": {
-			"name": "Polar bear"
+			"name": "Urso polar"
 		},
 		"ram": {
-			"name": "Ram"
+			"name": "Carneiro"
 		},
 		"ramshorn": {
-			"name": "Ram (shorn)"
+			"name": "Carneiro (tosquiado)"
 		},
 		"rhinoceros": {
-			"name": "Rhinoceros"
+			"name": "Rinoceronte"
 		},
 		"sheep": {
-			"name": "Sheep"
+			"name": "Ovelha"
 		},
 		"sheepshorn": {
-			"name": "Sheep (shorn)"
+			"name": "Ovelha (tosquiado)"
 		},
 		"snake": {
 			"name": "Snake"
@@ -2664,7 +2664,7 @@
 			"name": "Unicorn"
 		},
 		"wildboar": {
-			"name": "Wild boar"
+			"name": "Javali"
 		},
 		"wildpiglet": {
 			"name": "Wild piglet"
@@ -3902,9 +3902,9 @@
 						"gamemodelabel": "Modo de jogo:"
 					},
 					"terraintypecontainer": {
-						"terraintypeflat": "Flat",
-						"terraintypelabel": "Terrain:",
-						"terraintypemountainous": "Mountainous"
+						"terraintypeflat": "Plano",
+						"terraintypelabel": "Terreno:",
+						"terraintypemountainous": "Montanhoso"
 					},
 					"worldnamecontainer": {
 						"worldnamelabel": "Nome do mundo:"
