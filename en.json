@@ -29,6 +29,7 @@
 				"emissive": "Self-luminous material. Light color and intensity can be adjusted"
 			},
 			"names": {
+				"basalt": "Basalt",
 				"blur": "(Frosted)",
 				"cardboard": "Cardboard",
 				"copper": "Copper",
@@ -43,6 +44,7 @@
 				"leadedglass": "Leaded glass",
 				"leadedglassclear": "Leaded glass (clear)",
 				"milkglass": "Milk glass",
+				"obsidian": "Obsidian",
 				"porcelain": "Porcelain",
 				"rope": "Rope",
 				"sails": "Sails",
@@ -117,7 +119,8 @@
 			"sandstone2": "Sandstone",
 			"sandunderwater": "Sand (Sea)",
 			"snow": "Snow",
-			"stone": "Stone"
+			"stone": "Stone",
+			"water": "Water"
 		},
 		"unknown": "Unknown"
 	},
@@ -157,6 +160,7 @@
 			"name": "Boonie hat"
 		},
 		"bunnymask": {
+			"desc": "The perfect accessory for Easter",
 			"name": "Bunny ears"
 		},
 		"captainhat": {
@@ -166,12 +170,14 @@
 			"name": "Chef hat"
 		},
 		"cowboyhat": {
+			"desc": "A wide-brimmed cowboy hat",
 			"name": "Cowboy hat"
 		},
 		"crown": {
 			"name": "Crown"
 		},
 		"cylinder": {
+			"desc": "Splendit!",
 			"name": "Cylinder"
 		},
 		"divinggoggles": {
@@ -208,11 +214,41 @@
 			"name": "Safety helmet (lamp)"
 		},
 		"jesterhat": {
+			"desc": "Cap and bells. A fool's cap",
 			"name": "Jester hat"
+		},
+		"jockeyhelmet": {
+			"desc": "A modern jockey helmet",
+			"name": "Jockey helmet"
+		},
+		"mask": {
+			"desc": "A very simple paper mask",
+			"name": "Mask"
+		},
+		"mask2": {
+			"name": "Mask"
+		},
+		"maskbear": {
+			"desc": "A mask in the shape of a bear's head",
+			"name": "Mask (bear)"
+		},
+		"maskgoat": {
+			"desc": "A mask in the shape of a goat's head",
+			"name": "Mask (goat)"
+		},
+		"maskpig": {
+			"desc": "A mask in the shape of a pig's head",
+			"name": "Mask (pig)"
+		},
+		"medievalsuit1": {
+			"name": "Fur coat"
 		},
 		"mininghelmet": {
 			"desc": "An old miner's helmet with a candle attached to it that lights up your way in dark areas",
 			"name": "Miner's helmet"
+		},
+		"paintballmask": {
+			"name": "Paintball mask"
 		},
 		"pickelhaube": {
 			"name": "Pickelhaube"
@@ -220,8 +256,23 @@
 		"pilgrimhat": {
 			"name": "Pilgrim hat"
 		},
-		"redrockhat": {
-			"name": "Redrock hat"
+		"questionhat": {
+			"name": "?"
+		},
+		"redcoathat": {
+			"name": "Redcoat hat"
+		},
+		"saddlebaghorse": {
+			"desc": "Optional bags that can be attached to a saddle. Can be used to store items in it",
+			"name": "Saddle bags (Horse)"
+		},
+		"saddlehorse": {
+			"desc": "A saddle for a horse. This is required if you want to ride a horse",
+			"name": "Saddle (Horse)"
+		},
+		"safarihat": {
+			"desc": "Also known as pith helmet. A lightweight cloth-covered helmet",
+			"name": "Safari helmet"
 		},
 		"sombrero": {
 			"name": "Sombrero"
@@ -229,11 +280,17 @@
 		"sunglasses1": {
 			"name": "Sunglasses"
 		},
+		"teddymask": {
+			"name": "Mask (teddy)"
+		},
 		"unclesamhat": {
 			"name": "Uncle Sam's hat"
 		},
 		"ushanka": {
 			"name": "Ushanka"
+		},
+		"vr": {
+			"name": "VR headset"
 		},
 		"wizardhat": {
 			"name": "Wizard hat"
@@ -242,6 +299,7 @@
 			"name": "Wooly"
 		},
 		"xmashat": {
+			"desc": "A red/white Santa hat",
 			"name": "Xmas hat"
 		}
 	},
@@ -370,9 +428,6 @@
 		"window1": {
 			"name": "Window frame"
 		},
-		"window10": {
-			"name": "Window frame (round)"
-		},
 		"window2": {
 			"name": "Window frame (muntin)"
 		},
@@ -396,6 +451,9 @@
 		},
 		"window9": {
 			"name": "Window frame (rounded)"
+		},
+		"window10": {
+			"name": "Window frame (round)"
 		}
 	},
 	"contextmenu": {
@@ -431,6 +489,13 @@
 			"split": "Split stack",
 			"wearclothes": "Wear"
 		},
+		"menu": {
+			"copyuid": "Copy UID to clipboard"
+		},
+		"player": {
+			"undress": "Take off:  {0}",
+			"undressall": "Take off clothes"
+		},
 		"playerlist": {
 			"copyuid": "Copy UID to clipboard",
 			"gethere": "Teleport player to me",
@@ -441,11 +506,265 @@
 			"copyip": "Copy IP to clipboard",
 			"showinfos": "Show server info"
 		},
+		"sign": {
+			"copycolor": "Copy color",
+			"pastecolor": "Paste color <size=70%>({0})</size>"
+		},
 		"world": {
+			"copyseed": "Copy Seed",
 			"createbackup": "Create Backup",
 			"openfolder": "Open Folder",
-			"rename": "Rename World"
+			"rename": "Rename World",
+			"restorebackup": "Restore Backup"
 		}
+	},
+	"country": {
+		"ad": "Andorra",
+		"ae": "United Arab Emirates",
+		"af": "Afghanistan",
+		"ag": "Antigua and Barbuda",
+		"ai": "Anguilla",
+		"al": "Albania",
+		"am": "Armenia",
+		"ao": "Angola",
+		"aq": "Antarctica",
+		"ar": "Argentina",
+		"as": "American Samoa",
+		"at": "Austria",
+		"au": "Australia",
+		"aw": "Aruba",
+		"ax": "Åland Islands",
+		"az": "Azerbaijan",
+		"ba": "Bosnia and Herzegovina",
+		"bb": "Barbados",
+		"bd": "Bangladesh",
+		"be": "Belgium",
+		"bf": "Burkina Faso",
+		"bg": "Bulgaria",
+		"bh": "Bahrain",
+		"bi": "Burundi",
+		"bj": "Benin",
+		"bl": "Saint Barthélemy",
+		"bm": "Bermuda",
+		"bn": "Brunei",
+		"bo": "Bolivia",
+		"bq": "Bonaire",
+		"br": "Brazil",
+		"bs": "Bahamas",
+		"bt": "Bhutan",
+		"bv": "Bouvet Island",
+		"bw": "Botswana",
+		"by": "Belarus",
+		"bz": "Belize",
+		"ca": "Canada",
+		"cc": "Cocos Islands",
+		"cd": "Congo (DR)",
+		"cf": "Central African Republic",
+		"cg": "Congo",
+		"ch": "Switzerland",
+		"ci": "Côte d'Ivoire",
+		"ck": "Cook Islands",
+		"cl": "Chile",
+		"cm": "Cameroon",
+		"cn": "China",
+		"co": "Colombia",
+		"cr": "Costa Rica",
+		"cu": "Cuba",
+		"cv": "Cape Verde",
+		"cw": "Curaçao",
+		"cx": "Christmas Island",
+		"cy": "Cyprus",
+		"cz": "Czech Republic",
+		"de": "Germany",
+		"dj": "Djibouti",
+		"dk": "Denmark",
+		"dm": "Dominica",
+		"do": "Dominican Republic",
+		"dz": "Algeria",
+		"ec": "Ecuador",
+		"ee": "Estonia",
+		"eg": "Egypt",
+		"eh": "Western Sahara",
+		"er": "Eritrea",
+		"es": "Spain",
+		"et": "Ethiopia",
+		"fi": "Finland",
+		"fj": "Fiji",
+		"fk": "Falkland Islands (Malvinas)",
+		"fm": "Micronesia",
+		"fo": "Faroe Islands",
+		"fr": "France",
+		"ga": "Gabon",
+		"gb": "United Kingdom",
+		"gb-eng": "England",
+		"gb-sct": "Scotland",
+		"gb-wls": "Wales",
+		"gd": "Grenada",
+		"ge": "Georgia",
+		"gf": "French Guiana",
+		"gh": "Ghana",
+		"gi": "Gibraltar",
+		"gl": "Greenland",
+		"gm": "Gambia",
+		"gn": "Guinea",
+		"gp": "Guadeloupe",
+		"gq": "Equatorial Guinea",
+		"gr": "Greece",
+		"gt": "Guatemala",
+		"gu": "Guam",
+		"gw": "Guinea-Bissau",
+		"gy": "Guyana",
+		"hk": "Hong Kong",
+		"hm": "Heard Island and McDonald Islands",
+		"hn": "Honduras",
+		"hr": "Croatia",
+		"ht": "Haiti",
+		"hu": "Hungary",
+		"id": "Indonesia",
+		"ie": "Ireland",
+		"il": "Israel",
+		"im": "Isle of Man",
+		"in": "India",
+		"io": "British Indian Ocean Territory",
+		"iq": "Iraq",
+		"ir": "Iran",
+		"is": "Iceland",
+		"it": "Italy",
+		"je": "Jersey",
+		"jm": "Jamaica",
+		"jo": "Jordan",
+		"jp": "Japan",
+		"ke": "Kenya",
+		"kg": "Kyrgyzstan",
+		"kh": "Cambodia",
+		"ki": "Kiribati",
+		"km": "Comoros",
+		"kn": "Saint Kitts and Nevis",
+		"kp": "North Korea",
+		"kr": "South Korea",
+		"kw": "Kuwait",
+		"ky": "Cayman Islands",
+		"kz": "Kazakhstan",
+		"la": "Laos",
+		"lb": "Lebanon",
+		"lc": "Saint Lucia",
+		"li": "Liechtenstein",
+		"lk": "Sri Lanka",
+		"lr": "Liberia",
+		"ls": "Lesotho",
+		"lt": "Lithuania",
+		"lu": "Luxembourg",
+		"lv": "Latvia",
+		"ly": "Libya",
+		"ma": "Morocco",
+		"mc": "Monaco",
+		"md": "Moldova",
+		"me": "Montenegro",
+		"mg": "Madagascar",
+		"mh": "Marshall Islands",
+		"mk": "Macedonia",
+		"ml": "Mali",
+		"mm": "Myanmar",
+		"mn": "Mongolia",
+		"mo": "Macao",
+		"mp": "Mariana",
+		"mq": "Martinique",
+		"mr": "Mauritania",
+		"ms": "Montserrat",
+		"mt": "Malta",
+		"mu": "Mauritius",
+		"mv": "Maldives",
+		"mw": "Malawi",
+		"mx": "Mexico",
+		"my": "Malaysia",
+		"mz": "Mozambique",
+		"na": "Namibia",
+		"nc": "New Caledonia",
+		"ne": "Niger",
+		"nf": "Norfolk Island",
+		"ng": "Nigeria",
+		"ni": "Nicaragua",
+		"nl": "Netherlands",
+		"no": "Norway",
+		"np": "Nepal",
+		"nr": "Nauru",
+		"nu": "Niue",
+		"nz": "New Zealand",
+		"om": "Oman",
+		"pa": "Panama",
+		"pe": "Peru",
+		"pf": "French Polynesia",
+		"pg": "Papua New Guinea",
+		"ph": "Philippines",
+		"pk": "Pakistan",
+		"pl": "Poland",
+		"pm": "Saint Pierre and Miquelon",
+		"pn": "Pitcairn",
+		"pr": "Puerto Rico",
+		"ps": "Palestine",
+		"pt": "Portugal",
+		"pw": "Palau",
+		"py": "Paraguay",
+		"qa": "Qatar",
+		"re": "Réunion",
+		"ro": "Romania",
+		"rs": "Serbia",
+		"ru": "Russian Federation",
+		"rw": "Rwanda",
+		"sa": "Saudi Arabia",
+		"sb": "Solomon Islands",
+		"sc": "Seychelles",
+		"sd": "Sudan",
+		"se": "Sweden",
+		"sg": "Singapore",
+		"sh": "Saint Helena",
+		"si": "Slovenia",
+		"sj": "Svalbard and Jan Mayen",
+		"sk": "Slovakia",
+		"sl": "Sierra Leone",
+		"sm": "San Marino",
+		"sn": "Senegal",
+		"so": "Somalia",
+		"sr": "Suriname",
+		"st": "Sao Tome and Principe",
+		"sv": "El Salvador",
+		"sy": "Syria",
+		"sz": "Swaziland",
+		"tc": "Turks and Caicos Islands",
+		"td": "Chad",
+		"tf": "French Southern Territories",
+		"tg": "Togo",
+		"th": "Thailand",
+		"tj": "Tajikistan",
+		"tk": "Tokelau",
+		"tm": "Turkmenistan",
+		"tn": "Tunisia",
+		"to": "Tonga",
+		"tr": "Turkey",
+		"tt": "Trinidad and Tobago",
+		"tv": "Tuvalu",
+		"tw": "Taiwan, Province of China",
+		"tz": "Tanzania",
+		"ua": "Ukraine",
+		"ug": "Uganda",
+		"us": "USA",
+		"uy": "Uruguay",
+		"uz": "Uzbekistan",
+		"va": "Vatican City",
+		"vc": "Saint Vincent",
+		"ve": "Venezuela",
+		"vg": "Virgin Islands (British)",
+		"vi": "Virgin Islands (U.S.)",
+		"vn": "Vietnam",
+		"vu": "Vanuatu",
+		"wf": "Wallis and Futuna",
+		"ws": "Samoa",
+		"xk": "Kosovo",
+		"ye": "Yemen",
+		"yt": "Mayotte",
+		"za": "South Africa",
+		"zm": "Zambia",
+		"zw": "Zimbabwe"
 	},
 	"crafting": {
 		"category": {
@@ -500,6 +819,7 @@
 			"mounts": "Mounts",
 			"music": "Music",
 			"navigation": "Navigation",
+			"none": "None",
 			"other": "Other",
 			"otherworkbenches": "Other Crafting Stations",
 			"outfits": "Outfits",
@@ -669,9 +989,16 @@
 			"desc": "A small wire, made out of aluminum",
 			"name": "Aluminum wire"
 		},
+		"ammorepeater": {
+			"desc": "Ammo for the repeating rifle. Contains 5 rounds",
+			"name": "Clip (Repeater)"
+		},
 		"apple": {
 			"desc": "A healthy apple",
 			"name": "Apple"
+		},
+		"arcticfoxpelt": {
+			"name": "Snow fox pelt"
 		},
 		"arrow": {
 			"desc": "A stabilized and accurate arrow",
@@ -697,6 +1024,9 @@
 			"desc": "Can be used to stop bleeding",
 			"name": "Bandage"
 		},
+		"bearpelt": {
+			"name": "Bear pelt"
+		},
 		"bellpepper": {
 			"name": "Bellpepper"
 		},
@@ -710,6 +1040,9 @@
 		"blueprintempty": {
 			"desc": "Use it to save your structures and buildings",
 			"name": "Empty blueprint"
+		},
+		"boarhide": {
+			"name": "Boar hide"
 		},
 		"bomb": {
 			"desc": "Creates an explosion which only damages soft targets",
@@ -740,6 +1073,9 @@
 		"breadhalf": {
 			"name": "Half bread"
 		},
+		"candycane": {
+			"name": "Candy cane"
+		},
 		"canteen": {
 			"desc": "A drinking bottle. Can be filled with water",
 			"name": "Canteen"
@@ -749,6 +1085,10 @@
 		},
 		"carrotslices": {
 			"name": "Carrot slices"
+		},
+		"chicken": {
+			"desc": "A captured chicken. You shouldn't keep it in your inventory for too long...",
+			"name": "Chicken"
 		},
 		"chili": {
 			"name": "Chili"
@@ -767,6 +1107,12 @@
 		"coarsecloth": {
 			"desc": "A piece of coarse cloth",
 			"name": "Coarse cloth"
+		},
+		"coconut": {
+			"name": "Coconut"
+		},
+		"coconutslice": {
+			"name": "Coconut slice"
 		},
 		"combatknife": {
 			"desc": "Mainly used as weapon, but is also required for tanning",
@@ -811,9 +1157,18 @@
 			"desc": "Can be spun to yarn on a spinning wheel",
 			"name": "Cotton"
 		},
+		"cowhide": {
+			"name": "Cow hide"
+		},
 		"decal": {
 			"desc": "Similar to a poster, but adapts to the ground. Ideal if you want to project an image onto an uneven surface",
 			"name": "Decal"
+		},
+		"deerpelt": {
+			"name": "Deer pelt"
+		},
+		"deerredpelt": {
+			"name": "Red deer pelt"
 		},
 		"dye": {
 			"name": "Dye"
@@ -828,6 +1183,9 @@
 		},
 		"egg": {
 			"name": "Egg"
+		},
+		"elephanthide": {
+			"name": "Elephant hide"
 		},
 		"engineboat1": {
 			"desc": "An outboard engine that can be attached to certain boats",
@@ -860,8 +1218,14 @@
 				"spoiled": "Spoiled"
 			}
 		},
+		"foxpelt": {
+			"name": "Fox pelt"
+		},
 		"gingerroot": {
 			"name": "Ginger root"
+		},
+		"goatpelt": {
+			"name": "Goat hide"
 		},
 		"goldingot": {
 			"name": "Gold ingot"
@@ -884,8 +1248,11 @@
 		"group": {
 			"cloth": "Cloth",
 			"fibers": "Cotton / Fibers",
+			"hide": "Animal hide",
 			"knife": "Knife",
+			"leather": "Leather",
 			"metal": "Metal",
+			"pelt": "Pelt",
 			"sapling": "Sapling",
 			"treelog": "Piece of log",
 			"water": "Water"
@@ -906,6 +1273,9 @@
 			"desc": "Used to prepare the ground for cultivation. More robust than the iron hoe",
 			"name": "Hoe (steel)"
 		},
+		"horsehide": {
+			"name": "Horse hide"
+		},
 		"ironingot": {
 			"name": "Iron ingot"
 		},
@@ -923,6 +1293,9 @@
 		"lantern": {
 			"name": "Lantern"
 		},
+		"leather": {
+			"name": "Leather"
+		},
 		"leatherbag": {
 			"name": "Big leather bag"
 		},
@@ -935,6 +1308,9 @@
 		"lightbulb": {
 			"desc": "An electric light",
 			"name": "Light bulb"
+		},
+		"lionpelt": {
+			"name": "Lion pelt"
 		},
 		"lumber": {
 			"desc": "Basic crafting resource",
@@ -989,6 +1365,17 @@
 			"unspectacular": "Unspectacular",
 			"weak": "Weak"
 		},
+		"moosepelt": {
+			"name": "Moose pelt"
+		},
+		"musicdisc": {
+			"desc": "Play it on a gramophone",
+			"name": "Music disc"
+		},
+		"nails": {
+			"desc": "Metal nails. Used as fasteners",
+			"name": "Nails"
+		},
 		"objectkit": {
 			"desc": "Represents a placeable object",
 			"name": "Object kit"
@@ -1023,6 +1410,9 @@
 		"peeledpotato": {
 			"name": "Peeled potato"
 		},
+		"penguinhide": {
+			"name": "Penguin hide"
+		},
 		"penlight": {
 			"desc": "A portable light source",
 			"name": "Penlight"
@@ -1034,6 +1424,12 @@
 		"pickaxesteel": {
 			"desc": "A modern steel pickaxe. More efficient and robust than the iron pickaxe",
 			"name": "Pickaxe (steel)"
+		},
+		"pighide": {
+			"name": "Pig hide"
+		},
+		"polarbearpelt": {
+			"name": "Polar bear pelt"
 		},
 		"poster": {
 			"desc": "A poster. You can use it to load an image from your hard drive and place it in the world",
@@ -1080,8 +1476,11 @@
 			"name": "Wooden rake"
 		},
 		"repeater": {
-			"desc": "A bold action repeating rifle. Superior to the musket in terms of firing rate, accuracy and effective range",
+			"desc": "A bolt action repeating rifle. Superior to the musket in terms of firing rate, accuracy and effective range",
 			"name": "Repeater"
+		},
+		"rhinohide": {
+			"name": "Rhinoceros hide"
 		},
 		"ribkit1": {
 			"desc": "Base kit for crafting a rigid-inflatable-boat. Place it on solid ground to assemble the boat.\n<color=yellow>Kit 1 of 2</color>",
@@ -1090,6 +1489,10 @@
 		"ribkit2": {
 			"desc": "Base kit for crafting a rigid-inflatable-boat. Attach it to an existing rigid hull (see kit 1).\n<color=yellow>Kit 2 of 2</color>",
 			"name": "Inflatable boat kit II (Tubes)"
+		},
+		"ribstorage": {
+			"desc": "Optional storage that can be attached to inflatable boats (RIB)",
+			"name": "Storage (RIB)"
 		},
 		"ripepear": {
 			"name": "Overripe pear"
@@ -1114,12 +1517,24 @@
 			"desc": "Just a toy",
 			"name": "Rubber duck"
 		},
+		"saddlebaghorse": {
+			"desc": "Optional bags that can be attached to a saddle. Can be used to store items in it",
+			"name": "Saddle bags (Horse)"
+		},
+		"saddlehorse": {
+			"desc": "A saddle for a horse. This is required if you want to ride a horse",
+			"name": "Saddle (Horse)"
+		},
 		"sapling": {
 			"name": "Sapling"
 		},
 		"saplingacacia": {
 			"desc": "A sapling of an acacia",
 			"name": "Sapling (acacia)"
+		},
+		"saplingaleppo": {
+			"desc": "A sapling of an aleppo pine",
+			"name": "Sapling (aleppo pine)"
 		},
 		"saplingapple": {
 			"desc": "A sapling of an apple tree",
@@ -1170,6 +1585,10 @@
 			"desc": "A sapling of a london plane",
 			"name": "Sapling (london plane)"
 		},
+		"saplingmesquite": {
+			"desc": "A sapling of a mesquite",
+			"name": "Sapling (mesquite)"
+		},
 		"saplingpalm": {
 			"desc": "A sapling of a palm tree",
 			"name": "Sapling (palm)"
@@ -1192,6 +1611,9 @@
 		"saplingspruceforest": {
 			"desc": "A sapling of a big forest spruce",
 			"name": "Sapling (forest spruce)"
+		},
+		"saplingsugarbeet": {
+			"name": "Sapling (sugar beet)"
 		},
 		"saplingtomato": {
 			"name": "Sapling (tomato)"
@@ -1217,6 +1639,9 @@
 		},
 		"seedling": {
 			"name": "Seedling"
+		},
+		"sheeppelt": {
+			"name": "Sheep pelt"
 		},
 		"sickle": {
 			"desc": "Useful if you want to collect grass or smaller plants",
@@ -1268,17 +1693,66 @@
 			"desc": "A simple stone",
 			"name": "Stone"
 		},
+		"sugarbeet": {
+			"name": "Sugar beet"
+		},
 		"sulfur": {
 			"name": "Sulfur"
 		},
 		"sulfurpowder": {
 			"name": "Sulfur powder"
 		},
+		"sword1": {
+			"desc": "A wooden sword. It barely deals any damage and is more suitable for exercising...",
+			"name": "Wooden sword"
+		},
+		"sword2": {
+			"desc": "An old, rusty sword",
+			"name": "Rusty sword"
+		},
+		"sword3": {
+			"desc": "A one-handed sword",
+			"name": "Sword"
+		},
+		"sword4": {
+			"desc": "A two-handed longword. Slower to handle compared to one-handed swords, but deals more damage",
+			"name": "Longsword"
+		},
+		"sword5": {
+			"desc": "A two-handed longword, made out of steel",
+			"name": "Steel sword"
+		},
+		"sword6": {
+			"name": "Demonic sword"
+		},
+		"sword7": {
+			"desc": "A sword for true heroes!",
+			"name": "Master sword"
+		},
+		"sword8": {
+			"desc": "A powerful sword. Killing enemies makes this sword more powerful",
+			"name": "Mystic sword"
+		},
+		"sword9": {
+			"name": "Saber"
+		},
+		"sword10": {
+			"desc": "A two-handed japenese sword",
+			"name": "Katana"
+		},
+		"sword11": {
+			"desc": "A one-handed, single-edged falchion",
+			"name": "Falchion"
+		},
 		"tentbag": {
 			"name": "Tent bag"
 		},
 		"tomato": {
 			"name": "Tomato"
+		},
+		"toolbelt": {
+			"desc": "Wearing this toolbelt increases the number of available slots in your hotbar",
+			"name": "Toolbelt"
 		},
 		"torch": {
 			"desc": "Serves as light source",
@@ -1291,6 +1765,10 @@
 		"treelogacacia": {
 			"desc": "Piece of log of an acacia",
 			"name": "Piece of log (acacia)"
+		},
+		"treelogaleppo": {
+			"desc": "Piece of log of an aleppo pine",
+			"name": "Piece of log (aleppo pine)"
 		},
 		"treelogapple": {
 			"desc": "Piece of log of an apple tree",
@@ -1320,6 +1798,10 @@
 			"desc": "Piece of log of a london plane",
 			"name": "Piece of log (london plane)"
 		},
+		"treelogmesquite": {
+			"desc": "Piece of log of an mesquite",
+			"name": "Piece of log (mesquite)"
+		},
 		"treelogpalm": {
 			"desc": "Piece of log of a palm tree",
 			"name": "Piece of log (palm)"
@@ -1340,6 +1822,10 @@
 			"desc": "Piece of log of a willow oak",
 			"name": "Piece of log (willow oak)"
 		},
+		"trimmer": {
+			"desc": "An electric lawn trimmer. Very efficient way to cut grass",
+			"name": "Lawn trimmer"
+		},
 		"tungsteningot": {
 			"name": "Tungsten ingot"
 		},
@@ -1353,6 +1839,9 @@
 		"tungstenwire": {
 			"desc": "A small wire, made out of tungsten",
 			"name": "Tungsten wire"
+		},
+		"unicornhide": {
+			"name": "Unicorn hide"
 		},
 		"walkietalkie": {
 			"desc": "A portable, hand-held radio transceiver",
@@ -1378,6 +1867,9 @@
 		"wheat": {
 			"name": "Wheat"
 		},
+		"wolfpelt": {
+			"name": "Wolf pelt"
+		},
 		"wool": {
 			"desc": "Obtainable from sheeps. Can be spun to yarn on a spinning wheel",
 			"name": "Wool"
@@ -1385,6 +1877,17 @@
 		"yarn": {
 			"desc": "Consists of fabrics, spun at a spinning wheel. Used to create various fabrics",
 			"name": "Yarn"
+		},
+		"zebrahide": {
+			"name": "Zebra hide"
+		}
+	},
+	"liquids": {
+		"sugarbeet": {
+			"name": "Sugar beet juice"
+		},
+		"water": {
+			"name": "Water"
 		}
 	},
 	"location": {
@@ -1409,7 +1912,8 @@
 			"cannotcreate": "Cannot create blueprint",
 			"cannotplace": "Cannot place blueprint",
 			"created": "Blueprint created! \n\nYou can now craft it at the blueprint table!",
-			"missingblueprinttable": "There is no blueprint table in your proximity!"
+			"missingblueprinttable": "There is no blueprint table in your proximity!",
+			"terrainnopivots": "You cannot use modular snapping if the blueprint contains any terrain!"
 		},
 		"building": {
 			"flipped": "Element flipped",
@@ -1446,11 +1950,16 @@
 			"surfacesize": "Surface size  X {0}  Y {1}  Z {2}",
 			"tiling": "Texture Scale  {0}"
 		},
+		"clothes": {
+			"rightclick": "Rightclick to take off clothes"
+		},
 		"consume": {
 			"apple": "You've eaten an apple",
 			"bandage": "You have bandaged your wounds",
 			"bellpepper": "You've eaten a bell pepper",
 			"breadhalf": "You've eaten some bread",
+			"candy": "You've eaten some candy",
+			"candycane": "You've eaten a candy cane",
 			"carrot": "You've eaten a carrot",
 			"carrotslices": "You've eaten some carrot slices",
 			"chili": "You've eaten a hot chili pepper",
@@ -1469,6 +1978,7 @@
 			"steakburned": "<color=red>You've eaten a burned steak</color>",
 			"steakcooked": "You've eaten a steak",
 			"steakdried": "You've eaten a dried steak",
+			"sugarbeet": "You have eaten a sugar beet",
 			"tomato": "You've eaten a tomato",
 			"water": "You drank some water",
 			"watermelon": "You've eaten a whole watermelon!",
@@ -1483,6 +1993,7 @@
 			"tooold": "This world is unfortunately too old and cannot be loaded with the current version",
 			"unknown": "Something went wrong \n({0})"
 		},
+		"copiedtoclipboard": "Copied to clipboard: {0}",
 		"corpse": {
 			"cannotloot": "You cannot loot this body",
 			"gutanimalwithknife": "Use a knife to gut this corpse",
@@ -1502,6 +2013,8 @@
 			"areareset": "Selection reset",
 			"brushshapecircle": "Brush shape: Circle",
 			"brushshaperect": "Brush shape: Square",
+			"confirmremoval": "Do you really want to delete all elements inside the selected area?\n<align=left><color=yellow>\n\\t{0} constructions\n\\t{1} objects\n\\t{2} plants\n</color></align>",
+			"confirmremovalheader": "Confirm Removal",
 			"continuouseditoff": "Continuous editing disabled",
 			"continuousediton": "Continuous editing enabled",
 			"creatingarea": "Creating area...",
@@ -1621,6 +2134,12 @@
 					"notneeded": "You don't have any broken bones at the moment"
 				}
 			},
+			"toolbelt": {
+				"cannotmove": "There are still items in your toolbelt! Remove them first to move the toolbelt",
+				"equiphint": "To use the toolbelt, put it into an equipment slot in your inventory",
+				"itemsdropped": "The items in your toolbelt fell to the ground!",
+				"itemsmoved": "There were still items in your toolbelt! They were moved to your inventory now!"
+			},
 			"wateringcan": {
 				"empty": "The watering can is empty. You have to fill it with water first",
 				"full": "The watering can is already full"
@@ -1641,20 +2160,26 @@
 			},
 			"sp": {
 				"backup": {
+					"cannotcreatefolder": "Cannot create folder",
+					"cannotdeletefolder": "Cannot delete folder",
 					"createbackup": "Do you really want to create a backup? ",
+					"createfailure": "Backup failed!",
+					"createsuccess": "Backup created successfully!\nDuration: {0} ms",
 					"creatingbackup": "Creating backup, please wait...",
-					"failure": "Backup failed!",
-					"success": "Backup created successfully!\nDuration: {0} ms"
+					"restorebackup": "Select a backup you want to restore. \nPlease note: You cannot undo this step! This will overwrite your existing world files!",
+					"restorebackupconfirm": "Please confirm that you want to restore this backup: \n<align=left><color=yellow>\n\\t\\t World:  {0}\n\\t\\t Date:  {1}\n\\t\\t Version:  {2}\n</color></align>\nThis will delete the current world and replace it with the backup.",
+					"restorefailure": "Restoring backup failed! Reason: \n\n{0}",
+					"restoresuccess": "Backup restored successfully!\nDuration: {0} ms",
+					"restoringbackup": "Restoring backup, please wait...",
+					"title": "Create backup"
 				},
-				"createbackup": "Do you really want to create a backup? ",
 				"deleteworld": "Do you really want to delete this world?",
 				"deleteworldtitle": "Delete World: {0}",
 				"nop2pofflinemode": "You cannot host a P2P multiplayer session in offline mode!",
 				"renameworld": "Please enter a new name for the world:",
 				"selectworldfirst": "Please select a world first!",
-				"worldalreadyexists": "World [0} already exists",
-				"worldexistsorinvalidname": "World name {0} is invalid",
-				"worldnameinvalid": "World name {0} is invalid"
+				"worldalreadyexists": "World {0} already exists",
+				"worldexistsorinvalidname": "World name {0} is invalid or world already exists"
 			}
 		},
 		"multiplayer": {
@@ -1683,7 +2208,7 @@
 			"groupinvite": "{0} wants to invite you into his group",
 			"illegalstate": "Illegal state limit exceeded! Please check your internet connection and make sure you're not using modified game files!",
 			"incorrectauthentication": "Incorrect authentication procedure",
-			"incorrectversion": "Your game uses a different version than the server!",
+			"incorrectversion": "Your game uses a different version than the server!\n<color=yellow>Game: {0}</color>\n<color=yellow>Server: {1}</color>",
 			"invalidplayername": "Your player name is invalid",
 			"invaliduid": "Invalid UID",
 			"isbanned": "You're banned from this server!",
@@ -1732,6 +2257,11 @@
 				"deletenpcs": "Do you really want to delete these npcs?\nNpc: {0}\nRange: {1}",
 				"deletenpcstitle": "Delete <u>all</u> npcs..."
 			},
+			"mount": {
+				"brokenbag": "You cannot access this saddle bag",
+				"removebagsfirst": "You have to remove the saddle bag first",
+				"saddlerequiredforbags": "You have to attach a saddle first"
+			},
 			"shearingsheep": "Shearing sheep...",
 			"shearsheepwithshears": "You need shears to shear this sheep",
 			"tooyoungtoshear": "This lamb is too young to be shorn"
@@ -1756,6 +2286,9 @@
 				"nofuelrefill": "This furnace has no fuel.\nYou can refuel it on the left side",
 				"placedore": "Ore placed"
 			},
+			"gramophone": {
+				"discrequired": "You have to put a music disc on the gramophone first!"
+			},
 			"light": {
 				"cannotuse": "You cannot control this lamp",
 				"flashing": {
@@ -1764,6 +2297,11 @@
 				},
 				"off": "Turned light off",
 				"on": "Turned light on"
+			},
+			"meatdryer": {
+				"dried": "Meat is fully dried",
+				"halfdried": "Meat is half dried, still not ready",
+				"raw": "Meat is still raw"
 			},
 			"obstructed": "This space is obstructed",
 			"occupied": "This space is occupied",
@@ -1785,6 +2323,9 @@
 			},
 			"placing": "Placing: {0}",
 			"removing": "Removing...",
+			"sign": {
+				"holdinteracttoedit": "Hold {0} to edit the text"
+			},
 			"spinningwheel": {
 				"usereel": "To use the spinning wheel, interact with the reel while holding fibers or wool in your hand"
 			},
@@ -1795,6 +2336,12 @@
 				"cannotremovelocked": "You cannot pickup the chest while it is locked!",
 				"cannottakeitems": "You cannot take items from this chest",
 				"cannotunlock": "You cannot unlock this chest"
+			},
+			"tanningrack": {
+				"notready": "The leather isn't ready yet",
+				"placepelt": "Place a hide or pelt on this rack",
+				"tanning": "",
+				"useknife": "Use a knife to turn this hide into leather"
 			}
 		},
 		"paint": {
@@ -1818,13 +2365,7 @@
 		},
 		"placed": "Placed: {0}",
 		"placing": "Placing: {0}",
-		"processing": {
-			"meatdryer": {
-				"dried": "Meat is fully dried",
-				"halfdried": "Meat is half dried, still not ready",
-				"raw": "Meat is still raw"
-			}
-		},
+		"processing": "Processing...",
 		"settings": {
 			"ingameview": {
 				"body": "You must be ingame to adjust the view settings",
@@ -1862,10 +2403,12 @@
 		},
 		"storagefull": "No more room left",
 		"vehicle": {
+			"changegear": "To accelerate, use {0} and {1} to change the gear!",
 			"exit": "Press ESC to exit",
 			"nofreeseat": "No free seat was found",
 			"otherstagerequired": "This kit can only be assembled on: <color=yellow>{0}</color>",
 			"placingvehicle": "Placing vehicle component...",
+			"pushingwhilestandingonit": "It's difficult to push the boat while you're standing on it",
 			"seatoccupied": "This seat is occupied",
 			"vehicleassemblyrequired": "You can only assemble this kit on an existing vehicle"
 		},
@@ -1879,6 +2422,14 @@
 			"outofammo": "Out of ammo"
 		},
 		"world": {
+			"createbackupfirst": "Would you like to create a backup of your world first?\n\nYou can restore your backup at any time by rightclicking on the world in your singleplayer menu",
+			"createbackuptitle": "Create a backup first?",
+			"deletesector": "Do you really want to delete sector {0} {1}? This will remove all chunks in this sector (this also means that everything that was built there will be removed). \n\n<b>Note: To check your current sector position, you can press F3 to see your current sector at the top.</b>\n\n<color=red>Press cancel to abort this operation</color>",
+			"deletesectorconfirm": "Please confirm again that you want to delete the sector. The sector contains: \n<color=yellow>\n{0} chunks\n{1} construction elements\n{2} objects\n</color>\n<b>After deleting the sector, there is no way to restore the chunks!</b>",
+			"deletesectorheader": "DELETE SECTOR:  {0}   {1}",
+			"overridebiomeregion": "Do you really want to override the climate region for sector {0} | {1} ? \n\n<color=red>Please note that this will also fully reset the sector, which means that everything that was built in this sector will be irretrievably deleted!</color>",
+			"overridebiomeregionheader": "OVERRIDE CLIMATE REGION FOR SECTOR  {0}   {1}",
+			"sectordeleted": "Do you really want to delete sector {0} {1}? This will remove all chunks in this sector (this also means that everything that was built there will be removed). \n\nNote: To check your current sector position, you can press F3 to see your current sector at the top. \n\n<color=red>Press cancel to abort this operation</color>",
 			"undo": {
 				"blueprint": "UNDO: Blueprint removed!",
 				"confirmation": {
@@ -1896,6 +2447,11 @@
 	},
 	"misc": {
 		"ban": "Ban",
+		"deadbody": "Dead body",
+		"flags": {
+			"countries": "Country Flags",
+			"special": "Special Flags"
+		},
 		"kick": "Kick",
 		"measuring": {
 			"measuringtape": "Distance: {0} {3}\n<size=60%>Horizontal: {1} {3}\nVertical: {2} {3}</size>",
@@ -1908,18 +2464,28 @@
 		},
 		"oredetector": {
 			"allores": "<All ores>",
-			"display": "{0}  <size=60%>{1}</size>\n\nSignal: {2} %"
+			"display": "{0}\n<size=85%>{1}</size>\nSignal: {2} %"
+		},
+		"storages": {
+			"saddlebag": "Saddle bag"
 		},
 		"world": {
 			"caves": {
 				"disabled": "No caves",
 				"enabled": "Caves enabled"
 			},
+			"flatness": {
+				"default": "Default",
+				"flat": "Flat",
+				"steep": "Steep",
+				"veryflat": "Very Flat",
+				"verysteep": "Very Steep"
+			},
 			"oreamount": {
 				"default": "Default",
 				"high": "High",
 				"low": "Low",
-				"off": "No ores",
+				"off": "No Ores",
 				"veryhigh": "Very High"
 			},
 			"vegetation": {
@@ -1928,9 +2494,25 @@
 			},
 			"worldtype": {
 				"default": "Default",
+				"flatislands": "Superflat Islands",
 				"ocean": "Ocean only",
 				"superflat": "Superflat"
 			}
+		}
+	},
+	"music": {
+		"tracks": {
+			"allegroconbrioa": "5th Symphony, 1st Movement, Allegro con brio A",
+			"allegroconbriob": "5th Symphony, 1st Movement, Allegro con brio B",
+			"deathofase": "Death of Ase",
+			"morningmood": "Morning Mood",
+			"rideofvalkyries": "Ride of the Valkyries",
+			"risingworld": "Rising World",
+			"swanlakeact2": "Swan Lake Act 2 - Allegro moderato",
+			"swanlakeact3": "Swan Lake Act 3 - Hungarian Dance",
+			"toccatafugea": "Toccata and Fugue A",
+			"toccatafugeb": "Toccata and Fugue B",
+			"williamtelloverture": "William Tell Overture"
 		}
 	},
 	"npc": {
@@ -1942,6 +2524,9 @@
 		},
 		"bearcub": {
 			"name": "Bear cub"
+		},
+		"bearmale": {
+			"name": "Bear"
 		},
 		"billygoat": {
 			"name": "Billy goat"
@@ -1982,11 +2567,17 @@
 		"deerstag": {
 			"name": "Stag"
 		},
+		"dummy": {
+			"name": "Dummy"
+		},
 		"earthworm": {
 			"name": "Earthworm"
 		},
 		"elephant": {
 			"name": "Elephant"
+		},
+		"firewolf": {
+			"name": "Fire wolf"
 		},
 		"foal": {
 			"name": "Foal"
@@ -2036,11 +2627,17 @@
 		"moosecalf": {
 			"name": "Moose calf"
 		},
+		"penguin": {
+			"name": "Penguin"
+		},
 		"pig": {
 			"name": "Pig"
 		},
 		"piglet": {
 			"name": "Piglet"
+		},
+		"polarbear": {
+			"name": "Polar bear"
 		},
 		"ram": {
 			"name": "Ram"
@@ -2056,6 +2653,12 @@
 		},
 		"sheepshorn": {
 			"name": "Sheep (shorn)"
+		},
+		"snake": {
+			"name": "Snake"
+		},
+		"spider": {
+			"name": "Spider"
 		},
 		"unicorn": {
 			"name": "Unicorn"
@@ -2108,6 +2711,12 @@
 		"brazier": {
 			"desc": "Provides warmth and light",
 			"name": "Brazier"
+		},
+		"brokenchest": {
+			"name": "Broken chest"
+		},
+		"brokenhandcart": {
+			"name": "Broken handcart"
 		},
 		"bulkheadlamp1": {
 			"name": "Bulkhead lamp (oval)"
@@ -2244,7 +2853,12 @@
 			"desc": "Enables you to smelt ores into ingots. Has a higher fuel consumption, but also a particularly large capacity (60 slots)",
 			"name": "Big smelting furnace"
 		},
+		"gift": {
+			"desc": "A present that can be placed anywhere. Items can be placed inside.",
+			"name": "Gift"
+		},
 		"gramophone": {
+			"desc": "A device for playing music discs",
 			"name": "Gramophone"
 		},
 		"grandfatherclock": {
@@ -2258,6 +2872,10 @@
 			"desc": "A grinding stone that can be used to sharpen certain tools and weapons (like swords), which improves their stats",
 			"name": "Grindstone"
 		},
+		"igloo": {
+			"desc": "A shelter built of snow",
+			"name": "Igloo"
+		},
 		"ironsign1": {
 			"desc": "A hanging sign, made out of iron. Can display text",
 			"name": "Hanging iron sign"
@@ -2266,15 +2884,32 @@
 			"desc": "A carved pumpkin, which can be used as decoration on Halloween",
 			"name": "Jack-o'-lantern"
 		},
+		"juicepress": {
+			"desc": "A device used to extract juice from fruits and vegetables",
+			"name": "Fruit press"
+		},
 		"ladder": {
 			"name": "Ladder"
 		},
 		"lantern": {
 			"name": "Lantern"
 		},
+		"leatherarmchair": {
+			"name": "Armchair (leather)"
+		},
+		"leathercouch": {
+			"name": "Couch (leather)"
+		},
 		"leathertrunk": {
 			"desc": "Square and small, but with plenty of storage space",
 			"name": "Leather trunk"
+		},
+		"lionhead": {
+			"desc": "A lion head, sculpted from stone",
+			"name": "Lion head statue"
+		},
+		"lionhead_1": {
+			"desc": "A lion head, sculpted from stone. Variant with closed mouth"
 		},
 		"logbench": {
 			"name": "Log bench"
@@ -2306,6 +2941,14 @@
 			"desc": "A poster. You can use it to load an image from your hard drive and place it in the world",
 			"name": "Poster"
 		},
+		"primitivedoor1": {
+			"desc": "A simple door made out of wood slats",
+			"name": "Primitive door"
+		},
+		"primitivedoor1b": {
+			"desc": "A simple door made out of wood slats",
+			"name": "Primitive door (arch)"
+		},
 		"primitivefurnace": {
 			"desc": "Enables you to smelt ores into ingots, but has limited capacity (8 slots)",
 			"name": "Primitive smelting furnace"
@@ -2318,9 +2961,16 @@
 			"desc": "Very simple workbench, used to craft basic tools",
 			"name": "Primitive workbench"
 		},
+		"safe": {
+			"desc": "An almost indestructible, lockable container for securing valuable items",
+			"name": "Safe"
+		},
 		"saloondoor": {
 			"desc": "A bi-directional swinging door",
 			"name": "Saloon door"
+		},
+		"santasleigh": {
+			"name": "Santa's sleigh"
 		},
 		"scaffolding1": {
 			"desc": "A temporary, modular wooden structure to support constructing a building",
@@ -2437,8 +3087,11 @@
 			"name": "Table"
 		},
 		"tanningrack": {
-			"desc": "Is used to turn animal hides and pelts into leather. A knife is required for that",
+			"desc": "Is used to turn animal hides and pelts into leather. A knife is required for that!",
 			"name": "Tanning rack"
+		},
+		"teddy": {
+			"name": "Teddy"
 		},
 		"tentmodern": {
 			"desc": "Two-person tent which allows you to sleep and set your spawn point",
@@ -2469,6 +3122,10 @@
 		"trashcan2": {
 			"desc": "Used for the disposal of items you no longer need",
 			"name": "Trash can (metal)"
+		},
+		"trashcan3": {
+			"desc": "Used for the disposal of items you no longer need",
+			"name": "Small trash can"
 		},
 		"trough": {
 			"desc": "A container which can be filled with water",
@@ -2532,6 +3189,7 @@
 			"command": "Commands",
 			"creative": "Creative Mode",
 			"general": "General",
+			"image": "Images",
 			"info": "Info",
 			"world": "World"
 		},
@@ -2682,18 +3340,24 @@
 		"acacia": "Acacia",
 		"acaciadead": "Acacia (dead)",
 		"acropora": "Coral (acropora)",
+		"agave": "Agave",
+		"agavehavardiana": "Agave havardiana",
 		"alcyonacea": "Coral (Alcyonacea)",
 		"aloevera": "Aloe Vera",
 		"apple": "Apple tree",
 		"appledead": "Apple tree (dead)",
 		"applegreen": "Apple tree (green)",
 		"araucaria": "Araukarie",
+		"beavertail": "Beavertail cactus",
 		"birch": "Birch",
+		"biznaga": "Biznaga",
 		"braincoral": "Brain coral",
+		"branches": "Branches",
 		"bush": "Bush",
 		"bushcedar": "Bush",
 		"cactus": "Cactus",
-		"cactussmall": "Cactus small",
+		"cactussmall": "Cactus (small)",
+		"cactustall": "Cactus (tall)",
 		"carrot": "Carrot",
 		"category": {
 			"api": "New Plants",
@@ -2709,7 +3373,8 @@
 			"treesdead": "Dead Trees",
 			"treesyoung": "Young Trees",
 			"trunks": "Tree Trunks",
-			"underwater": "Underwater"
+			"underwater": "Underwater",
+			"water": "Water Plants"
 		},
 		"chili": "Chili plant",
 		"coral": "Coral",
@@ -2719,7 +3384,10 @@
 		"cypress": "Cypress",
 		"cypressdead": "Cypress (dead)",
 		"dandelion": "Dandelion",
+		"deadbush": "Dead bush",
+		"drygrass": "Dry grass",
 		"eusmilia": "Eusmilia fastigiata",
+		"felledtree": "Felled tree",
 		"fern": "Fern",
 		"flowers": "Flowers",
 		"grasstuft": "Tuft of grass",
@@ -2728,13 +3396,19 @@
 		"henbane": "Henbane",
 		"hickory": "Hickory",
 		"hogweed": "Hogweed",
+		"icechest": "Frozen chest",
+		"icerock": "Frozen rock",
 		"ivy": "Ivy",
 		"lettuce": "Lettuce",
 		"londonplane": "London plane",
+		"mesquite": "Mesquite",
+		"mesquitedead": "Mesquite (dead)",
 		"monstera": "Monstera",
+		"nopalcactus": "Nopal",
 		"ore": "Ore rock",
 		"palm": "Palm",
 		"pillarcoral": "Pillar coral",
+		"pinealeppo": "Aleppo pine",
 		"pocillopora": "Coral (pocillopora)",
 		"potato": "Potato plant",
 		"pumpkin": "Pump\\u00ADkin",
@@ -2763,10 +3437,13 @@
 			"young": "Young"
 		},
 		"starcoral": "Star coral",
+		"sugarbeet": "Sugar beet",
 		"tomato": "Tomato plant",
 		"treetrunk": "Tree trunk",
 		"treetrunkhollow": "Tree trunk (hollow)",
 		"tubesponge": "Tube sponge",
+		"waterlily": "Water lily",
+		"waterlilyleaf": "Water lily (leaf)",
 		"watermelon": "Water\\u00ADmelon",
 		"weepingbeech": "Weeping beech",
 		"wheat": "Wheat",
@@ -2822,6 +3499,7 @@
 			"empty": "Empty",
 			"flip": "Flip / Mirror",
 			"loadpreset": "Load Preset",
+			"movemode": "Move Mode\n<#FFFF00>{0}<#FFFFFF>",
 			"moveprecision": "Move Precision\n<#FFFF00>{0}<#FFFFFF>",
 			"pivotmode": "Pivot Mode\n<#FFFF00>{0}<#FFFFFF>",
 			"precision": "Precision",
@@ -2833,7 +3511,18 @@
 			"savepresetnameheader": "Enter a preset name",
 			"scaleprecision": "Scale Precision\n<#FFFF00>{0}<#FFFFFF>",
 			"surfaceedit": "Surface Edit Mode\n<#FFFF00>{0}<#FFFFFF>",
-			"texturescale": "Texture Scale\n<#FFFF00>{0}<#FFFFFF>"
+			"texturealignment": "Texture Alignment\n<#FFFF00>{0}<#FFFFFF>",
+			"texturescale": "Texture Scale\n<#FFFF00>{0}<#FFFFFF>",
+			"tooltips": {
+				"flip": "Mirros / flips the element",
+				"movemode": "Determines how the manual movement mode (key: {0}) works.\n\n<align=left><color=yellow>\nWorld: Movement is always along fixed world axes (default)\nLocal: Movement is along the local element axes (i.e. depend on element rotation)\n</color></align>",
+				"moveprecision": "Determines the precision if manual movement mode (key: {0}) is active",
+				"pivotmode": "Determines how modular snapping (key: {0}) should work.\n\n<align=left><color=yellow>\nAutomatic: The nearest pivot is selected automatically. Recommended mode (default)\nManual: You select the active pivot manually (with keys {1} and {2})\n</color></align>",
+				"rotateprecision": "Determines the precision when rotating the element",
+				"scaleprecision": "Determines the precision when resizing the element",
+				"surfaceedit": "Enables/disables the advanced surface edit mode. This allows you to move the upper part of the element separately",
+				"texturealignment": "Determines the alignment of the texture, i.e. whether it should follow the element rotation or if it should have a fixed world alignment"
+			}
 		},
 		"corpse": {
 			"hide": "Hide corpse",
@@ -2876,6 +3565,12 @@
 				}
 			}
 		},
+		"mount": {
+			"mount": "Ride",
+			"openbag": "Open bag",
+			"removesaddle": "Remove saddle",
+			"removesaddlebag": "Remove saddle bag"
+		},
 		"objects": {
 			"bed": {
 				"removespawn": "Remove Spawn (bed)",
@@ -2899,7 +3594,18 @@
 				},
 				"off": "Light off",
 				"on": "Light on",
+				"shadows": {
+					"off": "Shadows off",
+					"on": "Shadows on"
+				},
 				"sync": "Sync light\\n(with nearby object)"
+			},
+			"musicplayer": {
+				"currentvolume": "Current Volume",
+				"play": "Play",
+				"rewind": "Rewind",
+				"stop": "Stop",
+				"volume": "Volume"
 			},
 			"open": "Open",
 			"paperpress": {
@@ -2944,9 +3650,22 @@
 			"off": "Turn off",
 			"on": "Turn on",
 			"selectcolor": "Select light color"
+		},
+		"terrainplace": {
+			"grass": {
+				"lvl0": "Plain (no blades)",
+				"lvl1": "Short (1)",
+				"lvl2": "Default (2)",
+				"lvl3": "Tall (3)",
+				"lvl4": "Very tall (4)"
+			}
 		}
 	},
 	"selector": {
+		"movemode": {
+			"local": "Local",
+			"world": "World (Default)"
+		},
 		"pivotmode": {
 			"automatic": "Automatic",
 			"manual": "Manual"
@@ -2955,6 +3674,11 @@
 			"legacy": "Default",
 			"local": "Local",
 			"world": "World"
+		},
+		"texturealignment": {
+			"default": "Default",
+			"forcelocal": "Force local alignment",
+			"forceworld": "Force world alignment"
 		}
 	},
 	"time": {
@@ -3177,6 +3901,11 @@
 					"gamemodecontainer": {
 						"gamemodelabel": "Game mode:"
 					},
+					"terraintypecontainer": {
+						"terraintypeflat": "Flat",
+						"terraintypelabel": "Terrain:",
+						"terraintypemountainous": "Mountainous"
+					},
 					"worldnamecontainer": {
 						"worldnamelabel": "World name:"
 					},
@@ -3303,6 +4032,9 @@
 				"footer": "Double-click to select a material",
 				"header": "Select a material"
 			},
+			"flags": {
+				"header": "Select a flag"
+			},
 			"plants": {
 				"footer": "Double-click to select a plant / object",
 				"header": "Select a plant or object"
@@ -3359,10 +4091,17 @@
 				"bread": {
 					"cut": "Cut bread"
 				},
+				"coconut": {
+					"cut": "Cut coconut"
+				},
 				"explosive": {
 					"fuse": "Light fuse",
 					"place": "Place",
 					"throw": "Throw"
+				},
+				"grass": {
+					"options": "Show options",
+					"place": "Place grass"
 				},
 				"holdinteractionforoptions": "Open Settings (HOLD)",
 				"knife": {
@@ -3388,11 +4127,19 @@
 				"torch": {
 					"light": "Light torch",
 					"unlight": "Extinguish torch"
+				},
+				"watermelon": {
+					"cut": "Cut watermelon"
 				}
 			}
 		},
 		"hud": {
 			"building": {
+				"alignment": {
+					"default": "Default",
+					"local": "Local",
+					"world": "World"
+				},
 				"collisions": {
 					"off": "Collisions off",
 					"on": "Collisions on"
@@ -3401,6 +4148,10 @@
 					"off": "Grid inactive",
 					"on": "Grid active"
 				},
+				"manualpositioning": {
+					"off": "Manual positioning off",
+					"on": "Manual positioning on"
+				},
 				"modularsnapping": {
 					"off": "Modular snapping off",
 					"on": "Modular snapping on"
@@ -3408,8 +4159,9 @@
 				"surfaceedit": {
 					"off": "Surface edit off",
 					"on": "Surface edit on",
-					"transform": "<color=red>Surface scale  {0} x {1} x {2}\nSurface offset  X {3}  Y {4}  Z {5}</color>"
+					"transform": "<color=yellow>Surface scale  {0} x {1} x {2}\nSurface offset  X {3}  Y {4}  Z {5}</color>"
 				},
+				"texturealignment": "Texture alignment: {0}",
 				"texturescale": "Texture scale: x {0}",
 				"transform": "Size  {0} x {1} x {2}\nRotation  X {3}°  Y {4}°  Z {5}°"
 			},
@@ -3774,6 +4526,7 @@
 			},
 			"controls": {
 				"actions": "Actions",
+				"autorun": "Auto Run",
 				"blueprints": "Blueprints",
 				"building": "Building",
 				"buildingadapt": "Adapt to World Element",
@@ -3804,7 +4557,7 @@
 				"console": "Console",
 				"copyblock": "Copy / Equip Block",
 				"crafting": "Crafting",
-				"creative": "Creative Mode",
+				"creative": "Creative-Mode",
 				"creativemodenormal": "Normal Mode",
 				"creativemodeplacement": "Placement Tool",
 				"creativemoderemoval": "Removal Tool",
@@ -3874,6 +4627,7 @@
 				"vehicles": "Vehicles",
 				"vehicleturbo": "Turbo",
 				"voip": "Voice Chat",
+				"voiptoggle": "Voice Chat (Toggle)",
 				"walk": "Walk",
 				"walktoggle": "Walk (Toggle)",
 				"zoom": "Zoom",
@@ -3966,7 +4720,7 @@
 					"keepdistantbuildingsvisible": "If enabled, buildings will stay visible (once they have been generated once) over the max view distance, irrespective of the building view distance setting",
 					"lodbias": "Determines how long the high-detail version of certain objects (like plants) should stay visible (depending on how far they are away). \nLower values causes low-detail (LOD) versions to become visible much earlier",
 					"lodfade": "If enabled, there will be a smooth cross-fade when changing LOD levels",
-					"maxdebris": "Determines the total amount of debris in the world. Note that this does not refer to individual debris parts, instead this counts per object. More precisely, this determines can spawn debris in the world at the same time",
+					"maxdebris": "Determines the total amount of debris in the world. Note that this does not refer to individual debris parts, instead this counts per object. \nMore precisely, this determines can spawn debris in the world at the same time",
 					"maxlights": "Determines the max number of lights the game renders simultaneously",
 					"monitor": "Determines which monitor (if more than one monitor is connected) should be used",
 					"motionblur": "If you don't like Motion Blur, consider disabling only \"Camera Motion\" - this disables motion blur for camera movement, \nbut fast moving objects still have a good-looking blur",
@@ -4001,7 +4755,7 @@
 					"volumetriclightfilter": "If enabled, a smoothen filter will be applied to volumetric lights",
 					"volumetriclights": "Determines if volumetric lights (like god rays) should be visible",
 					"vsync": "Limits the framerate to your monitor refresh rate in order to prevent \"tearing\".\nThis may have an impact on performance",
-					"waterupdateinterval": "Determines how often the game should recalculate water flow per <b>second</b>. Higher values have a higher impact on the performance",
+					"waterupdateinterval": "Determines how often the game should recalculate water flow per <b>second</b>. <u>Higher values have a higher impact on the performance</u>",
 					"wind": "Determines the wind mode"
 				},
 				"viewadjustment": {
@@ -4041,6 +4795,11 @@
 					"4": "4x",
 					"10": "10x",
 					"20": "20x",
+					"30": "30x",
+					"40": "40x",
+					"50": "50x",
+					"60": "60x",
+					"80": "80x",
 					"100": "100x",
 					"05": "0.5x"
 				},
@@ -4056,11 +4815,16 @@
 				"blueprintcentermode": "Blueprints: Pivot Point",
 				"blueprints": {
 					"centerarea": "Selection Area (Legacy)",
-					"centerdefault": "Center (Default)"
+					"centerdefault": "Center (Default)",
+					"sortalphabetically": "Alphabetically",
+					"sortfoldersfirst": "Folders first",
+					"sortfolderslast": "Folders last"
 				},
+				"blueprintsortmode": "Blueprints: Sort Order",
 				"blueprintvisualizebounds": "Blueprints: Visualize Bounds",
 				"buildingdefaultsize": "Default Element Size",
 				"buildingmultiplacedirections": "Row Placement Directions",
+				"buildingpivotkeeprotation": "Keep Rotation in Snapping Mode",
 				"buildingresizemode": "Resize Mode",
 				"buildingresizemodes": {
 					"default": "Default",
@@ -4069,6 +4833,7 @@
 				"buildingsnaprotation": "Snap while Rotating",
 				"chatfontsize": "Chat Font-Size",
 				"collapsecraftingcategories": "Collapse Crafting Categories",
+				"creativeconfirmremoval": "Show Confirmation Dialog for Removal Tools",
 				"creativelightintensity": "Creative-Mode Light Intensity",
 				"creativemodeshowtoolbar": "Show Creative-Mode Toolbar",
 				"deadbodydespawntime": "Dead Body Despawn Time",
@@ -4087,8 +4852,11 @@
 				"gravityobjects": "Enable Gravity for Objects",
 				"gravityplants": "Enable Gravity for Plants",
 				"headbobbing": "Headbobbing",
+				"headerblueprints": "Blueprints",
 				"headerbuilding": "Building",
+				"headercreative": "Creative-Mode",
 				"headergeneral": "General",
+				"headerimages": "Images / Posters",
 				"headermultiplayer": "Multiplayer",
 				"headerscreenshots": "Screenshots",
 				"headersingleplayer": "Singleplayer",
@@ -4097,6 +4865,7 @@
 				"hudshowquickslotsduration": "HUD: Quickslot Bar Show Duration",
 				"hudshowselecteditem": "HUD: Show Selected Item",
 				"hungerthirst": "Disable Hunger / Thirst (Survival only)",
+				"imagemaxresolution": "Max Resolution",
 				"instantdigging": "Instant Digging (Survival only)",
 				"itemdespawntime": "Item Despawn Time",
 				"keepinventory": "Keep Inventory after Death",
@@ -4125,15 +4894,15 @@
 				"temperature": "Disable Temperature (Survival only)",
 				"timeduration": "Ingame Day Duration",
 				"timedurations": {
-					"10m": "10 Minutes",
-					"12h": "12 Hours",
 					"1h": "1 Hour",
 					"1h30m": "1 Hour 30 Minutes",
+					"2h": "2 Hours",
+					"4h": "4 Hours",
+					"10m": "10 Minutes",
+					"12h": "12 Hours",
 					"20m": "20 Minutes",
 					"24h": "24 Hours",
-					"2h": "2 Hours",
 					"30m": "30 Minutes",
-					"4h": "4 Hours",
 					"disabled": "Disabled",
 					"realtime": "Real-time (24 h)"
 				},
@@ -4141,12 +4910,15 @@
 					"allowconsolecommands": "Determines if console commands should be allowed",
 					"allowflymode": "Determines if flying ({0}) should be allowed in survival mode",
 					"alwaysshowgridonterrain": "If enabled, the grid will ALWAYS be visible on terrain",
+					"blueprintsortmode": "Determines how blueprints will be sorted/displayed",
 					"blueprintvisualizebounds": "If enabled, the boundary of the blueprint will be visualized while placing the blueprint",
 					"buildingdefaultsize": "Sets an optional default size for new construction elements. Determines size along X, Y and Z axes, separated by whitespace.\n<color=yellow>Example: \"1.0  2.0  0.1\"</color>",
 					"buildingmultiplacedirections": "Number of allowed simultaneous directions when placing multiple construction elements in a row",
+					"buildingpivotkeeprotation": "If enabled, the game no longer resets the element rotation after placing it while the pivot snapping mode is active",
 					"buildingresizemode": "Controls the resize behaviour.\n\nLegacy: Resizing works like resizing beams in the Java version, i.e. Up/Down changes the height while Left/Right changes the width <u>and</u> depth\n\nDefault: X, Y and Z axes can be resized independently",
 					"buildingsnaprotation": "If enabled, the element automatically snaps to the X, Y or Z axes while rotating it",
 					"collapsecraftingcategories": "If enabled, block texture selection categories are collapsed by default",
+					"creativeconfirmremoval": "If true, a confirmation dialog will be shown when removing elements through the creative mode removal tools",
 					"creativelightintensity": "Determines the light intensity of the creative mode light (L)",
 					"falldamage": "If enabled, player is immune to fall damage (in survival mode)",
 					"flymodemovetype": "Determines how movement works while flying.\n\n<color=yellow>Default: Flying towards view direction</color>\n\n<color=orange>Keep Elevation: Keep elevation/altitude</color>",
@@ -4156,6 +4928,7 @@
 					"gravityplants": "If enabled, floating plants break if they have no contact to the ground",
 					"hudshowselecteditem": "Determines if the currently equipped item should be visible in the upper right corner of the HUD",
 					"hungerthirst": "Determines if hunger and thirst should be disabled in survival mode",
+					"imagemaxresolution": "Determines the max allowed resolution for custom images / posters. Changes only affect images that are uploaded afterwards!\n\nNote: High resolutions consume more graphics memory and have a bigger impact on performance!",
 					"instantdigging": "If enabled, everything breaks with a single hit in survival mode (similar to how digging works in creative mode)",
 					"keepinventory": "If enabled, you will keep your inventory after dying",
 					"oresmeltingduration": "Determines the duration factor for smelting ores in a furnace. Default is 100%. Set to 50% for half the duration, 200% for double the time etc.",
@@ -4294,7 +5067,10 @@
 		},
 		"tooltips": {
 			"crafting": {
+				"category": "<color=#0185BC>Category: {0}  ({1})</color>",
 				"colorpicker": "Click to change the default color\n\n<color=yellow>Right click to reset the color</color>",
+				"recipeforbidden": "This recipe is forbidden on this server",
+				"recipelocked": "You don't know this recipe yet...",
 				"totalcount": "Total amount of items you will get"
 			},
 			"filebrowser": {
@@ -4319,12 +5095,37 @@
 			},
 			"itemtooltip": {
 				"blueprint": "Blueprint: {0}",
+				"clothes": {
+					"insulation": "Insulation: {0}",
+					"protection": "Protection: {0}",
+					"provideslight": "Provides light"
+				},
 				"color": "Color: {0}",
+				"consumable": {
+					"contains": "Contains: {0}",
+					"healsbones": "Heals broken bones",
+					"health": "Health: {0}",
+					"hunger": "Hunger: {0}",
+					"stopsbleeding": "Stops bleedings",
+					"thirst": "Thirst: {0}"
+				},
 				"creator": "Creator: {0}",
 				"id": "ID: {0}",
 				"material": "{0}  (ID: {1})",
+				"musiccomposer": "Composer: {0}",
+				"musictrack": "Music track: {0}",
 				"name": "Name: {0}",
 				"strength": "Strength: {0}"
+			},
+			"texteditor": {
+				"anchorleft": "Align text left",
+				"anchormiddle": "Align text centered",
+				"anchorright": "Align text right",
+				"font": "Change font",
+				"fontcolor": "Change font color\n<size=70%>Rightclick to copy/paste</size>",
+				"fontsize": "Font size",
+				"help": "Formatting help",
+				"richtextpreview": "Hold to show text with all parsed formatting tags (rich text)\n\nFor more information, click on the help button on the right"
 			}
 		}
 	},
