@@ -3573,24 +3573,24 @@
 		},
 		"objects": {
 			"bed": {
-				"removespawn": "Remove Spawn (bed)",
-				"setspawn": "Set Spawn (bed)",
-				"sleep": "Sleep"
+				"removespawn": "Remover Ponto de Surgimento (cama)",
+				"setspawn": "Definir Ponto de Surgimento (cama)",
+				"sleep": "Dormir"
 			},
 			"blueprints": "Blueprints",
 			"close": "Fechar",
-			"crafting": "Crafting",
+			"crafting": "Criar",
 			"fire": {
-				"extinguish": "Extinguish",
-				"ignite": "Ignite"
+				"extinguish": "Extinguir",
+				"ignite": "Acender"
 			},
 			"furnace": {
-				"takeingots": "Take all ingots"
+				"takeingots": "Pegue todos os lingotes"
 			},
 			"light": {
 				"flashing": {
-					"off": "Flashing light off",
-					"on": "Flashing light on"
+					"off": "Apagar lanterna",
+					"on": "Acender lanterna"
 				},
 				"off": "Light off",
 				"on": "Light on",
@@ -3613,28 +3613,28 @@
 				"moveup": "Move up"
 			},
 			"piano": {
-				"play": "Play piano"
+				"play": "Tocar piano"
 			},
-			"pickup": "Pickup (hold)",
+			"pickup": "Pegar (segurar)",
 			"seating": {
 				"sitdown": "Sit down"
 			},
 			"sign": {
-				"edittext": "Edit text"
+				"edittext": "Editar texto"
 			},
 			"storage": {
-				"close": "Close chest",
-				"lock": "Lock",
-				"open": "Open chest",
-				"unlock": "Unlock"
+				"close": "Fechar Baú",
+				"lock": "Trancar",
+				"open": "Abrir Baú",
+				"unlock": "Destrancar"
 			},
 			"tent": {
-				"close": "Close tent door",
-				"open": "Open tent door",
-				"pack": "Pack tent",
-				"removespawn": "Remove Spawn (tent)",
-				"setspawn": "Set Spawn (tent)",
-				"sleep": "Sleep"
+				"close": "Fechar a porta da barraca",
+				"open": "Abra a porta da barraca",
+				"pack": "Embalar barraca",
+				"removespawn": "Remover Ponto de Surgimento (barraca)",
+				"setspawn": "Definir Ponto de Surgimento (barraca)",
+				"sleep": "Dormir"
 			},
 			"trashcan": "Open chest"
 		},
