@@ -2447,7 +2447,7 @@
 	},
 	"misc": {
 		"ban": "Ban",
-		"deadbody": "Dead body",
+		"deadbody": "Cadáver",
 		"flags": {
 			"countries": "Country Flags",
 			"special": "Special Flags"
@@ -2475,11 +2475,11 @@
 				"enabled": "Cavernas habilitadas"
 			},
 			"flatness": {
-				"default": "Default",
-				"flat": "Flat",
-				"steep": "Steep",
-				"veryflat": "Very Flat",
-				"verysteep": "Very Steep"
+				"default": "Padrão",
+				"flat": "Plano",
+				"steep": "Íngreme",
+				"veryflat": "Muito Plano",
+				"verysteep": "Muito Íngreme"
 			},
 			"oreamount": {
 				"default": "Padrão",
@@ -2502,14 +2502,14 @@
 	},
 	"music": {
 		"tracks": {
-			"allegroconbrioa": "5th Symphony, 1st Movement, Allegro con brio A",
-			"allegroconbriob": "5th Symphony, 1st Movement, Allegro con brio B",
-			"deathofase": "Death of Ase",
+			"allegroconbrioa": "5ª Sinfonia, 1º Movimento, Allegro con brio A",
+			"allegroconbriob": "5ª Sinfonia, 1º Movimento, Allegro con brio B",
+			"deathofase": "Morte de Asé",
 			"morningmood": "Morning Mood",
-			"rideofvalkyries": "Ride of the Valkyries",
+			"rideofvalkyries": "Cavalgada das Valquírias",
 			"risingworld": "Rising World",
-			"swanlakeact2": "Swan Lake Act 2 - Allegro moderato",
-			"swanlakeact3": "Swan Lake Act 3 - Hungarian Dance",
+			"swanlakeact2": "O Lago dos Cisnes Ato 2 - Allegro moderato",
+			"swanlakeact3": "O Lago dos Cisnes Ato 3 - Hungarian Dance",
 			"toccatafugea": "Toccata and Fugue A",
 			"toccatafugeb": "Toccata and Fugue B",
 			"williamtelloverture": "William Tell Overture"
