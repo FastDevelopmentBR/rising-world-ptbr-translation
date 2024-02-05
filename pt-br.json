@@ -2258,9 +2258,9 @@
 				"deletenpcstitle": "Delete <u>all</u> npcs..."
 			},
 			"mount": {
-				"brokenbag": "You cannot access this saddle bag",
-				"removebagsfirst": "You have to remove the saddle bag first",
-				"saddlerequiredforbags": "You have to attach a saddle first"
+				"brokenbag": "Você não pode acessar este alforje",
+				"removebagsfirst": "Você tem que remover o alforje primeiro",
+				"saddlerequiredforbags": "Você tem que anexar uma sela primeiro"
 			},
 			"shearingsheep": "Shearing sheep...",
 			"shearsheepwithshears": "You need shears to shear this sheep",
@@ -3566,10 +3566,10 @@
 			}
 		},
 		"mount": {
-			"mount": "Ride",
-			"openbag": "Open bag",
-			"removesaddle": "Remove saddle",
-			"removesaddlebag": "Remove saddle bag"
+			"mount": "Montar",
+			"openbag": "Abrir alforje",
+			"removesaddle": "Remover sela",
+			"removesaddlebag": "Remover alforje"
 		},
 		"objects": {
 			"bed": {
