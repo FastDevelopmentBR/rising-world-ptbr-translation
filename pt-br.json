@@ -1715,11 +1715,11 @@
 			"name": "Sword"
 		},
 		"sword4": {
-			"desc": "A two-handed longword. Slower to handle compared to one-handed swords, but deals more damage",
+			"desc": "A two-handed longsword. Slower to handle compared to one-handed swords, but deals more damage",
 			"name": "Longsword"
 		},
 		"sword5": {
-			"desc": "A two-handed longword, made out of steel",
+			"desc": "A two-handed longsword, made out of steel",
 			"name": "Steel sword"
 		},
 		"sword6": {
@@ -3627,6 +3627,10 @@
 				"lock": "Trancar",
 				"open": "Abrir Baú",
 				"unlock": "Destrancar"
+			},
+			"tanningrack": {
+				"takeleather": "Take leather",
+				"takepelt": "Take pelt"
 			},
 			"tent": {
 				"close": "Fechar a porta da barraca",
