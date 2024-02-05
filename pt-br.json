@@ -177,15 +177,15 @@
 			"name": "Coroa"
 		},
 		"cylinder": {
-			"desc": "Splendit!",
-			"name": "Cylinder"
+			"desc": "Esplêndido!",
+			"name": "Chapéu cilíndrico"
 		},
 		"divinggoggles": {
 			"desc": "Parte do equipamento de mergulho que permite ver claramente debaixo d'água",
 			"name": "Máscara de mergulho"
 		},
 		"fedora": {
-			"name": "Fedora"
+			"name": "Chapéu Fedora"
 		},
 		"felthat": {
 			"name": "Felt hat"
@@ -214,12 +214,12 @@
 			"name": "Capacete de segurança (lâmpada)"
 		},
 		"jesterhat": {
-			"desc": "Cap and bells. A fool's cap",
-			"name": "Jester hat"
+			"desc": "Boné e sinos. Um boné de tolo",
+			"name": "Chapéu de bobo da corte"
 		},
 		"jockeyhelmet": {
-			"desc": "A modern jockey helmet",
-			"name": "Jockey helmet"
+			"desc": "Um capacete de jóquei moderno",
+			"name": "Capacete de jóquei"
 		},
 		"mask": {
 			"desc": "Uma máscara de papel muito simples",
