@@ -148,7 +148,7 @@
 	},
 	"clothing": {
 		"aviators": {
-			"name": "Aviator glasses"
+			"name": "Óculos de aviador"
 		},
 		"balaclava": {
 			"name": "Balaclava"
@@ -160,29 +160,29 @@
 			"name": "Boonie hat"
 		},
 		"bunnymask": {
-			"desc": "The perfect accessory for Easter",
-			"name": "Bunny ears"
+			"desc": "O acessório perfeito para a Páscoa",
+			"name": "Orelhas de coelho"
 		},
 		"captainhat": {
-			"name": "Captain hat"
+			"name": "Chapéu de capitão"
 		},
 		"chefhat": {
-			"name": "Chef hat"
+			"name": "Chapéu de Chef"
 		},
 		"cowboyhat": {
-			"desc": "A wide-brimmed cowboy hat",
-			"name": "Cowboy hat"
+			"desc": "Um chapéu de cowboy de aba larga",
+			"name": "Chapéu de caubói"
 		},
 		"crown": {
-			"name": "Crown"
+			"name": "Coroa"
 		},
 		"cylinder": {
 			"desc": "Splendit!",
 			"name": "Cylinder"
 		},
 		"divinggoggles": {
-			"desc": "Part of diving equipment that allows you to see clearly underwater",
-			"name": "Diving mask"
+			"desc": "Parte do equipamento de mergulho que permite ver claramente debaixo d'água",
+			"name": "Máscara de mergulho"
 		},
 		"fedora": {
 			"name": "Fedora"
@@ -194,8 +194,8 @@
 			"name": "Fez"
 		},
 		"groucho": {
-			"desc": "It provides perfect disguise. No one will recognize you",
-			"name": "Groucho glasses"
+			"desc": "Ele fornece disfarce perfeito. Ninguém vai te reconhecer",
+			"name": "Óculos Groucho"
 		},
 		"helmet": {
 			"desc": "Um capacete de segurança moderno",
@@ -222,26 +222,26 @@
 			"name": "Jockey helmet"
 		},
 		"mask": {
-			"desc": "A very simple paper mask",
-			"name": "Mask"
+			"desc": "Uma máscara de papel muito simples",
+			"name": "Máscara"
 		},
 		"mask2": {
-			"name": "Mask"
+			"name": "Máscara"
 		},
 		"maskbear": {
-			"desc": "A mask in the shape of a bear's head",
-			"name": "Mask (bear)"
+			"desc": "Uma máscara em forma de cabeça de urso",
+			"name": "Máscara (urso)"
 		},
 		"maskgoat": {
-			"desc": "A mask in the shape of a goat's head",
-			"name": "Mask (goat)"
+			"desc": "Uma máscara em forma de cabeça de bode",
+			"name": "Máscara (bode)"
 		},
 		"maskpig": {
 			"desc": "A mask in the shape of a pig's head",
 			"name": "Mask (pig)"
 		},
 		"medievalsuit1": {
-			"name": "Fur coat"
+			"name": "Casaco de pele"
 		},
 		"mininghelmet": {
 			"desc": "Um velho capacete de mineiro com uma vela presa que ilumina seu caminho em áreas escuras",
@@ -254,34 +254,34 @@
 			"name": "Pickelhaube"
 		},
 		"pilgrimhat": {
-			"name": "Pilgrim hat"
+			"name": "Chapéu de peregrino"
 		},
 		"questionhat": {
 			"name": "?"
 		},
 		"redcoathat": {
-			"name": "Redcoat hat"
+			"name": "Chapéu de casaca-vermelha"
 		},
 		"saddlebaghorse": {
-			"desc": "Optional bags that can be attached to a saddle. Can be used to store items in it",
-			"name": "Saddle bags (Horse)"
+			"desc": "Bolsas opcionais que podem ser fixadas na sela. Pode ser usado para armazenar itens nele",
+			"name": "Alforjes (Cavalo)"
 		},
 		"saddlehorse": {
-			"desc": "A saddle for a horse. This is required if you want to ride a horse",
-			"name": "Saddle (Horse)"
+			"desc": "Uma sela para um cavalo. Isso é necessário se você quiser andar a cavalo",
+			"name": "Sela (cavalo)"
 		},
 		"safarihat": {
-			"desc": "Also known as pith helmet. A lightweight cloth-covered helmet",
-			"name": "Safari helmet"
+			"desc": "Também conhecido como capacete de medula. Um capacete leve coberto de tecido",
+			"name": "Capacete de Safari"
 		},
 		"sombrero": {
 			"name": "Sombrero"
 		},
 		"sunglasses1": {
-			"name": "Sunglasses"
+			"name": "Óculos de sol"
 		},
 		"teddymask": {
-			"name": "Mask (teddy)"
+			"name": "Máscara (ursinho)"
 		},
 		"unclesamhat": {
 			"name": "Uncle Sam's hat"
@@ -293,14 +293,14 @@
 			"name": "VR headset"
 		},
 		"wizardhat": {
-			"name": "Wizard hat"
+			"name": "Chapéu de feiticeiro"
 		},
 		"wooly": {
 			"name": "Wooly"
 		},
 		"xmashat": {
-			"desc": "A red/white Santa hat",
-			"name": "Xmas hat"
+			"desc": "Um chapéu de Papai Noel vermelho/branco",
+			"name": "Gorro natalino"
 		}
 	},
 	"color": {
@@ -990,8 +990,8 @@
 			"name": "Fio de alumínio"
 		},
 		"ammorepeater": {
-			"desc": "Ammo for the repeating rifle. Contains 5 rounds",
-			"name": "Clip (Repeater)"
+			"desc": "Munição para o rifle de repetição. Contém 5 rodadas",
+			"name": "Clip (repetidor)"
 		},
 		"apple": {
 			"desc": "Uma maçã saudável",
@@ -1491,8 +1491,8 @@
 			"name": "Barco inflável kit II (Tubos)"
 		},
 		"ribstorage": {
-			"desc": "Optional storage that can be attached to inflatable boats (RIB)",
-			"name": "Storage (RIB)"
+			"desc": "Armazenamento opcional que pode ser acoplado a barcos infláveis (RIB)",
+			"name": "Armazenamento (RIB)"
 		},
 		"ripepear": {
 			"name": "Pêra madura demais"
@@ -1518,12 +1518,12 @@
 			"name": "Pato de borracha"
 		},
 		"saddlebaghorse": {
-			"desc": "Optional bags that can be attached to a saddle. Can be used to store items in it",
-			"name": "Saddle bags (Horse)"
+			"desc": "Bolsas opcionais que podem ser fixadas na sela. Pode ser usado para armazenar itens nele",
+			"name": "Alforjes (Cavalo)"
 		},
 		"saddlehorse": {
-			"desc": "A saddle for a horse. This is required if you want to ride a horse",
-			"name": "Saddle (Horse)"
+			"desc": "Uma sela para um cavalo. Isso é necessário se você quiser andar a cavalo",
+			"name": "Sela (cavalo)"
 		},
 		"sapling": {
 			"name": "Muda"
@@ -1690,8 +1690,8 @@
 			"name": "Vara de madeira"
 		},
 		"stone": {
-			"desc": "A simple stone",
-			"name": "Stone"
+			"desc": "Uma pedra simples",
+			"name": "Pedra"
 		},
 		"sugarbeet": {
 			"name": "Sugar beet"
@@ -1703,20 +1703,20 @@
 			"name": "Pó de enxofre"
 		},
 		"sword1": {
-			"desc": "A wooden sword. It barely deals any damage and is more suitable for exercising...",
-			"name": "Wooden sword"
+			"desc": "Uma espada de madeira. Quase não causa nenhum dano e é mais adequado para exercícios...",
+			"name": "Espada de madeira"
 		},
 		"sword2": {
 			"desc": "An old, rusty sword",
 			"name": "Rusty sword"
 		},
 		"sword3": {
-			"desc": "A one-handed sword",
-			"name": "Sword"
+			"desc": "Uma espada de uma mão",
+			"name": "Espada"
 		},
 		"sword4": {
-			"desc": "A two-handed longsword. Slower to handle compared to one-handed swords, but deals more damage",
-			"name": "Longsword"
+			"desc": "Uma espada longa de duas mãos. Mais lento de manusear em comparação com espadas de uma mão, mas causa mais dano",
+			"name": "Espada Longa"
 		},
 		"sword5": {
 			"desc": "A two-handed longsword, made out of steel",
@@ -1751,8 +1751,8 @@
 			"name": "Tomate"
 		},
 		"toolbelt": {
-			"desc": "Wearing this toolbelt increases the number of available slots in your hotbar",
-			"name": "Toolbelt"
+			"desc": "Usar este cinto de ferramentas aumenta o número de slots disponíveis em sua barra",
+			"name": "Cinto de ferramentas"
 		},
 		"torch": {
 			"desc": "Serve como fonte de luz",
@@ -1823,8 +1823,8 @@
 			"name": "Pedaço de tronco (carvalho-salqueiro)"
 		},
 		"trimmer": {
-			"desc": "An electric lawn trimmer. Very efficient way to cut grass",
-			"name": "Lawn trimmer"
+			"desc": "Um cortador de grama elétrico. Maneira muito eficiente de cortar grama",
+			"name": "Aparador de grama"
 		},
 		"tungsteningot": {
 			"name": "Lingote de tungstênio"
@@ -2854,8 +2854,8 @@
 			"name": "Grande forno de fundição"
 		},
 		"gift": {
-			"desc": "A present that can be placed anywhere. Items can be placed inside.",
-			"name": "Gift"
+			"desc": "Um presente que pode ser colocado em qualquer lugar. Itens podem ser colocados dentro.",
+			"name": "Presente"
 		},
 		"gramophone": {
 			"desc": "A device for playing music discs",
@@ -2895,21 +2895,21 @@
 			"name": "Lanterna"
 		},
 		"leatherarmchair": {
-			"name": "Armchair (leather)"
+			"name": "Poltrona (couro)"
 		},
 		"leathercouch": {
-			"name": "Couch (leather)"
+			"name": "Sofá (couro)"
 		},
 		"leathertrunk": {
 			"desc": "Quadrado e pequeno, mas com muito espaço de armazenamento",
 			"name": "Baú de couro"
 		},
 		"lionhead": {
-			"desc": "A lion head, sculpted from stone",
-			"name": "Lion head statue"
+			"desc": "Uma cabeça de leão esculpida em pedra",
+			"name": "Estátua de cabeça de leão"
 		},
 		"lionhead_1": {
-			"desc": "A lion head, sculpted from stone. Variant with closed mouth"
+			"desc": "Uma cabeça de leão esculpida em pedra. Variante com boca fechada"
 		},
 		"logbench": {
 			"name": "Banco de toras"
@@ -2942,12 +2942,12 @@
 			"name": "Poster"
 		},
 		"primitivedoor1": {
-			"desc": "A simple door made out of wood slats",
-			"name": "Primitive door"
+			"desc": "Uma porta simples feita de ripas de madeira",
+			"name": "Porta primitiva"
 		},
 		"primitivedoor1b": {
-			"desc": "A simple door made out of wood slats",
-			"name": "Primitive door (arch)"
+			"desc": "Uma porta simples feita de ripas de madeira",
+			"name": "Porta primitiva (arco)"
 		},
 		"primitivefurnace": {
 			"desc": "Permite fundir minérios em lingotes, mas tem capacidade limitada (8 slots)",
@@ -2962,8 +2962,8 @@
 			"name": "Bancada de trabalho primitiva"
 		},
 		"safe": {
-			"desc": "An almost indestructible, lockable container for securing valuable items",
-			"name": "Safe"
+			"desc": "Um contêiner quase indestrutível e com chave para proteger itens valiosos",
+			"name": "Cofre"
 		},
 		"saloondoor": {
 			"desc": "Uma porta giratória bidirecional",
@@ -3091,7 +3091,7 @@
 			"name": "Tanning rack"
 		},
 		"teddy": {
-			"name": "Teddy"
+			"name": "Urso de pelúcia"
 		},
 		"tentmodern": {
 			"desc": "Tenda para duas pessoas que permite dormir e definir seu ponto de desova",
@@ -3124,8 +3124,8 @@
 			"name": "Cesto de lixo (metal)"
 		},
 		"trashcan3": {
-			"desc": "Used for the disposal of items you no longer need",
-			"name": "Small trash can"
+			"desc": "Usado para descartar itens que você não precisa mais",
+			"name": "Cesto de lixo pequeno"
 		},
 		"trough": {
 			"desc": "Um recipiente que pode ser enchido com água",
