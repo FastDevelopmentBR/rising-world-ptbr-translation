@@ -885,7 +885,9 @@
 		"continue": "Continue",
 		"decline": "Decline",
 		"default": "Default",
+		"disable": "Disable",
 		"disabled": "Disabled",
+		"enable": "Enable",
 		"enabled": "Enabled",
 		"everywhere": "Everywhere",
 		"global": "Global",
@@ -4135,6 +4137,46 @@
 				"watermelon": {
 					"cut": "Cut watermelon"
 				}
+			},
+			"richtext": {
+				"bold": {
+					"example": "This is bold text",
+					"tag": "<b>{0}</b>"
+				},
+				"color": {
+					"example": "This is colored text (supports color names and hex colors)",
+					"tag": "<color=yellow>{0}</color>"
+				},
+				"header": "Formatting help (Rich Text)",
+				"info": "These are supported rich-text tags you can apply to your Text. \nYou can also apply them to parts of your text and use as many tags as you want.\n\nTo get a preview of the final text, you can keep the \"Preview button\" pressed.",
+				"italic": {
+					"example": "This is italic text",
+					"tag": "<i>{0}</i>"
+				},
+				"rotate": {
+					"example": "Rotates the text or single letters",
+					"tag": "<rotate=25>{0}</rotate>"
+				},
+				"size": {
+					"example": "Changes text size",
+					"tag": "<size=70%>{0}</size>"
+				},
+				"smallcaps": {
+					"example": "This is small uppercase text",
+					"tag": "<smallcaps>{0}</smallcaps>"
+				},
+				"sprite": {
+					"example": "<noparse><sprite=1> Displays an Emoji ",
+					"tag": "{0} <sprite=1>"
+				},
+				"strikethrough": {
+					"example": "This is strikethrough text",
+					"tag": "<s>{0}</s>"
+				},
+				"underline": {
+					"example": "This is underlined text",
+					"tag": "<u>{0}</u>"
+				}
 			}
 		},
 		"hud": {
@@ -4558,6 +4600,10 @@
 				"buildingup": "Up (Building)",
 				"changeblockshape": "Change Block Shape",
 				"chat": "Chat",
+				"connecteddevices": {
+					"button": "Connected Input Devices",
+					"tooltip": "Shows a list of all detected input devices"
+				},
 				"console": "Console",
 				"copyblock": "Copy / Equip Block",
 				"crafting": "Crafting",

@@ -885,7 +885,9 @@
 		"continue": "Continuar",
 		"decline": "Recusar",
 		"default": "Padrão",
+		"disable": "Desabilitar",
 		"disabled": "Desabilitado",
+		"enable": "Habilitar",	
 		"enabled": "Habilitado",
 		"everywhere": "Em todos os lugares",
 		"global": "Global",
@@ -4135,6 +4137,46 @@
 				"watermelon": {
 					"cut": "Cut watermelon"
 				}
+			},
+			"richtext": {
+				"bold": {
+					"example": "Este é um texto em negrito",
+					"tag": "<b>{0}</b>"
+				},
+				"color": {
+					"example": "Este é um texto colorido (suporta nomes de cores e cores hexadecimais)",
+					"tag": "<color=yellow>{0}</color>"
+				},
+				"header": "Ajuda de formatação (Rich Text)",
+				"info": "Estas são tags de rich text suportadas que você pode aplicar ao seu texto. \nVocê também pode aplicá-las a partes do seu texto e usar quantas tags desejar.\n\nPara obter uma prévia do texto final, você pode manter o \"Botão Visualizar\" pressionado.",
+				"italic": {
+					"example": "Este é um texto em itálico",
+					"tag": "<i>{0}</i>"
+				},
+				"rotate": {
+					"example": "Gira o texto ou letras únicas",
+					"tag": "<rotate=25>{0}</rotate>"
+				},
+				"size": {
+					"example": "Altera o tamanho do texto",
+					"tag": "<size=70%>{0}</size>"
+				},
+				"smallcaps": {
+					"example": "Este é um texto pequeno e maiúsculo",
+					"tag": "<smallcaps>{0}</smallcaps>"
+				},
+				"sprite": {
+					"example": "<noparse><sprite=1> Exibe um Emoji ",
+					"tag": "{0} <sprite=1>"
+				},
+				"strikethrough": {
+					"example": "Este é um texto tachado",
+					"tag": "<s>{0}</s>"
+				},
+				"underline": {
+					"example": "Este é um texto sublinhado",
+					"tag": "<u>{0}</u>"
+				}
 			}
 		},
 		"hud": {
@@ -4558,6 +4600,10 @@
 				"buildingup": "Cima (Construção)",
 				"changeblockshape": "Alterar formato do bloco",
 				"chat": "Chat",
+				"connecteddevices": {
+					"button": "Dispositivos de entrada conectados",
+					"tooltip": "Mostra uma lista de todos os dispositivos de entrada detectados"
+				},
 				"console": "Console",
 				"copyblock": "Copiar / Equipar Bloco",
 				"crafting": "Criação",
