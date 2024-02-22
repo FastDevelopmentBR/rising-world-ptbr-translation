@@ -469,6 +469,7 @@
 		"edittexture": {
 			"changecolor": "Change color",
 			"changeid": "Change texture ID",
+			"changetexturealignment": "Change texture alignment",
 			"changetexturescale": "Change texture scale"
 		},
 		"friends": {
@@ -513,6 +514,7 @@
 		"world": {
 			"copyseed": "Copiar Seed",
 			"createbackup": "Criar Backup",
+			"deletebackup": "Deletar Backup",
 			"openfolder": "Abrir Pasta",
 			"rename": "Renomear Mundo",
 			"restorebackup": "Restaurar Backup"
@@ -1190,7 +1192,7 @@
 			"name": "Elephant hide"
 		},
 		"engineboat1": {
-			"desc": "Um motor de popa que pode ser acoplado a certos barcos",
+			"desc": "Um motor de popa que pode ser acoplado a certos barcos.\n<color=yellow>Etapa 3 de 3</color>",
 			"name": "Motor de popa (20 cv)"
 		},
 		"fibers": {
@@ -1391,7 +1393,7 @@
 			"name": "Detector de minério"
 		},
 		"paddle1": {
-			"desc": "Remos de madeira. Essenciais em pequenos barcos a remo",
+			"desc": "Remos de madeira. Essenciais em pequenos barcos a remo\n<color=yellow>Etapa 3 de 3</color>",
 			"name": "Remos (madeira)"
 		},
 		"paintbrush": {
@@ -1485,15 +1487,15 @@
 			"name": "Rhinoceros hide"
 		},
 		"ribkit1": {
-			"desc": "Kit básico para a confecção de um barco inflável semirrígido. Coloque-o em terra firme para montar o barco.\n<color=yellow>Kit 1 de 2</color>",
+			"desc": "Kit básico para a confecção de um barco inflável semirrígido. Coloque-o em terra firme para montar o barco.\n<color=yellow>Etapa 1 de 2</color>",
 			"name": "Barco inflável kit I (Casco semirrígido)"
 		},
 		"ribkit2": {
-			"desc": "Kit básico para a confecção de um barco inflável semirrígido. Anexe-o a um casco semirrígido existente (ver kit 1).\n<color=yellow>Kit 2 de 2</color>",
+			"desc": "Kit básico para a confecção de um barco inflável semirrígido. Anexe-o a um casco semirrígido existente (ver kit 1).\n<color=yellow>Etapa 2 de 2</color>",
 			"name": "Barco inflável kit II (Tubos)"
 		},
 		"ribstorage": {
-			"desc": "Armazenamento opcional que pode ser acoplado a barcos infláveis (RIB)",
+			"desc": "Armazenamento opcional que pode ser acoplado a barcos infláveis (RIB)\n<color=yellow>Opcional</color>",
 			"name": "Armazenamento (RIB)"
 		},
 		"ripepear": {
@@ -1504,15 +1506,15 @@
 			"name": "Corda"
 		},
 		"rowboatkit1": {
-			"desc": "Kit básico para fazer um barco a remo. Coloque-o em terra firme para montar o barco.\n<color=yellow>Kit 1 de 2</color>",
+			"desc": "Kit básico para fazer um barco a remo. Coloque-o em terra firme para montar o barco.\n<color=yellow>Etapa 1 de 2</color>",
 			"name": "Barco a remo kit I (Esqueleto)"
 		},
 		"rowboatkit2": {
-			"desc": "Kit básico para fazer um barco a remo. Anexe-o a uma estrutura de barco a remo existente (ver kit 1).\n<color=yellow>Kit 2 de 2</color>",
+			"desc": "Kit básico para fazer um barco a remo. Anexe-o a uma estrutura de barco a remo existente (ver kit 1).\n<color=yellow>Etapa 2 de 2</color>",
 			"name": "Barco a remo kit II (Casco)"
 		},
 		"rowboatstorage": {
-			"desc": "Armazenamento opcional que pode ser anexado a barcos a remo",
+			"desc": "Armazenamento opcional que pode ser anexado a barcos a remo\n<color=yellow>Opcional</color>",
 			"name": "Armazenamento (Barco a remo)"
 		},
 		"rubberduck": {
@@ -2075,6 +2077,7 @@
 				"compatibilityissue": "Compatibility issue",
 				"gamefilecorrupted": "Game file corrupted",
 				"initexception": "Initialization exception",
+				"sqliteexception": "SQLite Exception: {0}",
 				"steamerror": "Steam Error",
 				"systemrequirementsnotmet": "System requirements not met"
 			},
@@ -2084,6 +2087,7 @@
 			"notexturearrays": "Texture Arrays are required, but not supported by this graphics adapter: \n\n<color=red>{0}</color>\n\nThis may be caused by an outdated or erroneous graphics driver. Please try to download and install the latest graphics driver.",
 			"recordingdeviceerror": "Unable to initialize your recording device\nPlease try to select a different recording device in the audio settings",
 			"somethingwentwrong": "Something went wrong...",
+			"sqlitereadonly": "The game cannot write to the world file on the hard drive. This indicates that either the world file is corrupted, or another program (like an anti-virus program or a firewall) blocks the game. \n\nPlease try to put the game on the allow-list of your anti-virus program or firewall. Alternatively try to disable it temporarily to see if this solves the issue. \n\nPlease also make sure that no other process is currently accessing the world file.",
 			"steamapi": "Could not initialize Steam API.\n\nIn most cases you can fix this issue by restarting your Steam client.",
 			"steamapitimeout": "Could not initialize Steam API (Timeout)\n\nIn most cases you can fix this issue by restarting your Steam client.",
 			"steamlibmissing": "Could not find the Steamworks library. This indicates that some game files are probably corrupted or missing, or the game can not access them.\n\nPlease try to verify the integrity of the game files: \n\n  1. Rightclick on Rising World in your Steam library\n  2. Select Properties\n  3. Go to \"Local files\"\n  4. Select \"Verify integrity of game files\"",
@@ -2168,6 +2172,8 @@
 					"createfailure": "Falha no backup!",
 					"createsuccess": "Backup criado com sucesso!\nDuração: {0} ms",
 					"creatingbackup": "Criando backup, aguarde...",
+					"deletebackupconfirm": "Do you really want to delete this backup?  \n<align=left><color=yellow>\n\\t\\t World:  {0}\n\\t\\t Date:  {1}\n\\t\\t Version:  {2}\n</color></align>",
+					"deletesuccess": "Backup removed!",
 					"restorebackup": "Selecione um backup que deseja restaurar. \nObservação: você não pode desfazer esta etapa! Isso substituirá seus arquivos mundiais existentes!",
 					"restorebackupconfirm": "Confirme que deseja restaurar este backup: \n<align=left><color=yellow>\n\\t\\t Mundo: {0}\n\\t\\t Data: {1}\n \\t\\t Versão: {2}\n</color></align>\nIsso excluirá o mundo atual e o substituirá pelo backup.",
 					"restorefailure": "Falha no backup! Motivo: \n\n{0}",
@@ -2488,7 +2494,8 @@
 				"high": "Alto",
 				"low": "Baixo",
 				"off": "Sem Minérios",
-				"veryhigh": "Muito Alto"
+				"veryhigh": "Muito Alto",
+				"verylow": "Muito Baixo"
 			},
 			"vegetation": {
 				"disabled": "Sem vegetação",
@@ -3966,6 +3973,8 @@
 				"alltextures": "<All Textures>",
 				"changeid": "Enter the new texture ID",
 				"changeidheader": "Change texture ID",
+				"changetexturealignment": "Select the new alignment for the texture:",
+				"changetexturealignmentheader": "Change texture alignment",
 				"changetexturescale": "Enter a new scale factor for the texture (default: 1)",
 				"changetexturescaleheader": "Change texture scale",
 				"header": "Replace texture...",
@@ -4137,6 +4146,11 @@
 				"watermelon": {
 					"cut": "Cut watermelon"
 				}
+			},
+			"place": {
+				"plantselection": "Plant-Selection",
+				"radialmenu": "Show options (HOLD)",
+				"textureselection": "Texture-Selection"
 			},
 			"richtext": {
 				"bold": {
@@ -4826,8 +4840,8 @@
 					"tooltips": {
 						"cinematicbars": "Define o tamanho das barras pretas cinematográficas opcionais (na parte superior e inferior da tela)",
 						"crosshair": "Define a mira padrão para o jogo",
-						"fov": "Altera o campo de visão",
-						"panini": "Use isso para reduzir o alongamento em configurações de campo de visão muito grandes (ou em telas ultra largas). O valor padrão é 0"
+						"fov": "Altera o campo de visão. <color=yellow>O valor padrão é 75</color>",
+						"panini": "Use isso apenas se estiver usando configurações de campo de visão grande ou jogando em uma tela ultra-larga. Isso reduz o alongamento. <color=yellow>O valor padrão é 0</color>"
 					}
 				},
 				"viewdistance": "Detalhes da distância de visão",
@@ -4881,9 +4895,11 @@
 					"legacy": "Legado"
 				},
 				"buildingsnaprotation": "Encaixar ao Girar",
+				"camerafollowvehicles": "Veículos: Ajuste a Câmera na Direção do Veículo",
 				"chatfontsize": "Chat Font-Size",
 				"collapsecraftingcategories": "Recolher Categorias de Criação",
 				"creativeconfirmremoval": "Mostrar Caixa de Diálogo de Confirmação para Ferramentas de Remoção",
+				"creativecopyblockcolor": "Copia Cor do Bloco",
 				"creativelightintensity": "Intensidade da Luz do Modo Criativo",
 				"creativemodeshowtoolbar": "Mostrar Barra de Ferramentas do Modo Criativo",
 				"deadbodydespawntime": "Tempo de Desaparecimento de Cadáveres",
@@ -4910,6 +4926,7 @@
 				"headermultiplayer": "Multijogador",
 				"headerscreenshots": "Capturas de tela",
 				"headersingleplayer": "Um Jogador",
+				"headervehicleandmounts": "Veículos e Montarias & Mounts",
 				"hidenametags": "Hide Nametags",
 				"hudquickslotsize": "HUD: Tamanho do Slot Rápido",
 				"hudshowquickslotsduration": "HUD: Duração da Apresentação da Barra do Slot Rápido",
@@ -4919,6 +4936,7 @@
 				"instantdigging": "Escavação Instantânea (Somente Sobrevivência)",
 				"itemdespawntime": "Tempo de Desaparecimento de Item",
 				"keepinventory": "Manter Inventário após a Morte",
+				"mountsfollowviewdirection": "Montarias: Seguir a Direção da Visualização",
 				"oresmeltingduration": "Duração da Fundição de Minério",
 				"pauseinmenu": "Pausar Jogo no Menu",
 				"peacefulmode": "Modo Pacífico",
@@ -4967,8 +4985,10 @@
 					"buildingpivotkeeprotation": "Se ativado, o jogo não redefine mais a rotação do elemento após posicioná-lo enquanto o modo de encaixe do pivô estiver ativo",
 					"buildingresizemode": "Controla o comportamento de redimensionamento.\n\nLegado: Redimensionar funciona como redimensionar vigas na versão Java, ou seja, Para Cima/Para Baixo alteram a altura enquanto Para Esquerda/Para Direita alteram a largura <u>e</u> profundidade\n\nPadrão: Os eixos X, Y e Z podem ser redimensionados independentemente",
 					"buildingsnaprotation": "Se ativado, o elemento se encaixa automaticamente nos eixos X, Y ou Z ao girá-lo",
+					"camerafollowvehicles": "Se ativado, a câmera seguirá automaticamente a rotação do veículo",
 					"collapsecraftingcategories": "Se ativado, as categorias de seleção de textura de bloco são recolhidas por padrão",
 					"creativeconfirmremoval": "Se ativado, uma caixa de diálogo de confirmação será mostrada ao remover elementos através das ferramentas de remoção do modo criativo",
+					"creativecopyblockcolor": "Se habilitado, copiar um bloco pressionando o botão do meio do mouse também copia a cor do elemento",
 					"creativelightintensity": "Determina a intensidade da luz do modo criativo (L)",
 					"falldamage": "Se ativado, o jogador fica imune a dano de queda (no modo de sobrevivência)",
 					"flymodemovetype": "Determina como o movimento funciona durante o vôo.\n\n<color=yellow>Padrão: Voando na direção da visão</color>\n\n<color=orange>Keep Elevation: Mantém a elevação/altitude</color>",
@@ -4981,6 +5001,7 @@
 					"imagemaxresolution": "Determina a resolução máxima permitida para imagens/pôsteres personalizados. As alterações afetam apenas as imagens enviadas posteriormente!\n\nNota: Altas resoluções consomem mais memória gráfica e têm um impacto maior no desempenho!",
 					"instantdigging": "Se ativado, tudo quebra com um único golpe no modo de sobrevivência (semelhante a como funciona a escavação no modo criativo)",
 					"keepinventory": "Se ativado, você manterá seu inventário após morrer",
+					"mountsfollowviewdirection": "Se ativado, as montarias seguirão automaticamente sua direção de visão enquanto você anda",
 					"oresmeltingduration": "Determina o fator de duração para fundir minérios em uma fornalha. O padrão é 100%. Defina como 50% para metade da duração, 200% para o dobro do tempo, etc.",
 					"pauseinmenu": "Se ativado, o jogo pausa se o menu do jogo estiver ativo (apenas no modo de Um Jogador)",
 					"peacefulmode": "Se ativado, os inimigos não atacam mais você (a menos que você os ataque primeiro)",
@@ -5146,9 +5167,14 @@
 			"itemtooltip": {
 				"blueprint": "Blueprint: {0}",
 				"clothes": {
-					"insulation": "Insulation: {0}",
-					"protection": "Protection: {0}",
-					"provideslight": "Provides light"
+					"divinggoggles": "Fornece visão clara debaixo d'água",
+					"insulation": "Isolamento: {0}",
+					"nvg": "Permite que você veja no escuro",
+					"protection": "Proteção: {0}",
+					"provideslight": "Fornece luz",
+					"saddle": "Use isso para montar uma montaria",
+					"saddlebag": "Anexável a selas. Armazena itens",
+					"storesitems": "Armazena itens"
 				},
 				"color": "Cor: {0}",
 				"consumable": {

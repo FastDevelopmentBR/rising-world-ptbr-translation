@@ -469,6 +469,7 @@
 		"edittexture": {
 			"changecolor": "Change color",
 			"changeid": "Change texture ID",
+			"changetexturealignment": "Change texture alignment",
 			"changetexturescale": "Change texture scale"
 		},
 		"friends": {
@@ -513,6 +514,7 @@
 		"world": {
 			"copyseed": "Copy Seed",
 			"createbackup": "Create Backup",
+			"deletebackup": "Delete Backup",
 			"openfolder": "Open Folder",
 			"rename": "Rename World",
 			"restorebackup": "Restore Backup"
@@ -1190,7 +1192,7 @@
 			"name": "Elephant hide"
 		},
 		"engineboat1": {
-			"desc": "An outboard engine that can be attached to certain boats",
+			"desc": "An outboard engine that can be attached to certain boats.\n<color=yellow>Step 3 of 3</color>",
 			"name": "Outboard engine (20 hp)"
 		},
 		"fibers": {
@@ -1391,7 +1393,7 @@
 			"name": "Ore detector"
 		},
 		"paddle1": {
-			"desc": "Wooden paddles. Required for small rowboats",
+			"desc": "Wooden paddles. Required for small rowboats\n<color=yellow>Step 3 of 3</color>",
 			"name": "Paddle (wood)"
 		},
 		"paintbrush": {
@@ -1485,15 +1487,15 @@
 			"name": "Rhinoceros hide"
 		},
 		"ribkit1": {
-			"desc": "Base kit for crafting a rigid-inflatable-boat. Place it on solid ground to assemble the boat.\n<color=yellow>Kit 1 of 2</color>",
+			"desc": "Base kit for crafting a rigid-inflatable-boat. Place it on solid ground to assemble the boat.\n<color=yellow>Step 1 of 3</color>",
 			"name": "Inflatable boat kit I (Rigid hull)"
 		},
 		"ribkit2": {
-			"desc": "Base kit for crafting a rigid-inflatable-boat. Attach it to an existing rigid hull (see kit 1).\n<color=yellow>Kit 2 of 2</color>",
+			"desc": "Base kit for crafting a rigid-inflatable-boat. Attach it to an existing rigid hull (see kit 1).\n<color=yellow>Step 2 of 3</color>",
 			"name": "Inflatable boat kit II (Tubes)"
 		},
 		"ribstorage": {
-			"desc": "Optional storage that can be attached to inflatable boats (RIB)",
+			"desc": "Optional storage that can be attached to inflatable boats (RIB)\n<color=yellow>Optional</color>",
 			"name": "Storage (RIB)"
 		},
 		"ripepear": {
@@ -1504,15 +1506,15 @@
 			"name": "Rope"
 		},
 		"rowboatkit1": {
-			"desc": "Base kit for crafting a rowboat. Place it anywhere on land to assemble the boat.\n<color=yellow>Kit 1 of 2</color>",
+			"desc": "Base kit for crafting a rowboat. Place it anywhere on land to assemble the boat.\n<color=yellow>Step 1 of 3</color>",
 			"name": "Rowboat kit I (Frame)"
 		},
 		"rowboatkit2": {
-			"desc": "Base kit for crafting a rowboat. Attach it to an existing rowboat frame (see kit 1).\n<color=yellow>Kit 2 of 2</color>",
+			"desc": "Base kit for crafting a rowboat. Attach it to an existing rowboat frame (see kit 1).\n<color=yellow>Step 2 of 3</color>",
 			"name": "Rowboat kit II (Hull)"
 		},
 		"rowboatstorage": {
-			"desc": "Optional storage that can be attached to rowboats",
+			"desc": "Optional storage that can be attached to rowboats\n<color=yellow>Optional</color>",
 			"name": "Storage (Rowboat)"
 		},
 		"rubberduck": {
@@ -2075,6 +2077,7 @@
 				"compatibilityissue": "Compatibility issue",
 				"gamefilecorrupted": "Game file corrupted",
 				"initexception": "Initialization exception",
+				"sqliteexception": "SQLite Exception: {0}",
 				"steamerror": "Steam Error",
 				"systemrequirementsnotmet": "System requirements not met"
 			},
@@ -2084,6 +2087,7 @@
 			"notexturearrays": "Texture Arrays are required, but not supported by this graphics adapter: \n\n<color=red>{0}</color>\n\nThis may be caused by an outdated or erroneous graphics driver. Please try to download and install the latest graphics driver.",
 			"recordingdeviceerror": "Unable to initialize your recording device\nPlease try to select a different recording device in the audio settings",
 			"somethingwentwrong": "Something went wrong...",
+			"sqlitereadonly": "The game cannot write to the world file on the hard drive. This indicates that either the world file is corrupted, or another program (like an anti-virus program or a firewall) blocks the game. \n\nPlease try to put the game on the allow-list of your anti-virus program or firewall. Alternatively try to disable it temporarily to see if this solves the issue. \n\nPlease also make sure that no other process is currently accessing the world file.",
 			"steamapi": "Could not initialize Steam API.\n\nIn most cases you can fix this issue by restarting your Steam client.",
 			"steamapitimeout": "Could not initialize Steam API (Timeout)\n\nIn most cases you can fix this issue by restarting your Steam client.",
 			"steamlibmissing": "Could not find the Steamworks library. This indicates that some game files are probably corrupted or missing, or the game can not access them.\n\nPlease try to verify the integrity of the game files: \n\n  1. Rightclick on Rising World in your Steam library\n  2. Select Properties\n  3. Go to \"Local files\"\n  4. Select \"Verify integrity of game files\"",
@@ -2168,6 +2172,8 @@
 					"createfailure": "Backup failed!",
 					"createsuccess": "Backup created successfully!\nDuration: {0} ms",
 					"creatingbackup": "Creating backup, please wait...",
+					"deletebackupconfirm": "Do you really want to delete this backup?  \n<align=left><color=yellow>\n\\t\\t World:  {0}\n\\t\\t Date:  {1}\n\\t\\t Version:  {2}\n</color></align>",
+					"deletesuccess": "Backup removed!",
 					"restorebackup": "Select a backup you want to restore. \nPlease note: You cannot undo this step! This will overwrite your existing world files!",
 					"restorebackupconfirm": "Please confirm that you want to restore this backup: \n<align=left><color=yellow>\n\\t\\t World:  {0}\n\\t\\t Date:  {1}\n\\t\\t Version:  {2}\n</color></align>\nThis will delete the current world and replace it with the backup.",
 					"restorefailure": "Restoring backup failed! Reason: \n\n{0}",
@@ -2488,7 +2494,8 @@
 				"high": "High",
 				"low": "Low",
 				"off": "No Ores",
-				"veryhigh": "Very High"
+				"veryhigh": "Very High",
+				"verylow": "Very Low"
 			},
 			"vegetation": {
 				"disabled": "No vegetation",
@@ -3966,6 +3973,8 @@
 				"alltextures": "<All Textures>",
 				"changeid": "Enter the new texture ID",
 				"changeidheader": "Change texture ID",
+				"changetexturealignment": "Select the new alignment for the texture:",
+				"changetexturealignmentheader": "Change texture alignment",
 				"changetexturescale": "Enter a new scale factor for the texture (default: 1)",
 				"changetexturescaleheader": "Change texture scale",
 				"header": "Replace texture...",
@@ -4137,6 +4146,11 @@
 				"watermelon": {
 					"cut": "Cut watermelon"
 				}
+			},
+			"place": {
+				"plantselection": "Plant-Selection",
+				"radialmenu": "Show options (HOLD)",
+				"textureselection": "Texture-Selection"
 			},
 			"richtext": {
 				"bold": {
@@ -4826,8 +4840,8 @@
 					"tooltips": {
 						"cinematicbars": "Sets the size of optional cinematic black bars (at the top and bottom of the screen)",
 						"crosshair": "Sets the default crosshair for the game",
-						"fov": "Changes the field of view (FOV)",
-						"panini": "Use this to reduce stretching on very large field of view settings (or on ultra wide screens). Default value is 0"
+						"fov": "Changes the field of view (FOV). <color=yellow>Default value is 75</color>",
+						"panini": "Only use this if you're using large field-of-view settings or play on an ultra-wide screen. This reduces stretching. <color=yellow>Default value is 0</color>"
 					}
 				},
 				"viewdistance": "View Distance Details",
@@ -4881,9 +4895,11 @@
 					"legacy": "Legacy"
 				},
 				"buildingsnaprotation": "Snap while Rotating",
+				"camerafollowvehicles": "Vehicles: Adjust Camera to Vehicle Direction",
 				"chatfontsize": "Chat Font-Size",
 				"collapsecraftingcategories": "Collapse Crafting Categories",
 				"creativeconfirmremoval": "Show Confirmation Dialog for Removal Tools",
+				"creativecopyblockcolor": "Copy block color",
 				"creativelightintensity": "Creative-Mode Light Intensity",
 				"creativemodeshowtoolbar": "Show Creative-Mode Toolbar",
 				"deadbodydespawntime": "Dead Body Despawn Time",
@@ -4910,6 +4926,7 @@
 				"headermultiplayer": "Multiplayer",
 				"headerscreenshots": "Screenshots",
 				"headersingleplayer": "Singleplayer",
+				"headervehicleandmounts": "Vehicles & Mounts",
 				"hidenametags": "Hide Nametags",
 				"hudquickslotsize": "HUD: Quickslot Size",
 				"hudshowquickslotsduration": "HUD: Quickslot Bar Show Duration",
@@ -4919,6 +4936,7 @@
 				"instantdigging": "Instant Digging (Survival only)",
 				"itemdespawntime": "Item Despawn Time",
 				"keepinventory": "Keep Inventory after Death",
+				"mountsfollowviewdirection": "Mounts: Follow View Direction",
 				"oresmeltingduration": "Ore Smelting Duration",
 				"pauseinmenu": "Pause Game in Menu",
 				"peacefulmode": "Peaceful Mode",
@@ -4967,8 +4985,10 @@
 					"buildingpivotkeeprotation": "If enabled, the game no longer resets the element rotation after placing it while the pivot snapping mode is active",
 					"buildingresizemode": "Controls the resize behaviour.\n\nLegacy: Resizing works like resizing beams in the Java version, i.e. Up/Down changes the height while Left/Right changes the width <u>and</u> depth\n\nDefault: X, Y and Z axes can be resized independently",
 					"buildingsnaprotation": "If enabled, the element automatically snaps to the X, Y or Z axes while rotating it",
+					"camerafollowvehicles": "If enabled, the camera will automatically follow the vehicle rotation",
 					"collapsecraftingcategories": "If enabled, block texture selection categories are collapsed by default",
-					"creativeconfirmremoval": "If true, a confirmation dialog will be shown when removing elements through the creative mode removal tools",
+					"creativeconfirmremoval": "If enabled, a confirmation dialog will be shown when removing elements through the creative mode removal tools",
+					"creativecopyblockcolor": "If enabled, copying a block by pressing the middle mouse button also copies the color of the element",
 					"creativelightintensity": "Determines the light intensity of the creative mode light (L)",
 					"falldamage": "If enabled, player is immune to fall damage (in survival mode)",
 					"flymodemovetype": "Determines how movement works while flying.\n\n<color=yellow>Default: Flying towards view direction</color>\n\n<color=orange>Keep Elevation: Keep elevation/altitude</color>",
@@ -4981,6 +5001,7 @@
 					"imagemaxresolution": "Determines the max allowed resolution for custom images / posters. Changes only affect images that are uploaded afterwards!\n\nNote: High resolutions consume more graphics memory and have a bigger impact on performance!",
 					"instantdigging": "If enabled, everything breaks with a single hit in survival mode (similar to how digging works in creative mode)",
 					"keepinventory": "If enabled, you will keep your inventory after dying",
+					"mountsfollowviewdirection": "If enabled, mounts will automatically follow your view direction while riding",
 					"oresmeltingduration": "Determines the duration factor for smelting ores in a furnace. Default is 100%. Set to 50% for half the duration, 200% for double the time etc.",
 					"pauseinmenu": "If enabled, the game pauses if the ingame menu is active (singleplayer only)",
 					"peacefulmode": "If enabled, enemies no longer attack you (unless you attack them first)",
@@ -5146,9 +5167,14 @@
 			"itemtooltip": {
 				"blueprint": "Blueprint: {0}",
 				"clothes": {
+					"divinggoggles": "Provides clear vision under water",
 					"insulation": "Insulation: {0}",
+					"nvg": "Enables you to see in the dark",
 					"protection": "Protection: {0}",
-					"provideslight": "Provides light"
+					"provideslight": "Provides light",
+					"saddle": "Use this to ride a mount",
+					"saddlebag": "Attachable to saddles. Stores items",
+					"storesitems": "Stores items"
 				},
 				"color": "Color: {0}",
 				"consumable": {
