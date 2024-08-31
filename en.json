@@ -120,6 +120,8 @@
 			"sandunderwater": "Sand (Sea)",
 			"snow": "Snow",
 			"stone": "Stone",
+			"underwater": "Algae",
+			"volcanic": "Volcanic",
 			"water": "Water"
 		},
 		"unknown": "Unknown"
@@ -155,6 +157,9 @@
 		},
 		"balaclavamask": {
 			"name": "Balaclava (glasses)"
+		},
+		"barbarianhelmet": {
+			"name": "Barbarian helmet"
 		},
 		"boonie": {
 			"name": "Boonie hat"
@@ -192,6 +197,9 @@
 		},
 		"fez": {
 			"name": "Fez"
+		},
+		"fur": {
+			"name": "Fur"
 		},
 		"groucho": {
 			"desc": "It provides perfect disguise. No one will recognize you",
@@ -247,6 +255,27 @@
 			"desc": "An old miner's helmet with a candle attached to it that lights up your way in dark areas",
 			"name": "Miner's helmet"
 		},
+		"necklace": {
+			"name": "Necklace"
+		},
+		"oldarmor": {
+			"name": "Old armor"
+		},
+		"oldbelt": {
+			"name": "Old belt"
+		},
+		"oldboots": {
+			"name": "Old boots"
+		},
+		"oldcloak": {
+			"name": "Old cloak"
+		},
+		"oldcuffs": {
+			"name": "Old iron cuffs"
+		},
+		"oldhelmet": {
+			"name": "Old helmet"
+		},
 		"paintballmask": {
 			"name": "Paintball mask"
 		},
@@ -258,6 +287,12 @@
 		},
 		"questionhat": {
 			"name": "?"
+		},
+		"ragshirt": {
+			"name": "Rag top"
+		},
+		"ragshoes": {
+			"name": "Rag shoes"
 		},
 		"redcoathat": {
 			"name": "Redcoat hat"
@@ -328,53 +363,100 @@
 		"arcinversecorner": {
 			"name": "Arc corner (inverse)"
 		},
+		"arcinversecornerhalf": {
+			"name": "Arc half inner corner (inverse)"
+		},
 		"arcinversecornerinner": {
 			"name": "Arc inner corner (inverse)"
 		},
 		"block": {
 			"name": "Block"
 		},
+		"category": {
+			"arcs": "Arcs",
+			"basis": "Basis",
+			"blocks": "Blocks",
+			"cones": "Cones",
+			"corner": "Corners",
+			"corners": "Corners",
+			"cylinders": "Cylinders",
+			"other": "Other",
+			"panes": "Panes",
+			"slopes": "Slopes",
+			"special": "Special",
+			"spheres": "Spheres",
+			"stairs": "Stairs",
+			"undefined": "Undefined",
+			"windows": "Windows"
+		},
 		"cone": {
 			"name": "Cone"
+		},
+		"conehollow": {
+			"name": "Hollow Cone"
 		},
 		"cylinder": {
 			"name": "Cylinder"
 		},
+		"eighthsphere": {
+			"name": "Eighth Sphere"
+		},
+		"eighthspherehollow": {
+			"name": "Eighth hollow Sphere"
+		},
 		"glasspane": {
-			"name": "Glass pane"
+			"name": "Glass Pane"
 		},
 		"halfcone": {
-			"name": "Half cone"
+			"name": "Half Cone"
+		},
+		"halfconehollow": {
+			"name": "Half hollow Cone"
 		},
 		"halfcylinder": {
-			"name": "Half cylinder"
+			"name": "Half Cylinder"
+		},
+		"halfsphere": {
+			"name": "Half Sphere"
+		},
+		"halfspherehollow": {
+			"name": "Half hollow Sphere"
+		},
+		"hollowblock": {
+			"name": "Hollow Block"
 		},
 		"hollowcylinder": {
-			"name": "Hollow cylinder"
+			"name": "Hollow Cylinder"
+		},
+		"hollowcylinderblock": {
+			"name": "Hollow Cylinder Block"
 		},
 		"hollowcylindercorner": {
-			"name": "Hollow cylinder corner"
+			"name": "Hollow Cylinder corner"
 		},
 		"hollowcylinderhalf": {
-			"name": "Half hollow cylinder"
+			"name": "Half hollow Cylinder"
+		},
+		"hollowcylinderquarter": {
+			"name": "Quarter hollow Cylinder"
 		},
 		"pane": {
 			"name": "Pane"
 		},
 		"panecircle": {
-			"name": "Round pane"
+			"name": "Round Pane"
 		},
 		"panehalfcircle": {
-			"name": "Round pane (half)"
+			"name": "Round Pane (half)"
 		},
 		"panequartercircle": {
-			"name": "Round pane (quarter)"
+			"name": "Round Pane (quarter)"
 		},
 		"panerighttriangle": {
-			"name": "Triangle pane (right-angled)"
+			"name": "Triangle Pane (right-angled)"
 		},
 		"panetriangle": {
-			"name": "Triangle pane"
+			"name": "Triangle Pane"
 		},
 		"pillar": {
 			"name": "Pillar"
@@ -387,13 +469,28 @@
 			"name": "Pyramid"
 		},
 		"quartercone": {
-			"name": "Quarter cone"
+			"name": "Quarter Cone"
+		},
+		"quarterconehollow": {
+			"name": "Quarter hollow Cone"
+		},
+		"quartercylinder": {
+			"name": "Quarter Cylinder"
+		},
+		"quartersphere": {
+			"name": "Quarter Sphere"
+		},
+		"quarterspherehollow": {
+			"name": "Quarter hollow Sphere"
 		},
 		"ramp": {
 			"name": "Slope"
 		},
 		"rampcorner": {
 			"name": "Slope corner"
+		},
+		"rampcorner2": {
+			"name": "Slope corner B"
 		},
 		"rampcornerhalf": {
 			"name": "Slope half corner"
@@ -402,7 +499,7 @@
 			"name": "Slope inner corner"
 		},
 		"roundedblock": {
-			"name": "Rounded block"
+			"name": "Rounded Block"
 		},
 		"sphere": {
 			"name": "Sphere"
@@ -464,6 +561,7 @@
 		},
 		"crafting": {
 			"collapseall": "Collapse all",
+			"collapseother": "Collapse other",
 			"expandall": "Expand all"
 		},
 		"edittexture": {
@@ -489,6 +587,14 @@
 			"open": "Open",
 			"split": "Split stack",
 			"wearclothes": "Wear"
+		},
+		"map": {
+			"createglobalmarker": "Create global marker",
+			"createlocalmarker": "Create new marker",
+			"deletemarker": "Delete marker",
+			"editmarker": "Edit marker",
+			"teleporttomarker": "Teleport to marker",
+			"teleporttoposition": "Teleport here"
 		},
 		"menu": {
 			"copyuid": "Copy UID to clipboard"
@@ -791,6 +897,7 @@
 			"accessory": "Accessory",
 			"advancedtools": "Advanced Tools",
 			"ammo": "Arrows & Ammo",
+			"armor": "Armor",
 			"barriers": "Barriers",
 			"basekits": "Base Kits",
 			"basictools": "Basic Tools",
@@ -883,12 +990,15 @@
 	"general": {
 		"accept": "Accept",
 		"always": "Always",
+		"apply": "Apply",
 		"cancel": "Cancel",
 		"continue": "Continue",
+		"create": "Create",
 		"decline": "Decline",
 		"default": "Default",
 		"disable": "Disable",
 		"disabled": "Disabled",
+		"edit": "Edit",
 		"enable": "Enable",
 		"enabled": "Enabled",
 		"everywhere": "Everywhere",
@@ -1164,6 +1274,9 @@
 		"cowhide": {
 			"name": "Cow hide"
 		},
+		"crossbow": {
+			"name": "Crossbow"
+		},
 		"decal": {
 			"desc": "Similar to a poster, but adapts to the ground. Ideal if you want to project an image onto an uneven surface",
 			"name": "Decal"
@@ -1173,6 +1286,9 @@
 		},
 		"deerredpelt": {
 			"name": "Red deer pelt"
+		},
+		"dice": {
+			"name": "Dice"
 		},
 		"dye": {
 			"name": "Dye"
@@ -1224,6 +1340,9 @@
 		},
 		"foxpelt": {
 			"name": "Fox pelt"
+		},
+		"gem": {
+			"name": "Gem"
 		},
 		"gingerroot": {
 			"name": "Ginger root"
@@ -1320,6 +1439,10 @@
 			"desc": "Basic crafting resource",
 			"name": "Lumber"
 		},
+		"map": {
+			"desc": "A rough representation of the current island",
+			"name": "Map"
+		},
 		"measuringtape": {
 			"desc": "Can be used to measure the distance between two points",
 			"name": "Measuring tape"
@@ -1372,6 +1495,9 @@
 		"moosepelt": {
 			"name": "Moose pelt"
 		},
+		"morningstar": {
+			"name": "Morning star"
+		},
 		"musicdisc": {
 			"desc": "Play it on a gramophone",
 			"name": "Music disc"
@@ -1383,6 +1509,10 @@
 		"objectkit": {
 			"desc": "Represents a placeable object",
 			"name": "Object kit"
+		},
+		"objectkitsmall": {
+			"desc": "Represents a placeable object",
+			"name": "Object kit (small)"
 		},
 		"oldshears": {
 			"desc": "Used to shear sheeps to get their wool",
@@ -1529,6 +1659,30 @@
 			"desc": "A saddle for a horse. This is required if you want to ride a horse",
 			"name": "Saddle (Horse)"
 		},
+		"sail1": {
+			"desc": "A small sail. Required for small sailing boats.\n<color=yellow>Step 5 of 5</color>",
+			"name": "Sail"
+		},
+		"sailboatkit1": {
+			"desc": "Base kit for crafting a sailboat. Place it anywhere on land to assemble the boat.\n<color=yellow>Step 1 of 5</color>",
+			"name": "Sailboat kit I (Frame A)"
+		},
+		"sailboatkit2": {
+			"desc": "Base kit for crafting a sailboat. Attach it to an existing sailboat frame (see kit 1).\n<color=yellow>Step 2 of 5</color>",
+			"name": "Sailboat kit II (Frame B)"
+		},
+		"sailboatkit3": {
+			"desc": "Base kit for crafting a sailboat. Attach it to an existing sailboat frame (see kit 2).\n<color=yellow>Step 3 of 5</color>",
+			"name": "Sailboat kit III (Hull)"
+		},
+		"sailboatkit4": {
+			"desc": "Base kit for crafting a sailboat. Attach it to an existing sailboat hull (see kit 3).\n<color=yellow>Step 4 of 5</color>",
+			"name": "Sailboat kit IV (Mast)"
+		},
+		"sailboatstorage": {
+			"desc": "Optional storage that can be attached to sailboats.\n<color=yellow>Optional</color>",
+			"name": "Storage (Sailboat)"
+		},
 		"sapling": {
 			"name": "Sapling"
 		},
@@ -1552,38 +1706,41 @@
 			"desc": "A sapling of a birch",
 			"name": "Sapling (birch)"
 		},
+		"saplingbiznaga": {
+			"name": "Seedling (biznaga)"
+		},
 		"saplingbushcedar": {
 			"desc": "A sapling of a bush",
 			"name": "Sapling (bush)"
 		},
 		"saplingcactus": {
-			"name": "Sapling (cactus)"
+			"name": "Seedling (cactus)"
 		},
 		"saplingcarrot": {
-			"name": "Sapling (carrot)"
+			"name": "Seedling (carrot)"
 		},
 		"saplingchili": {
-			"name": "Sapling (chili)"
+			"name": "Seedling (chili)"
 		},
 		"saplingcorn": {
-			"name": "Sapling (corn)"
+			"name": "Seedling (corn)"
 		},
 		"saplingcotton": {
-			"name": "Sapling (cotton)"
+			"name": "Seedling (cotton)"
 		},
 		"saplingcypress": {
 			"desc": "A sapling of a cypress",
 			"name": "Sapling (cypress)"
 		},
 		"saplinghemp": {
-			"name": "Sapling (hemp)"
+			"name": "Seedling (hemp)"
 		},
 		"saplinghickory": {
 			"desc": "A sapling of a hickory tree",
 			"name": "Sapling (hickory)"
 		},
 		"saplinglettuce": {
-			"name": "Sapling (lettuce)"
+			"name": "Seedling (lettuce)"
 		},
 		"saplinglondonplane": {
 			"desc": "A sapling of a london plane",
@@ -1602,7 +1759,7 @@
 			"name": "Sapling (palm)"
 		},
 		"saplingpotato": {
-			"name": "Sapling (potato)"
+			"name": "Seedling (potato)"
 		},
 		"saplingredmaple": {
 			"desc": "A sapling of a red maple tree",
@@ -1617,17 +1774,17 @@
 			"name": "Sapling (forest spruce)"
 		},
 		"saplingsugarbeet": {
-			"name": "Sapling (sugar beet)"
+			"name": "Seedling (sugar beet)"
 		},
 		"saplingtomato": {
-			"name": "Sapling (tomato)"
+			"name": "Seedling (tomato)"
 		},
 		"saplingweepingbeech": {
 			"desc": "A sapling of a weeping beech",
 			"name": "Sapling (weeping beech)"
 		},
 		"saplingwheat": {
-			"name": "Sapling (wheat)"
+			"name": "Seedling (wheat)"
 		},
 		"saplingwillowoak": {
 			"desc": "A sapling of a willow oak",
@@ -1747,6 +1904,10 @@
 		"sword11": {
 			"desc": "A one-handed, single-edged falchion",
 			"name": "Falchion"
+		},
+		"sword12": {
+			"desc": "A one-handed, Middle Eastern curved sword",
+			"name": "Scimitar"
 		},
 		"tentbag": {
 			"name": "Tent bag"
@@ -1887,6 +2048,9 @@
 		}
 	},
 	"liquids": {
+		"lava": {
+			"name": "Lava"
+		},
 		"sugarbeet": {
 			"name": "Sugar beet juice"
 		},
@@ -1998,6 +2162,7 @@
 			"unknown": "Something went wrong \n({0})"
 		},
 		"copiedtoclipboard": "Copied to clipboard: {0}",
+		"copiedtoclipboard2": "Copied to clipboard",
 		"corpse": {
 			"cannotloot": "You cannot loot this body",
 			"gutanimalwithknife": "Use a knife to gut this corpse",
@@ -2030,6 +2195,7 @@
 			"editsingleconstruction": "Edit single construction element",
 			"edittexture": "Change textures",
 			"enabled": "Creative mode enabled",
+			"lookatelementtoedit": "Please look at an element first to edit it!",
 			"modes": {
 				"area": "Mode: Area Tools (F9)",
 				"edit": "Mode: Edit Tools (F8)",
@@ -2091,6 +2257,8 @@
 			"steamapi": "Could not initialize Steam API.\n\nIn most cases you can fix this issue by restarting your Steam client.",
 			"steamapitimeout": "Could not initialize Steam API (Timeout)\n\nIn most cases you can fix this issue by restarting your Steam client.",
 			"steamlibmissing": "Could not find the Steamworks library. This indicates that some game files are probably corrupted or missing, or the game can not access them.\n\nPlease try to verify the integrity of the game files: \n\n  1. Rightclick on Rising World in your Steam library\n  2. Select Properties\n  3. Go to \"Local files\"\n  4. Select \"Verify integrity of game files\"",
+			"unabletosaveworld": "An error occurred while saving the world! If you get this message again, this would indicate that you might lose your current progress. In this case it would be recommendable to restart the game.\n\nError: {0}",
+			"unabletosaveworlddb": "An error occurred while saving the world! Apparently the game is not able to access the hard drive.\n\nPlease make sure there is no anti-virus program which blocks the game. Also make sure that there is enough free disk space available.\n\nIf this error occurs again, it would indicate that you would lose your current progress. In this case it would be recommendable to restart the game.",
 			"unknownerror": "An unknown error occurred!",
 			"windows7": "Unfortunately there is a bug in the latest Unity version, which prevents the game from running on Windows 7. We have already reported this bug to Unity, and Unity did also confirm it.\n\nBecause this is a bug in the engine itself, we have no control over it unfortunately, so we have to wait until Unity fixes this issue.\n\nWe are sorry about the inconvenience! We have created a pinned topic in the Steam forums about this issue, which also contains a link to Unitys public bug tracker. We'll update the thread as soon as we have any news."
 		},
@@ -2254,6 +2422,7 @@
 			"wrongpassword": "Incorrect password!"
 		},
 		"noloot": "There is nothing to loot...",
+		"notsupportedyet": "Not supported yet",
 		"npc": {
 			"cannotride": "You cannot ride this horse yet",
 			"delete": {
@@ -2272,6 +2441,7 @@
 			},
 			"shearingsheep": "Shearing sheep...",
 			"shearsheepwithshears": "You need shears to shear this sheep",
+			"tooyoungtoride": "This animal is too young to ride",
 			"tooyoungtoshear": "This lamb is too young to be shorn"
 		},
 		"objects": {
@@ -2348,7 +2518,7 @@
 			"tanningrack": {
 				"notready": "The leather isn't ready yet",
 				"placepelt": "Place a hide or pelt on this rack",
-				"tanning": "",
+				"tanning": "Processing...",
 				"useknife": "Use a knife to turn this hide into leather"
 			}
 		},
@@ -2356,10 +2526,13 @@
 			"cannotpaint": "You can't paint this",
 			"fullypainted": "This element is fully painted"
 		},
+		"pastedfromclipboard": "Pasted from clipboard: {0}",
+		"pastedfromclipboard2": "Pasted from clipboard",
 		"permission": {
 			"blueprintelementlimit": "Permission: You are not allowed to place a blueprint containing that many building parts on this server!",
 			"blueprintplacelimit": "Permission: You cannot place more blueprints on this server during this session!",
 			"insufficient": "Insufficient permission!",
+			"invalidpermissionsnotify": "One or more permissions could not be loaded. Please check the syntax of the following permission files: \n\n{0}",
 			"itemforbidden": "Item is forbidden for this player",
 			"itemforbiddenself": "This item is forbidden for you on this server",
 			"noblueprintplace": "You are not allowed to place a blueprint here",
@@ -2411,11 +2584,14 @@
 		},
 		"storagefull": "No more room left",
 		"vehicle": {
+			"cannotdeconstruct": "You cannot disassemble this vehicle",
+			"cannotdowhilepassengers": "You cannot do that while there are still passengers",
 			"changegear": "To accelerate, use {0} and {1} to change the gear!",
 			"exit": "Press ESC to exit",
 			"nofreeseat": "No free seat was found",
 			"otherstagerequired": "This kit can only be assembled on: <color=yellow>{0}</color>",
 			"placingvehicle": "Placing vehicle component...",
+			"pushingwhilepassengers": "It's difficult to push the boat while it still has passengers",
 			"pushingwhilestandingonit": "It's difficult to push the boat while you're standing on it",
 			"seatoccupied": "This seat is occupied",
 			"vehicleassemblyrequired": "You can only assemble this kit on an existing vehicle"
@@ -2456,6 +2632,7 @@
 	"misc": {
 		"ban": "Ban",
 		"deadbody": "Dead body",
+		"experimental": "Experimental",
 		"flags": {
 			"countries": "Country Flags",
 			"special": "Special Flags"
@@ -2528,6 +2705,21 @@
 		"arcticfox": {
 			"name": "Snow fox"
 		},
+		"arcticfoxcub": {
+			"name": "Snow fox cub"
+		},
+		"arcticshewolf": {
+			"name": "Arctic she-wolf"
+		},
+		"arcticwolf": {
+			"name": "Arctic wolf"
+		},
+		"bandit": {
+			"name": "Bandit"
+		},
+		"barbarian": {
+			"name": "Barbarian"
+		},
 		"bear": {
 			"name": "Bear"
 		},
@@ -2597,6 +2789,9 @@
 		"foxcub": {
 			"name": "Fox cub"
 		},
+		"ghoul": {
+			"name": "Ghoul"
+		},
 		"goat": {
 			"name": "Goat"
 		},
@@ -2605,6 +2800,9 @@
 		},
 		"hare": {
 			"name": "Hare"
+		},
+		"harecub": {
+			"name": "Young hare"
 		},
 		"horse": {
 			"name": "Horse"
@@ -2657,11 +2855,20 @@
 		"rhinoceros": {
 			"name": "Rhinoceros"
 		},
+		"scorpion": {
+			"name": "Scorpion"
+		},
 		"sheep": {
 			"name": "Sheep"
 		},
 		"sheepshorn": {
 			"name": "Sheep (shorn)"
+		},
+		"shewolf": {
+			"name": "She-wolf"
+		},
+		"skeleton": {
+			"name": "Skeleton"
 		},
 		"snake": {
 			"name": "Snake"
@@ -2683,6 +2890,9 @@
 		},
 		"wolf": {
 			"name": "Wolf"
+		},
+		"wolfcub": {
+			"name": "Wolf cub"
 		},
 		"zebra": {
 			"name": "Zebra"
@@ -2712,6 +2922,32 @@
 		"blueprinttable": {
 			"desc": "Allows you to organize and select your blueprints",
 			"name": "Blueprint table"
+		},
+		"bone": {
+			"name": "Bone"
+		},
+		"bonearm": {
+			"name": "Bone (arm)"
+		},
+		"boneleg": {
+			"name": "Bone (leg)"
+		},
+		"bonepelvis": {
+			"name": "Bone (pelvis)"
+		},
+		"boneribcage": {
+			"name": "Ribcage"
+		},
+		"bonestatue": {
+			"desc": "An eerie statue made out of bones and a skull",
+			"name": "Bone statue"
+		},
+		"bonethrone": {
+			"desc": "An eerie throne made out of bones",
+			"name": "Bone throne"
+		},
+		"bonetorch": {
+			"name": "Bone torch"
 		},
 		"bonfire": {
 			"desc": "Large fire which is visible from a long distance. Provides warmth, light and safety",
@@ -2923,6 +3159,10 @@
 		"logbench": {
 			"name": "Log bench"
 		},
+		"loom": {
+			"desc": "Required to weave clothes",
+			"name": "Loom"
+		},
 		"masonryoven": {
 			"desc": "An oven made out of stone. Can be used for baking food",
 			"name": "Masonry oven"
@@ -3070,6 +3310,16 @@
 			"desc": "A simple wooden skewer. Place it on a campfire to cook meat",
 			"name": "Skewer"
 		},
+		"skull": {
+			"name": "Skull"
+		},
+		"skullcandle": {
+			"name": "Skull candle"
+		},
+		"skullgold": {
+			"desc": "Looks precious!",
+			"name": "Golden skull"
+		},
 		"snowman": {
 			"desc": "A snow sculpture",
 			"name": "Snowman"
@@ -3098,6 +3348,10 @@
 		"tanningrack": {
 			"desc": "Is used to turn animal hides and pelts into leather. A knife is required for that!",
 			"name": "Tanning rack"
+		},
+		"technicalblock": {
+			"desc": "A single-colored, always uniformly lit block that has no shading and casts no shadows",
+			"name": "Technical block"
 		},
 		"teddy": {
 			"name": "Teddy"
@@ -3144,7 +3398,7 @@
 			"name": "Wall torch"
 		},
 		"weathervane": {
-			"desc": "Used to show the current direction of the wind",
+			"desc": "Shows the current direction of the wind",
 			"name": "Weather vane"
 		},
 		"woodenbarrel": {
@@ -3178,8 +3432,13 @@
 			"addplayer": "Determines if the player is allowed to add a player to an area",
 			"canenter": "[AREA PERMISSION ONLY] Determines if the player is allowed to enter this area",
 			"canleave": "[AREA PERMISSION ONLY] Determines if the player is allowed to leave this area",
+			"create": "Determines if the player is allowed to create new areas",
+			"delete": "Determines if the player is allowed to delete existing areas",
 			"removeplayer": "Determines if the player is allowed to remove a player from an area",
-			"setname": "Determines if the player is allowed to change the name of an area"
+			"setclaimable": "Determines if the player is allowed to change the claimable status of an area",
+			"setname": "Determines if the player is allowed to change the name of an area",
+			"setpermission": "Determines if the player is allowed to change the default permission of an area",
+			"setpriority": "Determines if the player is allowed to change the priority of an area"
 		},
 		"blueprint": {
 			"create": "Determines whether or not a player is allowed to create new blueprints (from any buildings)",
@@ -3262,15 +3521,20 @@
 			"watertools": "Determines if the player is allowed to use the creative mode water tools (F5)"
 		},
 		"forbidden": {
-			"items": "Optional list of items the player is not allowed to craft, pick up or use"
+			"crafting": "Optional list of crafting recipes the player is not allowed to use",
+			"items": "Optional list of items the player is not allowed to craft, pick up or use",
+			"objects": "Optional list of objects (i.e. furniture, workbenches etc) the player is not allowed to craft, pick up or use"
 		},
 		"general": {
 			"changeblockshape": "Determines if the player is allowed to retroactively change the shape of a block in his inventory",
+			"changeclothes": "Determines if the player is allowed to change his clothes",
 			"changegamemode": "Determines if the player is allowed to change the game mode (gm)",
+			"changeskin": "Determines if the player is allowed to change his skin while on the server",
 			"crafting": "Determines if the player is allowed to craft any item",
 			"destroyitems": "Determines if the player is allowed to destroy items (tools, weapons etc) in the world",
 			"destroyvehicles": "Determines if the player is allowed to destroy vehicles",
 			"dropitems": "Determines if the player is allowed to drop items",
+			"editnpcs": "Determines if the player is allowed to edit npcs",
 			"editownvehicles": "Determines if the player is allowed to modify his own vehicles",
 			"editvehicles": "Determines if the player is allowed to modify vehicles",
 			"fixedspawn": "Determines if the player will always spawn at the default server spawn position",
@@ -3283,11 +3547,14 @@
 			"nohungerthirst": "Determines if hunger and thirst will be disabled for the player",
 			"nostamina": "Determines if the player has unlimited stamina",
 			"notemperature": "Determines if temperature will be disabled for the player",
+			"opencrafting": "Determines if the player is allowed to open the crafting menu",
+			"openinventory": "Determines if the player is allowed to open his inventory",
 			"pickupitems": "Determines if the player is allowed to pick up items",
 			"placeitems": "Determines if the player is allowed to place items in the world",
 			"placevehicles": "Determines if the player is allowed to place or assemble vehicles",
 			"pve": "Determines if PvE is allowed for this player (i.e. whether or not he is allowed to kill npcs)",
 			"pvp": "Determines if PvP is allowed for this player (i.e. whether or not he is allowed to kill other players)",
+			"ridemounts": "Determines if the player is allowed to ride mounts",
 			"unlockalldoors": "Determines if the player is allowed to unlock all doors (even doors he does not own)",
 			"useallchests": "Determines if the player is allowed to access all chests (even chests he does not own)",
 			"usealllights": "Determines if the player is allowed to modify all lamps and lights (even lamps he does not own)",
@@ -3323,6 +3590,10 @@
 			"showinplayerlist": "Determines if this player should be visible in the player list",
 			"shownametag": "Determines whether or not the 3D nametag will be visible above the player"
 		},
+		"map": {
+			"createglobalmarker": "Determines if the player is allowed to create global markers (i.e. markers which are visible for every player)",
+			"createlocalmarker": "Determines if the player is allowed to create own markers (i.e. markers which are only visible for this particular player)"
+		},
 		"world": {
 			"destroyconstructions": "Determines if the player is allowed to destroy construction elements",
 			"destroyobjects": "Determines if the player is allowed to destroy object elements (like furniture)",
@@ -3339,7 +3610,7 @@
 			"editvegetations": "Determines if the player is allowed to edit plants or trees",
 			"placeconstructions": "Determines if the player is allowed to place construction elements",
 			"placeobjects": "Determines if the player is allowed to place object elements (like furniture)",
-			"placeobjectsexception": "If \"placeobjects\" is now allowed, you can specify exceptions here (i.e. objects the player is still allowed to place)",
+			"placeobjectsexception": "If \"placeobjects\" is not allowed, you can specify exceptions here (i.e. objects the player is still allowed to place)",
 			"placeterrain": "Determines if the player is allowed to place terrain",
 			"placevegetations": "Determines if the player is allowed to place plants or trees",
 			"undo": "Determines if the player is allowed to use the \"undo\" command"
@@ -3672,6 +3943,20 @@
 				"lvl3": "Tall (3)",
 				"lvl4": "Very tall (4)"
 			}
+		},
+		"vehicles": {
+			"boat": {
+				"sailfurl": "Furl sail",
+				"sailunfurl": "Unfurl sail",
+				"setsailimage": "Set image (Sail)"
+			},
+			"deconstruct": "Disassemble (hold)",
+			"enter": "Enter",
+			"exit": "Exit",
+			"push": "Push",
+			"rotate": "Rotate",
+			"setimage": "Set image",
+			"setname": "Set name"
 		}
 	},
 	"selector": {
@@ -3902,6 +4187,51 @@
 				"successheader": "Report sent"
 			}
 		},
+		"createmapmarkermessagebox": {
+			"contentcontainer": {
+				"flagscontainer": {
+					"flagsheader": "Flags"
+				},
+				"iconcontainer": {
+					"colorselectorcontainer": {
+						"colorheader": "Color"
+					},
+					"iconselectorcontainer": {
+						"iconheader": "Icon"
+					}
+				},
+				"namecontainer": {
+					"markernamecontainer": {
+						"nameheader": "Marker Name"
+					}
+				},
+				"positioncontainer": {
+					"positionheader": "Position"
+				},
+				"slidercontainer": {
+					"opacityslidercontainer": {
+						"opacityheader": "Opacity"
+					},
+					"rotationslidercontainer": {
+						"rotationheader": "Rotation"
+					},
+					"sizeslidercontainer": {
+						"sizeheader": "Size"
+					}
+				},
+				"typecontainer": {
+					"markertypecontainer": {
+						"markertypeheader": "Type"
+					}
+				}
+			},
+			"header": "Create Marker  <size=60%>({0}  {1})</size>",
+			"markertype": {
+				"globalmarker": "Global",
+				"playermarker": "Default"
+			},
+			"selectmarkercolor": "Select a marker color"
+		},
 		"createworlddialog": {
 			"buttoncontainer": {
 				"buttoncentercontainer": {
@@ -4047,8 +4377,19 @@
 				"footer": "Double-click to select a material",
 				"header": "Select a material"
 			},
+			"clothes": {
+				"footer": "Double-click to select clothes",
+				"header": "Select clothes"
+			},
 			"flags": {
 				"header": "Select a flag"
+			},
+			"items": {
+				"footer": "Double-click to select an item",
+				"header": "Select an item",
+				"headerclothes": "Clothes",
+				"headeritems": "Items",
+				"headerobjects": "Objects"
 			},
 			"plants": {
 				"footer": "Double-click to select a plant / object",
@@ -4060,6 +4401,9 @@
 			}
 		},
 		"help": {
+			"areaselector": {
+				"clearselection": "Clear selection"
+			},
 			"buildingradialmenu": {
 				"collisions": "Toggles collisions. If collisions are disabled, the center of the construction element is always exactly at your cursor position",
 				"flip": "Flips / mirrors the construction element",
@@ -4120,7 +4464,14 @@
 				},
 				"holdinteractionforoptions": "Open Settings (HOLD)",
 				"knife": {
-					"gutanimal": "Gut animal corpse (HOLD)"
+					"gutanimal": "Gut animal corpse (HOLD)",
+					"tanningrack": "Process to leather (HOLD)"
+				},
+				"map": {
+					"hidecursor": "Hide cursor",
+					"lowermap": "Lower map",
+					"raisemap": "Lift map",
+					"showcursor": "Show cursor"
 				},
 				"oredetector": {
 					"changetargetore": "Change target ore"
@@ -4151,6 +4502,10 @@
 				"plantselection": "Plant-Selection",
 				"radialmenu": "Show options (HOLD)",
 				"textureselection": "Texture-Selection"
+			},
+			"remove": {
+				"removeelements": "Remove elements",
+				"setfilter": "Set filter"
 			},
 			"richtext": {
 				"bold": {
@@ -4191,6 +4546,13 @@
 					"example": "This is underlined text",
 					"tag": "<u>{0}</u>"
 				}
+			},
+			"vehicle": {
+				"changegear": "Shift down/up",
+				"changesail": "Raise/lower sail",
+				"changesailangle": "Change sail angle",
+				"changeseat": "Change seat",
+				"engine": "Engine"
 			}
 		},
 		"hud": {
@@ -4420,6 +4782,7 @@
 					"buttoncontainer": {
 						"homebutton": "Home",
 						"multiplayerbutton": "Multiplayer",
+						"profilebutton": "Character",
 						"settingsbutton": "Settings",
 						"singleplayerbutton": "Singleplayer"
 					},
@@ -4487,6 +4850,86 @@
 				"connect": "Connect"
 			}
 		},
+		"npceditmessagebox": {
+			"contentcontainer": {
+				"flagscontainer": {
+					"container": {
+						"column1": {
+							"invincibletoggle": "Invincible",
+							"lockedtoggle": "Locked",
+							"soundstoggle": "Mute"
+						},
+						"column2": {
+							"collisiontoggle": "No Collision",
+							"growthtoggle": "Disable Growth",
+							"invisibletoggle": "Invisible"
+						}
+					},
+					"flagsheader": "Attributes"
+				},
+				"misccontainer": {
+					"healthcolumn": {
+						"healthheader": "Health"
+					}
+				},
+				"overridescontainer": {
+					"attackreactioncontainer": {
+						"attackreactionheader": "Override Attack Reaction"
+					},
+					"behaviourcontainer": {
+						"behaviourheader": "Override Behaviour"
+					}
+				},
+				"skincontainer": {
+					"generalcontainer": {
+						"gendercontainer": {
+							"genderheader": "Gender"
+						},
+						"skinpartscontainer": {
+							"row1": {
+								"beardcontainer": {
+									"beardheader": "Beard"
+								},
+								"hairstylecontainer": {
+									"hairstyleheader": "Hair style"
+								}
+							},
+							"row2": {
+								"tattoocontainer": {
+									"tattooheader": "Tattoo"
+								},
+								"texturecontainer": {
+									"textureheader": "Body"
+								}
+							}
+						}
+					},
+					"skincolorselement": {
+						"eyecolorrow": {
+							"headercontainer": {
+								"headerlabel": "Eye color"
+							}
+						},
+						"haircolorrow": {
+							"headercontainer": {
+								"headerlabel": "Hair color"
+							}
+						},
+						"skincolorrow": {
+							"headercontainer": {
+								"headerlabel": "Skin color"
+							}
+						}
+					}
+				},
+				"topcontainer": {
+					"namecolumn": {
+						"nameheader": "Custom Name (optional)"
+					}
+				}
+			},
+			"header": "- NPC {0} (ID: {1}) -"
+		},
 		"poster": {
 			"buttons": {
 				"delete": "Delete Image",
@@ -4532,6 +4975,61 @@
 			},
 			"uploadindicator": "Uploading image..."
 		},
+		"profile": {
+			"screen": {
+				"profileeditcontainer": {
+					"container": {
+						"rightcontainer": {
+							"buttoncentercontainer": {
+								"buttonleft": "Save",
+								"buttonright": "Cancel"
+							},
+							"settingscontainer": {
+								"hairstylerow": {
+									"beardselectorcontainer": {
+										"headerlabel": "Beard"
+									},
+									"hairstyleselectorcontainer": {
+										"headerlabel": "Hair style"
+									}
+								},
+								"skincolorselement": {
+									"eyecolorrow": {
+										"headercontainer": {
+											"headerlabel": "Eye color"
+										}
+									},
+									"haircolorrow": {
+										"headercontainer": {
+											"headerlabel": "Hair color"
+										}
+									},
+									"skincolorrow": {
+										"headercontainer": {
+											"headerlabel": "Skin color"
+										}
+									}
+								},
+								"tattoorow": {
+									"bodytattooselectorcontainer": {
+										"headerlabel": "Tattoo (Body)"
+									},
+									"facetattooselectorcontainer": {
+										"headerlabel": "Tattoo (Face)"
+									}
+								}
+							}
+						}
+					},
+					"header": {
+						"headerlabel": "Character"
+					}
+				}
+			},
+			"selecteyecolor": "Select an eye color...",
+			"selecthaircolor": "Select a hair color...",
+			"selectskincolor": "Select a skin color..."
+		},
 		"scoreboard": {
 			"screen": {
 				"scoreboardcontainer": {
@@ -4556,9 +5054,11 @@
 					"selectbutton": "Confirm"
 				}
 			},
+			"headeranimals": "Animals",
 			"headercontainer": {
 				"headerlabel": "Select the NPCs you want to enable or disable"
-			}
+			},
+			"headerenemies": "Enemies and Monsters"
 		},
 		"settings": {
 			"audio": {
@@ -4689,6 +5189,8 @@
 				"vehiclenextseat": "Change Seat (Next)",
 				"vehiclepreviousseat": "Change Seat (Previous)",
 				"vehicles": "Vehicles",
+				"vehiclesailleft": "Turn Sail left",
+				"vehiclesailright": "Turn Sail right",
 				"vehicleturbo": "Turbo",
 				"voip": "Voice Chat",
 				"voiptoggle": "Voice Chat (Toggle)",
@@ -4799,6 +5301,8 @@
 						"small": "Small"
 					},
 					"refractions": "Determines if refraction / distortion is applied to glass or water",
+					"resolution": "Resolution of the game window. For best results, set the resolution to your desktop resolution",
+					"resolutionlabel": "Desktop resolution: {0}x{1}",
 					"resolutionscale": "Lowering this value allows you to render the game at a lower resolution without changing the actual resolution. \nYou should only lower the value if you experience performance issues",
 					"screenspacereflections": "Basic reflections. This can only reflect objects that are currently visible on screen. This is especially useful for smaller reflections, like water puddles",
 					"shadowquality": "Determines the overall shadow quality, i.e. the resolution of the shadow maps",
@@ -4875,6 +5379,7 @@
 			"misc": {
 				"allowconsolecommands": "Allow Console Commands",
 				"allowflymode": "Allow Fly Mode (Survival only)",
+				"alwaysshowgridonconstructions": "Always Show Grid on Constructions",
 				"alwaysshowgridonterrain": "Always Show Grid on Terrain",
 				"blueprintcentermode": "Blueprints: Pivot Point",
 				"blueprints": {
@@ -4903,6 +5408,7 @@
 				"creativelightintensity": "Creative-Mode Light Intensity",
 				"creativemodeshowtoolbar": "Show Creative-Mode Toolbar",
 				"deadbodydespawntime": "Dead Body Despawn Time",
+				"disableblood": "Disable Blood",
 				"falldamage": "Disable Fall Damage (Survival only)",
 				"flymodemovemodes": {
 					"default": "Default",
@@ -4957,7 +5463,12 @@
 				"shownametags": "Show Nametags",
 				"showpickupnotifications": "Show Item-Pickup Notifications",
 				"skiploadingscreen": "Skip Loadingscreen",
+				"spawnmonstersatsurface": "Spawn Monsters At Surface",
+				"spawnmonsterswithtorch": "Always spawn Monsters with Torch",
 				"spawnrateanimals": "Spawnrate Animals",
+				"spawnratebandits": "Spawnrate Bandits",
+				"spawnratesurfacemonsters": "Spawnrate Monsters (Surface)",
+				"spawnrateundergroundmonsters": "Spawnrate Monsters (Underground)",
 				"stamina": "Unlimited Stamina (Survival only)",
 				"temperature": "Disable Temperature (Survival only)",
 				"timeduration": "Ingame Day Duration",
@@ -4977,6 +5488,7 @@
 				"tooltips": {
 					"allowconsolecommands": "Determines if console commands should be allowed",
 					"allowflymode": "Determines if flying ({0}) should be allowed in survival mode",
+					"alwaysshowgridonconstructions": "If enabled, the grid will ALWAYS be visible on construction elements. \nOtherwise it's only visible while building",
 					"alwaysshowgridonterrain": "If enabled, the grid will ALWAYS be visible on terrain",
 					"blueprintsortmode": "Determines how blueprints will be sorted/displayed",
 					"blueprintvisualizebounds": "If enabled, the boundary of the blueprint will be visualized while placing the blueprint",
@@ -4992,7 +5504,7 @@
 					"creativelightintensity": "Determines the light intensity of the creative mode light (L)",
 					"falldamage": "If enabled, player is immune to fall damage (in survival mode)",
 					"flymodemovetype": "Determines how movement works while flying.\n\n<color=yellow>Default: Flying towards view direction</color>\n\n<color=orange>Keep Elevation: Keep elevation/altitude</color>",
-					"flymodenoclipping": "If enabled, you can fly through walls in fly mode",
+					"flymodenoclipping": "If enabled, you can fly through walls and terrain in fly mode. Otherwise these things will still have collision",
 					"flymodespeedcontrol": "Determines how speed is adjusted in fly mode.\n\n<color=yellow>Basic mode: Hold sprint or walk key to fly faster/slower</color>\n\n<color=orange>Advanced mode: Use Shift + Scroll to change the speed</color>",
 					"gravityobjects": "If enabled, floating objects (like furniture) break if they have no contact to solid walls or ground",
 					"gravityplants": "If enabled, floating plants break if they have no contact to the ground",
@@ -5016,7 +5528,12 @@
 					"showfps": "If enabled, the current frames-per-second will be shown in the lower right corner of the HUD",
 					"shownametags": "If enabled, nametags of other players will be visible in multiplayer (depending on server settings)",
 					"skiploadingscreen": "If enabled, the loading screen will be skipped (even though the world may not be fully loaded at that stage)",
+					"spawnmonstersatsurface": "If enabled, monsters will spawn at the surface at night. They will automatically disappear at daybreak",
+					"spawnmonsterswithtorch": "If enabled, skeletons will <u>always</u> have a torch if they spawn at the surface (this makes them more visible)",
 					"spawnrateanimals": "Determines the spawn rate for animals. Higher values result in more animals, lower values in less animals. Default value is 100%\n\nNote: This does not influence already spawned animals",
+					"spawnratebandits": "Determines the spawn rate for bandits (enemies). Higher values result in more bandits, lower values in less animals. Default value is 100%\n\nNote: This does not influence already spawned bandits",
+					"spawnratesurfacemonsters": "Determines the spawn rate for monsters which spawn at the surface at night. Default value is 100%\n\nNote: This does not influence already spawned monsters",
+					"spawnrateundergroundmonsters": "Determines the spawn rate for monsters which spawn in the underground (caves, hell etc). Default value is 100%\n\nNote: This does not influence already spawned monsters",
 					"stamina": "If enabled, player has unlimited stamina in survival mode",
 					"temperature": "If enabled, temperature has no effect on the player (in survival mode)",
 					"timeduration": "Determines how long one ingame day takes. Default: 1 Hour",
@@ -5122,9 +5639,20 @@
 						"playbutton": "Load World"
 					},
 					"headercontainer": {
+						"sortcontainer": {
+							"sortlabel": "Sort by:"
+						},
 						"worldlistheader": "Select or create a world"
 					}
 				}
+			},
+			"sort": {
+				"alphabetically": "Alphabetically",
+				"alphabeticallydesc": "Alphabetically (DESC)",
+				"gamemode": "Game Mode",
+				"lastplayed": "Last played",
+				"seed": "Seed",
+				"version": "Version"
 			},
 			"tooltips": {
 				"openforlan": "Starts a LAN server. Friends can join your game through your IP address",
@@ -5161,6 +5689,7 @@
 				"user": "User folder"
 			},
 			"inventory": {
+				"add": "Add new item",
 				"merge": "Merge stacks",
 				"sort": "Sort items"
 			},
@@ -5191,7 +5720,17 @@
 				"musiccomposer": "Composer: {0}",
 				"musictrack": "Music track: {0}",
 				"name": "Name: {0}",
-				"strength": "Strength: {0}"
+				"strength": "Strength: {0}",
+				"weapons": {
+					"damage": "Damage: {0}",
+					"dps": "DPS: {0}"
+				}
+			},
+			"map": {
+				"buttonaltitude": "Visualize Altitude",
+				"buttonfocus": "Move to Player",
+				"buttonfollowplayer": "Follow Player",
+				"buttonhelp": "Help"
 			},
 			"texteditor": {
 				"anchorleft": "Align text left",
@@ -5203,6 +5742,10 @@
 				"help": "Formatting help",
 				"richtextpreview": "Hold to show text with all parsed formatting tags (rich text)\n\nFor more information, click on the help button on the right"
 			}
+		},
+		"vehicle": {
+			"setname": "Set a custom name",
+			"setnameheader": "Vehicle name"
 		}
 	},
 	"vehicle": {
@@ -5213,6 +5756,10 @@
 		"rowboat": {
 			"desc": "A small rowboat. Has room for a single passenger only",
 			"name": "Rowboat"
+		},
+		"sailboat": {
+			"desc": "A small sailing boat. Uses the wind force for propulsion, but is therefore also dependent on the wind direction and control is indirect. Provides space for 3 people.",
+			"name": "Sailboat"
 		}
 	}
 }
