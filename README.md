@@ -1,14 +1,13 @@
 [<img src="https://cdn.akamai.steamstatic.com/steam/apps/324080/header.jpg?t=1688909050" width="330" >](https://store.steampowered.com/app/324080/Rising_World/)
 
-A tradução está 53% concluída. 0% Revisada. Ajude traduzindo e/ou revisando este material. 
-
-Tradução feita em cima da versão:
-<img src="https://img.shields.io/badge/Vers%C3%A3o%20Base-0.7.4-darkgreen" />
-
 # Projeto de Tradução Rising World
 Tradução para o Português Brasileiro (pt-BR) do jogo [Rising World (Steam)](https://store.steampowered.com/app/324080/Rising_World/).
 
-A tradução só pode ser aplicada na Versão Unity do jogo.
+- A tradução está 53% concluída. 0% Revisada. Ajude traduzindo e/ou revisando este material. 
+- A tradução só pode ser aplicada na Versão Unity do jogo.
+
+## Tradução feita em cima da versão
+<img src="https://img.shields.io/badge/Vers%C3%A3o%20Base-0.7.4-darkgreen" />
 
 ## Como adquirir a versão Unity do jogo? (Beta)
 - Forum Rising World. [How to get the new version](https://forum.rising-world.net/thread/11061-how-to-get-the-new-version/). Dec 15th, 2020.
