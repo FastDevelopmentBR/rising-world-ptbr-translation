@@ -2898,22 +2898,22 @@
 	},
 	"npc": {
 		"arcticfox": {
-			"name": "Snow fox"
+			"name": "Raposa-do-ártico"
 		},
 		"arcticfoxcub": {
-			"name": "Snow fox cub"
+			"name": "Raposa-do-ártico Filhote"
 		},
 		"arcticshewolf": {
-			"name": "Arctic she-wolf"
+			"name": "Lobo-do-ártico (Fêmea)"
 		},
 		"arcticwolf": {
-			"name": "Arctic wolf"
+			"name": "Lobo-do-ártico"
 		},
 		"bandit": {
-			"name": "Bandit"
+			"name": "Bandido"
 		},
 		"barbarian": {
-			"name": "Barbarian"
+			"name": "Bárbaro"
 		},
 		"bear": {
 			"name": "Urso"
@@ -2973,19 +2973,19 @@
 			"name": "Elefante"
 		},
 		"firewolf": {
-			"name": "Fire wolf"
+			"name": "Lobo de Fogo"
 		},
 		"foal": {
 			"name": "Foal"
 		},
 		"fox": {
-			"name": "Fox"
+			"name": "Raposa"
 		},
 		"foxcub": {
-			"name": "Fox cub"
+			"name": "Raposa Filhote"
 		},
 		"ghoul": {
-			"name": "Ghoul"
+			"name": "Carniçal"
 		},
 		"goat": {
 			"name": "Bode"
@@ -3000,7 +3000,7 @@
 			"name": "Young hare"
 		},
 		"horse": {
-			"name": "Horse"
+			"name": "Cavalo"
 		},
 		"jackrabbit": {
 			"name": "Jackrabbit"
@@ -3030,7 +3030,7 @@
 			"name": "Moose calf"
 		},
 		"penguin": {
-			"name": "Penguin"
+			"name": "Pinguim"
 		},
 		"pig": {
 			"name": "Porco"
@@ -3051,7 +3051,7 @@
 			"name": "Rinoceronte"
 		},
 		"scorpion": {
-			"name": "Scorpion"
+			"name": "Escorpião"
 		},
 		"sheep": {
 			"name": "Ovelha"
@@ -3060,16 +3060,15 @@
 			"name": "Ovelha (tosquiado)"
 		},
 		"shewolf": {
-			"name": "She-wolf"
+			"name": "Loba"
 		},
 		"skeleton": {
-			"name": "Skeleton"
 		},
 		"snake": {
-			"name": "Snake"
+			"name": "Cobra"
 		},
 		"spider": {
-			"name": "Spider"
+			"name": "Aranha"
 		},
 		"unicorn": {
 			"name": "Unicorn"
@@ -3084,10 +3083,10 @@
 			"name": "Wild sow"
 		},
 		"wolf": {
-			"name": "Wolf"
+			"name": "Lobo"
 		},
 		"wolfcub": {
-			"name": "Wolf cub"
+			"name": "Lobo Filhote"
 		},
 		"zebra": {
 			"name": "Zebra"
@@ -5692,7 +5691,7 @@
 			"headercontainer": {
 				"headerlabel": "Selecione os NPCs que você deseja ativar ou desativar"
 			},
-			"headerenemies": "Enemies and Monsters"
+			"headerenemies": "Inimigos e Monstros"
 		},
 		"settings": {
 			"audio": {
