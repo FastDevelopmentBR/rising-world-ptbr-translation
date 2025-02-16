@@ -168,6 +168,12 @@
 			"desc": "O acessório perfeito para a Páscoa",
 			"name": "Orelhas de coelho"
 		},
+		"cappy": {
+			"name": "Cappy"
+		},
+		"cappycamo": {
+			"name": "Cappy (camo)"
+		},
 		"captainhat": {
 			"name": "Chapéu de capitão"
 		},
@@ -202,7 +208,7 @@
 			"name": "Fur"
 		},
 		"groucho": {
-			"desc": "Ele fornece disfarce perfeito. Ninguém vai te reconhecer",
+			"desc": "Ele fornece disfarce perfeito. Certamente ninguém irá reconhecê-lo",
 			"name": "Óculos Groucho"
 		},
 		"helmet": {
@@ -248,8 +254,19 @@
 			"desc": "Uma máscara em forma de cabeça de porco",
 			"name": "Máscara (porco)"
 		},
+		"maskskull": {
+			"desc": "A mask in the shape of a human skull",
+			"name": "Mask (skull)"
+		},
+		"maskwolf": {
+			"desc": "A mask in the shape of a wolf's head",
+			"name": "Mask (wolf)"
+		},
 		"medievalsuit1": {
 			"name": "Casaco de pele"
+		},
+		"medievalsuit2": {
+			"name": "Thief outfit"
 		},
 		"mininghelmet": {
 			"desc": "Um velho capacete de mineiro com uma vela presa que ilumina seu caminho em áreas escuras",
@@ -374,7 +391,7 @@
 		},
 		"category": {
 			"arcs": "Arcs",
-			"basis": "Basis",
+			"basis": "Basics",
 			"blocks": "Blocks",
 			"cones": "Cones",
 			"corner": "Corners",
@@ -950,6 +967,7 @@
 			"tables": "Mesas",
 			"top": "Top",
 			"transmissions": "Transmissions",
+			"traps": "Traps",
 			"vehiclestorages": "Armazenamentos",
 			"wheels": "Rodas",
 			"windowframes": "Molduras de Janela",
@@ -979,6 +997,12 @@
 		"name": "Data",
 		"november": "Novembro",
 		"october": "Outubro",
+		"season": {
+			"autumn": "Autumn",
+			"spring": "Spring",
+			"summer": "Summer",
+			"winter": "Winter"
+		},
 		"september": "Setembro",
 		"year": "Ano",
 		"years": "Anos"
@@ -1134,6 +1158,21 @@
 			"desc": "Um machado de aço moderno. Mais eficiente e robusto que o machado de ferro",
 			"name": "Machado (aço)"
 		},
+		"bacon": {
+			"name": "Bacon"
+		},
+		"baconbaked": {
+			"name": "Baked bacon"
+		},
+		"baconburned": {
+			"name": "Burned bacon"
+		},
+		"baconcooked": {
+			"name": "Cooked bacon"
+		},
+		"bacondried": {
+			"name": "Dried bacon"
+		},
 		"bandage": {
 			"desc": "Pode ser usado para parar o sangramento",
 			"name": "Curativo"
@@ -1200,6 +1239,14 @@
 		"carrotslices": {
 			"name": "Fatias de cenoura"
 		},
+		"chainsaw": {
+			"desc": "A chainsaw. Highly efficient. It cuts wood in no time.",
+			"name": "Chainsaw"
+		},
+		"chick": {
+			"desc": "A captured baby chicken. You shouldn't keep it in your inventory for too long...",
+			"name": "Chick"
+		},
 		"chicken": {
 			"desc": "A captured chicken. You shouldn't keep it in your inventory for too long...",
 			"name": "Chicken"
@@ -1211,6 +1258,10 @@
 			"desc": "Componente essencial de muitos dispositivos elétricos",
 			"name": "Placa de circuito"
 		},
+		"clockold": {
+			"desc": "Displays the current time",
+			"name": "Pocket watch"
+		},
 		"coal": {
 			"name": "Carvão"
 		},
@@ -1221,6 +1272,9 @@
 		"coarsecloth": {
 			"desc": "Um pedaço de pano grosso",
 			"name": "Pano grosso"
+		},
+		"cobble": {
+			"name": "Cobble stone"
 		},
 		"coconut": {
 			"name": "Coconut"
@@ -1290,6 +1344,9 @@
 		"dice": {
 			"name": "Dice"
 		},
+		"dirt": {
+			"name": "Dirt"
+		},
 		"dye": {
 			"name": "Tintura"
 		},
@@ -1315,8 +1372,12 @@
 			"name": "Fibras"
 		},
 		"fireworkrocket": {
-			"desc": "Produz fogo de artifício colorido e inofensivo",
+			"desc": "Produz fogo de artifício colorido e inofensivo!",
 			"name": "Fogo de artifício"
+		},
+		"fireworkrocketlarge": {
+			"desc": "Produces a huge firework!",
+			"name": "Large firework rocket"
 		},
 		"flashlight": {
 			"desc": "Excelente para explorar áreas escuras",
@@ -1337,6 +1398,9 @@
 				"ruined": "Arruinado",
 				"spoiled": "Estragado"
 			}
+		},
+		"forestground": {
+			"name": "Forest ground"
 		},
 		"foxpelt": {
 			"name": "Fox pelt"
@@ -1368,21 +1432,39 @@
 			"desc": "Um tufo de grama",
 			"name": "Grama"
 		},
+		"grasspatch": {
+			"desc": "A square patch of grass",
+			"name": "Patch of grass"
+		},
+		"gravel": {
+			"name": "Gravel"
+		},
 		"group": {
 			"cloth": "Pano",
+			"dirt": "Dirt",
 			"fibers": "Algodão / Fibras",
+			"glass": "Glass",
 			"hide": "Animal hide",
+			"hoe": "Hoe",
 			"knife": "Faca",
 			"leather": "Leather",
 			"metal": "Metal",
 			"pelt": "Pelt",
 			"sapling": "Muda",
+			"stone": "Stone",
 			"treelog": "Pedaço de tronco",
 			"water": "Água"
 		},
 		"gunpowder": {
 			"desc": "Pó explosivo. Ingrediente importante para a produção de diversas munições e explosivos",
 			"name": "Pólvora"
+		},
+		"hare": {
+			"desc": "A captured hare. You shouldn't keep it in your inventory for too long...",
+			"name": "Hare"
+		},
+		"hellstone": {
+			"name": "Hellstone"
 		},
 		"hempfibers": {
 			"desc": "Pode tornar-se fio em uma roda de fiar",
@@ -1398,6 +1480,9 @@
 		},
 		"horsehide": {
 			"name": "Horse hide"
+		},
+		"ice": {
+			"name": "Ice"
 		},
 		"ironingot": {
 			"name": "Lingote de ferro"
@@ -1439,6 +1524,10 @@
 			"desc": "Recurso básico para criação",
 			"name": "Madeira serrada"
 		},
+		"magnifyingglass": {
+			"desc": "If you put this into your equipment slot, you can zoom in closer",
+			"name": "Magnifying glass"
+		},
 		"map": {
 			"desc": "A rough representation of the current island",
 			"name": "Map"
@@ -1459,11 +1548,15 @@
 			"desc": "Uma furadeira elétrica de mineração. Altamente eficiente. Quebra pedra em pouco tempo.",
 			"name": "Broca de mineração"
 		},
+		"missingitem": {
+			"name": "Missing item"
+		},
 		"modifier": {
 			"acceptable": "Acceptable",
 			"amazing": "Amazing",
 			"annoying": "Annyoing",
 			"appealing": "Appealing",
+			"blunt": "Blunt",
 			"boring": "Boring",
 			"broken": "Broken",
 			"cheesy": "Cheesy",
@@ -1474,6 +1567,7 @@
 			"godly": "Godly",
 			"impressive": "Impressive",
 			"improved": "Improved",
+			"indestructible": "Indestructible",
 			"legendary": "Legendary",
 			"merciless": "Merciless",
 			"miserable": "Miserable",
@@ -1485,10 +1579,12 @@
 			"robust": "Robust",
 			"ruthless": "Ruthless",
 			"shameful": "Shameful",
+			"sharp": "Sharpened",
 			"shoddy": "Shoddy",
 			"strong": "Strong",
 			"superior": "Superior",
 			"terrible": "Terrible",
+			"unique": "Unique",
 			"unspectacular": "Unspectacular",
 			"weak": "Weak"
 		},
@@ -1498,6 +1594,9 @@
 		"morningstar": {
 			"name": "Morning star"
 		},
+		"mud": {
+			"name": "Mud"
+		},
 		"musicdisc": {
 			"desc": "Play it on a gramophone",
 			"name": "Music disc"
@@ -1506,6 +1605,12 @@
 			"desc": "Metal nails. Used as fasteners",
 			"name": "Nails"
 		},
+		"npc": {
+			"condition": {
+				"alive": "Alive",
+				"dead": "Dead"
+			}
+		},
 		"objectkit": {
 			"desc": "Representa um objeto posicionável",
 			"name": "Kit de objeto"
@@ -1513,6 +1618,9 @@
 		"objectkitsmall": {
 			"desc": "Represents a placeable object",
 			"name": "Object kit (small)"
+		},
+		"obsidian": {
+			"name": "Obsidian"
 		},
 		"oldshears": {
 			"desc": "Usado para tosquiar ovelhas para obter lã",
@@ -1609,6 +1717,12 @@
 			"desc": "Usado para suavizar o solo",
 			"name": "Ancinho de madeira"
 		},
+		"rawglass": {
+			"name": "Raw glass"
+		},
+		"redclay": {
+			"name": "Red clay"
+		},
 		"repeater": {
 			"desc": "Um rifle de repetição de ferrolho. Superior ao mosquete em termos de cadência de tiro, precisão e alcance efetivo",
 			"name": "Rifle de repetição"
@@ -1682,6 +1796,15 @@
 		"sailboatstorage": {
 			"desc": "Optional storage that can be attached to sailboats.\n<color=yellow>Optional</color>",
 			"name": "Storage (Sailboat)"
+		},
+		"sand": {
+			"name": "Sand"
+		},
+		"sandstone": {
+			"name": "Sandstone"
+		},
+		"sandunderwater": {
+			"name": "Sand (wet)"
 		},
 		"sapling": {
 			"name": "Muda"
@@ -1820,6 +1943,9 @@
 			"desc": "Utilizado para remover elementos de construção sem destruí-los. Mais eficaz e robusto que a marreta de ferro",
 			"name": "Marreta (aço)"
 		},
+		"snow": {
+			"name": "Snow"
+		},
 		"soccerball": {
 			"desc": "Usado para jogar futebol",
 			"name": "Bola de futebol"
@@ -1916,7 +2042,7 @@
 			"name": "Tomate"
 		},
 		"toolbelt": {
-			"desc": "Usar este cinto de ferramentas aumenta o número de slots disponíveis em sua barra",
+			"desc": "Usar este cinto de ferramentas (coloque-o em um slot de equipamento) aumenta o número de slots disponíveis em sua barra",
 			"name": "Cinto de ferramentas"
 		},
 		"torch": {
@@ -2005,8 +2131,14 @@
 			"desc": "Um pequeno fio feito de tungstênio",
 			"name": "Fio de tungstênio"
 		},
+		"underwaterrock": {
+			"name": "Rock (algae)"
+		},
 		"unicornhide": {
 			"name": "Unicorn hide"
+		},
+		"volcanicrock": {
+			"name": "Volcanic rock"
 		},
 		"walkietalkie": {
 			"desc": "Um transceptor de rádio portátil",
@@ -2123,6 +2255,10 @@
 		},
 		"consume": {
 			"apple": "Você comeu uma maçã",
+			"bacon": "<color=red>You've eaten raw bacon. Not sure if this is healthy...</color>",
+			"baconburned": "<color=red>You've eaten some burned bacon</color>",
+			"baconcooked": "You've eaten some bacon",
+			"bacondried": "You've eaten some dried bacon",
 			"bandage": "Você enfaixou suas feridas",
 			"bellpepper": "Você comeu um pimentão",
 			"breadhalf": "Você comeu um pouco de pão",
@@ -2172,7 +2308,10 @@
 		},
 		"crafting": {
 			"missingcraftingstation": "Não há estação de trabalho adequada nas proximidades!",
-			"missingingredients": "Você não tem todos os ingredientes necessários em seu inventário!"
+			"missingingredients": "Você não tem todos os ingredientes necessários em seu inventário!",
+			"recipesunlocked": "Crafting-Recipes unlocked!",
+			"recipeunlocked": "Crafting-Recipe unlocked!",
+			"requiresadvancedworkbench": "You need a more advanced workbench to craft this item!"
 		},
 		"creative": {
 			"areacreate": "Area Create Tool",
@@ -2233,7 +2372,9 @@
 				"corrupted": "This blueprint file is corrupted!",
 				"unsupportedversion": "This blueprint is too old and therefore cannot be loaded"
 			},
+			"error": "Error",
 			"exception": "An exception occurred: \n\n<color=yellow>{0}</color>",
+			"filesystemaccessdenied": "The game was unable to read/write a file. This indicates that the game either has no permission to read/write the target file, or another program (e.g. an anti-virus program) prevents the game from accessing the file system.\n\nThis is the actual error message: \n\n<color=yellow>{0}</color>",
 			"gamefilecorrupted": "One or more game files are corrupted! \nPlease try to verify the integrity of the game cache or download the game again.\n\n<color=orange>Corrupted file: \n{0}</color>",
 			"gamefilecorruptedsteam": "One or more game files are corrupted! \n\nPlease try to verify the integrity of the game cache:\n1. Rightclick on Rising World in your Steam library\n2. Select \"Properties\"\n3. Go to \"Local files\"\n4. Select \"Verify integrity of game files\"\n\n\n<color=orange>Corrupted file: \n{0}</color>",
 			"graphicserror": "An internal {0} error occurred. This happens if the graphics driver is outdated or if there is not enough VRAM available, for example.\n\nPlease download and install the latest graphics driver from the homepage of your graphics card manufacturer. If the error still persists, please contact our support.\n\nError message: {1}",
@@ -2241,6 +2382,7 @@
 			"graphicswarning": "An internal {0} error occurred. Usually this happens if the graphics driver is outdated, or if the graphics card does not support a particular feature.\nPlease download and install the latest graphics driver from the homepage of your graphics card manufacturer. \n\n<color=yellow>Error: {1}</color>",
 			"header": {
 				"compatibilityissue": "Compatibility issue",
+				"filesystemaccessdenied": "Cannot read/write file",
 				"gamefilecorrupted": "Game file corrupted",
 				"initexception": "Initialization exception",
 				"sqliteexception": "SQLite Exception: {0}",
@@ -2248,6 +2390,7 @@
 				"systemrequirementsnotmet": "System requirements not met"
 			},
 			"id": "Error {0}",
+			"initializationtakestoolong": "Loading the game takes too long. This indicates that accessing the hard drive is too slow. Please check your hard drive. \n\nThis could also be caused by an anti-virus program. Try to disable it temporarily or add the game to the exception list and see if the issue still persists. ",
 			"nocomputeshaders": "Compute shaders are required, but apparently not supported by this graphics adapter: \n\n<color=red>{0}</color>\n\nThis may be caused by an outdated or erroneous graphics driver. Please try to download and install the latest graphics driver.",
 			"noinstancing": "GPU instancing is required, but not supported by this graphics adapter: \n\n<color=red>{0}</color>\n\nThis may be caused by an outdated or erroneous graphics driver. Please try to download and install the latest graphics driver.",
 			"notexturearrays": "Texture Arrays are required, but not supported by this graphics adapter: \n\n<color=red>{0}</color>\n\nThis may be caused by an outdated or erroneous graphics driver. Please try to download and install the latest graphics driver.",
@@ -2260,9 +2403,12 @@
 			"unabletosaveworld": "An error occurred while saving the world! If you get this message again, this would indicate that you might lose your current progress. In this case it would be recommendable to restart the game.\n\nError: {0}",
 			"unabletosaveworlddb": "An error occurred while saving the world! Apparently the game is not able to access the hard drive.\n\nPlease make sure there is no anti-virus program which blocks the game. Also make sure that there is enough free disk space available.\n\nIf this error occurs again, it would indicate that you would lose your current progress. In this case it would be recommendable to restart the game.",
 			"unknownerror": "An unknown error occurred!",
+			"versiontransition": "Some worlds or blueprint files from the Java version or new version could not be moved! You can still find the files in the game directory. \n\nNew Version files are found in the \"_New Version\" subfolder. Java files might still be located in the root game directory. \n\nClick <color=#00aaff><u><link=\"#gamedir\">here</link></u></color> to open the game directory.",
 			"windows7": "Unfortunately there is a bug in the latest Unity version, which prevents the game from running on Windows 7. We have already reported this bug to Unity, and Unity did also confirm it.\n\nBecause this is a bug in the engine itself, we have no control over it unfortunately, so we have to wait until Unity fixes this issue.\n\nWe are sorry about the inconvenience! We have created a pinned topic in the Steam forums about this issue, which also contains a link to Unitys public bug tracker. We'll update the thread as soon as we have any news."
 		},
 		"farming": {
+			"groundfrozen": "The ground is frozen, you cannot plant anything there",
+			"incompatibleground": "You cannot plant this plant on this ground",
 			"requiresfarmland": "Isso só pode ser plantado em terras aráveis.\nUse uma enxada para preparar o terreno"
 		},
 		"images": {
@@ -2277,6 +2423,9 @@
 			"itemsplitted": "Pilha de itens dividida!",
 			"notenoughconstructionelements": "Não há elementos de construção suficientes no inventário",
 			"notenoughitems": "Não há itens suficientes no inventário",
+			"npcitem": {
+				"cannotputanimalinchest": "You cannot and should not put this animal in a chest!"
+			},
 			"workbenchinproximity": "Uma bancada de trabalho deve estar próxima para executar esta ação"
 		},
 		"inventoryfull": "Seu inventário está cheio",
@@ -2289,10 +2438,16 @@
 				"noarrows": "Você não tem nenhuma flecha",
 				"onlyonearrowtype": "Você só tem um único tipo de flecha em seu inventário!"
 			},
+			"break": "Your item just broke!",
+			"breakwarning": "This item will not last much longer...",
+			"breakwarningprimitiveaxe": "You should <u>really</u> get a new axe as soon as possible! \nBecause this axe won't last forever...",
 			"cantdounderwater": "Você não pode fazer isso enquanto estiver debaixo d'água",
 			"doesnotworkunderwater": "Este item não funciona debaixo d'água",
 			"itemstoohot": "Esses itens estão muito quentes para serem recolhidos",
 			"itemtoohot": "Este item está muito quente para ser recolhido",
+			"magnifyingglass": {
+				"equip": "Max zoom level ({0}) is now increased\n\nYou can also put the magnifying glass into an equipment slot in your inventory!"
+			},
 			"medical": {
 				"bandage": {
 					"cannotuse": "Você já enfaixou suas feridas!",
@@ -2308,6 +2463,9 @@
 					"notneeded": "Você não tem nenhum osso quebrado no momento"
 				}
 			},
+			"terrain": {
+				"cannotchangeplacemode": "You cannot change the place mode for this item"
+			},
 			"toolbelt": {
 				"cannotmove": "There are still items in your toolbelt! Remove them first to move the toolbelt",
 				"equiphint": "To use the toolbelt, put it into an equipment slot in your inventory",
@@ -2318,6 +2476,9 @@
 				"empty": "The watering can is empty. You have to fill it with water first",
 				"full": "The watering can is already full"
 			}
+		},
+		"journal": {
+			"cannotloadnotes": "Unable to load journal notes. This indicates that the <b>journal.json</b> file in the game directory is either not correctly formatted, or something prevents the game from reading it.\n\nPlease check the file. You can also find backups of previous journal files in the \"/Cache/journal\" folder. Optionally send a bug report."
 		},
 		"lan": {
 			"portinuse": "A porta {0} já está em uso!"
@@ -2396,6 +2557,7 @@
 			"passwordneeded": "Por favor, digite a senha para entrar neste servidor",
 			"permbanned": "Você foi banido permanentemente deste servidor!",
 			"permissiongroupchanged": "Sua permissão foi atualizada ({0})",
+			"permissionsfromjava": "ATTENTION: Java permission files were found (file extension: .permissions). These files are not supported by the new version, instead .json files are required!\nIt appears that there are still some leftover files from the Java version in the server directory?",
 			"playerconnect": "Jogador {0} entrou!",
 			"playerconnectfirsttime": "O jogador {0} entrou pela primeira vez!",
 			"playerdisconnect": "Jogador {0} saiu!",
@@ -2406,6 +2568,7 @@
 			"reservedname": "Seu nome de jogador não é permitido! Escolha um nome diferente",
 			"restart": "Atenção: O servidor será reiniciado em {0} segundos!",
 			"restartaborted": "Atenção: A reinicialização foi abortada!",
+			"restartkick": "The server is restarting now. You can reconnect again shortly",
 			"restartnow": "Atenção: O servidor será reiniciado agora!",
 			"serverlocked": "O servidor não está aceitando nenhuma conexão no momento. Tente novamente mais tarde!",
 			"servernotready": "O servidor ainda não está pronto. Por favor, tente novamente em alguns segundos",
@@ -2437,6 +2600,7 @@
 			"mount": {
 				"brokenbag": "Você não pode acessar este alforje",
 				"removebagsfirst": "Você tem que remover o alforje primeiro",
+				"saddlerequired": "You have to attach a saddle first",
 				"saddlerequiredforbags": "Você tem que anexar uma sela primeiro"
 			},
 			"shearingsheep": "Shearing sheep...",
@@ -2445,6 +2609,11 @@
 			"tooyoungtoshear": "This lamb is too young to be shorn"
 		},
 		"objects": {
+			"calendar": {
+				"currentdate": "It's currently day {0} of {1}",
+				"remainingday": "There is only {0} day remaining until {1}!",
+				"remainingdays": "There are {0} days remaining until {1}"
+			},
 			"cannotpickup": "Você não pode pegar este objeto",
 			"cannotplaceinwater": "Você não pode colocar este objeto na água",
 			"deconstructing": "Desconstruindo...",
@@ -2454,6 +2623,9 @@
 				"cannotunlock": "Você não pode destrancar esta porta",
 				"obstructed": "Esta porta está obstruída!",
 				"removing": "Removendo a porta..."
+			},
+			"drawbridge": {
+				"obstructed": "The drawbridge is obstructed!"
 			},
 			"furnace": {
 				"broken": "Esta fornalha não funciona mais",
@@ -2466,6 +2638,18 @@
 			},
 			"gramophone": {
 				"discrequired": "You have to put a music disc on the gramophone first!"
+			},
+			"grindstone": {
+				"alreadysharpened": "This item is already sharpened",
+				"holdtosharpen": "Hold {0} to sharpen this item",
+				"incompatibleitem": "You cannot sharpen this item",
+				"itemrequired": "Equip an item you want to sharpen",
+				"itemtoodamaged": "This item is too damaged to be sharpened",
+				"lookatsharpeningarea": "Hold the item you want to sharpen at the upper side of the grindstone",
+				"repaired": "You have repaired this item",
+				"sharpened": "You have sharpened this item",
+				"sharpenedandrepaired": "You have sharpened and repaired this item",
+				"sharpening": "Sharpening..."
 			},
 			"light": {
 				"cannotuse": "Você não pode controlar esta lâmpada",
@@ -2513,7 +2697,8 @@
 				"cannotlock": "Você não pode trancar este baú",
 				"cannotremovelocked": "Você não pode pegar o baú enquanto ele estiver trancado!",
 				"cannottakeitems": "Você não pode pegar itens deste baú",
-				"cannotunlock": "Você não pode destrancar este baú"
+				"cannotunlock": "Você não pode destrancar este baú",
+				"removeitemsfirst": "This storage still contains items. \nRemove them first"
 			},
 			"tanningrack": {
 				"notready": "The leather isn't ready yet",
@@ -2532,7 +2717,7 @@
 			"blueprintelementlimit": "Permission: You are not allowed to place a blueprint containing that many building parts on this server!",
 			"blueprintplacelimit": "Permission: You cannot place more blueprints on this server during this session!",
 			"insufficient": "Insufficient permission!",
-			"invalidpermissionsnotify": "One or more permissions could not be loaded. Please check the syntax of the following permission files: \n\n{0}",
+			"invalidpermissionsnotify": "One or more permissions could not be loaded. Please check the syntax of the following permission files: \n{0}",
 			"itemforbidden": "Item is forbidden for this player",
 			"itemforbiddenself": "This item is forbidden for you on this server",
 			"noblueprintplace": "You are not allowed to place a blueprint here",
@@ -2572,6 +2757,7 @@
 			"bleeding": "Você está sangrando!",
 			"brokenbonejump": "Sua perna está quebrada, você não pode pular",
 			"flyspeed": "<b>Velocidade de vôo alterada para {0} %</b>",
+			"freezing": "You are freezing to death! \nMake a fire or find a shelter as soon as possible",
 			"splintedbone": "Você imobilizou sua perna quebrada\n\nTenha cuidado até que seu osso esteja totalmente curado",
 			"zoomtoggle": "Zoom ativado!"
 		},
@@ -2584,6 +2770,7 @@
 		},
 		"storagefull": "Não há mais espaço sobrando",
 		"vehicle": {
+			"cannotaddimage": "Image could not be attached",
 			"cannotdeconstruct": "You cannot disassemble this vehicle",
 			"cannotdowhilepassengers": "You cannot do that while there are still passengers",
 			"changegear": "To accelerate, use {0} and {1} to change the gear!",
@@ -2638,6 +2825,9 @@
 			"special": "Bandeiras Especiais"
 		},
 		"kick": "Chute",
+		"map": {
+			"directionstexture": "map-directions-en"
+		},
 		"measuring": {
 			"measuringtape": "Distância: {0} {3}\n<size=60%>Horizontal: {1} {3}\nVertical: {2} {3}</size>",
 			"unit": {
@@ -2653,6 +2843,10 @@
 		},
 		"storages": {
 			"saddlebag": "Alforje"
+		},
+		"temperature": {
+			"celsius": "Celsius (°C)",
+			"fahrenheit": "Fahrenheit (°F)"
 		},
 		"world": {
 			"caves": {
@@ -2698,6 +2892,7 @@
 			"swanlakeact3": "O Lago dos Cisnes Ato 3 - Hungarian Dance",
 			"toccatafugea": "Toccata and Fugue A",
 			"toccatafugeb": "Toccata and Fugue B",
+			"trains": "Something, Something Trains",
 			"williamtelloverture": "William Tell Overture"
 		}
 	},
@@ -2899,6 +3094,10 @@
 		}
 	},
 	"object": {
+		"alarmlight": {
+			"desc": "Has two rotating beams of light. You can paint the glass if you want to change the light color",
+			"name": "Rotating beacon light"
+		},
 		"animalfeeder": {
 			"desc": "Pode ser usado para atrair animais selvagens",
 			"name": "Comedouro de animais"
@@ -2909,6 +3108,9 @@
 		},
 		"barrierlight": {
 			"name": "Luz de barreira"
+		},
+		"beartrap": {
+			"name": "Bear trap"
 		},
 		"bedold1": {
 			"name": "Cama velha"
@@ -2971,6 +3173,10 @@
 		},
 		"cabinet1": {
 			"name": "Gabinete"
+		},
+		"calendar": {
+			"desc": "Shows the current season and the day",
+			"name": "Calendar"
 		},
 		"campfire": {
 			"desc": "Proporciona calor, luz e segurança. Também pode ser usado para cozinhar carne",
@@ -3075,6 +3281,10 @@
 		"doorold5": {
 			"name": "Porta velha 5"
 		},
+		"drawbridge": {
+			"desc": "A large, robust drawbridge with a size of 5x10 blocks",
+			"name": "Drawbridge"
+		},
 		"firelogs": {
 			"name": "Lareira"
 		},
@@ -3114,7 +3324,7 @@
 			"name": "Moedor"
 		},
 		"grindstone": {
-			"desc": "A grinding stone that can be used to sharpen certain tools and weapons (like swords), which improves their stats",
+			"desc": "A grinding stone. Use it to sharpen and repair certain tools and weapons (like swords)",
 			"name": "Grindstone"
 		},
 		"igloo": {
@@ -3163,6 +3373,12 @@
 			"desc": "Required to weave clothes",
 			"name": "Loom"
 		},
+		"manholecover": {
+			"name": "Manhole cover"
+		},
+		"manholecoverwood": {
+			"name": "Wooden cover"
+		},
 		"masonryoven": {
 			"desc": "Um forno feito de pedra. Pode ser usado para assar alimentos",
 			"name": "Forno de alvenaria"
@@ -3173,6 +3389,12 @@
 		"meatdryer": {
 			"desc": "Usado para secar carne crua. Isso conserva a carne, mas leva muito tempo",
 			"name": "Rack de secagem"
+		},
+		"missingobject": {
+			"name": "Missing object"
+		},
+		"object": {
+			"name": "Object"
 		},
 		"paperpress": {
 			"desc": "Transforma trapos em papel",
@@ -3190,6 +3412,13 @@
 			"desc": "Um poster. Você pode usá-lo para carregar uma imagem do seu disco rígido e colocá-la no mundo",
 			"name": "Poster"
 		},
+		"primitivechair": {
+			"name": "Primitive chair"
+		},
+		"primitivechest": {
+			"desc": "A small chest to store items in it",
+			"name": "Primitive chest"
+		},
 		"primitivedoor1": {
 			"desc": "Uma porta simples feita de ripas de madeira",
 			"name": "Porta primitiva"
@@ -3202,13 +3431,23 @@
 			"desc": "Permite fundir minérios em lingotes, mas tem capacidade limitada (8 slots)",
 			"name": "Forno de fundição primitivo"
 		},
+		"primitiveshelf": {
+			"name": "Primitive shelf"
+		},
 		"primitiveshelter": {
 			"desc": "Abrigo improvisado. Você pode dormir nele e definir seu ponto de desova, mas não parece muito estável...",
 			"name": "Abrigo primitivo"
 		},
+		"primitivetable": {
+			"name": "Primitive table"
+		},
 		"primitiveworkbench": {
-			"desc": "Bancada de trabalho muito simples, usada para criar ferramentas básicas",
+			"desc": "Esta é a bancada de trabalho inicial que é usada apenas para as receitas mais básicas",
 			"name": "Bancada de trabalho primitiva"
+		},
+		"radiator": {
+			"desc": "Provides warmth",
+			"name": "Radiator"
 		},
 		"safe": {
 			"desc": "Um contêiner quase indestrutível e com chave para proteger itens valiosos",
@@ -3413,7 +3652,7 @@
 			"name": "Armário"
 		},
 		"workbench": {
-			"desc": "Bancada de trabalho padrão, usada para criar ferramentas comuns",
+			"desc": "Bancada de trabalho padrão, usada para criar ferramentas comuns, armas, elementos de construção e muito mais",
 			"name": "Bancada de trabalho"
 		},
 		"workbenchmodern": {
@@ -3459,6 +3698,7 @@
 			"general": "General",
 			"image": "Images",
 			"info": "Info",
+			"map": "Map",
 			"world": "World"
 		},
 		"command": {
@@ -3532,14 +3772,18 @@
 			"changeskin": "Determines if the player is allowed to change his skin while on the server",
 			"crafting": "Determines if the player is allowed to craft any item",
 			"destroyitems": "Determines if the player is allowed to destroy items (tools, weapons etc) in the world",
+			"destroyownvehicles": "Determines if the player is allowed to destroy his own vehicles",
 			"destroyvehicles": "Determines if the player is allowed to destroy vehicles",
 			"dropitems": "Determines if the player is allowed to drop items",
+			"edititems": "Determines if the player is allowed to modify items",
 			"editnpcs": "Determines if the player is allowed to edit npcs",
+			"editownitems": "Determines if the player is allowed to modify his own items",
 			"editownvehicles": "Determines if the player is allowed to modify his own vehicles",
 			"editvehicles": "Determines if the player is allowed to modify vehicles",
 			"fixedspawn": "Determines if the player will always spawn at the default server spawn position",
 			"fly": "Determines if the player is allowed to fly",
 			"godmode": "Determines if the player is invulnerable",
+			"healthregeneration": "Health regeneration factor. Set to 0 to disable health regeneration",
 			"instantdigging": "Determines if the player can destroy terrain or objects with few strikes",
 			"keepinventory": "Determines if the player will keep his inventory upon death",
 			"noclipping": "Determines if collisions are disabled for the player while flying (\"no clipping\")",
@@ -3591,6 +3835,7 @@
 			"shownametag": "Determines whether or not the 3D nametag will be visible above the player"
 		},
 		"map": {
+			"allicons": "Determines if the player should be allowed to create all available map icons. Otherwise only the default markers are available",
 			"createglobalmarker": "Determines if the player is allowed to create global markers (i.e. markers which are visible for every player)",
 			"createlocalmarker": "Determines if the player is allowed to create own markers (i.e. markers which are only visible for this particular player)"
 		},
@@ -3670,6 +3915,7 @@
 		"felledtree": "Árvore derrubada",
 		"fern": "Samambaia",
 		"flowers": "Flores",
+		"grasspatch": "Patch of grass",
 		"grasstuft": "Tufo de grama",
 		"heather": "Urze",
 		"hemp": "Pé de cânhamo",
@@ -3829,6 +4075,10 @@
 			"texture": "Change Texture"
 		},
 		"items": {
+			"fireworkrocket": {
+				"setoff": "Set off",
+				"setoffall": "Set off all (nearby)"
+			},
 			"measuringtape": {
 				"precision": {
 					"default": "1 decimal place",
@@ -3843,7 +4093,8 @@
 					"metric": "Metric (meter)",
 					"name": "Unit\n<#FFFF00>{0}<#FFFFFF>"
 				}
-			}
+			},
+			"pickup": "Pickup"
 		},
 		"mount": {
 			"mount": "Montar",
@@ -3867,6 +4118,9 @@
 			"furnace": {
 				"takeingots": "Pegue todos os lingotes"
 			},
+			"grill": {
+				"takeall": "Take all"
+			},
 			"light": {
 				"flashing": {
 					"off": "Apagar lanterna",
@@ -3878,7 +4132,7 @@
 					"off": "Shadows off",
 					"on": "Shadows on"
 				},
-				"sync": "Sync light\\n(with nearby object)"
+				"sync": "Sync light\n(with nearby object)"
 			},
 			"musicplayer": {
 				"currentvolume": "Current Volume",
@@ -3888,6 +4142,9 @@
 				"volume": "Volume"
 			},
 			"open": "Open",
+			"oven": {
+				"takeall": "Take all"
+			},
 			"paperpress": {
 				"movedown": "Move down",
 				"moveup": "Move up"
@@ -3920,6 +4177,12 @@
 				"setspawn": "Definir Ponto de Surgimento (barraca)",
 				"sleep": "Dormir"
 			},
+			"trap": {
+				"activate": "Activate",
+				"disarm": "Disarm",
+				"set": "Set",
+				"trigger": "Trigger"
+			},
 			"trashcan": "Open chest"
 		},
 		"plants": {
@@ -3936,13 +4199,15 @@
 			"selectcolor": "Select light color"
 		},
 		"terrainplace": {
+			"add": "Add",
 			"grass": {
 				"lvl0": "Plain (no blades)",
 				"lvl1": "Short (1)",
 				"lvl2": "Default (2)",
 				"lvl3": "Tall (3)",
 				"lvl4": "Very tall (4)"
-			}
+			},
+			"paint": "Paint (Replace)"
 		},
 		"vehicles": {
 			"boat": {
@@ -4064,7 +4329,9 @@
 				"exportblueprintheader": "Export Blueprint (.obj)",
 				"exporting": "Exporting...\n\n<size=50%>This may take a while</size>",
 				"renameblueprint": "Do you really want to rename this blueprint?",
-				"renameblueprintheader": "Rename Blueprint"
+				"renameblueprintheader": "Rename Blueprint",
+				"saveerror": "Could not save the blueprint file to hard drive.\n\n<color=red>Error: {0}</color>\n\nPath: {1}",
+				"saveerrorheader": "Cannot save blueprint file!"
 			},
 			"name": "Blueprints",
 			"objectcount": "Objects: {0}",
@@ -4417,21 +4684,22 @@
 				"texturescale": "Changes the texture scale/tiling. If you choose 0.5, for example, the texture appears at half size etc."
 			},
 			"constructions": {
+				"adaptto": "Adapts the size and rotation of the construction element to the element in the world you're currently looking at",
 				"button": "Press to show help",
-				"context": "Hold to bring up the building radial menu",
+				"context": "Hold to bring up the <color=#8DF1FF>building radial menu</color>",
 				"flip": "Mirrors / flips the construction element",
-				"grid": "Enables or disables the grid. Without the grid, you can freely place the element, otherwise it automatically snaps to the grid",
+				"grid": "Enables or disables the <color=#FEAEAE>grid</color>. Without the grid, you can freely place the element, otherwise it automatically snaps to the grid",
 				"header": "Help: Construction Elements",
-				"manual": "Enables or disables manual positioning, i.e. the ability to move the element with the move keys. Keep this button pressed to rotate the element while manual positioning is active",
-				"modular": "Enables or disables the modular pivot snapping, i.e. the element automatically snaps to another element",
-				"move": "Rotates the element. If the <color=#D164FF>resize button</color> is pressed, this resizes the element instead along the <color=green>X</color>, <color=#5C8EFF>Y</color> and <color=red>Z</color> axis. If <color=#BFFBA5>surface edit</color> is active, this only moves or resizes the upper side of the element",
-				"plusminus": "If the <color=#FEAEAE>grid</color> is active, this changes the grid size.\nOtherwise, if the <color=#D164FF>resize button</color> is pressed, use these buttons to resize the element proportionally",
-				"previousnextpivot": "If <color=#D3E2D8>modular snapping</color> is active and pivot mode is set to manual (see <color=#8DF1FF>context menu</color>), this selects the previous/next pivot",
+				"manual": "Enables or disables <color=#FFA61A>manual positioning</color>, i.e. the ability to move the element with the move keys. \n<size=50%> </size>\nKeep this button pressed to <color=orange>rotate</color> the element while manual positioning is active",
+				"modular": "Enables or disables the <color=#BEFAA4>modular pivot snapping</color>, i.e. the element automatically snaps to another element",
+				"move": "<color=orange>Rotates</color> the element around the <color=#5C8EFF>X</color>, <color=green>Y</color> and <color=yellow>Z</color> axis. \n<size=50%> </size>\nIf the <color=#D164FF>resize button</color> is pressed, this resizes the element instead. \n<size=50%> </size>\nIf <color=red>surface edit</color> is active, this only moves or resizes the upper side of the element",
+				"plusminus": "If the <color=#FEAEAE>grid</color> is active, this changes the grid size.\n<size=50%> </size>\nOtherwise, if the <color=#D164FF>resize button</color> is pressed, use these buttons to resize the element proportionally",
+				"previousnextpivot": "If <color=#BEFAA4>modular snapping</color> is active and pivot mode is set to manual (see <color=#8DF1FF>building radial menu</color>), this selects the previous/next pivot",
 				"primary": "Hold to place multiple elements in a row",
 				"reset": "Resets the rotation. If the <color=#D164FF>resize button</color> is pressed, this resets the current scale instead",
-				"resize": "Hold this button to resize the element",
+				"resize": "Hold this button to <color=#D164FF>resize</color> the element",
 				"secondary": "Press to place the element at the current position",
-				"surfaceedit": "Enables or disables the surface edit mode. In this mode you can move or resize the upper side of an element independently"
+				"surfaceedit": "Enables or disables the <color=red>surface edit mode</color>. In this mode you can move or resize the highlighted side of an element independently"
 			},
 			"edit": {
 				"radialmenu": "Show options (HOLD)",
@@ -4459,6 +4727,7 @@
 					"throw": "Arremessar"
 				},
 				"grass": {
+					"grassheight": "Change grass height",
 					"options": "Show options",
 					"place": "Place grass"
 				},
@@ -4490,12 +4759,26 @@
 				"shears": {
 					"shearsheep": "Tosquiar ovelha"
 				},
+				"terrain": {
+					"options": "Show options",
+					"placemode": "Change place mode"
+				},
+				"tool": {
+					"repair": "Repair tool (HOLD)",
+					"sharpen": "Sharpen tool (HOLD)",
+					"sharpenandrepair": "Sharpen and repair tool (HOLD)"
+				},
 				"torch": {
 					"light": "Acender tocha",
 					"unlight": "Apagar tocha"
 				},
 				"watermelon": {
 					"cut": "Cut watermelon"
+				},
+				"weapon": {
+					"repair": "Repair weapon (HOLD)",
+					"sharpen": "Sharpen weapon (HOLD)",
+					"sharpenandrepair": "Sharpen and repair weapon (HOLD)"
 				}
 			},
 			"place": {
@@ -4522,13 +4805,17 @@
 					"example": "Este é um texto em itálico",
 					"tag": "<i>{0}</i>"
 				},
+				"linebreak": {
+					"example": "Add line-breaks with <noparse><br> or \\\\n</noparse>",
+					"tag": "{0}"
+				},
 				"rotate": {
 					"example": "Gira o texto ou letras únicas",
 					"tag": "<rotate=25>{0}</rotate>"
 				},
 				"size": {
-					"example": "Altera o tamanho do texto",
-					"tag": "<size=70%>{0}</size>"
+					"example": "Altera o tamanho do texto (relativo ao tamanho da fonte)",
+					"tag": "<size=80%>{0}</size>"
 				},
 				"smallcaps": {
 					"example": "Este é um texto pequeno e maiúsculo",
@@ -4578,6 +4865,7 @@
 					"off": "Modular snapping off",
 					"on": "Modular snapping on"
 				},
+				"offset": "Offset  X {0}  Y {1}  Z {2}",
 				"surfaceedit": {
 					"off": "Surface edit off",
 					"on": "Surface edit on",
@@ -4596,62 +4884,75 @@
 				}
 			},
 			"screen": {
-				"creativesubtools": {
-					"areasubtools": {
-						"areacreatetool": {
-							"label": "Create"
+				"hudcontainer": {
+					"creativesubtools": {
+						"areasubtools": {
+							"areacreatetool": {
+								"label": "Create"
+							},
+							"areaedittool": {
+								"label": "Edit"
+							}
 						},
-						"areaedittool": {
-							"label": "Edit"
+						"deletesubtools": {
+							"deletealltool": {
+								"label": "All"
+							},
+							"deleteblockstool": {
+								"label": "Blocks"
+							},
+							"deleteconstructionstool": {
+								"label": "Construct."
+							},
+							"deleteobjectstool": {
+								"label": "Objects"
+							},
+							"deletevegetationtool": {
+								"label": "Vegetations"
+							}
+						},
+						"placesubtools": {
+							"placeblocktool": {
+								"label": "Blocks"
+							},
+							"placevegetationtool": {
+								"label": "Vegetations"
+							}
+						},
+						"terrainsubtools": {
+							"terrainaddsubtracttool": {
+								"label": "Add/Subtract"
+							},
+							"terrainareatool": {
+								"label": "Area"
+							},
+							"terrainpainttool": {
+								"label": "Paint"
+							},
+							"terrainsmoothtool": {
+								"label": "Smooth"
+							},
+							"terrainwatertool": {
+								"label": "Water"
+							}
 						}
 					},
-					"deletesubtools": {
-						"deletealltool": {
-							"label": "All"
-						},
-						"deleteblockstool": {
-							"label": "Blocks"
-						},
-						"deleteconstructionstool": {
-							"label": "Construct."
-						},
-						"deleteobjectstool": {
-							"label": "Objects"
-						},
-						"deletevegetationtool": {
-							"label": "Vegetations"
+					"journalinfocontainer": {
+						"journalinfotextcontainer": {
+							"label": "Press  <b>J</b>  to open the journal to get help and more information"
 						}
 					},
-					"placesubtools": {
-						"placeblocktool": {
-							"label": "Blocks"
-						},
-						"placevegetationtool": {
-							"label": "Vegetations"
-						}
-					},
-					"terrainsubtools": {
-						"terrainaddsubtracttool": {
-							"label": "Add/Subtract"
-						},
-						"terrainareatool": {
-							"label": "Area"
-						},
-						"terrainpainttool": {
-							"label": "Paint"
-						},
-						"terrainsmoothtool": {
-							"label": "Smooth"
-						},
-						"terrainwatertool": {
-							"label": "Water"
+					"righttopcontainer": {
+						"creativeselectortool": {
+							"label": "---"
 						}
 					}
-				},
-				"righttopcontainer": {
-					"creativeselectortool": {
-						"label": "---"
-					}
+				}
+			},
+			"terrain": {
+				"mode": {
+					"add": "Add terrain",
+					"replace": "Replace terrain"
 				}
 			}
 		},
@@ -4702,6 +5003,339 @@
 					"craftingbuttoncontainer": {
 						"craftingbutton": {
 							"craftingbuttonlabel": "C R I A Ç Ã O"
+						}
+					}
+				}
+			}
+		},
+		"journal": {
+			"enteryournotes": "<Enter your notes here>",
+			"screen": {
+				"contentcontainer": {
+					"journal": {
+						"journal_building1": {
+							"header": "Building: Getting started",
+							"text1": "In Rising World, every block can be freely placed, rotated and resized without any limitations - enabling you to building with a high level of detail. \n\nTo get started, craft a block in the crafting menu (open it by accessing a workbench or by pressing {Crafting}). \n\nBuilding elements are found in the <b>Building</b> category (on the left side) - there you have to select a material first, then you can select a block shape. ",
+							"text2": "For now, we want to craft a regular block/cube."
+						},
+						"journalbackground": {
+							"backtocontents": "<- Back to contents",
+							"nextpage": "Next Page ->",
+							"previouspage": "<- Previous Page"
+						},
+						"page_firststeps1": {
+							"header": "I. Getting started",
+							"image1": {
+								"label": "Small stone on the ground"
+							},
+							"image2": {
+								"label": "Branches on the ground"
+							},
+							"image3": {
+								"label": "Dead bush (collect branches from it by pressing {Interaction})"
+							},
+							"nextpage": "Next Page ->",
+							"previouspage": "<- Back to contents",
+							"text1": "Welcome to Rising World! If you already have an axe in your inventory, you can go to the <b>next page</b>... ",
+							"text2": "Otherwise you have to collect <u>sticks</u> and <u>stones</u> first in order to craft a primitive axe.",
+							"text3": "Small stones and branches are randomly found on the ground and can be picked up.",
+							"text4": "In order to pick them up, just look at them - your <b>crosshair</b> should then turn into a hand icon. \nNow press {Interaction} to pick them up.\n\n\nBranches can also be collected from dead bushes - these were mostly found in forests. In order to collect them, look at the bush (your crosshair should again turn into a hand icon) and press {Interaction} to collect them."
+						},
+						"page_firststeps2": {
+							"header": "II. Crafting",
+							"image1": {
+								"label": "Crafting menu (open from inventory or by pressing {Crafting})"
+							},
+							"image2": {
+								"label": "Locked/unknown crafting recipe (question mark)"
+							},
+							"text1": "In order to <u>craft</u> an item, either open your inventory (press {Inventory}) and click on \"CRAFTING\" on the right side, or alternatively press {Crafting}.",
+							"text2": "On the left side you'll find various crafting categories, and the center area contains the individual recipes, separated by sub-categories. \n\nClick on a sub-category (e.g. on \"Resources\") to collapse/expand it.",
+							"text3": "Some recipes might still be unknown (displayed as a <u>question mark</u>). This indicates that you still have to unlock this recipe - this is achieved by fulfilling certain requirements (e.g. collect a specific resource, craft a certain item etc).",
+							"text4": "If you select a recipe, you will see the required resources and the required crafting stations on the right side.",
+							"text5": "When it comes to the required crafting stations, it's only necessary that they're in your proximity. \n\nIf you fulfill the requirements (crafting station in proximity or required resource in inventory), the particular requirement will be green (otherwise the text is red)."
+						},
+						"page_firststeps3": {
+							"header": "III. Workbench",
+							"image1": {
+								"label": "Craft a primitive workbench. This is the first workbench you can craft"
+							},
+							"text1": "The first workbench we'll need is a <b>Primitive Workbench</b>. \n\nClick on <b>Workbenches</b> on the left side and select the first recipe there (the <b>Primitive Workbench</b>). ",
+							"text2": "If it's not visible, it might be necessary to expand the \"Workbenches\" header (by clicking on it).",
+							"text3": "The primitive workbench requires 8 tree logs, which are obtainable from trees. \n\n<color=#000088><b>If you already have an axe in your inventory, you can go to the next page!</b></color>\n\nOtherwise you will find a primitive axe in the crafting menu under <b>Tools</b>. The axe is the first recipe there, but  if it's not visible, expand the \"Primitive Tools\" header there (by clicking on it). \n\nSelect the <b>primitive axe recipe</b>. It requires <u>1 stone</u> and <u>2 sticks</u>. \n\nIt does not require any workbenches. Make sure the \"Count\" in the lower right corner is set to <u>1</u> (because we just want to craft 1 axe). \n\nClick on the blue \"<b>Craft Item</b>\" button in the lower right corner to craft the axe - it should then go to your inventory automatically."
+						},
+						"page_firststeps4": {
+							"header": "IV. Getting wood",
+							"image1": {
+								"label": "This tree is suitable for felling"
+							},
+							"image2": {
+								"label": "Felled tree - keep hitting the log to turn it into smaller pieces (which can then be picked up)"
+							},
+							"text1": "Equip the primitive axe. If the axe is in your hotbar, you can use the keys <b>1-5</b> to select the slot (e.g. 1 if the axe is in the 1st slot etc). \n\nOtherwise open the inventory ({Inventory}) and move the axe to the desired hotbar slot at the bottom. \n\n\nNext, find a tree...",
+							"text2": "Keep hitting the tree with your axe. It might take up to 10 hits or even more for large trees until they fell. ",
+							"text3": "Hit the felled log to turn it into smaller pieces. These pieces can then be picked up (look at them and press <b>F</b>). \n\nUsually you will also find a few saplings after cutting down the tree log. They can be collected and used to plant a new tree.\n<size=60%>\nNote: the tree stump won't regrow!</size>"
+						},
+						"page_firststeps5": {
+							"header": "V. First Workbench",
+							"image1": {
+								"label": "A primitive workbench"
+							},
+							"text1": "Open your inventory ({Inventory}) to check how many tree logs you already have. If necessary, cut down another tree. \n\nOnce you have enough tree logs (8), open the crafting menu again and select the <b>Primitive Workbench</b> (it's located under \"Workbenches\"). \n\nIf the ingredients on the right are green, you can craft it. Make sure that the \"Count\" in the lower right corner is set to 1 (because we only want to craft 1 workbench). \n\nHit the blue \"Craft Object\" button to craft the primitive workbench. It should go to the inventory automatically. ",
+							"text2": "To place the workbench, you have to equip it first (similar to how it was done with the axe). Either move it into a hotbar slot (and equip it via 1-5), or alternatively open the Inventory, right-click on the workbench and select \"Equip Item\". \n\nOnce it's equipped, look at the ground in front of you - you should now see a preview of the workbench. Use your arrow keys to rotate it. \n\nHold {SecondaryAction} to place the workbench."
+						},
+						"page_firststeps6": {
+							"header": "VI. First Shelter",
+							"image1": {
+								"label": "Your first shelter. Also serves as respawn point"
+							},
+							"image2": {
+								"label": "Radial Menu providing more options (to bring it up, hold {Interaction} while looking at an object)"
+							},
+							"text1": "The next thing you might want to craft is a primitive shelter. \n\nYou can sleep in it - this allows you to skip nights, but it also updates your spawn point. This makes it easier  to find our base with a compass, but more importantly, if you die, you will respawn there automatically. \n\nTo sleep in it, press <b>F</b> while looking at it. ",
+							"text2": "You can interact with any object by pressing {Interaction} while looking at it. Usually your crosshair indicates which action would be performed then (e.g. \"Sleeping\" in case of the shelter etc). \n\nYou can also keep {Interaction}> <u>pressed</u> to bring up a <b>radial menu</b>, providing more options (depending on the object). ",
+							"text3": "By the way, this also gives you an option to pick up an object again. This is useful if you want to place it at another location, for example."
+						},
+						"page_firststeps7": {
+							"header": "VII. Getting ores",
+							"image1": {
+								"label": "Iron boulder, found on the surface"
+							},
+							"image2": {
+								"label": "Underground iron ore vein"
+							},
+							"text1": "For most crafting recipes (including more advanced workbenches), you will need iron. \n\nIron is found both on the surface and underground. On the surface, for example, you will find iron boulders...",
+							"text2": "...while underground, there are various veins of ores.",
+							"text3": "The easiest way to find underground ores is to explore caves (but you'll need a source of light for this - either craft torches or standing torches at the primitive workbench, which can then be placed in the world). \n\nOf course you can also find ores by digging, but this can be more time consuming. \nAlways keep in mind that the entire world is destructible!"
+						},
+						"page_firststeps8": {
+							"header": "VIII. Smelting",
+							"image1": {
+								"label": "Primitive smelting furnace"
+							},
+							"image2": {
+								"label": "Fuel hatch"
+							},
+							"text1": "Once you've collected enough iron ore, you can craft a <b>smelting furnace</b> at the <u>primitive workbench</u>.",
+							"text2": "Every furnace requires <b>fuel:</b> \n\nIf you've already found some coal (underground), you can use it of course. But alternatively you can also use <u>lumber</u> or <u>tree logs</u> for that. ",
+							"text3": "To refuel the furnace, you will find a small fuel latch on the <u>left side</u> of the furnace. \n\nPress {SecondaryAction} to add fuel to the furnace.",
+							"text4": "Next, hold the ores in your hand and look at the various slots inside the furnace - this is where you can place the ores. \n<size=60%>\nHint: hold {SecondaryAction} pressed  while looking at the slots for an easier and faster way to place ores!</size>\n\nAfter placing the ores, turn on the furnace (press {Interaction} while looking at it). Smelting the ores may take several minutes. \n\nOnce the ingots are ready, turn off the furnace, let the ingots cool down and then pick them up by pressing {Interaction}. \n<size=60%>\nHint: the radial menu for the furnace (hold {Interaction} while looking at it) also contains an option to pick up all ingots at once!</size>"
+						},
+						"page_firststeps9": {
+							"header": "IX. Yarn, cloth, paper",
+							"image1": {
+								"hint": "Thread reel",
+								"label": "Spinning wheel"
+							},
+							"image2": {
+								"label": "Grinder"
+							},
+							"image3": {
+								"label": "Paper press"
+							},
+							"text1": "Once you've enough iron ingots, you can craft the regular <b>workbench</b>, which enables you to access many more crafting recipes. \n\nAt some point, you might need some cloth or ropes, which require yarn - that is made from wool, cotton or fibers and requires a <b>spinning wheel</b>. ",
+							"text2": "To get yarn, look at the thread reel (while holding wool, cotton or fibers in your hands) and hold {SecondaryAction}.",
+							"text3": "Another special crafting station is the <b>grinder</b>. It's used to crush certain resources. \n\nFor example, you can turn <u>coal</u> or <u>sulfur</u> into powders, stone into gravel or <u>wheat</u> into <u>flour</u>. \n\nIt can also turn <u>cloth</u> into <u>rags</u> - which are used for paper creation at the <b>paper press</b>."
+						},
+						"page_index": {
+							"building": "Building",
+							"close": "X",
+							"crafting": "Crafting Stations",
+							"firststeps": "First Steps",
+							"header": "Table of contents",
+							"interface": "Interface",
+							"notes": "Own Notes",
+							"notes_tooltip": "Own notes which are available on all worlds",
+							"propertyoflabel": "This journal is property of",
+							"resources": "Resources",
+							"servernotes": "Server Notes",
+							"servernotes_tooltip": "Notes set up by the server you're currently playing on",
+							"worldnotes": "World Notes",
+							"worldnotes_tooltip": "Own notes which are only available on this world"
+						},
+						"page_interface1": {
+							"crafting": "Click here to switch to the crafting menu",
+							"equipmentslots": "Equipment slots.\nOnly certain items can be put here (like the compass or map).\n\nOnce they're in there, you can use a hotkey to quickly equip them (e.g. {QuickCompass} for compass, {QuickMap} for map, {QuickClock} for clock etc)",
+							"equippeditem": "See the white border? This is your currently equipped item",
+							"header": "<smallcaps>Inventory</smallcaps>",
+							"hotbarslots": "This is your hotbar. Items in it are accessible by pressing key 1-5 or by scrolling with the mouse wheel (if the inventory is not open)",
+							"inventoryslots": "This is your  main inventory. You can put any item here",
+							"item": "Items in your inventory can be dragged with the mouse (hold) and moved to other slots",
+							"nextpage": "Crafting ->",
+							"playerpreview": "Player Preview.\nDrag & drop clothes on it to put them on",
+							"playerstatus": "Player health, armor, temperature, hunger and thirst",
+							"previouspage": "<- Back to contents",
+							"sortmerge": "Buttons to sort or merge the items in the inventory"
+						},
+						"page_interface2": {
+							"actualamount": "Actual amount of items you will get",
+							"category": "Crafting category",
+							"craftamount": "Amount of item you want to craft",
+							"craftitem": "Click here to craft the item",
+							"header": "<smallcaps>Crafting</smallcaps>",
+							"inventory": "Click here to switch to the inventory",
+							"knownrecipes": "Indicates how many recipes you already know from this sub-category",
+							"lockedrecipe": "This item is still unknown. This means you have to unlock it first, either by collecting a particular resource or by crafting a particular item",
+							"previouspage": "<- Inventory",
+							"requiredingredients": "Required resources to craft this item.\nThe number in brackets is the amount of items you already have in your inventory",
+							"requiredworkbenches": "Required crafting stations to craft this item.\nThey must be just in your <u>proximity</u>",
+							"searchbar": "Search field. Enter the name of an item you want to search for",
+							"searchbarreset": "Reset search",
+							"subcategory": "Crafting sub-categories.\nClick on them to expand/collapse"
+						},
+						"page_notes": {
+							"header": "Own Notes"
+						},
+						"page_resources": {
+							"aluminium": "Aluminum",
+							"cloth": "Cloth",
+							"coal": "Coal",
+							"gold": "Gold",
+							"header": "Resources",
+							"iron": "Iron",
+							"leather": "Leather",
+							"paper": "Paper",
+							"resources_aluminium": {
+								"header": "Aluminum",
+								"image1": {
+									"label": "Aluminum boulder. Sometimes covered in snow..."
+								},
+								"image2": {
+									"label": "Vein of aluminum ore in a cave"
+								},
+								"text1": "Aluminum is only found on <u>arctic islands</u>, i.e. in snowy regions!\n\n<b>From your starter island, travel <u>north</u> to find an arctic island!</b>",
+								"text2": "It's found both underground and on the surface. Bear in mind that surface boulders are sometimes covered in snow and are therefore hard to spot."
+							},
+							"resources_cloth": {
+								"header": "Cloth",
+								"image1": {
+									"label": "Collect fibers from hemp plants"
+								},
+								"image2": {
+									"label": "Use shears to get wool from sheeps"
+								},
+								"image3": {
+									"label": "Cotton is found on arid islands"
+								},
+								"image4": {
+									"label": "Use fibers/wool/cotton on the thread reel"
+								},
+								"text1": "Cloth requires yarn.\n\nIn order to get yarn, you will have to collect wool, hemp fibers or cotton. \nA <u>spinning wheel</u> is required to turn that into yarn.\n\nTo do that, hold the wool/cotton/fibers in your hand and look at the thread reel of the spinning wheel - then hold {SecondaryAction} to spin that into yarn."
+							},
+							"resources_coal": {
+								"header": "Coal",
+								"image1": {
+									"label": "Coal in a cave. It's sometimes hard to spot..."
+								},
+								"text1": "Coal is only found <u>underground</u>! The easiest way to find it is to explore caves.",
+								"text2": "Coal is mainly used as fuel (e.g. for furnaces, ovens etc). \n\nHowever, if you're struggling finding coal, keep in mind that you can usually also use wood as fuel - it's just a bit less efficient."
+							},
+							"resources_gold": {
+								"header": "Gold",
+								"image1": {
+									"label": "Vein of gold ore in a cave"
+								},
+								"image2": {
+									"label": "Surface gold boulder on an arid island"
+								},
+								"text1": "Gold is only found on <u>arid islands</u>, i.e. in deserts, savannahs etc.\n\n<b>From your starter island, travel <u>south</u> to find an arid island!</b>",
+								"text2": "In order to travel to another island, you will need a boat. It's recommendable to build a sailing boat, so you're able to travel quickly to other islands."
+							},
+							"resources_iron": {
+								"header": "Iron",
+								"image1": {
+									"label": "Iron boulder on the surface"
+								},
+								"image2": {
+									"label": "Underground vein of iron ore in a cave"
+								},
+								"text1": "Like coal, iron is found underground. Ores have a subtle sparkle effect, which makes it easier to spot them in dark caves. \n\nHowever, iron also spawns on the surface: keep your eyes open for iron boulders. ",
+								"text2": "Iron can be found anywhere on every island!"
+							},
+							"resources_leather": {
+								"header": "Leather",
+								"image1": {
+									"label": "Hides/pelts are obtained by gutting dead animals"
+								},
+								"image2": {
+									"label": "Place the hide or pelt on the tanning rack, grab a knife and hold <b>Mouse Right</b> to turn it into leather"
+								},
+								"text1": "Leather is made from animal hides and pelts. You will need a <u>tanning rack</u> and a <u>knife</u> to turn the raw hides into leather.\n\nPlace the hide on the tanning rack, equip a knife and hold <b>Mouse Left</b> to turn it into  leather.",
+								"text2": "To get pelts or hides from dead animals, use a knife - a primitive knife is sufficient for this."
+							},
+							"resources_paper": {
+								"header": "Paper",
+								"image1": {
+									"label": "Grinder + cloth = rags"
+								},
+								"image2": {
+									"label": "Paper press to turn rags into paper"
+								},
+								"text1": "Paper is made from rags and requires a <u>paper press</u>.",
+								"text2": "Rags are made from cloth: place the cloth in the grinder in order to turn it into rags. \nYou can then put the rags into the paper press to turn them into paper."
+							},
+							"resources_sand": {
+								"header": "Sand",
+								"image1": {
+									"label": "Sandy beach in a temperate region. However, it is rare, so it is usually easier to travel to a desert island."
+								},
+								"text1": "Sand can occasionally be found on beaches. However, sandy beaches are rare, so it usually makes more sense to travel to an arid island.\n\nThere you will find vast amounts of sand (e.g. in deserts, savannahs etc).",
+								"text2": "Sand is primarily needed for the production of <u>glass</u>. Place the sand in a smelting furnace to smelt it into raw glass."
+							},
+							"resources_stone": {
+								"header": "Stone",
+								"image1": {
+									"label": "You can pick up small stones from the ground"
+								},
+								"image2": {
+									"label": "Remember: everything is destructible. Just dig a hole in the ground to get stone"
+								},
+								"text1": "Getting stone is quite simple: just dig into the ground until you reach stone. \n\nWhen digging stone, it is added to your inventory automatically, so you don't have to pick it up.",
+								"text2": "Alternatively you can also pick up small stones from the ground!"
+							},
+							"resources_sulfur": {
+								"header": "Sulfur",
+								"image1": {
+									"label": "Vein of sulfur"
+								},
+								"image2": {
+									"label": "Deep caves (filled with water) at the bottom of the world"
+								},
+								"text1": "Sulfur looks a bit like gold, but has a rougher surface and is not shiny.",
+								"text2": "Currently it's only found in the deepest caves - the ones which are filled with water.\n\n<b>Be careful down there... there are rumors that a horrible place lies directly beneath the water caves!</b>"
+							},
+							"resources_tungsten": {
+								"header": "Tungsten",
+								"image1": {
+									"label": "Tungsten ore in a cave"
+								},
+								"text1": "Tungsten can be found on every island, but only underground - and mainly in deeper caves. \n\nIt has a dark color, so it's distinguishable from other ores.",
+								"text2": "Tungsten is mainly required for advanced, electric components. Make sure to be well equipped when descending into deep caves."
+							},
+							"resources_wood": {
+								"header": "Wood",
+								"image1": {
+									"label": "Cut down trees with your axe"
+								},
+								"image2": {
+									"label": "Chop the log into smaller pieces, which can then be picked up"
+								},
+								"image3": {
+									"label": "You can randomly find branches on the ground"
+								},
+								"image4": {
+									"label": "You can also get branches/sticks from dead bushes"
+								},
+								"text1": "You can get wood by cutting down trees.\n\n\nYou can also get sticks directly from branches on the ground or from dead bushes (which mostly spawn in forestes).\n\n\nOpen your <b>crafting menu</b> to turn tree logs into <u>lumber</u> or <u>sticks</u>."
+							},
+							"sand": "Sand",
+							"stone": "Stone",
+							"sulfur": "Sulfur",
+							"tungsten": "Tungsten",
+							"wood": "Wood"
+						},
+						"page_servernotes": {
+							"header": "Server Notes"
 						}
 					}
 				}
@@ -5063,16 +5697,39 @@
 		"settings": {
 			"audio": {
 				"autodetect": "< Detecção automático >",
+				"customambiencevolume": "Ambience",
+				"customambiencewindvolume": "Ambience (Wind)",
+				"customitemobjectvolume": "Items / Objects",
+				"custommusicplayersvolume": "Music players",
+				"customnpcfootstepvolume": "Footsteps (NPC)",
+				"customnpcvolume": "NPC / Animals",
+				"customplayereatingvolume": "Eating sounds (Player)",
+				"customplayervolume": "Player sounds",
+				"customsystemvolume": "System (UI)",
+				"customvolume": "Custom volume levels",
+				"customwatervolume": "Water",
+				"customweathervolume": "Weather (Rain etc)",
 				"device": "Dispositivo",
 				"mastermusicvolume": "Volume Geral da Música",
 				"mastersoundvolume": "Volume Principal",
+				"musictrackcooldown": "Pause between music tracks",
 				"other": "Outras Configurações",
 				"playbackdevice": "Dispositivo de Reprodução",
 				"recordingdevice": "Dispositivo de Gravação",
 				"sounddetails": "Detalhes do Som",
 				"tooltips": {
+					"customambiencevolume": "Volume of ambience sounds (birds etc)",
+					"customambiencewindvolume": "Volume of wind sounds",
+					"custommusicplayersvolume": "Volume of music players (like the gramophone)",
+					"customnpcvolume": "Volume of npc noises (e.g. animal noises)",
+					"customplayereatingvolume": "Volume of all player eating noises",
+					"customplayervolume": "General volume of all player noises (eating, hurt sounds etc)",
+					"customsystemvolume": "Volume of system sounds (UI)",
+					"customwatervolume": "Volume of water sounds (ocean, lakes etc)",
+					"customweathervolume": "Volume of weather sounds (rain etc)",
 					"mastermusicvolume": "Volume geral da música de fundo",
 					"mastersoundvolume": "Volume geral para todos os efeitos sonoros e músicas",
+					"musictrackcooldown": "Determines the duration of the pause between two music tracks. Higher values cause music to play less frequently, lower values cause it to play more frequently",
 					"playbackdevice": "Dispositivo de reprodução de áudio",
 					"sounddetails": "Determina o quão detalhados certos sons devem ser",
 					"voip": "Permite que você converse com outros jogadores no modo multijogador usando seu microfone",
@@ -5170,6 +5827,7 @@
 				"screenshot": "Captura de Tela",
 				"scroll": "Rolagem",
 				"scrolldown": "Rolar para baixo",
+				"scrollspeedui": "UI Scroll Sensitivity",
 				"scrollup": "Rolar para cima",
 				"secondaryaction": "Ação Secundária",
 				"sprint": "Correr",
@@ -5180,7 +5838,8 @@
 					"customcommand": "Insira um comando do console e atribua-o a uma tecla. \nToda vez que você pressionar a tecla, o comando do console será executado",
 					"itemduplicate": "Tecla de atalho opcional para duplicar um item no inventário (enquanto passa o cursor sobre o item)",
 					"itemsplit": "Tecla de atalho opcional para dividir uma pilha de itens no inventário (enquanto passa o mouse sobre o item)",
-					"quickselectblock": "Equip a block which is identical to the block in the world you're currently looking at.\n\nIn creative mode, this block gets added to your inventory if it doesn't exist there yet"
+					"quickselectblock": "Equip a block which is identical to the block in the world you're currently looking at.\n\nIn creative mode, this block gets added to your inventory if it doesn't exist there yet",
+					"scrollspeedui": "Scroll speed in UI lists"
 				},
 				"unequipitem": "Desequipar item",
 				"vehicleengine": "Iniciar/Parar Motor",
@@ -5252,6 +5911,7 @@
 				"refractions": "Refrações",
 				"resolution": "Resolução",
 				"resolutionscale": "Escala de resolução",
+				"roughrefractions": "Rough refractions (blur)",
 				"screenspacereflections": "Reflexões do Espaço da Tela",
 				"screenspacereflectionsquality": "Qualidade de Reflexão",
 				"shadowdistance": "Distância de visão de sombra",
@@ -5304,6 +5964,7 @@
 					"resolution": "Resolution of the game window. For best results, set the resolution to your desktop resolution",
 					"resolutionlabel": "Desktop resolution: {0}x{1}",
 					"resolutionscale": "Diminuir esse valor permite renderizar o jogo em uma resolução mais baixa sem alterar a resolução real. \nVocê só deve diminuir o valor se tiver problemas de desempenho",
+					"roughrefractions": "Determines if blurry / rough refraction should be enabled (e.g. on milk glass)",
 					"screenspacereflections": "Reflexões básicas. Isso pode refletir apenas os objetos que estão visíveis na tela. Isso é especialmente útil para reflexões menores, como poças de água",
 					"shadowquality": "Determina a qualidade geral da sombra, ou seja, a resolução dos mapas de sombra",
 					"shadows": "Determina se as luzes devem projetar sombras",
@@ -5392,6 +6053,7 @@
 				"blueprintsortmode": "Blueprints: Ordenamento",
 				"blueprintvisualizebounds": "Projetos: Visualizar Limites",
 				"buildingdefaultsize": "Tamanho Padrão de Elemento",
+				"buildinginformationopacity": "HUD: Building Info Background Opacity",
 				"buildingmultiplacedirections": "Direções de Colocação de Linha",
 				"buildingpivotkeeprotation": "Manter a Rotação no Modo de Encaixe",
 				"buildingresizemode": "Modo de Redimensionamento",
@@ -5409,7 +6071,7 @@
 				"creativemodeshowtoolbar": "Mostrar Barra de Ferramentas do Modo Criativo",
 				"deadbodydespawntime": "Tempo de Desaparecimento de Cadáveres",
 				"disableblood": "Disable Blood",
-				"falldamage": "Desabilitar Dano de Queda (Somente Sobrevivência)",
+				"falldamage": "Dano de Queda (Somente Sobrevivência)",
 				"flymodemovemodes": {
 					"default": "Padrão",
 					"keepelevation": "Manter a Elevação"
@@ -5432,15 +6094,18 @@
 				"headermultiplayer": "Multijogador",
 				"headerscreenshots": "Capturas de tela",
 				"headersingleplayer": "Um Jogador",
+				"headersteam": "Steam",
 				"headervehicleandmounts": "Veículos e Montarias & Mounts",
+				"healthregeneration": "Health Regeneration",
 				"hidenametags": "Hide Nametags",
 				"hudquickslotsize": "HUD: Tamanho do Slot Rápido",
 				"hudshowquickslotsduration": "HUD: Duração da Apresentação da Barra do Slot Rápido",
 				"hudshowselecteditem": "HUD: Mostrar Item Selecionado",
-				"hungerthirst": "Desabilitar Fome / Sede (Somente Sobrevivência)",
+				"hungerthirst": "Fome / Sede (Somente Sobrevivência)",
 				"imagemaxresolution": "Resolução Máxima",
 				"instantdigging": "Escavação Instantânea (Somente Sobrevivência)",
 				"itemdespawntime": "Tempo de Desaparecimento de Item",
+				"itemdurability": "Item Durability",
 				"keepinventory": "Manter Inventário após a Morte",
 				"mountsfollowviewdirection": "Montarias: Seguir a Direção da Visualização",
 				"oresmeltingduration": "Duração da Fundição de Minério",
@@ -5454,11 +6119,13 @@
 				"screenshotshowhud": "Incluir HUD",
 				"screenshotsize": "Tamanho / Resolução",
 				"screenshotthumbnail": "Criar Miniatura",
+				"seasons": "Seasons",
 				"showbuildinggrid": "Mostrar Grade",
 				"showbuildinggridonselector": "Mostrar Grade no Elemento de Pré-visualização",
 				"showbuildinginformation": "Mostrar informações",
 				"showbuildingmarker": "Mostrar Marcador",
 				"showbuildingpivots": "Mostrar Pivôs",
+				"showchatonmessage": "Show Chat",
 				"showfps": "Mostrar FPS",
 				"shownametags": "Mostrar Etiquetas de Nome",
 				"showpickupnotifications": "Mostrar Notificações ao Pegar Itens",
@@ -5470,7 +6137,14 @@
 				"spawnratesurfacemonsters": "Spawnrate Monsters (Surface)",
 				"spawnrateundergroundmonsters": "Spawnrate Monsters (Underground)",
 				"stamina": "Resistência Ilimitada (Somente Sobrevivência)",
-				"temperature": "Desabilitar Temperatura (Somente Sobrevivência)",
+				"steam": {
+					"p2plegacy": "Legacy",
+					"p2psockets": "Sockets"
+				},
+				"steamp2ptype": "Steam P2P Type",
+				"steamshowfriendlist": "Show Friend list",
+				"temperature": "Temperatura (Somente Sobrevivência)",
+				"temperatureunit": "Temperature scale",
 				"timeduration": "Duração do Dia no Jogo",
 				"timedurations": {
 					"1h": "1 Hora",
@@ -5502,16 +6176,18 @@
 					"creativeconfirmremoval": "Se ativado, uma caixa de diálogo de confirmação será mostrada ao remover elementos através das ferramentas de remoção do modo criativo",
 					"creativecopyblockcolor": "Se habilitado, copiar um bloco pressionando o botão do meio do mouse também copia a cor do elemento",
 					"creativelightintensity": "Determina a intensidade da luz do modo criativo (L)",
-					"falldamage": "Se ativado, o jogador fica imune a dano de queda (no modo de sobrevivência)",
+					"falldamage": "Se habilitado, o jogador sofre dano ao cair de uma grande altura (no modo de sobrevivência)",
 					"flymodemovetype": "Determina como o movimento funciona durante o vôo.\n\n<color=yellow>Padrão: Voando na direção da visão</color>\n\n<color=orange>Keep Elevation: Mantém a elevação/altitude</color>",
 					"flymodenoclipping": "Se habilitado, você pode voar através de paredes e terrenos no modo de vôo. Caso contrário, essas coisas ainda terão colisão.",
 					"flymodespeedcontrol": "Determina como a velocidade é ajustada no modo de vôo.\n\n<color=yellow>Modo básico: mantenha pressionada a tecla sprint ou caminhada para voar mais rápido/mais lento</color>\n\n<color=orange>Modo avançado: use Shift + Scroll do Mouse para alterar a velocidade</color>",
 					"gravityobjects": "Se ativado, objetos flutuantes (como móveis) quebram se não tiverem contato com paredes sólidas ou chão",
 					"gravityplants": "Se habilitado, as plantas flutuantes quebram se não tiverem contato com o solo",
+					"healthregeneration": "Determines if health should regenerate automatically (if player isn't thirsty or hungry)",
 					"hudshowselecteditem": "Determina se o item atualmente equipado deve estar visível no canto superior direito do HUD",
-					"hungerthirst": "Determina se a fome e a sede devem ser desativadas no modo de sobrevivência",
+					"hungerthirst": "Determina se a fome e a sede devem ser ativadas no modo de sobrevivência",
 					"imagemaxresolution": "Determina a resolução máxima permitida para imagens/pôsteres personalizados. As alterações afetam apenas as imagens enviadas posteriormente!\n\nNota: Altas resoluções consomem mais memória gráfica e têm um impacto maior no desempenho!",
 					"instantdigging": "Se ativado, tudo quebra com um único golpe no modo de sobrevivência (semelhante a como funciona a escavação no modo criativo)",
+					"itemdurability": "Determines the durability of items (i.e how long it takes until they break). Default is 100%. Set to 50% for half the duration (item breaks twice as fast), 200% for double the time etc. \n\n<color=yellow>To disable item durability, set this to 0</color>",
 					"keepinventory": "Se ativado, você manterá seu inventário após morrer",
 					"mountsfollowviewdirection": "Se ativado, as montarias seguirão automaticamente sua direção de visão enquanto você anda",
 					"oresmeltingduration": "Determina o fator de duração para fundir minérios em uma fornalha. O padrão é 100%. Defina como 50% para metade da duração, 200% para o dobro do tempo, etc.",
@@ -5522,20 +6198,25 @@
 					"radialmenushowcursor": "Determina se o cursor do mouse deve estar visível em menus radiais",
 					"screenshothooksteam": "Se ativado, as capturas de tela serão encaminhadas para sua biblioteca de capturas de tela da Steam",
 					"screenshotshowhud": "Determina se o HUD deve ser visível nas capturas de tela",
+					"seasons": "Determines whether the season should change depending on the current ingame date",
 					"showbuildinggrid": "Determina se a grade deve ou não ficar visível durante a construção (somente se a grade estiver ativa)",
 					"showbuildinggridonselector": "Determina se a grade também deve ou não ser visível no elemento de pré-visualização",
 					"showbuildinginformation": "Se ativado, algumas informações sobre a ferramenta de construção (grade, rotação etc) serão exibidas no lado esquerdo da tela durante a construção",
+					"showchatonmessage": "Disable this if you don't want the chat to show up if a new message comes in",
 					"showfps": "Se ativado, os quadros por segundo atuais serão mostrados no canto inferior direito do HUD",
 					"shownametags": "Se ativado, os crachás de outros jogadores ficarão visíveis no modo multijogador (dependendo das configurações do servidor)",
 					"skiploadingscreen": "Se ativado, a tela de carregamento será ignorada (mesmo que o mundo não esteja totalmente carregado nesse estágio)",
 					"spawnmonstersatsurface": "If enabled, monsters will spawn at the surface at night. They will automatically disappear at daybreak",
 					"spawnmonsterswithtorch": "If enabled, skeletons will <u>always</u> have a torch if they spawn at the surface (this makes them more visible)",
 					"spawnrateanimals": "Determina a taxa de surgimento dos animais. Valores mais altos resultam em mais animais, valores mais baixos em menos animais. O valor padrão é 100%\n\nNota: Isso não influencia os animais já gerados",
-					"spawnratebandits": "Determines the spawn rate for bandits (enemies). Higher values result in more bandits, lower values in less animals. Default value is 100%\n\nNote: This does not influence already spawned bandits",
+					"spawnratebandits": "Determines the spawn rate for bandits (enemies). Higher values result in more bandits, lower values in less bandits. Default value is 100%\n\nNote: This does not influence already spawned bandits",					
 					"spawnratesurfacemonsters": "Determines the spawn rate for monsters which spawn at the surface at night. Default value is 100%\n\nNote: This does not influence already spawned monsters",
 					"spawnrateundergroundmonsters": "Determines the spawn rate for monsters which spawn in the underground (caves, hell etc). Default value is 100%\n\nNote: This does not influence already spawned monsters",
 					"stamina": "Se ativado, o jogador tem resistência ilimitada no modo de sobrevivência",
-					"temperature": "Se ativado, a temperatura não afeta o jogador (no modo de sobrevivência)",
+					"steamp2ptype": "When using the \"Play with Friends\" option, this determines the network type that's used. This setting is only relevant for the player who is hosting the game.\n\n<color=yellow>Default setting is \"Sockets\". Only change this if you're experiencing problems!</color>",
+					"steamshowfriendlist": "If enabled, the Steam friends list will show up in the main menu",
+					"temperature": "Se ativado, a temperatura ambiente tem efeito sobre o jogador (no modo de sobrevivência)",
+					"temperatureunit": "Scale of temperature",
 					"timeduration": "Determina quanto tempo leva um dia de jogo. Padrão: 1 hora",
 					"weatherduration": "Determina quanto tempo dura o clima atual, ou seja, quanto tempo leva até que ele mude. \nO padrão é 100%. Defina para 50% para o dobro de mudanças climáticas, 200% para metade das mudanças, etc."
 				},
@@ -5665,11 +6346,18 @@
 			}
 		},
 		"tooltips": {
+			"color": {
+				"clear": "Clear color",
+				"custom": "Custom color"
+			},
 			"crafting": {
 				"category": "<color=#0185BC>Category: {0}  ({1})</color>",
 				"colorpicker": "Clique para alterar a cor padrão\n\n<color=yellow>Clique com o botão direito para redefinir a cor</color>",
 				"recipeforbidden": "This recipe is forbidden on this server",
 				"recipelocked": "You don't know this recipe yet...",
+				"recipemissingrequirements": "Try to craft first:",
+				"recipeunavailableonthisworld": "This item cannot be crafted in this world",
+				"recipeunknownrequirement": "Still unknown",
 				"totalcount": "Quantidade total de itens que você receberá"
 			},
 			"filebrowser": {
@@ -5690,12 +6378,18 @@
 			},
 			"inventory": {
 				"add": "Add new item",
+				"armor": "Protection / Armor",
+				"health": "Health",
+				"hunger": "Hunger",
 				"merge": "Mesclar pilhas",
-				"sort": "Reordenar itens"
+				"sort": "Reordenar itens",
+				"temperature": "Perceived Temperature",
+				"thirst": "Thirst"
 			},
 			"itemtooltip": {
 				"blueprint": "Blueprint: {0}",
 				"clothes": {
+					"absorbency": "Water proof: {0}",
 					"divinggoggles": "Fornece visão clara debaixo d'água",
 					"insulation": "Isolamento: {0}",
 					"nvg": "Permite que você veja no escuro",
@@ -5715,11 +6409,13 @@
 					"thirst": "Thirst: {0}"
 				},
 				"creator": "Criador: {0}",
+				"hotkey": "Hotkey: {0}",
 				"id": "ID: {0}",
 				"material": "{0}  (ID: {1})",
 				"musiccomposer": "Composer: {0}",
 				"musictrack": "Music track: {0}",
 				"name": "Nome: {0}",
+				"putinequipmentslot": "Put this item into an equipment \nslot for quick access",
 				"strength": "Força: {0}",
 				"weapons": {
 					"damage": "Damage: {0}",
@@ -5730,7 +6426,8 @@
 				"buttonaltitude": "Visualize Altitude",
 				"buttonfocus": "Move to Player",
 				"buttonfollowplayer": "Follow Player",
-				"buttonhelp": "Help"
+				"buttonhelp": "Help",
+				"deathmarker": "You died here..."
 			},
 			"texteditor": {
 				"anchorleft": "Align text left",
@@ -5750,15 +6447,15 @@
 	},
 	"vehicle": {
 		"rib": {
-			"desc": "Um barco inflável semirrígido movido a motor. Tem espaço para 4 passageiros",
+			"desc": "Um barco inflável movido a motor. Muito rápido e os controles são diretos. Tem espaço para 4 passageiros",
 			"name": "Barco inflável (BIR)"
 		},
 		"rowboat": {
-			"desc": "Um pequeno barco a remo. Tem espaço apenas para um único passageiro",
+			"desc": "Um pequeno barco a remo. Tem espaço para um único passageiro. Bastante lento e não recomendado para viajar para outras ilhas",
 			"name": "Barco a remo"
 		},
 		"sailboat": {
-			"desc": "A small sailing boat. Uses the wind force for propulsion, but is therefore also dependent on the wind direction and control is indirect. Provides space for 3 people.",
+			"desc": "A small sailing boat. Uses the wind force for propulsion, but is therefore also dependent on the wind direction and control is indirect - but can be quite fast. Provides space for 3 people.",
 			"name": "Sailboat"
 		}
 	}
