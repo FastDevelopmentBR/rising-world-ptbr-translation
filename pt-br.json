@@ -4939,7 +4939,7 @@
 					},
 					"journalinfocontainer": {
 						"journalinfotextcontainer": {
-							"label": "Press  <b>J</b>  to open the journal to get help and more information"
+							"label": "Pressione  <b>J</b>  para abrir o diário e obter ajuda e mais informações"
 						}
 					},
 					"righttopcontainer": {
@@ -5009,7 +5009,7 @@
 			}
 		},
 		"journal": {
-			"enteryournotes": "<Enter your notes here>",
+			"enteryournotes": "<Insira suas anotações aqui>",
 			"screen": {
 				"contentcontainer": {
 					"journal": {
@@ -5019,9 +5019,9 @@
 							"text2": "For now, we want to craft a regular block/cube."
 						},
 						"journalbackground": {
-							"backtocontents": "<- Back to contents",
-							"nextpage": "Next Page ->",
-							"previouspage": "<- Previous Page"
+							"backtocontents": "<- Voltar ao índice",
+							"nextpage": "Próxima Página ->",
+							"previouspage": "<- Página Anterior"
 						},
 						"page_firststeps1": {
 							"header": "I. Getting started",
@@ -5141,31 +5141,31 @@
 							"building": "Building",
 							"close": "X",
 							"crafting": "Crafting Stations",
-							"firststeps": "First Steps",
-							"header": "Table of contents",
+							"firststeps": "Primeiros Passos",
+							"header": "Índice",
 							"interface": "Interface",
-							"notes": "Own Notes",
-							"notes_tooltip": "Own notes which are available on all worlds",
-							"propertyoflabel": "This journal is property of",
-							"resources": "Resources",
-							"servernotes": "Server Notes",
-							"servernotes_tooltip": "Notes set up by the server you're currently playing on",
-							"worldnotes": "World Notes",
-							"worldnotes_tooltip": "Own notes which are only available on this world"
+							"notes": "Notas Pessoais",
+							"notes_tooltip": "Notas pessoais que estão disponíveis em todos os mundos",
+							"propertyoflabel": "Este diário é propriedade de",
+							"resources": "Recursos",
+							"servernotes": "Notas do Servidor",
+							"servernotes_tooltip": "Notas configuradas pelo servidor em que você está jogando no momento",
+							"worldnotes": "Notas do Mundo",
+							"worldnotes_tooltip": "Notas pessoais que só estão disponíveis neste mundo"
 						},
 						"page_interface1": {
-							"crafting": "Click here to switch to the crafting menu",
-							"equipmentslots": "Equipment slots.\nOnly certain items can be put here (like the compass or map).\n\nOnce they're in there, you can use a hotkey to quickly equip them (e.g. {QuickCompass} for compass, {QuickMap} for map, {QuickClock} for clock etc)",
-							"equippeditem": "See the white border? This is your currently equipped item",
-							"header": "<smallcaps>Inventory</smallcaps>",
-							"hotbarslots": "This is your hotbar. Items in it are accessible by pressing key 1-5 or by scrolling with the mouse wheel (if the inventory is not open)",
-							"inventoryslots": "This is your  main inventory. You can put any item here",
-							"item": "Items in your inventory can be dragged with the mouse (hold) and moved to other slots",
-							"nextpage": "Crafting ->",
-							"playerpreview": "Player Preview.\nDrag & drop clothes on it to put them on",
-							"playerstatus": "Player health, armor, temperature, hunger and thirst",
-							"previouspage": "<- Back to contents",
-							"sortmerge": "Buttons to sort or merge the items in the inventory"
+							"crafting": "Clique aqui para alternar para o menu de criação",
+							"equipmentslots": "Slots de equipamento.\nSomente certos itens podem ser colocados aqui (como a bússola ou o mapa).\n\nDepois que estiverem lá, você pode usar uma tecla de atalho para equipá-los rapidamente (por exemplo, {QuickCompass} para bússola, {QuickMap} para mapa, {QuickClock} para relógio, etc.)",
+							"equippeditem": "Veja a borda branca? Este é o seu item equipado atualmente",
+							"header": "<smallcaps>Inventário</smallcaps>",
+							"hotbarslots": "Esta é sua barra de acesso rápido. Os itens nela são acessíveis pressionando a tecla 1-5 ou rolando com a roda do mouse (se o inventário não estiver aberto)",
+							"inventoryslots": "Este é seu inventário principal. Você pode colocar qualquer item aqui",
+							"item": "Os itens em seu inventário podem ser arrastados com o mouse (segure) e movidos para outros slots",
+							"nextpage": "Criação ->",
+							"playerpreview": "Prévia do jogador.\nArraste e solte as roupas para vesti-las",
+							"playerstatus": "Saúde do jogador, armadura, temperatura, fome e sede",
+							"previouspage": "<- Voltar ao índice",
+							"sortmerge": "Botões para ordenar ou mesclar os itens no inventário"
 						},
 						"page_interface2": {
 							"actualamount": "Actual amount of items you will get",
