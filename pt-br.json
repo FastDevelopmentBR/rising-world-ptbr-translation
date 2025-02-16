@@ -5415,7 +5415,7 @@
 					"buttoncontainer": {
 						"homebutton": "Início",
 						"multiplayerbutton": "Multijogador",
-						"profilebutton": "Character",
+						"profilebutton": "Personagem",
 						"settingsbutton": "Configurações",
 						"singleplayerbutton": "Um Jogador"
 					},
@@ -5614,54 +5614,54 @@
 					"container": {
 						"rightcontainer": {
 							"buttoncentercontainer": {
-								"buttonleft": "Save",
-								"buttonright": "Cancel"
+								"buttonleft": "Salvar",
+								"buttonright": "Cancelar"
 							},
 							"settingscontainer": {
 								"hairstylerow": {
 									"beardselectorcontainer": {
-										"headerlabel": "Beard"
+										"headerlabel": "Barba"
 									},
 									"hairstyleselectorcontainer": {
-										"headerlabel": "Hair style"
+										"headerlabel": "Penteado"
 									}
 								},
 								"skincolorselement": {
 									"eyecolorrow": {
 										"headercontainer": {
-											"headerlabel": "Eye color"
+											"headerlabel": "Cor do olho"
 										}
 									},
 									"haircolorrow": {
 										"headercontainer": {
-											"headerlabel": "Hair color"
+											"headerlabel": "Cor do cabelo"
 										}
 									},
 									"skincolorrow": {
 										"headercontainer": {
-											"headerlabel": "Skin color"
+											"headerlabel": "Cor da pele"
 										}
 									}
 								},
 								"tattoorow": {
 									"bodytattooselectorcontainer": {
-										"headerlabel": "Tattoo (Body)"
+										"headerlabel": "Tatuagem (Corpo)"
 									},
 									"facetattooselectorcontainer": {
-										"headerlabel": "Tattoo (Face)"
+										"headerlabel": "Tatuagem (Rosto)"
 									}
 								}
 							}
 						}
 					},
 					"header": {
-						"headerlabel": "Character"
+						"headerlabel": "Personagem"
 					}
 				}
 			},
-			"selecteyecolor": "Select an eye color...",
-			"selecthaircolor": "Select a hair color...",
-			"selectskincolor": "Select a skin color..."
+			"selecteyecolor": "Selecione uma cor de olhos...",
+			"selecthaircolor": "Selecione uma cor de cabelo...",
+			"selectskincolor": "Selecione uma cor de pele..."
 		},
 		"scoreboard": {
 			"screen": {
