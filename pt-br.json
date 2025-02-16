@@ -120,8 +120,8 @@
 			"sandunderwater": "Areia (mar)",
 			"snow": "Neve",
 			"stone": "Pedra",
-			"underwater": "Algae",
-			"volcanic": "Volcanic",
+			"underwater": "Algas",
+			"volcanic": "Vulcânico",
 			"water": "Água"
 		},
 		"unknown": "Desconhecido"
@@ -162,7 +162,7 @@
 			"name": "Barbarian helmet"
 		},
 		"boonie": {
-			"name": "Boonie hat"
+			"name": "Chapéu boonie"
 		},
 		"bunnymask": {
 			"desc": "O acessório perfeito para a Páscoa",
@@ -172,7 +172,7 @@
 			"name": "Cappy"
 		},
 		"cappycamo": {
-			"name": "Cappy (camo)"
+			"name": "Cappy (camuflado)"
 		},
 		"captainhat": {
 			"name": "Chapéu de capitão"
@@ -327,7 +327,7 @@
 			"name": "Capacete de Safari"
 		},
 		"sombrero": {
-			"name": "Sombrero"
+			"name": "Sombreiro"
 		},
 		"sunglasses1": {
 			"name": "Óculos de sol"
@@ -348,7 +348,7 @@
 			"name": "Chapéu de feiticeiro"
 		},
 		"wooly": {
-			"name": "Wooly"
+			"name": "Gorro de lã"
 		},
 		"xmashat": {
 			"desc": "Um chapéu de Papai Noel vermelho/branco",
@@ -946,7 +946,7 @@
 			"music": "Música",
 			"navigation": "Navegação",
 			"none": "None",
-			"other": "Outro",
+			"other": "Outros",
 			"otherworkbenches": "Outras Bancadas de Trabalho",
 			"outfits": "Outfits",
 			"paddles": "Remos",
@@ -1240,8 +1240,8 @@
 			"name": "Fatias de cenoura"
 		},
 		"chainsaw": {
-			"desc": "A chainsaw. Highly efficient. It cuts wood in no time.",
-			"name": "Chainsaw"
+			"desc": "Uma motosserra. Altamente eficiente. Corta madeira em pouco tempo.",
+			"name": "Motosserra"
 		},
 		"chick": {
 			"desc": "A captured baby chicken. You shouldn't keep it in your inventory for too long...",
@@ -1259,8 +1259,8 @@
 			"name": "Placa de circuito"
 		},
 		"clockold": {
-			"desc": "Displays the current time",
-			"name": "Pocket watch"
+			"desc": "Exibe a hora atual",
+			"name": "Relógio de bolso"
 		},
 		"coal": {
 			"name": "Carvão"
@@ -1376,8 +1376,8 @@
 			"name": "Fogo de artifício"
 		},
 		"fireworkrocketlarge": {
-			"desc": "Produces a huge firework!",
-			"name": "Large firework rocket"
+			"desc": "Produz um enorme fogo de artifício!",
+			"name": "Grande foguete de fogos de artifício"
 		},
 		"flashlight": {
 			"desc": "Excelente para explorar áreas escuras",
@@ -1525,12 +1525,12 @@
 			"name": "Madeira serrada"
 		},
 		"magnifyingglass": {
-			"desc": "If you put this into your equipment slot, you can zoom in closer",
-			"name": "Magnifying glass"
+			"desc": "Se você colocar isso no slot do seu equipamento, você pode aumentar o zoom mais perto",
+			"name": "Lupa"
 		},
 		"map": {
-			"desc": "A rough representation of the current island",
-			"name": "Map"
+			"desc": "Uma representação aproximada da ilha atual",
+			"name": "Mapa"
 		},
 		"measuringtape": {
 			"desc": "Pode ser usado para medir a distância entre dois pontos",
@@ -1579,7 +1579,7 @@
 			"robust": "Robust",
 			"ruthless": "Ruthless",
 			"shameful": "Shameful",
-			"sharp": "Sharpened",
+			"sharp": "Afiado",
 			"shoddy": "Shoddy",
 			"strong": "Strong",
 			"superior": "Superior",
@@ -1774,28 +1774,28 @@
 			"name": "Sela (cavalo)"
 		},
 		"sail1": {
-			"desc": "A small sail. Required for small sailing boats.\n<color=yellow>Step 5 of 5</color>",
-			"name": "Sail"
+			"desc": "Uma pequena vela. Necessária para pequenos barcos à vela.\n<color=yellow>Etapa 5 de 5</color>",
+			"name": "Vela"
 		},
 		"sailboatkit1": {
-			"desc": "Base kit for crafting a sailboat. Place it anywhere on land to assemble the boat.\n<color=yellow>Step 1 of 5</color>",
-			"name": "Sailboat kit I (Frame A)"
+			"desc": "Kit base para criar um veleiro. Coloque-o em qualquer lugar em terra para montar o barco.\n<color=yellow>Etapa 1 de 5</color>",
+			"name": "Veleiro kit I (Estrutura A)"
 		},
 		"sailboatkit2": {
-			"desc": "Base kit for crafting a sailboat. Attach it to an existing sailboat frame (see kit 1).\n<color=yellow>Step 2 of 5</color>",
-			"name": "Sailboat kit II (Frame B)"
+			"desc": "Kit base para criar um veleiro. Fixe-o a uma estrutura de veleiro existente (veja o kit 1).\n<color=yellow>Etapa 2 de 5</color>",
+			"name": "Veleiro kit II (Estrutura B)"
 		},
 		"sailboatkit3": {
-			"desc": "Base kit for crafting a sailboat. Attach it to an existing sailboat frame (see kit 2).\n<color=yellow>Step 3 of 5</color>",
-			"name": "Sailboat kit III (Hull)"
+			"desc": "Kit base para criar um veleiro. Fixe-o a uma estrutura de veleiro existente (veja o kit 2).\n<color=yellow>Etapa 3 de 5</color>",
+			"name": "Veleiro kit III (Casco)"
 		},
 		"sailboatkit4": {
-			"desc": "Base kit for crafting a sailboat. Attach it to an existing sailboat hull (see kit 3).\n<color=yellow>Step 4 of 5</color>",
-			"name": "Sailboat kit IV (Mast)"
+			"desc": "Kit base para criar um veleiro. Anexe-o a um casco de veleiro existente (veja o kit 3).\n<color=yellow>Etapa 4 de 5</color>",
+			"name": "Veleiro kit IV (Mastro)"
 		},
 		"sailboatstorage": {
-			"desc": "Optional storage that can be attached to sailboats.\n<color=yellow>Optional</color>",
-			"name": "Storage (Sailboat)"
+			"desc": "Armazenamento opcional que pode ser acoplado a veleiros.\n<color=yellow>Opcional</color>",
+			"name": "Armazenamento (Veleiro)"
 		},
 		"sand": {
 			"name": "Sand"
@@ -3095,8 +3095,8 @@
 	},
 	"object": {
 		"alarmlight": {
-			"desc": "Has two rotating beams of light. You can paint the glass if you want to change the light color",
-			"name": "Rotating beacon light"
+			"desc": "Tem dois feixes de luz giratórios. Você pode pintar o vidro se quiser mudar a cor da luz",
+			"name": "Luz de farol rotativo"
 		},
 		"animalfeeder": {
 			"desc": "Pode ser usado para atrair animais selvagens",
@@ -3110,7 +3110,7 @@
 			"name": "Luz de barreira"
 		},
 		"beartrap": {
-			"name": "Bear trap"
+			"name": "Armadilha para Ursos"
 		},
 		"bedold1": {
 			"name": "Cama velha"
@@ -3175,8 +3175,8 @@
 			"name": "Gabinete"
 		},
 		"calendar": {
-			"desc": "Shows the current season and the day",
-			"name": "Calendar"
+			"desc": "Mostra a estação do ano atual e o dia",
+			"name": "Calendário"
 		},
 		"campfire": {
 			"desc": "Proporciona calor, luz e segurança. Também pode ser usado para cozinhar carne",
@@ -3282,8 +3282,8 @@
 			"name": "Porta velha 5"
 		},
 		"drawbridge": {
-			"desc": "A large, robust drawbridge with a size of 5x10 blocks",
-			"name": "Drawbridge"
+			"desc": "Uma ponte levadiça grande e robusta com um tamanho de blocos 5x10",
+			"name": "Ponte levadiça"
 		},
 		"firelogs": {
 			"name": "Lareira"
@@ -3313,8 +3313,8 @@
 			"name": "Presente"
 		},
 		"gramophone": {
-			"desc": "A device for playing music discs",
-			"name": "Gramophone"
+			"desc": "Um dispositivo para reproduzir discos de música",
+			"name": "Gramofone"
 		},
 		"grandfatherclock": {
 			"name": "Relógio de pêndulo"
@@ -3324,8 +3324,8 @@
 			"name": "Moedor"
 		},
 		"grindstone": {
-			"desc": "A grinding stone. Use it to sharpen and repair certain tools and weapons (like swords)",
-			"name": "Grindstone"
+			"desc": "Uma pedra de amolar. Use-a para afiar e consertar certas ferramentas e armas (como espadas)",
+			"name": "Pedra de amolar"
 		},
 		"igloo": {
 			"desc": "A shelter built of snow",
@@ -3370,14 +3370,14 @@
 			"name": "Banco de toras"
 		},
 		"loom": {
-			"desc": "Required to weave clothes",
-			"name": "Loom"
+			"desc": "Necessário para tecer roupas",
+			"name": "Tear"
 		},
 		"manholecover": {
-			"name": "Manhole cover"
+			"name": "Tampa de bueiro"
 		},
 		"manholecoverwood": {
-			"name": "Wooden cover"
+			"name": "Tampa de bueiro de madeira"
 		},
 		"masonryoven": {
 			"desc": "Um forno feito de pedra. Pode ser usado para assar alimentos",
@@ -3413,11 +3413,11 @@
 			"name": "Poster"
 		},
 		"primitivechair": {
-			"name": "Primitive chair"
+			"name": "Cadeira primitiva"
 		},
 		"primitivechest": {
-			"desc": "A small chest to store items in it",
-			"name": "Primitive chest"
+			"desc": "Um pequeno baú para guardar itens",
+			"name": "Baú primitivo"
 		},
 		"primitivedoor1": {
 			"desc": "Uma porta simples feita de ripas de madeira",
@@ -3432,22 +3432,22 @@
 			"name": "Forno de fundição primitivo"
 		},
 		"primitiveshelf": {
-			"name": "Primitive shelf"
+			"name": "Estante primitiva"
 		},
 		"primitiveshelter": {
 			"desc": "Abrigo improvisado. Você pode dormir nele e definir seu ponto de desova, mas não parece muito estável...",
 			"name": "Abrigo primitivo"
 		},
 		"primitivetable": {
-			"name": "Primitive table"
+			"name": "Mesa primitiva"
 		},
 		"primitiveworkbench": {
 			"desc": "Esta é a bancada de trabalho inicial que é usada apenas para as receitas mais básicas",
 			"name": "Bancada de trabalho primitiva"
 		},
 		"radiator": {
-			"desc": "Provides warmth",
-			"name": "Radiator"
+			"desc": "Fornece calor",
+			"name": "Radiador"
 		},
 		"safe": {
 			"desc": "Um contêiner quase indestrutível e com chave para proteger itens valiosos",
@@ -3585,8 +3585,8 @@
 			"name": "Mesa"
 		},
 		"tanningrack": {
-			"desc": "Is used to turn animal hides and pelts into leather. A knife is required for that!",
-			"name": "Tanning rack"
+			"desc": "É usado para transformar peles de animais em couro. Uma faca é necessária para isso!",
+			"name": "Rack de Curtimento"
 		},
 		"technicalblock": {
 			"desc": "A single-colored, always uniformly lit block that has no shading and casts no shadows",
@@ -3637,8 +3637,8 @@
 			"name": "Tocha de parede"
 		},
 		"weathervane": {
-			"desc": "Shows the current direction of the wind",
-			"name": "Weather vane"
+			"desc": "Mostra a direção atual do vento",
+			"name": "Cata-vento"
 		},
 		"woodenbarrel": {
 			"desc": " Pode ser usado para armazenar itens",
@@ -6351,13 +6351,13 @@
 				"custom": "Custom color"
 			},
 			"crafting": {
-				"category": "<color=#0185BC>Category: {0}  ({1})</color>",
+				"category": "<color=#0185BC>Categoria: {0}  ({1})</color>",
 				"colorpicker": "Clique para alterar a cor padrão\n\n<color=yellow>Clique com o botão direito para redefinir a cor</color>",
-				"recipeforbidden": "This recipe is forbidden on this server",
-				"recipelocked": "You don't know this recipe yet...",
-				"recipemissingrequirements": "Try to craft first:",
-				"recipeunavailableonthisworld": "This item cannot be crafted in this world",
-				"recipeunknownrequirement": "Still unknown",
+				"recipeforbidden": "Esta receita é proibida neste servidor",
+				"recipelocked": "Você ainda não conhece esta receita...",
+				"recipemissingrequirements": "Tente criar primeiro:",
+				"recipeunavailableonthisworld": "Este item não pode ser criado neste mundo",
+				"recipeunknownrequirement": "Ainda desconhecido",
 				"totalcount": "Quantidade total de itens que você receberá"
 			},
 			"filebrowser": {
@@ -6455,8 +6455,8 @@
 			"name": "Barco a remo"
 		},
 		"sailboat": {
-			"desc": "A small sailing boat. Uses the wind force for propulsion, but is therefore also dependent on the wind direction and control is indirect - but can be quite fast. Provides space for 3 people.",
-			"name": "Sailboat"
+			"desc": "Um pequeno barco à vela. Usa a força do vento para propulsão, mas, portanto, também depende da direção do vento e o controle é indireto - mas pode ser bem rápido. Oferece espaço para 3 pessoas.",
+			"name": "Veleiro"
 		}
 	}
 }
