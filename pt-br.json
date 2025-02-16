@@ -2640,16 +2640,16 @@
 				"discrequired": "You have to put a music disc on the gramophone first!"
 			},
 			"grindstone": {
-				"alreadysharpened": "This item is already sharpened",
-				"holdtosharpen": "Hold {0} to sharpen this item",
-				"incompatibleitem": "You cannot sharpen this item",
-				"itemrequired": "Equip an item you want to sharpen",
-				"itemtoodamaged": "This item is too damaged to be sharpened",
-				"lookatsharpeningarea": "Hold the item you want to sharpen at the upper side of the grindstone",
-				"repaired": "You have repaired this item",
-				"sharpened": "You have sharpened this item",
-				"sharpenedandrepaired": "You have sharpened and repaired this item",
-				"sharpening": "Sharpening..."
+				"alreadysharpened": "Este item já está afiado",
+				"holdtosharpen": "Segure {0} para afiar este item",
+				"incompatibleitem": "Você não pode afiar este item",
+				"itemrequired": "Equipe um item que você deseja afiar",
+				"itemtoodamaged": "Este item está muito danificado para ser afiado",
+				"lookatsharpeningarea": "Segure o item que você deseja afiar na parte superior da pedra de amolar",
+				"repaired": "Você consertou este item",
+				"sharpened": "Você afiou este item",
+				"sharpenedandrepaired": "Você afiou e consertou este item",
+				"sharpening": "Afiando..."
 			},
 			"light": {
 				"cannotuse": "Você não pode controlar esta lâmpada",
@@ -4764,9 +4764,9 @@
 					"placemode": "Change place mode"
 				},
 				"tool": {
-					"repair": "Repair tool (HOLD)",
-					"sharpen": "Sharpen tool (HOLD)",
-					"sharpenandrepair": "Sharpen and repair tool (HOLD)"
+					"repair": "Reparar ferramenta (SEGURAR)",
+					"sharpen": "Afiar ferramenta (SEGURAR)",
+					"sharpenandrepair": "Afiar e reparar ferramenta (SEGURAR)"
 				},
 				"torch": {
 					"light": "Acender tocha",
@@ -4776,9 +4776,9 @@
 					"cut": "Cut watermelon"
 				},
 				"weapon": {
-					"repair": "Repair weapon (HOLD)",
-					"sharpen": "Sharpen weapon (HOLD)",
-					"sharpenandrepair": "Sharpen and repair weapon (HOLD)"
+					"repair": "Reparar arma (SEGURAR)",
+					"sharpen": "Afiar arma (SEGURAR)",
+					"sharpenandrepair": "Afiar e reparar arma (SEGURAR)"
 				}
 			},
 			"place": {
