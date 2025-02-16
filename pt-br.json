@@ -6327,12 +6327,12 @@
 				}
 			},
 			"sort": {
-				"alphabetically": "Alphabetically",
-				"alphabeticallydesc": "Alphabetically (DESC)",
-				"gamemode": "Game Mode",
-				"lastplayed": "Last played",
+				"alphabetically": "Alfabeticamente",
+				"alphabeticallydesc": "Alfabeticamente (DESC)",
+				"gamemode": "Modo de jogo",
+				"lastplayed": "Jogado pela última vez",
 				"seed": "Seed",
-				"version": "Version"
+				"version": "Versão"
 			},
 			"tooltips": {
 				"openforlan": "Inicia um servidor LAN. Amigos podem entrar no seu jogo através do seu endereço IP",
