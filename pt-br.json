@@ -1162,16 +1162,16 @@
 			"name": "Bacon"
 		},
 		"baconbaked": {
-			"name": "Baked bacon"
+			"name": "Bacon assado"
 		},
 		"baconburned": {
-			"name": "Burned bacon"
+			"name": "Bacon queimado"
 		},
 		"baconcooked": {
-			"name": "Cooked bacon"
+			"name": "Bacon cozido"
 		},
 		"bacondried": {
-			"name": "Dried bacon"
+			"name": "Bacon seco"
 		},
 		"bandage": {
 			"desc": "Pode ser usado para parar o sangramento",
@@ -2255,10 +2255,10 @@
 		},
 		"consume": {
 			"apple": "Você comeu uma maçã",
-			"bacon": "<color=red>You've eaten raw bacon. Not sure if this is healthy...</color>",
-			"baconburned": "<color=red>You've eaten some burned bacon</color>",
-			"baconcooked": "You've eaten some bacon",
-			"bacondried": "You've eaten some dried bacon",
+			"bacon": "<color=red>Você comeu bacon cru. Não tenho certeza se isso é saudável...</color>",
+			"baconburned": "<color=red>Você comeu bacon queimado</color>",
+			"baconcooked": "Você comeu um pouco de bacon",
+			"bacondried": "Você comeu um pouco de bacon seco",
 			"bandage": "Você enfaixou suas feridas",
 			"bellpepper": "Você comeu um pimentão",
 			"breadhalf": "Você comeu um pouco de pão",
