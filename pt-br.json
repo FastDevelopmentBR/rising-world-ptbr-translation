@@ -1136,7 +1136,7 @@
 			"name": "Maçã"
 		},
 		"arcticfoxpelt": {
-			"name": "Snow fox pelt"
+			"name": "Pele de Raposa-do-ártico"
 		},
 		"arrow": {
 			"desc": "Uma flecha estabilizada e precisa",
@@ -1178,7 +1178,7 @@
 			"name": "Curativo"
 		},
 		"bearpelt": {
-			"name": "Bear pelt"
+			"name": "Pele de urso"
 		},
 		"bellpepper": {
 			"name": "Pimentão"
@@ -1336,10 +1336,10 @@
 			"name": "Decalque"
 		},
 		"deerpelt": {
-			"name": "Deer pelt"
+			"name": "Pele de veado"
 		},
 		"deerredpelt": {
-			"name": "Red deer pelt"
+			"name": "Pele de veado-vermelho"
 		},
 		"dice": {
 			"name": "Dice"
@@ -1403,7 +1403,7 @@
 			"name": "Forest ground"
 		},
 		"foxpelt": {
-			"name": "Fox pelt"
+			"name": "Pele de raposa"
 		},
 		"gem": {
 			"name": "Gem"
@@ -1412,7 +1412,7 @@
 			"name": "Raiz de gengibre"
 		},
 		"goatpelt": {
-			"name": "Goat hide"
+			"name": "Pele de cabra"
 		},
 		"goldingot": {
 			"name": "Lingote de ouro"
@@ -1444,12 +1444,12 @@
 			"dirt": "Dirt",
 			"fibers": "Algodão / Fibras",
 			"glass": "Glass",
-			"hide": "Animal hide",
+			"hide": "Couro cru",
 			"hoe": "Hoe",
 			"knife": "Faca",
-			"leather": "Leather",
+			"leather": "Couro",
 			"metal": "Metal",
-			"pelt": "Pelt",
+			"pelt": "Pele",
 			"sapling": "Muda",
 			"stone": "Stone",
 			"treelog": "Pedaço de tronco",
@@ -1502,10 +1502,10 @@
 			"name": "Lantern"
 		},
 		"leather": {
-			"name": "Leather"
+			"name": "Couro"
 		},
 		"leatherbag": {
-			"name": "Big leather bag"
+			"name": "Bolsa grande de couro"
 		},
 		"lettuce": {
 			"name": "Alface"
@@ -1518,7 +1518,7 @@
 			"name": "Lâmpada elétrica"
 		},
 		"lionpelt": {
-			"name": "Lion pelt"
+			"name": "Pele de leão"
 		},
 		"lumber": {
 			"desc": "Recurso básico para criação",
@@ -1589,7 +1589,7 @@
 			"weak": "Weak"
 		},
 		"moosepelt": {
-			"name": "Moose pelt"
+			"name": "Pele de alce"
 		},
 		"morningstar": {
 			"name": "Morning star"
@@ -1671,7 +1671,7 @@
 			"name": "Pig hide"
 		},
 		"polarbearpelt": {
-			"name": "Polar bear pelt"
+			"name": "Pele de urso polar"
 		},
 		"poster": {
 			"desc": "Um poster. Você pode usá-lo para carregar uma imagem do seu disco rígido e colocá-la no mundo",
@@ -1925,7 +1925,7 @@
 			"name": "Plântula"
 		},
 		"sheeppelt": {
-			"name": "Sheep pelt"
+			"name": "Pele de ovelha"
 		},
 		"sickle": {
 			"desc": "Útil se você deseja coletar grama ou plantas menores",
@@ -2165,7 +2165,7 @@
 			"name": "Trigo"
 		},
 		"wolfpelt": {
-			"name": "Wolf pelt"
+			"name": "Pele de lobo"
 		},
 		"wool": {
 			"desc": "Obtido de ovelhas. Pode tornar-se fio em uma roda de fiar",
@@ -2701,10 +2701,10 @@
 				"removeitemsfirst": "This storage still contains items. \nRemove them first"
 			},
 			"tanningrack": {
-				"notready": "The leather isn't ready yet",
-				"placepelt": "Place a hide or pelt on this rack",
-				"tanning": "Processing...",
-				"useknife": "Use a knife to turn this hide into leather"
+				"notready": "O couro ainda não está pronto",
+				"placepelt": "Coloque uma pele ou couro cru neste suporte",
+				"tanning": "Processando...",
+				"useknife": "Use uma faca para transformar esta pele em couro"
 			}
 		},
 		"paint": {
@@ -4166,8 +4166,8 @@
 				"unlock": "Destrancar"
 			},
 			"tanningrack": {
-				"takeleather": "Take leather",
-				"takepelt": "Take pelt"
+				"takeleather": "Pegar couro",
+				"takepelt": "Pegar pele"
 			},
 			"tent": {
 				"close": "Fechar a porta da barraca",
@@ -4734,7 +4734,7 @@
 				"holdinteractionforoptions": "Abrir Configurações (SEGURAR)",
 				"knife": {
 					"gutanimal": "Estripar cadáver do animal (SEGURAR)",
-					"tanningrack": "Process to leather (HOLD)"
+					"tanningrack": "Curtir o couro (SEGURAR)"
 				},
 				"map": {
 					"hidecursor": "Hide cursor",
@@ -5193,7 +5193,7 @@
 							"gold": "Gold",
 							"header": "Resources",
 							"iron": "Iron",
-							"leather": "Leather",
+							"leather": "Couro",
 							"paper": "Paper",
 							"resources_aluminium": {
 								"header": "Aluminum",
@@ -5253,15 +5253,15 @@
 								"text2": "Iron can be found anywhere on every island!"
 							},
 							"resources_leather": {
-								"header": "Leather",
+								"header": "Couro",
 								"image1": {
-									"label": "Hides/pelts are obtained by gutting dead animals"
+									"label": "Couro cru/Pele são obtidas através da evisceração de animais mortos"
 								},
 								"image2": {
-									"label": "Place the hide or pelt on the tanning rack, grab a knife and hold <b>Mouse Right</b> to turn it into leather"
+									"label": "Coloque o couro cru ou pele no rack de curtimento, pegue uma faca e segure <b>Botão Direito do Mouse</b> para transformá-lo em couro"
 								},
-								"text1": "Leather is made from animal hides and pelts. You will need a <u>tanning rack</u> and a <u>knife</u> to turn the raw hides into leather.\n\nPlace the hide on the tanning rack, equip a knife and hold <b>Mouse Left</b> to turn it into  leather.",
-								"text2": "To get pelts or hides from dead animals, use a knife - a primitive knife is sufficient for this."
+								"text1": "O couro é feito de couro cru e peles de animais. Você precisará de um <u>rack de curtimento</u> e uma <u>faca</u> para transformar as peles e couros crus em couro.\n\nColoque o couro cru no rack de curtimento, equipe uma faca e segure <b>Mouse Esquerdo</b> para transformá-lo em couro.",
+								"text2": "Para obter peles ou couros crus de animais mortos, use uma faca - uma faca primitiva é suficiente para isso."
 							},
 							"resources_paper": {
 								"header": "Paper",
