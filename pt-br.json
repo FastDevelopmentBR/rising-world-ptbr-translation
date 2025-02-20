@@ -2698,7 +2698,7 @@
 				"cannotremovelocked": "Você não pode pegar o baú enquanto ele estiver trancado!",
 				"cannottakeitems": "Você não pode pegar itens deste baú",
 				"cannotunlock": "Você não pode destrancar este baú",
-				"removeitemsfirst": "This storage still contains items. \nRemove them first"
+				"removeitemsfirst": "Este armazenamento ainda contém itens. \nRemova-os primeiro"
 			},
 			"tanningrack": {
 				"notready": "O couro ainda não está pronto",
