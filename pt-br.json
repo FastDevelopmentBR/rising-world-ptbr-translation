@@ -5827,7 +5827,7 @@
 				"screenshot": "Captura de Tela",
 				"scroll": "Rolagem",
 				"scrolldown": "Rolar para baixo",
-				"scrollspeedui": "UI Scroll Sensitivity",
+				"scrollspeedui": "Sensibilidade de Rolagem da UI",
 				"scrollup": "Rolar para cima",
 				"secondaryaction": "Ação Secundária",
 				"sprint": "Correr",
@@ -5839,7 +5839,7 @@
 					"itemduplicate": "Tecla de atalho opcional para duplicar um item no inventário (enquanto passa o cursor sobre o item)",
 					"itemsplit": "Tecla de atalho opcional para dividir uma pilha de itens no inventário (enquanto passa o mouse sobre o item)",
 					"quickselectblock": "Equip a block which is identical to the block in the world you're currently looking at.\n\nIn creative mode, this block gets added to your inventory if it doesn't exist there yet",
-					"scrollspeedui": "Scroll speed in UI lists"
+					"scrollspeedui": "Velocidade de rolagem em listas de UI"
 				},
 				"unequipitem": "Desequipar item",
 				"vehicleengine": "Iniciar/Parar Motor",
@@ -5848,8 +5848,8 @@
 				"vehiclenextseat": "Mudar de Assento (Próximo)",
 				"vehiclepreviousseat": "Mudar de Assento (Anterior)",
 				"vehicles": "Veículos",
-				"vehiclesailleft": "Turn Sail left",
-				"vehiclesailright": "Turn Sail right",
+				"vehiclesailleft": "Virar a vela para a esquerda",
+				"vehiclesailright": "Virar a vela para a direita",
 				"vehicleturbo": "Turbo",
 				"voip": "Chat de voz",
 				"voiptoggle": "Chat de voz (Alternar)",
