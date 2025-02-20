@@ -3746,19 +3746,19 @@
 			"yell": "Determines if the player is allowed to send announcement messages via \"yell\" command"
 		},
 		"creative": {
-			"allrecipes": "Determines if the player has access to all crafting recipes in creative mode",
-			"areatools": "Determines if the player is allowed to use the creative mode area tools (F9)",
-			"edittools": "Determines if the player is allowed to use the creative mode edit tools (F8)",
-			"fly": "Determines if the player is allowed to fly in creative mode",
-			"freecrafting": "Determines if no resources are required to craft items in creative mode",
-			"godmode": "Determines if the player is invulnerable in creative mode",
-			"infiniteitems": "If true, the player never consumes any items in creative mode",
-			"instantdigging": "Determines if the player can destroy terrain or objects with few strikes in creative mode",
-			"light": "Determines if the player is allowed to use the creative mode light (L)",
-			"placementtools": "Determines if the player is allowed to use the creative mode placement tools (F6)",
-			"removaltools": "Determines if the player is allowed to use the creative mode removal tools (F7)",
-			"terraintools": "Determines if the player is allowed to use the creative mode terrain tools (F5)",
-			"watertools": "Determines if the player is allowed to use the creative mode water tools (F5)"
+			"allrecipes": "Determina se o jogador tem acesso a todas as receitas de criação no modo criativo",
+			"areatools": "Determina se o jogador tem permissão para usar as ferramentas da área do modo criativo (F9)",
+			"edittools": "Determina se o jogador tem permissão para usar as ferramentas de edição do modo criativo (F8)",
+			"fly": "Determina se o jogador tem permissão para voar no modo criativo",
+			"freecrafting": "Determina se nenhum recurso é necessário para criar itens no modo criativo",
+			"godmode": "Determina se o jogador é invulnerável no modo criativo",
+			"infiniteitems": "Se for verdade, o jogador nunca consome nenhum item no modo criativo",
+			"instantdigging": "Determina se o jogador pode destruir terrenos ou objetos com poucos ataques no modo criativo",
+			"light": "Determina se o jogador tem permissão para usar a luz do modo criativo (L)",
+			"placementtools": "Determina se o jogador tem permissão para usar as ferramentas de posicionamento do modo criativo (F6)",
+			"removaltools": "Determina se o jogador tem permissão para usar as ferramentas de remoção do modo criativo (F7)",
+			"terraintools": "Determina se o jogador tem permissão para usar as ferramentas de terreno do modo criativo (F5)",
+			"watertools": "Determina se o jogador tem permissão para usar as ferramentas de água do modo criativo (F5)"
 		},
 		"forbidden": {
 			"crafting": "Optional list of crafting recipes the player is not allowed to use",
