@@ -2309,8 +2309,8 @@
 		"crafting": {
 			"missingcraftingstation": "Não há estação de trabalho adequada nas proximidades!",
 			"missingingredients": "Você não tem todos os ingredientes necessários em seu inventário!",
-			"recipesunlocked": "Crafting-Recipes unlocked!",
-			"recipeunlocked": "Crafting-Recipe unlocked!",
+			"recipesunlocked": "Receitas de criação desbloqueadas!",
+			"recipeunlocked": "Receita de criação desbloqueada!",
 			"requiresadvancedworkbench": "You need a more advanced workbench to craft this item!"
 		},
 		"creative": {
