@@ -1195,7 +1195,7 @@
 			"name": "Planta em branco"
 		},
 		"boarhide": {
-			"name": "Boar hide"
+			"name": "Couro de javali"
 		},
 		"bomb": {
 			"desc": "Cria uma explosão que só causa danos a alvos fáceis",
@@ -1326,7 +1326,7 @@
 			"name": "Algodão"
 		},
 		"cowhide": {
-			"name": "Cow hide"
+			"name": "Couro de vaca"
 		},
 		"crossbow": {
 			"name": "Crossbow"
@@ -1362,7 +1362,7 @@
 			"name": "Ovo"
 		},
 		"elephanthide": {
-			"name": "Elephant hide"
+			"name": "Couro de elefante"
 		},
 		"engineboat1": {
 			"desc": "Um motor de popa que pode ser acoplado a certos barcos.\n<color=yellow>Etapa 3 de 3</color>",
@@ -1479,7 +1479,7 @@
 			"name": "Enxada (aço)"
 		},
 		"horsehide": {
-			"name": "Horse hide"
+			"name": "Couro de cavalo"
 		},
 		"ice": {
 			"name": "Ice"
@@ -1653,7 +1653,7 @@
 			"name": "Batatas descascadas"
 		},
 		"penguinhide": {
-			"name": "Penguin hide"
+			"name": "Couro de Pinguim"
 		},
 		"penlight": {
 			"desc": "Uma fonte de luz portátil",
@@ -1668,7 +1668,7 @@
 			"name": "Picareta (aço)"
 		},
 		"pighide": {
-			"name": "Pig hide"
+			"name": "Couro de porco"
 		},
 		"polarbearpelt": {
 			"name": "Pele de urso polar"
@@ -1728,7 +1728,7 @@
 			"name": "Rifle de repetição"
 		},
 		"rhinohide": {
-			"name": "Rhinoceros hide"
+			"name": "Couro de rinoceronte"
 		},
 		"ribkit1": {
 			"desc": "Kit básico para a confecção de um barco inflável semirrígido. Coloque-o em terra firme para montar o barco.\n<color=yellow>Etapa 1 de 2</color>",
@@ -2135,7 +2135,7 @@
 			"name": "Rock (algae)"
 		},
 		"unicornhide": {
-			"name": "Unicorn hide"
+			"name": "Couro de unicórnio"
 		},
 		"volcanicrock": {
 			"name": "Volcanic rock"
@@ -2176,7 +2176,7 @@
 			"name": "Fio"
 		},
 		"zebrahide": {
-			"name": "Zebra hide"
+			"name": "Couro de zebra"
 		}
 	},
 	"liquids": {

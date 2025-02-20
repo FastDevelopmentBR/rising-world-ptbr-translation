@@ -3,7 +3,7 @@
 # Projeto de Tradução Rising World
 Tradução para o Português Brasileiro (pt-BR) do jogo [Rising World (Steam)](https://store.steampowered.com/app/324080/Rising_World/).
 
-- A tradução está 50% concluída. 0% Revisada. Ajude traduzindo e/ou revisando este material.
+- A tradução está 57% concluída. 0% Revisada. Ajude traduzindo e/ou revisando este material.
 - Tradução atualizada para a versão atual [2025-02-03 0.8.1 Alpha](https://store.steampowered.com/news/app/324080/view/538844469688009147?l=brazilian).
 
 ## Tradução feita em cima da versão
