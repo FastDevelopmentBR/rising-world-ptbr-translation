@@ -3,11 +3,11 @@
 # Projeto de Tradução Rising World
 Tradução para o Português Brasileiro (pt-BR) do jogo [Rising World (Steam)](https://store.steampowered.com/app/324080/Rising_World/).
 
-- A tradução está 57% concluída. 0% Revisada. Ajude traduzindo e/ou revisando este material.
-- Tradução atualizada para a versão atual [2025-02-03 0.8.1 Alpha](https://store.steampowered.com/news/app/324080/view/538844469688009147?l=brazilian).
+- A tradução está 55% concluída. 0% Revisada. Ajude traduzindo e/ou revisando este material.
+- Tradução atualizada para a versão atual [2025-04-29 0.8.5 Alpha](https://store.steampowered.com/news/app/324080/view/497193785816515169?l=brazilian).
 
 ## Tradução feita em cima da versão
-<img src="https://img.shields.io/badge/Vers%C3%A3o%20Base-0.8.1-darkgreen" />
+<img src="https://img.shields.io/badge/Vers%C3%A3o%20Base-0.8.5-darkgreen" />
 
 ## Como aplicar a tradução no jogo??
 - Abra da pasta do jogo clicando com botão direito no nome do mesmo na biblioteca da Steam, escolha a opção `Propriedades...`, acesse a sessão `Arquivos instalados` e clique em `Explorar...` ou acesse diretamente `C:\Program Files (x86)\Steam\steamapps\common\RisingWorld\` se estiver utilizando o sistema operacional Windows, com HD principal nomeado com a letra padrão e steam instalada na pasta padrão.

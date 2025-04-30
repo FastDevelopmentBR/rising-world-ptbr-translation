@@ -113,6 +113,7 @@
 			"redclay": "Red clay",
 			"rock": "Rock",
 			"rubble": "Rubble",
+			"saltwater": "Saltwater",
 			"sandbeach": "Sand (beach)",
 			"sanddesert": "Sand (desert)",
 			"sandstone1": "Sandstone",
@@ -124,7 +125,12 @@
 			"volcanic": "Volcanic",
 			"water": "Water"
 		},
-		"unknown": "Unknown"
+		"unknown": "Unknown",
+		"water": {
+			"lava": "Lava",
+			"saltwater": "Saltwater",
+			"water": "Fresh water"
+		}
 	},
 	"blueprint": {
 		"create": {
@@ -227,6 +233,12 @@
 			"desc": "A modern safety helmet with a lamp attached to it",
 			"name": "Safety helmet (lamp)"
 		},
+		"highvisjacket": {
+			"name": "High-visibility vest"
+		},
+		"jeans": {
+			"name": "Jeans"
+		},
 		"jesterhat": {
 			"desc": "Cap and bells. A fool's cap",
 			"name": "Jester hat"
@@ -234,6 +246,12 @@
 		"jockeyhelmet": {
 			"desc": "A modern jockey helmet",
 			"name": "Jockey helmet"
+		},
+		"knightsarmor1": {
+			"name": "Knights armor"
+		},
+		"leatherarmor": {
+			"name": "Leather armor"
 		},
 		"mask": {
 			"desc": "A very simple paper mask",
@@ -261,6 +279,21 @@
 		"maskwolf": {
 			"desc": "A mask in the shape of a wolf's head",
 			"name": "Mask (wolf)"
+		},
+		"medievalfurboots": {
+			"name": "Fur boots"
+		},
+		"medievalpants": {
+			"name": "Old cloth pants"
+		},
+		"medievalshirt1": {
+			"name": "Medieval shirt"
+		},
+		"medievalshirt2": {
+			"name": "Medieval leather shirt"
+		},
+		"medievalshoes": {
+			"name": "Old leather shoes"
 		},
 		"medievalsuit1": {
 			"name": "Fur coat"
@@ -302,6 +335,12 @@
 		"pilgrimhat": {
 			"name": "Pilgrim hat"
 		},
+		"poncho": {
+			"name": "Poncho"
+		},
+		"pullover": {
+			"name": "Sweater"
+		},
 		"questionhat": {
 			"name": "?"
 		},
@@ -313,6 +352,9 @@
 		},
 		"redcoathat": {
 			"name": "Redcoat hat"
+		},
+		"robe": {
+			"name": "Robe"
 		},
 		"saddlebaghorse": {
 			"desc": "Optional bags that can be attached to a saddle. Can be used to store items in it",
@@ -326,6 +368,18 @@
 			"desc": "Also known as pith helmet. A lightweight cloth-covered helmet",
 			"name": "Safari helmet"
 		},
+		"sandals": {
+			"name": "Sandals"
+		},
+		"shorts": {
+			"name": "Shorts"
+		},
+		"sneakers1": {
+			"name": "Sneakers"
+		},
+		"sneakers2": {
+			"name": "Sneakers"
+		},
 		"sombrero": {
 			"name": "Sombrero"
 		},
@@ -335,14 +389,26 @@
 		"teddymask": {
 			"name": "Mask (teddy)"
 		},
+		"trekkingshoes": {
+			"name": "Trekking shoes"
+		},
+		"tshirt": {
+			"name": "T-Shirt"
+		},
 		"unclesamhat": {
 			"name": "Uncle Sam's hat"
+		},
+		"undershirt": {
+			"name": "Undershirt"
 		},
 		"ushanka": {
 			"name": "Ushanka"
 		},
 		"vr": {
 			"name": "VR headset"
+		},
+		"winterjacket": {
+			"name": "Winter jacket"
 		},
 		"wizardhat": {
 			"name": "Wizard hat"
@@ -1183,6 +1249,18 @@
 		"bellpepper": {
 			"name": "Bellpepper"
 		},
+		"blobfish": {
+			"name": "Blobfish"
+		},
+		"blobfishmeat": {
+			"name": "Blobfish meat"
+		},
+		"blobfishmeatburned": {
+			"name": "Burned blobfish meat"
+		},
+		"blobfishmeatcooked": {
+			"name": "Cooked blobfish meat"
+		},
 		"block": {
 			"name": "Block"
 		},
@@ -1233,11 +1311,41 @@
 			"desc": "A drinking bottle. Can be filled with water",
 			"name": "Canteen"
 		},
+		"carp": {
+			"name": "Carp"
+		},
+		"carpbaked": {
+			"name": "Baked carp"
+		},
+		"carpburned": {
+			"name": "Burned carp"
+		},
+		"carpcooked": {
+			"name": "Cooked carp"
+		},
+		"carpdried": {
+			"name": "Dried carp"
+		},
 		"carrot": {
 			"name": "Carrot"
 		},
 		"carrotslices": {
 			"name": "Carrot slices"
+		},
+		"catfish": {
+			"name": "Catfish"
+		},
+		"catfishbaked": {
+			"name": "Baked catfish"
+		},
+		"catfishburned": {
+			"name": "Burned catfish"
+		},
+		"catfishcooked": {
+			"name": "Cooked catfish"
+		},
+		"catfishdried": {
+			"name": "Dried catfish"
 		},
 		"chainsaw": {
 			"desc": "A chainsaw. Highly efficient. It cuts wood in no time.",
@@ -1258,6 +1366,10 @@
 			"desc": "Essential component of many electric devices",
 			"name": "Circuit board"
 		},
+		"climbingrope": {
+			"desc": "A rope attached to a grappling hook. The hook can be thrown and once it hits a solid surface, the rope can be used for climbing",
+			"name": "Climbing rope"
+		},
 		"clockold": {
 			"desc": "Displays the current time",
 			"name": "Pocket watch"
@@ -1271,7 +1383,7 @@
 		},
 		"coarsecloth": {
 			"desc": "A piece of coarse cloth",
-			"name": "Coarse cloth"
+			"name": "Cloth"
 		},
 		"cobble": {
 			"name": "Cobble stone"
@@ -1321,6 +1433,15 @@
 		"corncob": {
 			"name": "Corncob"
 		},
+		"corncobbaked": {
+			"name": "Baked corncob"
+		},
+		"corncobburned": {
+			"name": "Burned corncob"
+		},
+		"corncobcooked": {
+			"name": "Cooked corncob"
+		},
 		"cotton": {
 			"desc": "Can be spun to yarn on a spinning wheel",
 			"name": "Cotton"
@@ -1351,15 +1472,27 @@
 			"name": "Dye"
 		},
 		"dynamite": {
-			"desc": "Creates an explosion which only causes little damage to the environment",
+			"desc": "Creates an explosion which causes <u>damage to the environment</u>. Very useful for mining",
 			"name": "Dynamite"
 		},
 		"earthworm": {
 			"desc": "Useful as bait",
 			"name": "Earthworm (bait)"
 		},
+		"eel": {
+			"name": "Eel"
+		},
 		"egg": {
 			"name": "Egg"
+		},
+		"eggcooked": {
+			"name": "Cooked egg"
+		},
+		"eggpeeled": {
+			"name": "Peeled egg"
+		},
+		"eggrainbow": {
+			"name": "Rainbow egg"
 		},
 		"elephanthide": {
 			"name": "Elephant hide"
@@ -1379,6 +1512,13 @@
 			"desc": "Produces a huge firework!",
 			"name": "Large firework rocket"
 		},
+		"fishbone": {
+			"name": "Fish\\u00ADbone"
+		},
+		"fishingrod": {
+			"desc": "Can be used to catch fish",
+			"name": "Fishing rod"
+		},
 		"flashlight": {
 			"desc": "Excellent for exploring dark areas",
 			"name": "Flashlight"
@@ -1395,12 +1535,13 @@
 			"condition": {
 				"edible": "Still edible",
 				"fresh": "Fresh",
+				"inedible": "Inedible",
 				"ruined": "Ruined",
 				"spoiled": "Spoiled"
 			}
 		},
 		"forestground": {
-			"name": "Forest ground"
+			"name": "Dirt (forest ground)"
 		},
 		"foxpelt": {
 			"name": "Fox pelt"
@@ -1428,6 +1569,10 @@
 			"desc": "A small wire, made out of gold",
 			"name": "Gold wire"
 		},
+		"grapplinggun": {
+			"desc": "A more advanced version of the climbing rope. Shoots a hook and quickly pulls you towards the target location",
+			"name": "Grappling gun"
+		},
 		"grass": {
 			"desc": "A tuft of grass",
 			"name": "Grass"
@@ -1451,13 +1596,23 @@
 			"metal": "Metal",
 			"pelt": "Pelt",
 			"sapling": "Sapling",
-			"stone": "Stone",
+			"stone": "Stone (any)",
 			"treelog": "Piece of log",
 			"water": "Water"
 		},
 		"gunpowder": {
 			"desc": "Explosive powder. Important ingredient for the production of various ammunition and explosives",
 			"name": "Gunpowder"
+		},
+		"guts": {
+			"name": "Guts"
+		},
+		"gutsbait": {
+			"desc": "A fishing bait made from animal guts",
+			"name": "Bait (gut)"
+		},
+		"gutsburned": {
+			"name": "Burned guts"
 		},
 		"hare": {
 			"desc": "A captured hare. You shouldn't keep it in your inventory for too long...",
@@ -1469,6 +1624,21 @@
 		"hempfibers": {
 			"desc": "Can be spun to yarn on a spinning wheel",
 			"name": "Hemp fibers"
+		},
+		"herring": {
+			"name": "Herring"
+		},
+		"herringbaked": {
+			"name": "Baked herring"
+		},
+		"herringburned": {
+			"name": "Burned herring"
+		},
+		"herringcooked": {
+			"name": "Cooked herring"
+		},
+		"herringdried": {
+			"name": "Dried herring"
 		},
 		"hoe": {
 			"desc": "Used to prepare the ground for cultivation",
@@ -1497,6 +1667,21 @@
 		"ironwire": {
 			"desc": "A small wire, made out of iron",
 			"name": "Iron wire"
+		},
+		"koi": {
+			"name": "Koi"
+		},
+		"koibaked": {
+			"name": "Baked koi"
+		},
+		"koiburned": {
+			"name": "Burned koi"
+		},
+		"koicooked": {
+			"name": "Cooked koi"
+		},
+		"koidried": {
+			"name": "Dried koi"
 		},
 		"lantern": {
 			"name": "Lantern"
@@ -1659,6 +1844,21 @@
 			"desc": "A portable light source",
 			"name": "Penlight"
 		},
+		"perch": {
+			"name": "Perch"
+		},
+		"perchbaked": {
+			"name": "Baked perch"
+		},
+		"perchburned": {
+			"name": "Burned perch"
+		},
+		"perchcooked": {
+			"name": "Cooked perch"
+		},
+		"perchdried": {
+			"name": "Dried perch"
+		},
 		"pickaxe": {
 			"desc": "An iron pickaxe. Used for mining stone and ores",
 			"name": "Pickaxe"
@@ -1670,6 +1870,21 @@
 		"pighide": {
 			"name": "Pig hide"
 		},
+		"plaice": {
+			"name": "Plaice"
+		},
+		"plaicebaked": {
+			"name": "Baked plaice"
+		},
+		"plaiceburned": {
+			"name": "Burned plaice"
+		},
+		"plaicecooked": {
+			"name": "Cooked plaice"
+		},
+		"plaicedried": {
+			"name": "Dried plaice"
+		},
 		"polarbearpelt": {
 			"name": "Polar bear pelt"
 		},
@@ -1679,6 +1894,15 @@
 		},
 		"potato": {
 			"name": "Potato"
+		},
+		"potatobaked": {
+			"name": "Baked potato"
+		},
+		"potatoburned": {
+			"name": "Burned potato"
+		},
+		"potatocooked": {
+			"name": "Cooked potato"
 		},
 		"pouch": {
 			"desc": "A pouch which may contain valuable loot",
@@ -1704,6 +1928,12 @@
 		},
 		"pumpkinslice": {
 			"name": "Pumpkin slice"
+		},
+		"pumpkinsliceburned": {
+			"name": "Burned pumpkin slice"
+		},
+		"pumpkinslicecooked": {
+			"name": "Cooked pumpkin slice"
 		},
 		"rags": {
 			"desc": "Some rags. Can be recycled into paper.",
@@ -1796,6 +2026,24 @@
 		"sailboatstorage": {
 			"desc": "Optional storage that can be attached to sailboats.\n<color=yellow>Optional</color>",
 			"name": "Storage (Sailboat)"
+		},
+		"salmon": {
+			"name": "Salmon"
+		},
+		"salmonsteak": {
+			"name": "Salmon steak"
+		},
+		"salmonsteakbaked": {
+			"name": "Baked salmon steak"
+		},
+		"salmonsteakburned": {
+			"name": "Burned salmon steak"
+		},
+		"salmonsteakcooked": {
+			"name": "Cooked salmon steak"
+		},
+		"salmonsteakdried": {
+			"name": "Dried salmon steak"
 		},
 		"sand": {
 			"name": "Sand"
@@ -1921,11 +2169,41 @@
 			"desc": "Useful to clear large areas of grass. More robust than the iron scythe",
 			"name": "Scythe (steel)"
 		},
+		"seacucumber": {
+			"name": "Sea cucumber"
+		},
+		"seacucumbermeat": {
+			"name": "Sea cucumber meat"
+		},
+		"seacucumbermeatburned": {
+			"name": "Burned sea cucumber meat"
+		},
+		"seacucumbermeatcooked": {
+			"name": "Cooked sea cucumber meat"
+		},
+		"seacucumbermeatdried": {
+			"name": "Dried sea cucumber meat"
+		},
 		"seedling": {
 			"name": "Seedling"
 		},
 		"sheeppelt": {
 			"name": "Sheep pelt"
+		},
+		"shrimp": {
+			"name": "Shrimp"
+		},
+		"shrimpbaked": {
+			"name": "Baked shrimp"
+		},
+		"shrimpburned": {
+			"name": "Burned shrimp"
+		},
+		"shrimpcooked": {
+			"name": "Cooked shrimp"
+		},
+		"shrimpdried": {
+			"name": "Dried shrimp"
 		},
 		"sickle": {
 			"desc": "Useful if you want to collect grass or smaller plants",
@@ -1942,6 +2220,18 @@
 		"sledgehammersteel": {
 			"desc": "Used to remove construction elements without destroying them. More effective and robust than the iron sledgehammer",
 			"name": "Sledge\\u00ADhammer (steel)"
+		},
+		"snakemeat": {
+			"name": "Snake meat"
+		},
+		"snakemeatburned": {
+			"name": "Burned snake meat"
+		},
+		"snakemeatcooked": {
+			"name": "Cooked snake meat"
+		},
+		"snakemeatdried": {
+			"name": "Dried snake meat"
 		},
 		"snow": {
 			"name": "Snow"
@@ -2117,6 +2407,36 @@
 			"desc": "An electric lawn trimmer. Very efficient way to cut grass",
 			"name": "Lawn trimmer"
 		},
+		"trout": {
+			"name": "Trout"
+		},
+		"troutburned": {
+			"name": "Burned trout"
+		},
+		"troutcooked": {
+			"name": "Cooked trout"
+		},
+		"troutdried": {
+			"name": "Dried trout"
+		},
+		"tuna": {
+			"name": "Tuna"
+		},
+		"tunasteak": {
+			"name": "Tuna steak"
+		},
+		"tunasteakbaked": {
+			"name": "Baked tuna steak"
+		},
+		"tunasteakburned": {
+			"name": "Burned tuna steak"
+		},
+		"tunasteakcooked": {
+			"name": "Cooked tuna steak"
+		},
+		"tunasteakdried": {
+			"name": "Dried tuna steak"
+		},
 		"tungsteningot": {
 			"name": "Tungsten ingot"
 		},
@@ -2130,6 +2450,27 @@
 		"tungstenwire": {
 			"desc": "A small wire, made out of tungsten",
 			"name": "Tungsten wire"
+		},
+		"turtle": {
+			"name": "Turtle"
+		},
+		"turtlemeat": {
+			"name": "Turtle meat"
+		},
+		"turtlemeatbaked": {
+			"name": "Baked turtle meat"
+		},
+		"turtlemeatburned": {
+			"name": "Burned turtle meat"
+		},
+		"turtlemeatcooked": {
+			"name": "Cooked turtle meat"
+		},
+		"turtlemeatdried": {
+			"name": "Dried turtle meat"
+		},
+		"turtleshell": {
+			"name": "Turtle shell"
 		},
 		"underwaterrock": {
 			"name": "Rock (algae)"
@@ -2163,6 +2504,10 @@
 		},
 		"wheat": {
 			"name": "Wheat"
+		},
+		"wolfcub": {
+			"desc": "A captured wolf cub. You shouldn't keep it in your inventory for too long...",
+			"name": "Wolf cub"
 		},
 		"wolfpelt": {
 			"name": "Wolf pelt"
@@ -2269,13 +2614,20 @@
 			"chili": "You've eaten a hot chili pepper",
 			"cookie": "You've eaten a tasty cookie",
 			"corncob": "You've eaten a cob of corn",
+			"corncobcooked": "You've eaten a roasted cob of corn",
+			"corncoburned": "<color=red>You've eaten a burned cob of corn</color>",
+			"eggcooked": "You've eaten an egg",
 			"gingerroot": "You've eaten a raw ginger root",
 			"lettuce": "You've eaten some lettuce",
 			"lettuceleaves": "You've eaten some lettuce leaves",
 			"medkit": "You have used a medkit to treat your wounds",
 			"pear": "You've eaten a pear",
 			"potato": "You've eaten a raw potato",
+			"potatoburned": "<color=red>You've eaten a burned potato</color>",
+			"potatocooked": "You've eaten a roasted potato",
 			"pumpkinslice": "You've eaten a piece of pumpkin",
+			"pumpkinsliceburned": "<color=red>You've eaten a burned piece of pumpkin</color>",
+			"pumpkinslicecooked": "You've eaten a roasted piece of pumpkin",
 			"ripepear": "You've eaten an overripe pear...",
 			"splint": "You have splinted your broken leg\n\nBe careful until your bone is fully healed!",
 			"steak": "<color=red>You've eaten a raw steak. Not sure if this is healthy...</color>",
@@ -2362,7 +2714,7 @@
 			"toolnotavailableyet": "This tool is not available yet"
 		},
 		"drink": {
-			"nosaltwater": "You cannot drink salt water",
+			"nosaltwater": "You cannot drink salt water!",
 			"water": "You drank some water"
 		},
 		"error": {
@@ -2372,6 +2724,7 @@
 				"corrupted": "This blueprint file is corrupted!",
 				"unsupportedversion": "This blueprint is too old and therefore cannot be loaded"
 			},
+			"entrypointnotfound": "A method could not be invoked. This indicates that some game files are either corrupted, or that another program (e.g. anti-virus program) blocks the game.\n\nPlease check the game files for error and download them again if necessary.\n\nThis is the actual error message: \n\n<color=yellow>{0}</color>",
 			"error": "Error",
 			"exception": "An exception occurred: \n\n<color=yellow>{0}</color>",
 			"filesystemaccessdenied": "The game was unable to read/write a file. This indicates that the game either has no permission to read/write the target file, or another program (e.g. an anti-virus program) prevents the game from accessing the file system.\n\nThis is the actual error message: \n\n<color=yellow>{0}</color>",
@@ -2382,6 +2735,7 @@
 			"graphicswarning": "An internal {0} error occurred. Usually this happens if the graphics driver is outdated, or if the graphics card does not support a particular feature.\nPlease download and install the latest graphics driver from the homepage of your graphics card manufacturer. \n\n<color=yellow>Error: {1}</color>",
 			"header": {
 				"compatibilityissue": "Compatibility issue",
+				"entrypointnotfound": "Entry Point not found",
 				"filesystemaccessdenied": "Cannot read/write file",
 				"gamefilecorrupted": "Game file corrupted",
 				"initexception": "Initialization exception",
@@ -2403,13 +2757,22 @@
 			"unabletosaveworld": "An error occurred while saving the world! If you get this message again, this would indicate that you might lose your current progress. In this case it would be recommendable to restart the game.\n\nError: {0}",
 			"unabletosaveworlddb": "An error occurred while saving the world! Apparently the game is not able to access the hard drive.\n\nPlease make sure there is no anti-virus program which blocks the game. Also make sure that there is enough free disk space available.\n\nIf this error occurs again, it would indicate that you would lose your current progress. In this case it would be recommendable to restart the game.",
 			"unknownerror": "An unknown error occurred!",
-			"versiontransition": "Some worlds or blueprint files from the Java version or new version could not be moved! You can still find the files in the game directory. \n\nNew Version files are found in the \"_New Version\" subfolder. Java files might still be located in the root game directory. \n\nClick <color=#00aaff><u><link=\"#gamedir\">here</link></u></color> to open the game directory.",
-			"windows7": "Unfortunately there is a bug in the latest Unity version, which prevents the game from running on Windows 7. We have already reported this bug to Unity, and Unity did also confirm it.\n\nBecause this is a bug in the engine itself, we have no control over it unfortunately, so we have to wait until Unity fixes this issue.\n\nWe are sorry about the inconvenience! We have created a pinned topic in the Steam forums about this issue, which also contains a link to Unitys public bug tracker. We'll update the thread as soon as we have any news."
+			"versiontransition": "Some worlds or blueprint files from the Java version or new version could not be moved! You can still find the files in the game directory. \n\nNew Version files are found in the \"_New Version\" subfolder. Java files might still be located in the root game directory. \n\nClick <color=#00aaff><u><link=\"#gamedir\">here</link></u></color> to open the game directory."
 		},
 		"farming": {
 			"groundfrozen": "The ground is frozen, you cannot plant anything there",
 			"incompatibleground": "You cannot plant this plant on this ground",
 			"requiresfarmland": "This plant can be planted only on arable land.\nUse a hoe to prepare the ground"
+		},
+		"fishing": {
+			"catched": "Catched!",
+			"fishescaped": "The fish escaped...",
+			"linesnapped": "Your fishing line has snapped!",
+			"noluck": "It looks like you won't have luck catching anything here...",
+			"wontbite": "Fish won't bite if you're too close..."
+		},
+		"harvesting": {
+			"cannotharvest": "You cannot get a seedling from this plant"
 		},
 		"images": {
 			"maxamountreached": "The max allowed amount of uploaded images has been reached (see permission)",
@@ -2443,6 +2806,10 @@
 			"breakwarningprimitiveaxe": "You should <u>really</u> get a new axe as soon as possible! \nBecause this axe won't last forever...",
 			"cantdounderwater": "You can't do that while you're underwater",
 			"doesnotworkunderwater": "This item does not work underwater",
+			"grappling": {
+				"dontlookoppositedirection": "Do not look into the opposite direction while pulling up",
+				"ropesnapped": "The rope has snapped!"
+			},
 			"itemstoohot": "These items are too hot to be picked up",
 			"itemtoohot": "This item is too hot to be picked up",
 			"magnifyingglass": {
@@ -3214,6 +3581,10 @@
 		"clock": {
 			"name": "Wall clock"
 		},
+		"clothsack": {
+			"desc": "Well suited for storing a few items in it",
+			"name": "Cloth sack"
+		},
 		"constructionbarrier": {
 			"name": "Construction barrier"
 		},
@@ -3706,9 +4077,11 @@
 			"ban": "Determines if the player is allowed to ban other players",
 			"cleanup": "Determines if the player is allowed to use the \"cleanup\" command",
 			"clearinventory": "Determines if the player is allowed to clear his inventory via command",
-			"deletenpc": "Determines if the player is allowed to execute the \"deletenpc\" command",
-			"deleteplayer": "Determines if the player is allowed to execute the \"deleteplayer\" command",
+			"deletenpc": "Determines if the player is allowed to execute the \"deletenpc\" command to delete an npc",
+			"deleteplayer": "Determines if the player is allowed to execute the \"deleteplayer\" command to delete the data of a player",
+			"deletesector": "Determines if the player is allowed to execute the \"deletesector\" command to delete/reset an entire island",
 			"disablenpc": "Determines if the player is allowed to disable a certain npc on this server via command",
+			"editnpc": "Determines if the player is allowed to use the \"editnpc\" command to edit existing npcs (change their appearance, clothes, behaviour etc)",
 			"findbase": "Determines if the player is allowed to use the \"findbase\" command to find the chunk which contains most construction elements",
 			"gc": "Determines if the player is allowed to invoke the serverside garbage collector (\"servergc\" command)",
 			"getplayerinfo": "Determines if the player may query player information via \"playerinfo\" command",
@@ -3741,7 +4114,10 @@
 			"shutdown": "Determines if the player is allowed to use the \"shutdown\" command to shut the server down",
 			"spawnnpc": "Determines if the player is allowed to use the \"spawnnpc\" command to spawn an npc",
 			"spawnvehicle": "Determines if the player is allowed to use the \"spawnvehicle\" command to spawn a vehicle",
+			"sql": "WARNING: This permission determines if the player is allowed to execute the \"sql\" command. This command gives the player full access to the world database!",
 			"teleport": "Determines if the player is allowed to use the \"teleport\" or \"goto\" command to teleport himself (or another player)",
+			"toggleterrain": "Determines if the player is allowed to execute the \"toggleterrain\" command (to turn the terrain on/off)",
+			"togglewater": "Determines if the player is allowed to execute the \"togglewater\" command (to turn the water surface and water effects on/off)",
 			"updatescheduler": "Determines if the player is allowed to update the scheduler (add or remove tasks)",
 			"yell": "Determines if the player is allowed to send announcement messages via \"yell\" command"
 		},
@@ -4022,6 +4398,8 @@
 		"building": {
 			"collisions": "Collisions\n<#FFFF00>{0}<#FFFFFF>",
 			"currentprecision": "Current Precision",
+			"deletepreset": "Do you really want to delete the preset?",
+			"deletepresetheader": "Delete preset",
 			"empty": "Empty",
 			"flip": "Flip / Mirror",
 			"loadpreset": "Load Preset",
@@ -4718,6 +5096,11 @@
 				"bread": {
 					"cut": "Cut bread"
 				},
+				"climbingrope": {
+					"climb": "Climb",
+					"release": "Release hook",
+					"throw": "Throw"
+				},
 				"coconut": {
 					"cut": "Cut coconut"
 				},
@@ -4725,6 +5108,15 @@
 					"fuse": "Light fuse",
 					"place": "Place",
 					"throw": "Throw"
+				},
+				"fish": {
+					"cut": "Cut fish"
+				},
+				"grapplinggun": {
+					"cut": "Cut rope",
+					"pull": "Pull",
+					"release": "Release hook",
+					"shoot": "Shoot hook"
 				},
 				"grass": {
 					"grassheight": "Change grass height",
@@ -5497,6 +5889,10 @@
 							"collisiontoggle": "No Collision",
 							"growthtoggle": "Disable Growth",
 							"invisibletoggle": "Invisible"
+						},
+						"column3": {
+							"lookattoggle": "Disable Look-At",
+							"statictoggle": "Static"
 						}
 					},
 					"flagsheader": "Attributes"
@@ -5572,9 +5968,9 @@
 			"creationdate": "Upload date",
 			"creationdateformat": "yyyy-MM-dd  hh:mm tt",
 			"message": {
-				"deleteimage": "Do you really want to delete this image? This also removes all posters which use this image.",
-				"deleteimageheader": "Delete Image",
-				"renameimage": "Do you really want to rename this image?",
+				"deleteimage": "Do you really want to delete this image? \n\nThis also removes all posters which use this image.",
+				"deleteimageheader": "Delete Image: <color=yellow>{0}</color>",
+				"renameimage": "Please enter a new name for this image:",
 				"renameimageheader": "Rename Image"
 			},
 			"ownimages": "Own Images",
@@ -5697,13 +6093,16 @@
 		"settings": {
 			"audio": {
 				"autodetect": "< Automatic detection >",
-				"customambiencevolume": "Ambience",
+				"customambiencevolume": "Ambience (Birds / Fauna)",
 				"customambiencewindvolume": "Ambience (Wind)",
+				"customfirevolume": "Fire",
+				"custominteractionvolume": "Items / Objects",
 				"customitemobjectvolume": "Items / Objects",
 				"custommusicplayersvolume": "Music players",
 				"customnpcfootstepvolume": "Footsteps (NPC)",
 				"customnpcvolume": "NPC / Animals",
 				"customplayereatingvolume": "Eating sounds (Player)",
+				"customplayerfootstepvolume": "Footsteps (Player)",
 				"customplayervolume": "Player sounds",
 				"customsystemvolume": "System (UI)",
 				"customvolume": "Custom volume levels",
@@ -5720,7 +6119,8 @@
 				"tooltips": {
 					"customambiencevolume": "Volume of ambience sounds (birds etc)",
 					"customambiencewindvolume": "Volume of wind sounds",
-					"custommusicplayersvolume": "Volume of music players (like the gramophone)",
+					"customfirevolume": "Volume of fire (e.g. campfires, furnaces etc)",
+					"custommusicplayersvolume": "Volume of world music players (like the gramophone)",
 					"customnpcvolume": "Volume of npc noises (e.g. animal noises)",
 					"customplayereatingvolume": "Volume of all player eating noises",
 					"customplayervolume": "General volume of all player noises (eating, hurt sounds etc)",
@@ -5963,7 +6363,7 @@
 					"refractions": "Determines if refraction / distortion is applied to glass or water",
 					"resolution": "Resolution of the game window. For best results, set the resolution to your desktop resolution",
 					"resolutionlabel": "Desktop resolution: {0}x{1}",
-					"resolutionscale": "Lowering this value allows you to render the game at a lower resolution without changing the actual resolution. \nYou should only lower the value if you experience performance issues",
+					"resolutionscale": "Lowering this value allows you to render the game at a lower resolution without changing the actual resolution. \n\n<color=yellow>You should only lower the value if you experience performance issues!</color>",
 					"roughrefractions": "Determines if blurry / rough refraction should be enabled (e.g. on milk glass)",
 					"screenspacereflections": "Basic reflections. This can only reflect objects that are currently visible on screen. This is especially useful for smaller reflections, like water puddles",
 					"shadowquality": "Determines the overall shadow quality, i.e. the resolution of the shadow maps",
@@ -6069,6 +6469,7 @@
 				"creativecopyblockcolor": "Copy block color",
 				"creativelightintensity": "Creative-Mode Light Intensity",
 				"creativemodeshowtoolbar": "Show Creative-Mode Toolbar",
+				"customgridsizes": "Grid sizes",
 				"deadbodydespawntime": "Dead Body Despawn Time",
 				"disableblood": "Disable Blood",
 				"falldamage": "Fall Damage (Survival only)",
@@ -6130,6 +6531,7 @@
 				"shownametags": "Show Nametags",
 				"showpickupnotifications": "Show Item-Pickup Notifications",
 				"skiploadingscreen": "Skip Loadingscreen",
+				"spawnbanditsduringday": "Spawn Bandits during Day",
 				"spawnmonstersatsurface": "Spawn Monsters At Surface",
 				"spawnmonsterswithtorch": "Always spawn Monsters with Torch",
 				"spawnrateanimals": "Spawnrate Animals",
@@ -6176,6 +6578,8 @@
 					"creativeconfirmremoval": "If enabled, a confirmation dialog will be shown when removing elements through the creative mode removal tools",
 					"creativecopyblockcolor": "If enabled, copying a block by pressing the middle mouse button also copies the color of the element",
 					"creativelightintensity": "Determines the light intensity of the creative mode light (L)",
+					"customgridsizes": "Define custom grid sizes, values separated by comma",
+					"customgridsizeshelplabel": "Example: \"{0}\"",
 					"falldamage": "If enabled, player is gets damage when falling from a great height (in survival mode)",
 					"flymodemovetype": "Determines how movement works while flying.\n\n<color=yellow>Default: Flying towards view direction</color>\n\n<color=orange>Keep Elevation: Keep elevation/altitude</color>",
 					"flymodenoclipping": "If enabled, you can fly through walls and terrain in fly mode. Otherwise these things will still have collision",
@@ -6206,6 +6610,7 @@
 					"showfps": "If enabled, the current frames-per-second will be shown in the lower right corner of the HUD",
 					"shownametags": "If enabled, nametags of other players will be visible in multiplayer (depending on server settings)",
 					"skiploadingscreen": "If enabled, the loading screen will be skipped (even though the world may not be fully loaded at that stage)",
+					"spawnbanditsduringday": "If enabled, bandits will also spawn at daytime, otherwise they only spawn at night.\n\nNote: This only affects bandits in the temperate climate region!",
 					"spawnmonstersatsurface": "If enabled, monsters will spawn at the surface at night. They will automatically disappear at daybreak",
 					"spawnmonsterswithtorch": "If enabled, skeletons will <u>always</u> have a torch if they spawn at the surface (this makes them more visible)",
 					"spawnrateanimals": "Determines the spawn rate for animals. Higher values result in more animals, lower values in less animals. Default value is 100%\n\nNote: This does not influence already spawned animals",
@@ -6218,8 +6623,10 @@
 					"temperature": "If enabled, the environment temperature has an effect on the player (in survival mode)",
 					"temperatureunit": "Scale of temperature",
 					"timeduration": "Determines how long one ingame day takes. Default: 1 Hour",
+					"usecustomgridsizes": "Enable this setting if you want to define your own grid sizes",
 					"weatherduration": "Determines how long the current weather lasts, i.e. how long it takes until it changes. \nDefault is 100%. Set to 50% for twice as many  weather changes, 200% for half as many changes etc."
 				},
+				"usecustomgridsizes": "Use custom Grid",
 				"weatherduration": "Weather duration",
 				"weatherpreset": "Weather Preset",
 				"weatherpresets": {
@@ -6324,6 +6731,9 @@
 							"sortlabel": "Sort by:"
 						},
 						"worldlistheader": "Select or create a world"
+					},
+					"subheadercontainer": {
+						"hintlabel": "Right-click on a world for more options"
 					}
 				}
 			},
