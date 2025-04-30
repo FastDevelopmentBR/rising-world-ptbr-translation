@@ -4116,10 +4116,10 @@
 				"ignite": "Acender"
 			},
 			"furnace": {
-				"takeingots": "Pegue todos os lingotes"
+				"takeingots": "Pegar todos os lingotes"
 			},
 			"grill": {
-				"takeall": "Take all"
+				"takeall": "Pegar tudo"
 			},
 			"light": {
 				"flashing": {
@@ -4143,7 +4143,7 @@
 			},
 			"open": "Open",
 			"oven": {
-				"takeall": "Take all"
+				"takeall": "Pegar tudo"
 			},
 			"paperpress": {
 				"movedown": "Move down",
